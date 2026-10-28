@@ -446,6 +446,136 @@
       "proof_urls": [
         "https://www.ouest-france.fr/normandie/caen-14000/juge-a-caen-pour-avoir-vole-lidentite-dun-refugie-soudanais-da0ab9ec-0e02-11ef-a10a-8d6450bd9eac"
       ]
+    },
+    {
+      "case_id": "nancy-2026-06-24-rg-25-01263",
+      "court_or_body_fr": "Cour d'appel de Nancy (chambre sociale) — appel du TJ Troyes 11 avril 2025 RG 24/00166",
+      "date": "2026-06-24",
+      "defendant_names_fr": "Monsieur [P] [I] (anonymisé)",
+      "name_source_url": "https://legalplanet.pro/fr-nancy-2026-06-24-rg-2501263-allocation-adulte-handicape-remboursement-residence-etranger-penalite/",
+      "country_of_origin": "United States",
+      "origin_basis": "inferred",
+      "origin_evidence_fr": "Arrêt : réside de manière permanente aux États-Unis depuis le 14/15 juillet 2020 ; ne se rend en France que de manière occasionnelle. Nationalité non publiée — pays = lieu de résidence permanente (inferred from foreign address/stay).",
+      "scheme_type_fr": "Fraude à la résidence — AAH + primes perçues alors que résidence permanente aux États-Unis ; omission de déclaration du départ ; adresses françaises (frère/sœur) maintenues ; plainte pour fausse déclaration",
+      "amount_metric_id": null,
+      "amount_display_fr": "Indu 33 931,73 € (AAH + primes) ; pénalité 130 € ; indemnité frais de gestion 10 % 3 393,17 € ; total condamnation 37 454,90 €",
+      "sentence_fr": "Intention frauduleuse établie ; indu, pénalité et indemnité 10 % confirmés en appel (civil/social) ; correction des montants ; dépens d'appel. Convoqué correctionnel avril 2026 (mentionnés aux débats).",
+      "sources": [
+        {
+          "title": "CA Nancy, 24 juin 2026, RG 25/01263 (texte intégral reproduit)",
+          "url": "https://legalplanet.pro/fr-nancy-2026-06-24-rg-2501263-allocation-adulte-handicape-remboursement-residence-etranger-penalite/",
+          "publisher": "LegalPlanet (reproduction arrêt CA Nancy)"
+        }
+      ],
+      "confidence": "medium",
+      "lane": "caf",
+      "proof_urls": [
+        "https://legalplanet.pro/fr-nancy-2026-06-24-rg-2501263-allocation-adulte-handicape-remboursement-residence-etranger-penalite/"
+      ]
+    },
+    {
+      "case_id": "chambery-2026-09-28-rg-25-00330",
+      "court_or_body_fr": "Tribunal judiciaire de Chambéry (pôle social)",
+      "date": "2026-09-28",
+      "defendant_names_fr": "Madame [H] [O] (anonymisée)",
+      "name_source_url": "https://librejustice.fr/decision/fr/qFc6bL-c19Rf",
+      "country_of_origin": "Lebanon",
+      "origin_basis": "inferred",
+      "origin_evidence_fr": "Jugement : analyse des passeports français et libanais ; séjours / stages / études allégués au Liban ; soins allégués en Belgique. Nationalité non dite expressément — inferred from Lebanese passport + Lebanon stays (not from surname).",
+      "scheme_type_fr": "Fraude à la résidence — AAH CAF Paris ; omissions répétées de déclaration de résidence / séjours hors France (2022–2024 : 128, 179, 184 jours) ; intention frauduleuse retenue",
+      "amount_metric_id": null,
+      "amount_display_fr": "Indu AAH 18 277,39 € (janv. 2022 – juill. 2024) ; pénalité 800 € ; majoration pour préjudice 2 030,95 €",
+      "sentence_fr": "Fraude retenue ; condamnation à rembourser l'indu 18 277,39 € + pénalité 800 € + majoration 2 030,95 € ; exécution provisoire (civil/social).",
+      "sources": [
+        {
+          "title": "TJ Chambéry, 28 septembre 2026, RG 25/00330",
+          "url": "https://librejustice.fr/decision/fr/qFc6bL-c19Rf",
+          "publisher": "LibreJustice (Judilibre / Cour de cassation)"
+        }
+      ],
+      "confidence": "high",
+      "lane": "caf",
+      "proof_urls": [
+        "https://librejustice.fr/decision/fr/qFc6bL-c19Rf"
+      ]
+    },
+    {
+      "case_id": "bordeaux-2025-11-27-rg-24-00376",
+      "court_or_body_fr": "Tribunal judiciaire de Bordeaux (pôle social)",
+      "date": "2025-11-27",
+      "defendant_names_fr": "Madame [J] [S] [T] (anonymisée)",
+      "name_source_url": "https://librejustice.fr/decision/fr/SqiSaSoNKqQv",
+      "country_of_origin": "Algeria",
+      "origin_basis": "stated",
+      "origin_evidence_fr": "Jugement (en-tête) : « née le 08 octobre 1989 à EL HARRACH (ALGERIE) ». Enquête : résidence non stable en France ; séjours en Algérie (père des enfants) ; opérations bancaires majoritairement depuis l'étranger.",
+      "scheme_type_fr": "Fraude à la résidence — allocations familiales / allocation de base perçues sans résidence stable et effective en France (Algérie) ; pénalité administrative non contestée (caractère frauduleux retenu au jugement pour rejeter délais de paiement) ; volet RSA traité séparément par TA",
+      "amount_metric_id": null,
+      "amount_display_fr": "Indu AF + allocation de base 4 805,32 € (1er sept. 2021 – 31 déc. 2022) confirmé par TJ ; notification globale initiale 14 475,66 € incluant RSA (hors compétence TJ)",
+      "sentence_fr": "Indu prestations familiales 4 805,32 € confirmé ; délais de paiement rejetés car pénalité administrative non contestée établissant le caractère frauduleux ; exécution provisoire (civil/social).",
+      "sources": [
+        {
+          "title": "TJ Bordeaux, 27 novembre 2025, RG 24/00376",
+          "url": "https://librejustice.fr/decision/fr/SqiSaSoNKqQv",
+          "publisher": "LibreJustice (Judilibre / Cour de cassation)"
+        }
+      ],
+      "confidence": "high",
+      "lane": "caf",
+      "proof_urls": [
+        "https://librejustice.fr/decision/fr/SqiSaSoNKqQv"
+      ]
+    },
+    {
+      "case_id": "bordeaux-ta-2025-07-31-2304361",
+      "court_or_body_fr": "Tribunal administratif de Bordeaux",
+      "date": "2025-07-31",
+      "defendant_names_fr": "Madame A B (anonymisée ; née en 1983)",
+      "name_source_url": "https://librejustice.fr/decision/fr/nNa1Emvt1irG",
+      "country_of_origin": "Spain",
+      "origin_basis": "inferred",
+      "origin_evidence_fr": "Jugement : retraits sur compte espagnol ; présence en Espagne ; « ne réside pas en France depuis 08/2019 » ; démarches administratives depuis l'étranger. Nationalité non publiée — country = Spain from foreign bank/stay facts.",
+      "scheme_type_fr": "Fraude à la résidence — RSA (+ PPA) alors que non-résidence stable en France ; dissimulation intentionnelle de séjours prolongés à l'étranger (Espagne) ; levée de prescription biennale pour fraude",
+      "amount_metric_id": null,
+      "amount_display_fr": "Indu RSA 14 322,72 € (1er sept. 2019 – 31 août 2022) + PPA 2 115,93 € ; fraude retenue (fond) ; titre exécutoire annulé pour défaut de signature du bordereau (forme) ; primes exceptionnelles annulées pour défaut de motivation",
+      "sentence_fr": "Fraude établie sur le fond (RSA/PPA) ; prescription biennale écartée ; titre exécutoire RSA annulé pour irrégularité formelle du bordereau ; primes exceptionnelles annulées (motivation) — fond fraude vs formes séparés.",
+      "sources": [
+        {
+          "title": "TA Bordeaux, 31 juillet 2025, n° 2304361 / 2304364",
+          "url": "https://librejustice.fr/decision/fr/nNa1Emvt1irG",
+          "publisher": "LibreJustice (open data justice administrative)"
+        }
+      ],
+      "confidence": "high",
+      "lane": "caf",
+      "proof_urls": [
+        "https://librejustice.fr/decision/fr/nNa1Emvt1irG"
+      ]
+    },
+    {
+      "case_id": "mulhouse-2025-07-31-rg-24-00703",
+      "court_or_body_fr": "Tribunal judiciaire de Mulhouse (pôle social)",
+      "date": "2025-07-31",
+      "defendant_names_fr": "Monsieur [B] [F] (anonymisé)",
+      "name_source_url": "https://legalplanet.pro/tribunal-judiciaire-de-mulhouse-31-juillet-2025-rg-n-24-00703/",
+      "country_of_origin": "unknown",
+      "origin_basis": "unknown",
+      "origin_evidence_fr": "Jugement : séjours « à l'étranger » 173 j (2021), 109 j (2022), 79 j (2023) — aucun pays nommé ; nationalité non publiée.",
+      "scheme_type_fr": "Fraude à la résidence — AAH CAF Haut-Rhin ; omissions de déclaration de séjours hors France ; fausses déclarations ; pénalité + majoration 10 %",
+      "amount_metric_id": null,
+      "amount_display_fr": "Indu AAH 5 613,27 € (mois 2022) ; pénalité administrative 500 € ; majoration 10 % 561,33 €",
+      "sentence_fr": "Qualification de fraude confirmée ; condamnation à la pénalité 500 € ; majoration 10 % applicable ; exécution provisoire (civil/social).",
+      "sources": [
+        {
+          "title": "TJ Mulhouse, 31 juillet 2025, RG 24/00703 (texte intégral reproduit)",
+          "url": "https://legalplanet.pro/tribunal-judiciaire-de-mulhouse-31-juillet-2025-rg-n-24-00703/",
+          "publisher": "LegalPlanet (reproduction jugement)"
+        }
+      ],
+      "confidence": "medium",
+      "lane": "caf",
+      "proof_urls": [
+        "https://legalplanet.pro/tribunal-judiciaire-de-mulhouse-31-juillet-2025-rg-n-24-00703/"
+      ]
     }
   ]
 }
