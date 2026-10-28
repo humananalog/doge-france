@@ -354,6 +354,74 @@
       "proof_url": "https://www.vie-publique.fr/en-bref/302749-bilan-de-la-lutte-contre-la-fraude-fiscale-en-2025"
     },
     {
+      "id": "macro-dette-publique-eur",
+      "label_fr": "Dette publique Maastricht (stock fin d'exercice)",
+      "value": 3460500000000,
+      "unit": "EUR",
+      "as_of": "2025",
+      "category": "depenses",
+      "kind": "other",
+      "source": {
+        "title": "INSEE — Dette publique et solde des administrations publiques",
+        "url": "https://www.insee.fr/fr/statistiques/8997691",
+        "publisher": "INSEE"
+      },
+      "notes": "3 460,5 Md€ au 31/12/2025 — contexte macro (stock), pas fraude ni ligne /cas.",
+      "proof_url": "https://www.insee.fr/fr/statistiques/8997691",
+      "confidence": "high"
+    },
+    {
+      "id": "macro-dette-publique-pib-pct",
+      "label_fr": "Dette publique Maastricht (% du PIB)",
+      "value": 115.7,
+      "unit": "percent",
+      "as_of": "2025",
+      "category": "depenses",
+      "kind": "other",
+      "source": {
+        "title": "INSEE — Dette publique et solde des administrations publiques",
+        "url": "https://www.insee.fr/fr/statistiques/8997691",
+        "publisher": "INSEE"
+      },
+      "notes": "115,7 % du PIB fin 2025 — cadrage macro, sans lien causal aux dépenses AME.",
+      "proof_url": "https://www.insee.fr/fr/statistiques/8997691",
+      "confidence": "high"
+    },
+    {
+      "id": "macro-deficit-public-2025",
+      "label_fr": "Déficit public (solde administrations publiques, flux annuel)",
+      "value": 152500000000,
+      "unit": "EUR",
+      "as_of": "2025",
+      "category": "depenses",
+      "kind": "other",
+      "source": {
+        "title": "INSEE — Dette publique et solde des administrations publiques",
+        "url": "https://www.insee.fr/fr/statistiques/8997691",
+        "publisher": "INSEE"
+      },
+      "notes": "152,5 Md€ en 2025 (flux) — distinct du stock de dette ; pas fraude.",
+      "proof_url": "https://www.insee.fr/fr/statistiques/8997691",
+      "confidence": "high"
+    },
+    {
+      "id": "macro-charge-interets-dette-etat-2025",
+      "label_fr": "État — charge de la dette (intérêts, flux annuel)",
+      "value": 51600000000,
+      "unit": "EUR",
+      "as_of": "2025",
+      "category": "depenses",
+      "kind": "other",
+      "source": {
+        "title": "Cour des comptes — Rapport budgétaire dette de l'État 2025 (RBDE)",
+        "url": "https://www.ccomptes.fr/sites/default/files/2026-04/20260422-RBDE-2025.pdf",
+        "publisher": "Cour des comptes"
+      },
+      "notes": "51,6 Md€ — confirmé NEB Gestion dette et trésorerie État (avr. 2026). Contexte macro, pas fraude. Seconde preuve : https://www.ccomptes.fr/sites/default/files/2026-04/NEB-2026-Gestion-dette-et-tresorerie-Etat.pdf",
+      "proof_url": "https://www.ccomptes.fr/sites/default/files/2026-04/20260422-RBDE-2025.pdf",
+      "confidence": "high"
+    },
+    {
       "id": "immig-cout-direct",
       "label_fr": "Coût direct politique immigration irrégulière",
       "value": 1800000000,
@@ -473,8 +541,246 @@
         "url": "https://www.ccomptes.fr/fr/publications/la-politique-de-lutte-contre-limmigration-irreguliere",
         "publisher": "Cour des comptes"
       },
-      "notes": "Cour : proxy limité, pas un décompte de présence irrégulière.",
+      "notes": "Cour (2023) : proxy limité, pas un décompte de présence irrégulière. Stock récent : voir immig-ame-beneficiaires-2024-09 et immig-ame-beneficiaires-2025-09 (Sénat l25-736, DSS).",
       "proof_url": "https://www.ccomptes.fr/fr/publications/la-politique-de-lutte-contre-limmigration-irreguliere"
+    },
+    {
+      "id": "immig-ame-droit-commun-depense-2023",
+      "label_fr": "AME de droit commun — dépense réelle CNAM (coût politique, pas fraude)",
+      "value": 1096000000,
+      "unit": "EUR",
+      "as_of": "2023",
+      "category": "immigration",
+      "kind": "spend",
+      "source": {
+        "title": "Cour des comptes — Analyse de l'exécution budgétaire 2025, Mission Santé",
+        "url": "https://www.ccomptes.fr/sites/default/files/2026-04/NEB-2026-Sante.pdf",
+        "publisher": "Cour des comptes"
+      },
+      "notes": "Tableau n°2 « Dépense réelle de la CNAM » — droit à l'AME (entitlement), non fraude.",
+      "proof_url": "https://www.ccomptes.fr/sites/default/files/2026-04/NEB-2026-Sante.pdf",
+      "confidence": "high"
+    },
+    {
+      "id": "immig-ame-droit-commun-depense-2024",
+      "label_fr": "AME de droit commun — dépense réelle CNAM (coût politique, pas fraude)",
+      "value": 1255500000,
+      "unit": "EUR",
+      "as_of": "2024",
+      "category": "immigration",
+      "kind": "spend",
+      "source": {
+        "title": "Cour des comptes — Analyse de l'exécution budgétaire 2025, Mission Santé",
+        "url": "https://www.ccomptes.fr/sites/default/files/2026-04/NEB-2026-Sante.pdf",
+        "publisher": "Cour des comptes"
+      },
+      "notes": "Tableau n°2 — +14,5 % vs 2023 (DSS). Entitlement AME, non fraude.",
+      "proof_url": "https://www.ccomptes.fr/sites/default/files/2026-04/NEB-2026-Sante.pdf",
+      "confidence": "high"
+    },
+    {
+      "id": "immig-ame-droit-commun-depense-2025",
+      "label_fr": "AME de droit commun — dépense réelle CNAM (coût politique, pas fraude)",
+      "value": 1351000000,
+      "unit": "EUR",
+      "as_of": "2025",
+      "category": "immigration",
+      "kind": "spend",
+      "source": {
+        "title": "Cour des comptes — Analyse de l'exécution budgétaire 2025, Mission Santé",
+        "url": "https://www.ccomptes.fr/sites/default/files/2026-04/NEB-2026-Sante.pdf",
+        "publisher": "Cour des comptes"
+      },
+      "notes": "Tableau n°2 — prévision DSS communiquée à la Cour le 12 fév. 2026 (provisoire). Entitlement, non fraude.",
+      "proof_url": "https://www.ccomptes.fr/sites/default/files/2026-04/NEB-2026-Sante.pdf",
+      "confidence": "high"
+    },
+    {
+      "id": "immig-ame-total-reel-2024",
+      "label_fr": "AME — coût total réel toutes AME (coût politique, pas fraude)",
+      "value": 1386800000,
+      "unit": "EUR",
+      "as_of": "2024",
+      "category": "immigration",
+      "kind": "spend",
+      "source": {
+        "title": "Sénat — Commission des finances, contrôle AME (Delahaye, juil. 2025)",
+        "url": "https://www.senat.fr/fileadmin/Commissions/Finances/2024-2025/Controles/Rapport_AME.pdf",
+        "publisher": "Sénat"
+      },
+      "notes": "Droit commun + soins urgents + humanitaire/GAV — entitlement légal, non fraude. Confirmé aussi dans l25-736-228.",
+      "proof_url": "https://www.senat.fr/fileadmin/Commissions/Finances/2024-2025/Controles/Rapport_AME.pdf",
+      "confidence": "high"
+    },
+    {
+      "id": "immig-ame-total-reel-2025",
+      "label_fr": "AME — coût total réel toutes AME (coût politique, pas fraude)",
+      "value": 1470000000,
+      "unit": "EUR",
+      "as_of": "2025",
+      "category": "immigration",
+      "kind": "spend",
+      "source": {
+        "title": "Cour des comptes — Analyse de l'exécution budgétaire 2025, Mission Santé",
+        "url": "https://www.ccomptes.fr/sites/default/files/2026-04/NEB-2026-Sante.pdf",
+        "publisher": "Cour des comptes"
+      },
+      "notes": "Cour synthèse et Sénat l25-736 : 1 470 M€ (facturation définitive transmise à la Cour). Variante provisoire DSS 1 491 M€ dans le même NEB — retenu 1 470 ici. Non fraude.",
+      "proof_url": "https://www.ccomptes.fr/sites/default/files/2026-04/NEB-2026-Sante.pdf",
+      "confidence": "high"
+    },
+    {
+      "id": "immig-ame-beneficiaires-2024-09",
+      "label_fr": "Bénéficiaires AME de droit commun (stock, coût politique — headcount)",
+      "value": 465744,
+      "unit": "count",
+      "as_of": "2024-09-30",
+      "category": "immigration",
+      "kind": "volume",
+      "source": {
+        "title": "Sénat — Rapport public l25-736-228 (exécution budgétaire 2025)",
+        "url": "https://www.senat.fr/rap/l25-736-228/l25-736-2281.pdf",
+        "publisher": "Sénat"
+      },
+      "notes": "DSS via documents budgétaires cités par le Sénat. Remplace le proxy Cour 439 000 (2023-06) pour le stock récent.",
+      "proof_url": "https://www.senat.fr/rap/l25-736-228/l25-736-2281.pdf",
+      "confidence": "high"
+    },
+    {
+      "id": "immig-ame-beneficiaires-2025-09",
+      "label_fr": "Bénéficiaires AME de droit commun (stock, coût politique — headcount)",
+      "value": 458681,
+      "unit": "count",
+      "as_of": "2025-09-30",
+      "category": "immigration",
+      "kind": "volume",
+      "source": {
+        "title": "Sénat — Rapport public l25-736-228 (exécution budgétaire 2025)",
+        "url": "https://www.senat.fr/rap/l25-736-228/l25-736-2281.pdf",
+        "publisher": "Sénat"
+      },
+      "notes": "−7 063 vs 30 sept. 2024. Entitlement (volume), non fraude.",
+      "proof_url": "https://www.senat.fr/rap/l25-736-228/l25-736-2281.pdf",
+      "confidence": "high"
+    },
+    {
+      "id": "immig-ame-soins-urgents-2023",
+      "label_fr": "AME soins urgents — dépense réelle (coût politique, pas fraude)",
+      "value": 107000000,
+      "unit": "EUR",
+      "as_of": "2023",
+      "category": "immigration",
+      "kind": "spend",
+      "source": {
+        "title": "Cour des comptes — Analyse de l'exécution budgétaire 2025, Mission Santé",
+        "url": "https://www.ccomptes.fr/sites/default/files/2026-04/NEB-2026-Sante.pdf",
+        "publisher": "Cour des comptes"
+      },
+      "notes": "§ I.C soins urgents — dotation État forfaitaire 70 M€ ; reste à charge AM. Non fraude.",
+      "proof_url": "https://www.ccomptes.fr/sites/default/files/2026-04/NEB-2026-Sante.pdf",
+      "confidence": "high"
+    },
+    {
+      "id": "immig-ame-soins-urgents-2024",
+      "label_fr": "AME soins urgents — dépense réelle (coût politique, pas fraude)",
+      "value": 132000000,
+      "unit": "EUR",
+      "as_of": "2024",
+      "category": "immigration",
+      "kind": "spend",
+      "source": {
+        "title": "Cour des comptes — Analyse de l'exécution budgétaire 2025, Mission Santé",
+        "url": "https://www.ccomptes.fr/sites/default/files/2026-04/NEB-2026-Sante.pdf",
+        "publisher": "Cour des comptes"
+      },
+      "notes": "Série Cour NEB Mission Santé — entitlement, non fraude.",
+      "proof_url": "https://www.ccomptes.fr/sites/default/files/2026-04/NEB-2026-Sante.pdf",
+      "confidence": "high"
+    },
+    {
+      "id": "immig-ame-soins-urgents-2025",
+      "label_fr": "AME soins urgents — dépense réelle (coût politique, pas fraude)",
+      "value": 139000000,
+      "unit": "EUR",
+      "as_of": "2025",
+      "category": "immigration",
+      "kind": "spend",
+      "source": {
+        "title": "Cour des comptes — Analyse de l'exécution budgétaire 2025, Mission Santé",
+        "url": "https://www.ccomptes.fr/sites/default/files/2026-04/NEB-2026-Sante.pdf",
+        "publisher": "Cour des comptes"
+      },
+      "notes": "Cour ; détail Sénat l25-736 (~70 M€ État + ~48,1 M€ AM). Non fraude.",
+      "proof_url": "https://www.ccomptes.fr/sites/default/files/2026-04/NEB-2026-Sante.pdf",
+      "confidence": "high"
+    },
+    {
+      "id": "immig-ame-credits-etat-2025",
+      "label_fr": "AME — crédits budgétaires consommés État (P183, exécution — pas fraude)",
+      "value": 1208740000,
+      "unit": "EUR",
+      "as_of": "2025",
+      "category": "immigration",
+      "kind": "spend",
+      "source": {
+        "title": "Cour des comptes — Analyse de l'exécution budgétaire 2025, Mission Santé",
+        "url": "https://www.ccomptes.fr/sites/default/files/2026-04/NEB-2026-Sante.pdf",
+        "publisher": "Cour des comptes"
+      },
+      "notes": "Crédits votés/consommés État, distinct de la dépense réelle CNAM. Coût politique budgétaire.",
+      "proof_url": "https://www.ccomptes.fr/sites/default/files/2026-04/NEB-2026-Sante.pdf",
+      "confidence": "high"
+    },
+    {
+      "id": "immig-ame-dette-etat-cnam-2025",
+      "label_fr": "AME — dette État→CNAM (stock fin d'exercice, pas fraude)",
+      "value": 399000000,
+      "unit": "EUR",
+      "as_of": "2025-12-31",
+      "category": "immigration",
+      "kind": "other",
+      "source": {
+        "title": "Cour des comptes — Analyse de l'exécution budgétaire 2025, Mission Santé",
+        "url": "https://www.ccomptes.fr/sites/default/files/2026-04/NEB-2026-Sante.pdf",
+        "publisher": "Cour des comptes"
+      },
+      "notes": "Prévision DSS au 31/12/2025 (Tableau n°12, provisoire *) — sous-financement budgétaire, non fraude.",
+      "proof_url": "https://www.ccomptes.fr/sites/default/files/2026-04/NEB-2026-Sante.pdf",
+      "confidence": "high"
+    },
+    {
+      "id": "immig-ame-controle-apriori-prejudices-evites-2023",
+      "label_fr": "Contrôles AME a priori — préjudices évités (CNAM, contrôle admin.)",
+      "value": 2830000,
+      "unit": "EUR",
+      "as_of": "2023",
+      "category": "immigration",
+      "kind": "other",
+      "source": {
+        "title": "Sénat — Commission des finances, contrôle AME (Delahaye, juil. 2025)",
+        "url": "https://www.senat.fr/fileadmin/Commissions/Finances/2024-2025/Controles/Rapport_AME.pdf",
+        "publisher": "Sénat"
+      },
+      "notes": "49 693 dossiers contrôlés ; 1 142 anomalies → rejet. Montant CNAM « préjudices évités » — contrôle administratif, pas condamnations ni ligne /cas.",
+      "proof_url": "https://www.senat.fr/fileadmin/Commissions/Finances/2024-2025/Controles/Rapport_AME.pdf",
+      "confidence": "high"
+    },
+    {
+      "id": "immig-ame-investigations-prejudice-2024",
+      "label_fr": "Investigations AME (résidence) — préjudice total CNAM (contrôle admin.)",
+      "value": 910000,
+      "unit": "EUR",
+      "as_of": "2024",
+      "category": "immigration",
+      "kind": "other",
+      "source": {
+        "title": "Sénat — Commission des finances, contrôle AME (Delahaye, juil. 2025)",
+        "url": "https://www.senat.fr/fileadmin/Commissions/Finances/2024-2025/Controles/Rapport_AME.pdf",
+        "publisher": "Sénat"
+      },
+      "notes": "120 dossiers investigués en 2024 (dont 0,33 M€ subi + 0,58 M€ évité). Qualification CNAM — contrôle, pas tableau de condamnations /cas.",
+      "proof_url": "https://www.senat.fr/fileadmin/Commissions/Finances/2024-2025/Controles/Rapport_AME.pdf",
+      "confidence": "high"
     },
     {
       "id": "asile-ofpra-demandes-2024",

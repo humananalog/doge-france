@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { PublicDebtDashboard } from "@/components/PublicDebtDashboard";
 import { Stat } from "@/components/Stat";
 import { getHomepageHighlights } from "@/lib/registry";
 import { kindLabel } from "@/lib/format";
@@ -17,6 +18,8 @@ export default function HomePage() {
           <strong>fraude intentionnelle</strong>.
         </p>
       </section>
+
+      <PublicDebtDashboard />
 
       <section>
         <h2 className="text-sm font-semibold uppercase tracking-wider text-zinc-500">
