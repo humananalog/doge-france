@@ -1,14 +1,13 @@
 import { Stat } from "@/components/Stat";
-import { formatMetricValue } from "@/lib/format";
 import {
+  AME_POLICY_SPEND_RATIO_METRIC_ID,
+  getAmePolicyRatioLines,
   getPublicDebtContext,
-  POLICY_SPEND_VS_DEBT_METRIC_IDS,
   PUBLIC_DEBT_EUR_METRIC_ID,
   PUBLIC_DEBT_PIB_PCT_METRIC_ID,
-  formatShareOfDebtPct,
-  spendShareOfDebtEur,
+  PUBLIC_DEFICIT_METRIC_ID,
+  PUBLIC_INTEREST_CHARGE_METRIC_ID,
 } from "@/lib/public-debt-context";
-import { getMetric } from "@/lib/registry";
 
 export function PublicDebtDashboard() {
   const debt = getPublicDebtContext();
@@ -26,34 +25,14 @@ export function PublicDebtDashboard() {
           Dette publique — cadre macro (en attente)
         </h2>
         <p className="mt-2 max-w-3xl text-sm leading-relaxed text-zinc-700 dark:text-zinc-300">
-          Le tableau de bord DOGE France doit d&apos;abord ancrer les dépenses
-          politiques (AME, missions, etc.) sur la{" "}
-          <strong>dette publique en euros et en % du PIB</strong>, pas sur des
-          montants isolés. Aucune métrique dette Guard-PASS n&apos;est encore
-          dans le registre — pas de chiffre inventé ici.
-        </p>
-        <p className="mt-3 text-xs text-zinc-600 dark:text-zinc-400">
-          Ce bloc s&apos;active automatiquement lorsque{" "}
-          <code className="rounded bg-zinc-200 px-1 dark:bg-zinc-800">
-            {PUBLIC_DEBT_EUR_METRIC_ID}
-          </code>{" "}
-          et{" "}
-          <code className="rounded bg-zinc-200 px-1 dark:bg-zinc-800">
-            {PUBLIC_DEBT_PIB_PCT_METRIC_ID}
-          </code>{" "}
-          sont ajoutés à{" "}
-          <code className="rounded bg-zinc-200 px-1 dark:bg-zinc-800">
-            data/stats/metrics.json
-          </code>
-          . Les lignes AME (<code className="rounded bg-zinc-200 px-1 dark:bg-zinc-800">kind: spend</code>
-          ) y seront alors affichées en part de dette (€), à côté du % PIB.
+          Métriques Guard-PASS dette / déficit absentes du registre — aucun
+          chiffre affiché.
         </p>
       </section>
     );
   }
 
-  const debtEur =
-    typeof debt.eur.value === "number" ? debt.eur.value : Number(debt.eur.value);
+  const ratios = getAmePolicyRatioLines(debt);
 
   return (
     <section className="space-y-6">
@@ -62,44 +41,51 @@ export function PublicDebtDashboard() {
           Dette publique (KPI macro)
         </h2>
         <p className="mt-2 max-w-3xl text-sm text-zinc-600 dark:text-zinc-400">
-          Référence pour cadrer les dépenses politiques ci-dessous — coût de
-          droit (entitlement), pas fraude.
+          North-star du tableau de bord : stock et % PIB (INSEE). Les dépenses
+          AME ci-dessous sont un{" "}
+          <strong>coût politique (entitlement)</strong>, pas de la fraude — et
+          ne « causent » pas la dette ; seulement une échelle flux vs stock /
+          flux vs flux (déficit, intérêts).
         </p>
-        <div className="mt-4 grid gap-6 sm:grid-cols-2">
+        <div className="mt-4 grid gap-6 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4">
           <div className="rounded-xl border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-900/40">
             <Stat metricId={PUBLIC_DEBT_EUR_METRIC_ID} showLabel />
           </div>
           <div className="rounded-xl border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-900/40">
             <Stat metricId={PUBLIC_DEBT_PIB_PCT_METRIC_ID} showLabel />
           </div>
+          {debt.deficit && (
+            <div className="rounded-xl border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-900/40">
+              <Stat metricId={PUBLIC_DEFICIT_METRIC_ID} showLabel />
+            </div>
+          )}
+          {debt.interestCharge && (
+            <div className="rounded-xl border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-900/40">
+              <Stat metricId={PUBLIC_INTEREST_CHARGE_METRIC_ID} showLabel />
+            </div>
+          )}
         </div>
       </div>
 
-      <div>
-        <h3 className="text-sm font-semibold uppercase tracking-wider text-zinc-500">
-          Dépenses politiques vs dette (€)
+      <div className="rounded-xl border border-sky-200 bg-sky-50/60 p-6 dark:border-sky-900/40 dark:bg-sky-950/20">
+        <h3 className="text-sm font-semibold uppercase tracking-wider text-sky-900 dark:text-sky-200">
+          AME — coût total réel 2025 vs dette / déficit / intérêts (échelle)
         </h3>
-        <ul className="mt-4 space-y-4">
-          {POLICY_SPEND_VS_DEBT_METRIC_IDS.map((id) => {
-            const metric = getMetric(id);
-            if (!metric || typeof metric.value !== "number") return null;
-            const share = spendShareOfDebtEur(metric.value, debtEur);
-            return (
-              <li
-                key={id}
-                className="rounded-lg border border-zinc-200 bg-white p-4 dark:border-zinc-800 dark:bg-zinc-900/40"
-              >
-                <Stat metricId={id} size="sm" showLabel />
-                {share != null && (
-                  <p className="mt-2 text-sm font-medium tabular-nums text-zinc-800 dark:text-zinc-200">
-                    ≈ {formatShareOfDebtPct(share)} ({formatMetricValue(metric)}{" "}
-                    / {formatMetricValue(debt.eur)})
-                  </p>
-                )}
-              </li>
-            );
-          })}
+        <Stat
+          metricId={AME_POLICY_SPEND_RATIO_METRIC_ID}
+          size="sm"
+          className="mt-3"
+          showLabel
+        />
+        <ul className="mt-4 space-y-2 text-sm leading-relaxed text-zinc-800 dark:text-zinc-200">
+          {ratios.vsDebtStock && <li>{ratios.vsDebtStock}</li>}
+          {ratios.vsDeficit && <li>{ratios.vsDeficit}</li>}
+          {ratios.vsInterest && <li>{ratios.vsInterest}</li>}
         </ul>
+        <p className="mt-3 text-xs text-zinc-600 dark:text-zinc-400">
+          L&apos;AME n&apos;est pas présentée comme cause de la dette publique ;
+          comparaison de magnitudes uniquement (Guard-PASS policy scale).
+        </p>
       </div>
     </section>
   );
