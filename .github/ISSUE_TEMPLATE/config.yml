@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Evidence standard
+    url: https://github.com/humananalog/doge-france/blob/main/docs/EVIDENCE_STANDARD.md
+    about: Read before filing
+  - name: Contributing
+    url: https://github.com/humananalog/doge-france/blob/main/CONTRIBUTING.md
+    about: PR checklist and data layout

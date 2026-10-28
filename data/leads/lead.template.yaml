@@ -1,0 +1,15 @@
+# Copier vers data/leads/<lead_id>.yaml — ne pas committer ce template tel quel
+version: 1
+lead:
+  lead_id: exemple-marches-doublon-2026
+  lane: marches
+  title_fr: "Titre court de la piste"
+  summary_fr: |
+    Résumé factuel en français (≥20 caractères) : quoi, où, quelle source
+    primaire, pourquoi c'est intéressant. Pas de spéculation.
+  hypothesis_fr: "Optionnel — clairement étiqueté comme hypothèse à vérifier"
+  proof_url: https://www.data.gouv.fr/
+  secondary_proof_urls: []
+  status: open
+  submitted_by: "pseudo ou org"
+  submitted_at: "2026-10-28"

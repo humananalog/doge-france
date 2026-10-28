@@ -1,0 +1,60 @@
+name: New documented case
+description: Propose a court/admin case with primary proof URLs
+title: "[case] "
+labels: ["lane:caf", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Lisez `docs/EVIDENCE_STANDARD.md`. Chaque cas finit dans `data/cases/manifest.json` via PR.
+  - type: input
+    id: case_id
+    attributes:
+      label: case_id (slug)
+      placeholder: nice-2025-04-25
+    validations:
+      required: true
+  - type: dropdown
+    id: lane
+    attributes:
+      label: Lane
+      options:
+        - caf
+        - marches
+        - immigration
+        - elections
+        - other
+    validations:
+      required: true
+  - type: input
+    id: proof_url
+    attributes:
+      label: Primary proof_url (http(s))
+    validations:
+      required: true
+  - type: textarea
+    id: facts
+    attributes:
+      label: Facts (French, as published)
+      description: Names, €, sentence — cite source for each field
+    validations:
+      required: true
+  - type: dropdown
+    id: origin_basis
+    attributes:
+      label: Origin basis
+      options:
+        - stated
+        - inferred
+        - unknown
+    validations:
+      required: true
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I did not infer nationality from surnames
+          required: true
+        - label: proof_urls will be listed in sources[] in JSON
+          required: true

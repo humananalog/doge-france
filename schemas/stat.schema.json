@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://doge-france.dev/schemas/stat.schema.json",
+  "title": "DOGE France stat metric",
+  "type": "object",
+  "required": [
+    "id",
+    "label_fr",
+    "value",
+    "as_of",
+    "category",
+    "kind",
+    "proof_url",
+    "source"
+  ],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "label_fr": { "type": "string", "minLength": 1 },
+    "value": { "oneOf": [{ "type": "number" }, { "type": "string" }] },
+    "unit": { "enum": ["EUR", "percent", "count"] },
+    "as_of": { "type": "string" },
+    "category": { "type": "string" },
+    "kind": { "enum": ["fraud", "error", "spend", "volume", "other"] },
+    "proof_url": { "type": "string", "format": "uri" },
+    "source": {
+      "type": "object",
+      "required": ["title", "url", "publisher"],
+      "properties": {
+        "title": { "type": "string" },
+        "url": { "type": "string", "format": "uri" },
+        "publisher": { "type": "string" }
+      }
+    },
+    "notes": { "type": "string" },
+    "confidence": { "enum": ["high", "medium", "low"] }
+  }
+}

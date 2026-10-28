@@ -1,0 +1,49 @@
+name: New stat metric
+description: Add or update a metric in data/stats/metrics.json
+title: "[stat] "
+labels: ["needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Métriques validées par Zod (`schemas/stat.schema.ts`). `proof_url` must equal `source.url`.
+  - type: input
+    id: metric_id
+    attributes:
+      label: id (slug)
+      placeholder: caf-fraude-detectee-2025
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: kind
+      options:
+        - fraud
+        - error
+        - spend
+        - volume
+        - other
+    validations:
+      required: true
+  - type: input
+    id: proof_url
+    attributes:
+      label: proof_url
+    validations:
+      required: true
+  - type: textarea
+    id: label_value
+    attributes:
+      label: label_fr + value + unit + as_of
+    validations:
+      required: true
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: Fraud vs error label matches the primary source wording
+          required: true
+        - label: I ran npm run validate locally
+          required: true

@@ -1,0 +1,451 @@
+{
+  "version": 1,
+  "cases": [
+    {
+      "case_id": "nice-2025-04-25",
+      "court_or_body_fr": "TJ Nice (correctionnel)",
+      "date": "2025-04-25",
+      "defendant_names_fr": "Principal (Cannois, 42 ans ; initiales S.F. dans la presse) ; complice (père, ~75 ans) — noms de famille non publiés",
+      "name_source_url": "https://www.nicematin.com/societe/justice/il-utilisait-des-noms-de-joueurs-de-foot-de-ligue-1-un-escroc-azureen-derobe-179-000-a-la-caf-977840",
+      "country_of_origin": "unknown",
+      "origin_basis": "unknown",
+      "origin_evidence_fr": "Presse : Cannois / azuréen ; CNI falsifiées de joueurs de Ligue 1. Aucune nationalité publiée pour les prévenus.",
+      "scheme_type_fr": "Usurpation d'identité ; multi-CAF RSA ; faux documents",
+      "amount_metric_id": "case-nice-cnaf-montant",
+      "amount_display_fr": "210 000 € (CNAF) ; 45 000 €+ (CAF Var) ; fourchettes presse ~179 000–200 000 €",
+      "sentence_fr": "Principal : 4 ans ferme + mandat de dépôt ; complice : 6 mois avec sursis",
+      "sources": [
+        {
+          "title": "Source 1",
+          "url": "https://www.caf.fr/sites/default/files/medias/cnaf/Nous_connaitre/Presse/2026/260415%20DP%20Lutte%20contre%20la%20fraude.pdf",
+          "publisher": "CAF / CNAF"
+        },
+        {
+          "title": "Source 2",
+          "url": "https://caf.fr/sites/default/files/medias/831/Presse/DP_controles_2025.pdf",
+          "publisher": "CAF / CNAF"
+        },
+        {
+          "title": "Source 3",
+          "url": "https://www.nicematin.com/societe/justice/il-utilisait-des-noms-de-joueurs-de-foot-de-ligue-1-un-escroc-azureen-derobe-179-000-a-la-caf-977840",
+          "publisher": "Nice-Matin"
+        }
+      ],
+      "confidence": "low",
+      "lane": "caf",
+      "proof_urls": [
+        "https://www.caf.fr/sites/default/files/medias/cnaf/Nous_connaitre/Presse/2026/260415%20DP%20Lutte%20contre%20la%20fraude.pdf",
+        "https://caf.fr/sites/default/files/medias/831/Presse/DP_controles_2025.pdf",
+        "https://www.nicematin.com/societe/justice/il-utilisait-des-noms-de-joueurs-de-foot-de-ligue-1-un-escroc-azureen-derobe-179-000-a-la-caf-977840"
+      ]
+    },
+    {
+      "case_id": "nanterre-trafalgar-2026-06-09",
+      "court_or_body_fr": "TJ Nanterre",
+      "date": "2026-06-09",
+      "defendant_names_fr": "M. Y ; M. X (anonymisés sur la page CAF)",
+      "name_source_url": "https://caf.fr/allocataires/caf-de-la-savoie/actualites-departementales/condamnation-suite-identification-de-fraude",
+      "country_of_origin": "unknown",
+      "origin_basis": "unknown",
+      "origin_evidence_fr": "Page CAF73 : pas de nationalité ni lieu de naissance. Réseau industriel « Trafalgar ».",
+      "scheme_type_fr": "Usurpation d'identité ; multi-CAF RSA (1 018 dossiers / 75 CAF)",
+      "amount_metric_id": "case-trafalgar-montant",
+      "amount_display_fr": ">400 000 € détournés ou tentés",
+      "sentence_fr": "M. Y : 3 ans (2 ans avec sursis), amende 6 000 €, 5 ans d'inéligibilité ; M. X : 18 mois (12 avec sursis), amende 4 000 €",
+      "sources": [
+        {
+          "title": "Source 1",
+          "url": "https://caf.fr/allocataires/caf-de-la-savoie/actualites-departementales/condamnation-suite-identification-de-fraude",
+          "publisher": "CAF / CNAF"
+        }
+      ],
+      "confidence": "low",
+      "lane": "caf",
+      "proof_urls": [
+        "https://caf.fr/allocataires/caf-de-la-savoie/actualites-departementales/condamnation-suite-identification-de-fraude"
+      ]
+    },
+    {
+      "case_id": "paris-identity-2024-snlfe-39",
+      "court_or_body_fr": "Paris TJ (cité CNAF/CAF73 ; juridiction exacte non précisée)",
+      "date": "2024",
+      "defendant_names_fr": "Instigateur (non nommé dans les textes CAF)",
+      "name_source_url": "https://www.caf.fr/sites/default/files/medias/731/4_presse/2026/dossier_presse_justedroit_fraude_2026-caf73.pdf",
+      "country_of_origin": "unknown",
+      "origin_basis": "unknown",
+      "origin_evidence_fr": "DP CAF73 : 39 faux dossiers CAF + Ville de Paris ; pas de nationalité.",
+      "scheme_type_fr": "Usurpation d'identité ; multi-dossiers RSA",
+      "amount_metric_id": null,
+      "amount_display_fr": "Montant non indiqué dans l'extrait CAF73",
+      "sentence_fr": "3 ans de prison dont 8 mois ferme",
+      "sources": [
+        {
+          "title": "Source 1",
+          "url": "https://www.caf.fr/sites/default/files/medias/cnaf/250505%20DPLa%20lutte%20contre%20la%20fraude%20%C3%A0%20la%20Caf%20%C3%A9volue%20avec%20la%20solidarit%C3%A9%20%C3%A0%20la%20source%20et%20le%20SNLFE.pdf",
+          "publisher": "CAF / CNAF"
+        }
+      ],
+      "confidence": "low",
+      "lane": "caf",
+      "proof_urls": [
+        "https://www.caf.fr/sites/default/files/medias/cnaf/250505%20DPLa%20lutte%20contre%20la%20fraude%20%C3%A0%20la%20Caf%20%C3%A9volue%20avec%20la%20solidarit%C3%A9%20%C3%A0%20la%20source%20et%20le%20SNLFE.pdf"
+      ]
+    },
+    {
+      "case_id": "ce-495335-2025-11-28",
+      "court_or_body_fr": "Conseil d'État (1ère-4ème ch. réunies)",
+      "date": "2025-11-28",
+      "defendant_names_fr": "Mme A… C… (identité réelle) ; fausse identité Mme B… (azerbaïdjanaise)",
+      "name_source_url": "https://librejustice.fr/decision/fr/7EKqdL1qF93J",
+      "country_of_origin": "Armenia",
+      "origin_basis": "stated",
+      "origin_evidence_fr": "CE : « Mme C…, de nationalité arménienne… sous la fausse identité de Mme B…, de nationalité azerbaïdjanaise ».",
+      "scheme_type_fr": "Fausse identité ; recouvrement APL / PPA / aide exceptionnelle (L. 161-1-4 CSS)",
+      "amount_metric_id": "case-ce-495335-montant",
+      "amount_display_fr": "17 274,83 € de prestations indûment versées",
+      "sentence_fr": "CE casse le TA Poitiers ; recouvrement maintenu ; pas de droit sous fausse identité",
+      "sources": [
+        {
+          "title": "Source 1",
+          "url": "https://librejustice.fr/decision/fr/7EKqdL1qF93J",
+          "publisher": "LibreJustice"
+        }
+      ],
+      "confidence": "high",
+      "lane": "caf",
+      "proof_urls": [
+        "https://librejustice.fr/decision/fr/7EKqdL1qF93J"
+      ]
+    },
+    {
+      "case_id": "ales-2024-05-14",
+      "court_or_body_fr": "TJ Alès (correctionnel)",
+      "date": "2024-05-14",
+      "defendant_names_fr": "Marchand de sommeil / bailleur (non nommé, presse CAF Gard)",
+      "name_source_url": "https://www.caf.fr/professionnels/presse/publications/la-plus-grosse-escroquerie-aux-prestations-gagnee-en-1ere-instance-par-la-caf-du-gard",
+      "country_of_origin": "unknown",
+      "origin_basis": "unknown",
+      "origin_evidence_fr": "CAF Gard : bailleur uniquement ; pas de nom ni nationalité publiés.",
+      "scheme_type_fr": "Escroquerie logement ; bungalows indécents et APL",
+      "amount_metric_id": null,
+      "amount_display_fr": ">124 000 € détournés ; 126 538 € dommages-intérêts CAF Gard",
+      "sentence_fr": "2 ans avec sursis + amende 150 000 €",
+      "sources": [
+        {
+          "title": "Source 1",
+          "url": "https://www.caf.fr/professionnels/presse/publications/la-plus-grosse-escroquerie-aux-prestations-gagnee-en-1ere-instance-par-la-caf-du-gard",
+          "publisher": "CAF / CNAF"
+        }
+      ],
+      "confidence": "low",
+      "lane": "caf",
+      "proof_urls": [
+        "https://www.caf.fr/professionnels/presse/publications/la-plus-grosse-escroquerie-aux-prestations-gagnee-en-1ere-instance-par-la-caf-du-gard"
+      ]
+    },
+    {
+      "case_id": "var-san-francisco-rsa-2024-dp",
+      "court_or_body_fr": "CAF Var (sanction administrative ; annexe DP)",
+      "date": "2024",
+      "defendant_names_fr": "Monsieur G. (anonymisé dans le DP)",
+      "name_source_url": "https://www.caf.fr/sites/default/files/medias/831/Presse/DP_Controle_fraude_2024.pdf",
+      "country_of_origin": "United States",
+      "origin_basis": "inferred",
+      "origin_evidence_fr": "Résidence permanente San Francisco (opérations bancaires USD) ; nationalité non indiquée — pays = résidence à l'étranger.",
+      "scheme_type_fr": "Fraude à la résidence (RSA à l'étranger)",
+      "amount_metric_id": "case-var-san-francisco-montant",
+      "amount_display_fr": "7 837,72 € (+ pénalité 1 175 €)",
+      "sentence_fr": "Pénalité administrative 1 175 € ; recouvrement de l'indu",
+      "sources": [
+        {
+          "title": "Source 1",
+          "url": "https://www.caf.fr/sites/default/files/medias/831/Presse/DP_Controle_fraude_2024.pdf",
+          "publisher": "CAF / CNAF"
+        }
+      ],
+      "confidence": "medium",
+      "lane": "caf",
+      "proof_urls": [
+        "https://www.caf.fr/sites/default/files/medias/831/Presse/DP_Controle_fraude_2024.pdf"
+      ]
+    },
+    {
+      "case_id": "caen-2024-05-06",
+      "court_or_body_fr": "TJ Caen (correctionnel)",
+      "date": "2024-05-06",
+      "defendant_names_fr": "Prévenu tchadien, 44 ans (non nommé) ; victime = réfugié soudanais",
+      "name_source_url": "https://www.ouest-france.fr/normandie/caen-14000/juge-a-caen-pour-avoir-vole-lidentite-dun-refugie-soudanais-da0ab9ec-0e02-11ef-a10a-8d6450bd9eac",
+      "country_of_origin": "Chad",
+      "origin_basis": "stated",
+      "origin_evidence_fr": "Ouest-France : « un Tchadien… a usurpé l'identité d'un réfugié soudanais ».",
+      "scheme_type_fr": "Usurpation d'identité ; CAF + carte Vitale",
+      "amount_metric_id": null,
+      "amount_display_fr": "Montant non indiqué dans le compte rendu",
+      "sentence_fr": "6 mois de prison avec sursis ; copie du jugement à la CAF",
+      "sources": [
+        {
+          "title": "Source 1",
+          "url": "https://www.ouest-france.fr/normandie/caen-14000/juge-a-caen-pour-avoir-vole-lidentite-dun-refugie-soudanais-da0ab9ec-0e02-11ef-a10a-8d6450bd9eac",
+          "publisher": "Ouest-France"
+        }
+      ],
+      "confidence": "high",
+      "lane": "caf",
+      "proof_urls": [
+        "https://www.ouest-france.fr/normandie/caen-14000/juge-a-caen-pour-avoir-vole-lidentite-dun-refugie-soudanais-da0ab9ec-0e02-11ef-a10a-8d6450bd9eac"
+      ]
+    },
+    {
+      "case_id": "meaux-2025-12-02",
+      "court_or_body_fr": "TJ Meaux (correctionnel)",
+      "date": "2025-12-02",
+      "defendant_names_fr": "Deux frères non nommés (~20 ans), résidents de Chelles",
+      "name_source_url": "https://www.leparisien.fr/seine-et-marne-77/chelles-deux-freres-detournaient-des-aides-sociales-via-de-fausses-annonces-sur-leboncoin-03-12-2025-JY3FA75VX5B4ZLHXFV77V3JITE.php",
+      "country_of_origin": "unknown",
+      "origin_basis": "unknown",
+      "origin_evidence_fr": "Résidents de Chelles uniquement ; pas de nationalité publiée.",
+      "scheme_type_fr": "Usurpation d'identité via fausses annonces Leboncoin ; CAF 77 + 93",
+      "amount_metric_id": null,
+      "amount_display_fr": "~5 000 € versés par les CAF",
+      "sentence_fr": "Chacun : 15 mois probatoires avec sursis, amende 3 000 €, obligation de travail",
+      "sources": [
+        {
+          "title": "Source 1",
+          "url": "https://www.ouest-france.fr/societe/faits-divers/seine-et-marne-deux-jeunes-freres-condamnes-pour-avoir-detourne-des-aides-sociales-5904289e-d122-11f0-9d24-18896e33f506",
+          "publisher": "Ouest-France"
+        },
+        {
+          "title": "Source 2",
+          "url": "https://www.leparisien.fr/seine-et-marne-77/chelles-deux-freres-detournaient-des-aides-sociales-via-de-fausses-annonces-sur-leboncoin-03-12-2025-JY3FA75VX5B4ZLHXFV77V3JITE.php",
+          "publisher": "Le Parisien"
+        }
+      ],
+      "confidence": "low",
+      "lane": "caf",
+      "proof_urls": [
+        "https://www.ouest-france.fr/societe/faits-divers/seine-et-marne-deux-jeunes-freres-condamnes-pour-avoir-detourne-des-aides-sociales-5904289e-d122-11f0-9d24-18896e33f506",
+        "https://www.leparisien.fr/seine-et-marne-77/chelles-deux-freres-detournaient-des-aides-sociales-via-de-fausses-annonces-sur-leboncoin-03-12-2025-JY3FA75VX5B4ZLHXFV77V3JITE.php"
+      ]
+    },
+    {
+      "case_id": "oise-2026-09-07",
+      "court_or_body_fr": "TJ de l'Oise (siège exact non indiqué)",
+      "date": "2026-09-07",
+      "defendant_names_fr": "Homme non nommé, 27 ans",
+      "name_source_url": "https://www.courrier-picard.fr/id743617/article/2026-09-08/un-homme-condamne-dans-loise-pour-avoir-detourne-21-000-euros-la-caf-grace-des",
+      "country_of_origin": "unknown",
+      "origin_basis": "unknown",
+      "origin_evidence_fr": "Courrier picard : pas de nom ni nationalité ; 16 victimes.",
+      "scheme_type_fr": "Usurpation d'identité ; multi-CAF (83/59/77/27/78/60)",
+      "amount_metric_id": null,
+      "amount_display_fr": ">21 000 € détournés ; >15 000 € à rembourser à la CAF",
+      "sentence_fr": "8 mois ferme (bracelet électronique selon réquisitions)",
+      "sources": [
+        {
+          "title": "Source 1",
+          "url": "https://www.courrier-picard.fr/id743617/article/2026-09-08/un-homme-condamne-dans-loise-pour-avoir-detourne-21-000-euros-la-caf-grace-des",
+          "publisher": "Courrier picard"
+        }
+      ],
+      "confidence": "low",
+      "lane": "caf",
+      "proof_urls": [
+        "https://www.courrier-picard.fr/id743617/article/2026-09-08/un-homme-condamne-dans-loise-pour-avoir-detourne-21-000-euros-la-caf-grace-des"
+      ]
+    },
+    {
+      "case_id": "draguignan-2025-10-hatem-mohamed-nouri",
+      "court_or_body_fr": "TJ Draguignan (correctionnel)",
+      "date": "2025-10",
+      "defendant_names_fr": "Hatem ; Mohamed ; Nouri B.",
+      "name_source_url": "https://www.midilibre.fr/2025/10/11/faux-baux-enfants-vivant-a-letranger-trois-freres-escroquent-la-caf-pour-plus-de-100-000-euros-12986553.php",
+      "country_of_origin": "unknown",
+      "origin_basis": "inferred",
+      "origin_evidence_fr": "Enfants de Hatem/Mohamed en Tunisie ; nationalité des prévenus non publiée — ne pas confondre avec citoyenneté.",
+      "scheme_type_fr": "Enfants à l'étranger ; faux baux / quittances ; usurpation pour APL (Nouri)",
+      "amount_metric_id": null,
+      "amount_display_fr": "~67 000 € + ~46 000 € + 37 000 € restants (Nouri) ; totaux presse 100 000–150 000 €",
+      "sentence_fr": "Hatem & Mohamed : 6 mois simples avec sursis ; Nouri : 18 mois avec sursis + amende 10 000 €",
+      "sources": [
+        {
+          "title": "Source 1",
+          "url": "https://www.midilibre.fr/2025/10/11/faux-baux-enfants-vivant-a-letranger-trois-freres-escroquent-la-caf-pour-plus-de-100-000-euros-12986553.php",
+          "publisher": "Midi Libre"
+        },
+        {
+          "title": "Source 2",
+          "url": "https://www.nicematin.com/societe/justice/trois-freres-detournent-150-000-euros-de-prestations-sociales-aupres-de-la-caf-du-var-10651203",
+          "publisher": "Nice-Matin"
+        }
+      ],
+      "confidence": "low",
+      "lane": "caf",
+      "proof_urls": [
+        "https://www.midilibre.fr/2025/10/11/faux-baux-enfants-vivant-a-letranger-trois-freres-escroquent-la-caf-pour-plus-de-100-000-euros-12986553.php",
+        "https://www.nicematin.com/societe/justice/trois-freres-detournent-150-000-euros-de-prestations-sociales-aupres-de-la-caf-du-var-10651203"
+      ]
+    },
+    {
+      "case_id": "chateauroux-2025-09-04-rg-24-00118",
+      "court_or_body_fr": "TJ Châteauroux (pôle social)",
+      "date": "2025-09-04",
+      "defendant_names_fr": "Monsieur [W] [I] (jugement anonymisé)",
+      "name_source_url": "https://librejustice.fr/decision/fr/NmRFqQO4jVNe",
+      "country_of_origin": "Senegal",
+      "origin_basis": "inferred",
+      "origin_evidence_fr": "Adresse Cité Baobab, Dakar ; séjours non déclarés >3 mois au Sénégal. Nationalité sénégalaise non formellement énoncée.",
+      "scheme_type_fr": "Fraude à la résidence ; adresse fictive en France ; AAH + majoration vie autonome",
+      "amount_metric_id": "case-chateauroux-montant",
+      "amount_display_fr": "12 343,62 € d'indu (+ pénalités)",
+      "sentence_fr": "Fraude confirmée ; pénalité et majoration de 10 % maintenues",
+      "sources": [
+        {
+          "title": "Source 1",
+          "url": "https://librejustice.fr/decision/fr/NmRFqQO4jVNe",
+          "publisher": "LibreJustice"
+        },
+        {
+          "title": "Source 2",
+          "url": "https://www.courdecassation.fr/decision/69862042cdc6046d4738e483",
+          "publisher": "Cour de cassation"
+        }
+      ],
+      "confidence": "medium",
+      "lane": "caf",
+      "proof_urls": [
+        "https://librejustice.fr/decision/fr/NmRFqQO4jVNe",
+        "https://www.courdecassation.fr/decision/69862042cdc6046d4738e483"
+      ]
+    },
+    {
+      "case_id": "lyon-2024-12-20-rg-23-02150",
+      "court_or_body_fr": "TJ Lyon (pôle social)",
+      "date": "2024-12-20",
+      "defendant_names_fr": "Monsieur [Y] [P] [B] [C] (jugement anonymisé)",
+      "name_source_url": "https://librejustice.fr/decision/fr/tPOCvqblV-d0",
+      "country_of_origin": "France",
+      "origin_basis": "stated",
+      "origin_evidence_fr": "Alerte consulaire : inscrit au registre des Français de l'étranger (Dakar, ex-Côte d'Ivoire).",
+      "scheme_type_fr": "Fraude à la résidence ; fausse adresse en France ; AAH",
+      "amount_metric_id": "case-lyon-montant",
+      "amount_display_fr": "13 585,62 € d'indu AAH notifié ; solde 4 710,70 € + pénalité 710 €",
+      "sentence_fr": "Mauvaise foi confirmée ; pénalité 710 €",
+      "sources": [
+        {
+          "title": "Source 1",
+          "url": "https://librejustice.fr/decision/fr/tPOCvqblV-d0",
+          "publisher": "LibreJustice"
+        }
+      ],
+      "confidence": "high",
+      "lane": "caf",
+      "proof_urls": [
+        "https://librejustice.fr/decision/fr/tPOCvqblV-d0"
+      ]
+    },
+    {
+      "case_id": "haute-marne-2023-ip-residence",
+      "court_or_body_fr": "CAF Haute-Marne (contrôles ; webinaire juin 2024)",
+      "date": "2023",
+      "defendant_names_fr": "Non nommés (agrégat de 7 dossiers)",
+      "name_source_url": "https://www.caf.fr/sites/default/files/medias/521/partenaires/supports%20webinaires/Webinaire%20Partenaires%2003%2006%202024.pdf",
+      "country_of_origin": "unknown",
+      "origin_basis": "inferred",
+      "origin_evidence_fr": "DTR depuis IP étrangère ; absences >90 jours/an. Pays non nommés.",
+      "scheme_type_fr": "Fraude à la résidence (déclarations depuis l'étranger)",
+      "amount_metric_id": "case-haute-marne-residence",
+      "amount_display_fr": "94 152 € (7 dossiers)",
+      "sentence_fr": "Fraude qualifiée (administratif) ; pas de jugements individuels cités",
+      "sources": [
+        {
+          "title": "Source 1",
+          "url": "https://www.caf.fr/sites/default/files/medias/521/partenaires/supports%20webinaires/Webinaire%20Partenaires%2003%2006%202024.pdf",
+          "publisher": "CAF / CNAF"
+        }
+      ],
+      "confidence": "low",
+      "lane": "caf",
+      "proof_urls": [
+        "https://www.caf.fr/sites/default/files/medias/521/partenaires/supports%20webinaires/Webinaire%20Partenaires%2003%2006%202024.pdf"
+      ]
+    },
+    {
+      "case_id": "haute-marne-2023-identity-rib",
+      "court_or_body_fr": "CAF Haute-Marne (contrôles ; webinaire juin 2024)",
+      "date": "2023",
+      "defendant_names_fr": "Non nommés (agrégat de 16 dossiers)",
+      "name_source_url": "https://www.caf.fr/sites/default/files/medias/521/partenaires/supports%20webinaires/Webinaire%20Partenaires%2003%2006%202024.pdf",
+      "country_of_origin": "unknown",
+      "origin_basis": "unknown",
+      "origin_evidence_fr": "Faux dossiers à partir d'identités usurpées ; RIB néo-banques. Pas d'indice pays.",
+      "scheme_type_fr": "Usurpation d'identité + fraude au RIB",
+      "amount_metric_id": "case-haute-marne-identity",
+      "amount_display_fr": "24 407 € (16 dossiers)",
+      "sentence_fr": "Fraude qualifiée (administratif)",
+      "sources": [
+        {
+          "title": "Source 1",
+          "url": "https://www.caf.fr/sites/default/files/medias/521/partenaires/supports%20webinaires/Webinaire%20Partenaires%2003%2006%202024.pdf",
+          "publisher": "CAF / CNAF"
+        }
+      ],
+      "confidence": "low",
+      "lane": "caf",
+      "proof_urls": [
+        "https://www.caf.fr/sites/default/files/medias/521/partenaires/supports%20webinaires/Webinaire%20Partenaires%2003%2006%202024.pdf"
+      ]
+    },
+    {
+      "case_id": "haute-garonne-2024-05-detection-250",
+      "court_or_body_fr": "CAF Haute-Garonne (détection — pas condamnation)",
+      "date": "2024-05",
+      "defendant_names_fr": "Cyber-fraudeurs non nommés (250 dossiers agrégés)",
+      "name_source_url": "https://actu.fr/occitanie/toulouse_31555/toulouse-dans-le-viseur-de-la-caf-de-haute-garonne-ces-fraudeurs-d-un-nouveau-genre_61124722.html",
+      "country_of_origin": "unknown",
+      "origin_basis": "inferred",
+      "origin_evidence_fr": "Fonds versés à l'étranger (Amérique du Sud, Asie, Afrique, Philippines) — destinations, pas nationalités des auteurs.",
+      "scheme_type_fr": "Usurpation d'identité + adresse FR ; RSA vers l'étranger",
+      "amount_metric_id": "case-haute-garonne-evite",
+      "amount_display_fr": "17 000 € perdus ; 900 000 € de RSA évités",
+      "sentence_fr": "Détection uniquement — pas de dossier pénal",
+      "sources": [
+        {
+          "title": "Source 1",
+          "url": "https://actu.fr/occitanie/toulouse_31555/toulouse-dans-le-viseur-de-la-caf-de-haute-garonne-ces-fraudeurs-d-un-nouveau-genre_61124722.html",
+          "publisher": "Actu.fr"
+        }
+      ],
+      "confidence": "low",
+      "lane": "caf",
+      "proof_urls": [
+        "https://actu.fr/occitanie/toulouse_31555/toulouse-dans-le-viseur-de-la-caf-de-haute-garonne-ces-fraudeurs-d-un-nouveau-genre_61124722.html"
+      ]
+    },
+    {
+      "case_id": "caen-2024-05-06-victim",
+      "court_or_body_fr": "TJ Caen (victime d'usurpation — pas prévenu)",
+      "date": "2024-05-06",
+      "defendant_names_fr": "n/a — victime : réfugié soudanais non nommé",
+      "name_source_url": "https://www.ouest-france.fr/normandie/caen-14000/juge-a-caen-pour-avoir-vole-lidentite-dun-refugie-soudanais-da0ab9ec-0e02-11ef-a10a-8d6450bd9eac",
+      "country_of_origin": "Sudan",
+      "origin_basis": "stated",
+      "origin_evidence_fr": "Origine de la victime uniquement : « réfugié soudanais » — distincte du prévenu (Tchad).",
+      "scheme_type_fr": "Victime d'usurpation d'identité (pas auteur)",
+      "amount_metric_id": null,
+      "amount_display_fr": "n/a",
+      "sentence_fr": "n/a (victime)",
+      "sources": [
+        {
+          "title": "Source 1",
+          "url": "https://www.ouest-france.fr/normandie/caen-14000/juge-a-caen-pour-avoir-vole-lidentite-dun-refugie-soudanais-da0ab9ec-0e02-11ef-a10a-8d6450bd9eac",
+          "publisher": "Ouest-France"
+        }
+      ],
+      "confidence": "high",
+      "lane": "caf",
+      "proof_urls": [
+        "https://www.ouest-france.fr/normandie/caen-14000/juge-a-caen-pour-avoir-vole-lidentite-dun-refugie-soudanais-da0ab9ec-0e02-11ef-a10a-8d6450bd9eac"
+      ]
+    }
+  ]
+}

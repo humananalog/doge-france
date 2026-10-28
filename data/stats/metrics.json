@@ -1,0 +1,723 @@
+{
+  "version": 1,
+  "metrics": [
+    {
+      "id": "hcfips-fraude-sociale-evaluee",
+      "label_fr": "Fraude sociale évaluée (tous régimes)",
+      "value": 13000000000,
+      "unit": "EUR",
+      "as_of": "2024",
+      "category": "social",
+      "kind": "fraud",
+      "source": {
+        "title": "HCFiPS — Lutte contre la fraude sociale",
+        "url": "https://www.strategie-plan.gouv.fr/publications/hcfips-lutte-contre-fraude-sociale-etat-lieux-enjeux",
+        "publisher": "HCFiPS / Stratégie"
+      },
+      "notes": "Montant évalué, non recouvré.",
+      "proof_url": "https://www.strategie-plan.gouv.fr/publications/hcfips-lutte-contre-fraude-sociale-etat-lieux-enjeux"
+    },
+    {
+      "id": "hcfips-fraude-detectee",
+      "label_fr": "Fraude sociale détectée (dont stoppée avant paiement)",
+      "value": 2100000000,
+      "unit": "EUR",
+      "as_of": "2024",
+      "category": "social",
+      "kind": "fraud",
+      "source": {
+        "title": "HCFiPS — Lutte contre la fraude sociale",
+        "url": "https://www.strategie-plan.gouv.fr/publications/hcfips-lutte-contre-fraude-sociale-etat-lieux-enjeux",
+        "publisher": "HCFiPS / Stratégie"
+      },
+      "notes": "Dont 0,5 Md€ stoppés avant paiement.",
+      "proof_url": "https://www.strategie-plan.gouv.fr/publications/hcfips-lutte-contre-fraude-sociale-etat-lieux-enjeux"
+    },
+    {
+      "id": "hcfips-fraude-recouvree",
+      "label_fr": "Fraude sociale recouvrée",
+      "value": 600000000,
+      "unit": "EUR",
+      "as_of": "2024",
+      "category": "social",
+      "kind": "fraud",
+      "source": {
+        "title": "HCFiPS — Lutte contre la fraude sociale",
+        "url": "https://www.strategie-plan.gouv.fr/publications/hcfips-lutte-contre-fraude-sociale-etat-lieux-enjeux",
+        "publisher": "HCFiPS / Stratégie"
+      },
+      "proof_url": "https://www.strategie-plan.gouv.fr/publications/hcfips-lutte-contre-fraude-sociale-etat-lieux-enjeux"
+    },
+    {
+      "id": "hcfips-part-cnaf",
+      "label_fr": "Part CNAF dans l'évaluation HCFiPS",
+      "value": 30,
+      "unit": "percent",
+      "as_of": "2024",
+      "category": "caf",
+      "kind": "fraud",
+      "source": {
+        "title": "HCFiPS — Lutte contre la fraude sociale",
+        "url": "https://www.strategie-plan.gouv.fr/publications/hcfips-lutte-contre-fraude-sociale-etat-lieux-enjeux",
+        "publisher": "HCFiPS / Stratégie"
+      },
+      "proof_url": "https://www.strategie-plan.gouv.fr/publications/hcfips-lutte-contre-fraude-sociale-etat-lieux-enjeux"
+    },
+    {
+      "id": "hcfips-mix-cotisations",
+      "label_fr": "Part entreprises / indépendants (mix fraude évaluée)",
+      "value": 56,
+      "unit": "percent",
+      "as_of": "2024",
+      "category": "social",
+      "kind": "fraud",
+      "source": {
+        "title": "HCFiPS — Lutte contre la fraude sociale",
+        "url": "https://www.strategie-plan.gouv.fr/publications/hcfips-lutte-contre-fraude-sociale-etat-lieux-enjeux",
+        "publisher": "HCFiPS / Stratégie"
+      },
+      "proof_url": "https://www.strategie-plan.gouv.fr/publications/hcfips-lutte-contre-fraude-sociale-etat-lieux-enjeux"
+    },
+    {
+      "id": "caf-erreur-residuelle-24m-montant",
+      "label_fr": "Indus et rappels non détectés (risque résiduel 24 mois)",
+      "value": 6300000000,
+      "unit": "EUR",
+      "as_of": "2024",
+      "category": "caf",
+      "kind": "error",
+      "source": {
+        "title": "Cour des comptes — Certification SS 2024",
+        "url": "https://www.ccomptes.fr/sites/default/files/2025-05/20250516-certification-comptes-securite-sociale-2024.pdf",
+        "publisher": "Cour des comptes"
+      },
+      "notes": "Erreur de paiement, pas un stock de fraude.",
+      "proof_url": "https://www.ccomptes.fr/sites/default/files/2025-05/20250516-certification-comptes-securite-sociale-2024.pdf"
+    },
+    {
+      "id": "caf-erreur-residuelle-24m-taux",
+      "label_fr": "Taux de risque résiduel à 24 mois (branche famille)",
+      "value": 8,
+      "unit": "percent",
+      "as_of": "2024",
+      "category": "caf",
+      "kind": "error",
+      "source": {
+        "title": "Cour des comptes — Certification SS 2024",
+        "url": "https://www.ccomptes.fr/sites/default/files/2025-05/20250516-certification-comptes-securite-sociale-2024.pdf",
+        "publisher": "Cour des comptes"
+      },
+      "proof_url": "https://www.ccomptes.fr/sites/default/files/2025-05/20250516-certification-comptes-securite-sociale-2024.pdf"
+    },
+    {
+      "id": "caf-erreur-residuelle-9m-montant",
+      "label_fr": "Risque résiduel à 9 mois (publication Cour)",
+      "value": 9400000000,
+      "unit": "EUR",
+      "as_of": "2024",
+      "category": "caf",
+      "kind": "error",
+      "source": {
+        "title": "Cour des comptes — Synthèse certification 2024 (doc. 75241)",
+        "url": "https://www.ccomptes.fr/fr/documents/75241",
+        "publisher": "Cour des comptes"
+      },
+      "notes": "Fourchette PDF : 8,4–10,3 Md€.",
+      "proof_url": "https://www.ccomptes.fr/fr/documents/75241"
+    },
+    {
+      "id": "caf-erreurs-internes-detectees",
+      "label_fr": "Erreurs liées aux opérations internes CAF détectées",
+      "value": 1700000000,
+      "unit": "EUR",
+      "as_of": "2024",
+      "category": "caf",
+      "kind": "error",
+      "source": {
+        "title": "Cour des comptes — Synthèse certification 2024 (doc. 75241)",
+        "url": "https://www.ccomptes.fr/fr/documents/75241",
+        "publisher": "Cour des comptes"
+      },
+      "proof_url": "https://www.ccomptes.fr/fr/documents/75241"
+    },
+    {
+      "id": "caf-fraude-estimee-min",
+      "label_fr": "Fraude statistique CNAF (borne basse, prestations 2023)",
+      "value": 3800000000,
+      "unit": "EUR",
+      "as_of": "2023",
+      "category": "caf",
+      "kind": "fraud",
+      "source": {
+        "title": "Cour des comptes — Certification SS 2024",
+        "url": "https://www.ccomptes.fr/sites/default/files/2025-05/20250516-certification-comptes-securite-sociale-2024.pdf",
+        "publisher": "Cour des comptes"
+      },
+      "notes": "Taux 4,6–5,7 % des prestations légales.",
+      "proof_url": "https://www.ccomptes.fr/sites/default/files/2025-05/20250516-certification-comptes-securite-sociale-2024.pdf"
+    },
+    {
+      "id": "caf-fraude-estimee-max",
+      "label_fr": "Fraude statistique CNAF (borne haute, prestations 2023)",
+      "value": 4700000000,
+      "unit": "EUR",
+      "as_of": "2023",
+      "category": "caf",
+      "kind": "fraud",
+      "source": {
+        "title": "Cour des comptes — Certification SS 2024",
+        "url": "https://www.ccomptes.fr/sites/default/files/2025-05/20250516-certification-comptes-securite-sociale-2024.pdf",
+        "publisher": "Cour des comptes"
+      },
+      "proof_url": "https://www.ccomptes.fr/sites/default/files/2025-05/20250516-certification-comptes-securite-sociale-2024.pdf"
+    },
+    {
+      "id": "caf-fraude-detectee-2024",
+      "label_fr": "Prejudice de fraude caractérisée détecté (CNAF)",
+      "value": 449200000,
+      "unit": "EUR",
+      "as_of": "2024",
+      "category": "caf",
+      "kind": "fraud",
+      "source": {
+        "title": "CNAF — Dossier de presse lutte contre la fraude 2024",
+        "url": "https://www.caf.fr/sites/default/files/medias/cnaf/250505%20DPLa%20lutte%20contre%20la%20fraude%20%C3%A0%20la%20Caf%20%C3%A9volue%20avec%20la%20solidarit%C3%A9%20%C3%A0%20la%20source%20et%20le%20SNLFE.pdf",
+        "publisher": "CNAF"
+      },
+      "proof_url": "https://www.caf.fr/sites/default/files/medias/cnaf/250505%20DPLa%20lutte%20contre%20la%20fraude%20%C3%A0%20la%20Caf%20%C3%A9volue%20avec%20la%20solidarit%C3%A9%20%C3%A0%20la%20source%20et%20le%20SNLFE.pdf"
+    },
+    {
+      "id": "caf-fraude-detectee-2025",
+      "label_fr": "Prejudice de fraude caractérisée détecté (CNAF)",
+      "value": 508800000,
+      "unit": "EUR",
+      "as_of": "2025",
+      "category": "caf",
+      "kind": "fraud",
+      "source": {
+        "title": "CNAF — Dossier de presse lutte contre la fraude 2025",
+        "url": "https://www.caf.fr/sites/default/files/medias/cnaf/Nous_connaitre/Presse/2026/260415%20DP%20Lutte%20contre%20la%20fraude.pdf",
+        "publisher": "CNAF"
+      },
+      "proof_url": "https://www.caf.fr/sites/default/files/medias/cnaf/Nous_connaitre/Presse/2026/260415%20DP%20Lutte%20contre%20la%20fraude.pdf"
+    },
+    {
+      "id": "caf-fraude-dossiers-2025",
+      "label_fr": "Fraudes caractérisées (nombre de dossiers)",
+      "value": 48863,
+      "unit": "count",
+      "as_of": "2025",
+      "category": "caf",
+      "kind": "volume",
+      "source": {
+        "title": "CNAF — Dossier de presse lutte contre la fraude 2025",
+        "url": "https://www.caf.fr/sites/default/files/medias/cnaf/Nous_connaitre/Presse/2026/260415%20DP%20Lutte%20contre%20la%20fraude.pdf",
+        "publisher": "CNAF"
+      },
+      "proof_url": "https://www.caf.fr/sites/default/files/medias/cnaf/Nous_connaitre/Presse/2026/260415%20DP%20Lutte%20contre%20la%20fraude.pdf"
+    },
+    {
+      "id": "caf-residence-fraude-impact",
+      "label_fr": "Impact financier fraude à la résidence (branche famille)",
+      "value": 123000000,
+      "unit": "EUR",
+      "as_of": "2025",
+      "category": "caf",
+      "kind": "fraud",
+      "source": {
+        "title": "CNAF — Dossier de presse lutte contre la fraude 2025",
+        "url": "https://www.caf.fr/sites/default/files/medias/cnaf/Nous_connaitre/Presse/2026/260415%20DP%20Lutte%20contre%20la%20fraude.pdf",
+        "publisher": "CNAF"
+      },
+      "notes": "« À ce jour » dans le DP 2025 — pas un exercice unique.",
+      "proof_url": "https://www.caf.fr/sites/default/files/medias/cnaf/Nous_connaitre/Presse/2026/260415%20DP%20Lutte%20contre%20la%20fraude.pdf"
+    },
+    {
+      "id": "caf-snlf-impact-2025",
+      "label_fr": "Impact total ciblage SNLFE 2025",
+      "value": 170700000,
+      "unit": "EUR",
+      "as_of": "2025",
+      "category": "caf",
+      "kind": "fraud",
+      "source": {
+        "title": "CNAF — Dossier de presse lutte contre la fraude 2025",
+        "url": "https://www.caf.fr/sites/default/files/medias/cnaf/Nous_connaitre/Presse/2026/260415%20DP%20Lutte%20contre%20la%20fraude.pdf",
+        "publisher": "CNAF"
+      },
+      "proof_url": "https://www.caf.fr/sites/default/files/medias/cnaf/Nous_connaitre/Presse/2026/260415%20DP%20Lutte%20contre%20la%20fraude.pdf"
+    },
+    {
+      "id": "cnss-fraude-sante-min",
+      "label_fr": "Fraude assurance maladie estimée (borne basse)",
+      "value": 1400000000,
+      "unit": "EUR",
+      "as_of": "2024",
+      "category": "health",
+      "kind": "fraud",
+      "source": {
+        "title": "Cour des comptes — Synthèse certification 2024 (doc. 75241)",
+        "url": "https://www.ccomptes.fr/fr/documents/75241",
+        "publisher": "Cour des comptes"
+      },
+      "proof_url": "https://www.ccomptes.fr/fr/documents/75241"
+    },
+    {
+      "id": "cnss-fraude-sante-max",
+      "label_fr": "Fraude assurance maladie estimée (borne haute)",
+      "value": 1900000000,
+      "unit": "EUR",
+      "as_of": "2024",
+      "category": "health",
+      "kind": "fraud",
+      "source": {
+        "title": "Cour des comptes — Synthèse certification 2024 (doc. 75241)",
+        "url": "https://www.ccomptes.fr/fr/documents/75241",
+        "publisher": "Cour des comptes"
+      },
+      "proof_url": "https://www.ccomptes.fr/fr/documents/75241"
+    },
+    {
+      "id": "cnss-erreurs-honoraires",
+      "label_fr": "Erreurs de paiement honoraires de santé",
+      "value": 3300000000,
+      "unit": "EUR",
+      "as_of": "2024",
+      "category": "health",
+      "kind": "error",
+      "source": {
+        "title": "Cour des comptes — Synthèse certification 2024 (doc. 75241)",
+        "url": "https://www.ccomptes.fr/fr/documents/75241",
+        "publisher": "Cour des comptes"
+      },
+      "proof_url": "https://www.ccomptes.fr/fr/documents/75241"
+    },
+    {
+      "id": "fiscal-droits-notifies-2025",
+      "label_fr": "Droits et pénalités notifiés (contrôle fiscal)",
+      "value": 17100000000,
+      "unit": "EUR",
+      "as_of": "2025",
+      "category": "tax",
+      "kind": "fraud",
+      "source": {
+        "title": "Vie publique — Bilan lutte contre la fraude fiscale 2025",
+        "url": "https://www.vie-publique.fr/en-bref/302749-bilan-de-la-lutte-contre-la-fraude-fiscale-en-2025",
+        "publisher": "Vie publique"
+      },
+      "proof_url": "https://www.vie-publique.fr/en-bref/302749-bilan-de-la-lutte-contre-la-fraude-fiscale-en-2025"
+    },
+    {
+      "id": "fiscal-droits-notifies-2024",
+      "label_fr": "Droits et pénalités notifiés (contrôle fiscal)",
+      "value": 16700000000,
+      "unit": "EUR",
+      "as_of": "2024",
+      "category": "tax",
+      "kind": "fraud",
+      "source": {
+        "title": "Vie publique — Bilan lutte contre la fraude fiscale 2025",
+        "url": "https://www.vie-publique.fr/en-bref/302749-bilan-de-la-lutte-contre-la-fraude-fiscale-en-2025",
+        "publisher": "Vie publique"
+      },
+      "proof_url": "https://www.vie-publique.fr/en-bref/302749-bilan-de-la-lutte-contre-la-fraude-fiscale-en-2025"
+    },
+    {
+      "id": "fiscal-encaissements",
+      "label_fr": "Encaissements contrôle fiscal",
+      "value": 11400000000,
+      "unit": "EUR",
+      "as_of": "2025",
+      "category": "tax",
+      "kind": "fraud",
+      "source": {
+        "title": "Vie publique — Bilan lutte contre la fraude fiscale 2025",
+        "url": "https://www.vie-publique.fr/en-bref/302749-bilan-de-la-lutte-contre-la-fraude-fiscale-en-2025",
+        "publisher": "Vie publique"
+      },
+      "notes": "Même montant encaissé en 2024 et 2025 selon Vie publique.",
+      "proof_url": "https://www.vie-publique.fr/en-bref/302749-bilan-de-la-lutte-contre-la-fraude-fiscale-en-2025"
+    },
+    {
+      "id": "fiscal-ia-minage",
+      "label_fr": "Droits identifiés par IA / data-mining",
+      "value": 2800000000,
+      "unit": "EUR",
+      "as_of": "2025",
+      "category": "tax",
+      "kind": "fraud",
+      "source": {
+        "title": "Vie publique — Bilan lutte contre la fraude fiscale 2025",
+        "url": "https://www.vie-publique.fr/en-bref/302749-bilan-de-la-lutte-contre-la-fraude-fiscale-en-2025",
+        "publisher": "Vie publique"
+      },
+      "proof_url": "https://www.vie-publique.fr/en-bref/302749-bilan-de-la-lutte-contre-la-fraude-fiscale-en-2025"
+    },
+    {
+      "id": "immig-cout-direct",
+      "label_fr": "Coût direct politique immigration irrégulière",
+      "value": 1800000000,
+      "unit": "EUR",
+      "as_of": "2023",
+      "category": "immigration",
+      "kind": "spend",
+      "source": {
+        "title": "Cour des comptes — Politique de lutte contre l'immigration irrégulière",
+        "url": "https://www.ccomptes.fr/fr/publications/la-politique-de-lutte-contre-limmigration-irreguliere",
+        "publisher": "Cour des comptes"
+      },
+      "notes": "Environ ; ~16 000 ETP.",
+      "proof_url": "https://www.ccomptes.fr/fr/publications/la-politique-de-lutte-contre-limmigration-irreguliere"
+    },
+    {
+      "id": "immig-oqtf-taux-execution",
+      "label_fr": "Part des OQTF exécutées (cadre Cour 2019–2022)",
+      "value": 12,
+      "unit": "percent",
+      "as_of": "2019-2022",
+      "category": "immigration",
+      "kind": "volume",
+      "source": {
+        "title": "Cour des comptes — Politique de lutte contre l'immigration irrégulière",
+        "url": "https://www.ccomptes.fr/fr/publications/la-politique-de-lutte-contre-limmigration-irreguliere",
+        "publisher": "Cour des comptes"
+      },
+      "notes": "447 257 OQTF sur la période.",
+      "proof_url": "https://www.ccomptes.fr/fr/publications/la-politique-de-lutte-contre-limmigration-irreguliere"
+    },
+    {
+      "id": "immig-mission-cp-2024",
+      "label_fr": "Mission Immigration, asile et intégration — CP exécutés",
+      "value": 2145000000,
+      "unit": "EUR",
+      "as_of": "2024",
+      "category": "immigration",
+      "kind": "spend",
+      "source": {
+        "title": "Cour des comptes — NEB 2024 Immigration",
+        "url": "https://www.ccomptes.fr/sites/default/files/2025-04/NEB-2024-Immigration.pdf",
+        "publisher": "Cour des comptes"
+      },
+      "proof_url": "https://www.ccomptes.fr/sites/default/files/2025-04/NEB-2024-Immigration.pdf"
+    },
+    {
+      "id": "immig-mesures-2024",
+      "label_fr": "Mesures prononcées d'éloignement",
+      "value": 145107,
+      "unit": "count",
+      "as_of": "2024",
+      "category": "immigration",
+      "kind": "volume",
+      "source": {
+        "title": "Assemblée nationale — QE 6782 (éloignements)",
+        "url": "https://questions.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE6782.pdf",
+        "publisher": "Assemblée nationale"
+      },
+      "proof_url": "https://questions.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE6782.pdf"
+    },
+    {
+      "id": "immig-executes-2024",
+      "label_fr": "Éloignements exécutés",
+      "value": 21601,
+      "unit": "count",
+      "as_of": "2024",
+      "category": "immigration",
+      "kind": "volume",
+      "source": {
+        "title": "Assemblée nationale — QE 6782 (éloignements)",
+        "url": "https://questions.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE6782.pdf",
+        "publisher": "Assemblée nationale"
+      },
+      "proof_url": "https://questions.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE6782.pdf"
+    },
+    {
+      "id": "immig-mesures-2025",
+      "label_fr": "Mesures prononcées d'éloignement",
+      "value": 156180,
+      "unit": "count",
+      "as_of": "2025",
+      "category": "immigration",
+      "kind": "volume",
+      "source": {
+        "title": "Assemblée nationale — QE 6782 (éloignements)",
+        "url": "https://questions.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE6782.pdf",
+        "publisher": "Assemblée nationale"
+      },
+      "proof_url": "https://questions.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE6782.pdf"
+    },
+    {
+      "id": "immig-executes-2025",
+      "label_fr": "Éloignements exécutés",
+      "value": 24985,
+      "unit": "count",
+      "as_of": "2025",
+      "category": "immigration",
+      "kind": "volume",
+      "source": {
+        "title": "Assemblée nationale — QE 6782 (éloignements)",
+        "url": "https://questions.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE6782.pdf",
+        "publisher": "Assemblée nationale"
+      },
+      "proof_url": "https://questions.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE6782.pdf"
+    },
+    {
+      "id": "immig-ame-beneficiaires",
+      "label_fr": "Bénéficiaires AME (proxy limité, stock)",
+      "value": 439000,
+      "unit": "count",
+      "as_of": "2023-06",
+      "category": "immigration",
+      "kind": "volume",
+      "source": {
+        "title": "Cour des comptes — Politique de lutte contre l'immigration irrégulière",
+        "url": "https://www.ccomptes.fr/fr/publications/la-politique-de-lutte-contre-limmigration-irreguliere",
+        "publisher": "Cour des comptes"
+      },
+      "notes": "Cour : proxy limité, pas un décompte de présence irrégulière.",
+      "proof_url": "https://www.ccomptes.fr/fr/publications/la-politique-de-lutte-contre-limmigration-irreguliere"
+    },
+    {
+      "id": "asile-ofpra-demandes-2024",
+      "label_fr": "Demandes d'asile OFPRA",
+      "value": 153715,
+      "unit": "count",
+      "as_of": "2024",
+      "category": "immigration",
+      "kind": "volume",
+      "source": {
+        "title": "Vie publique — Immigration en France, chiffres 2024",
+        "url": "https://www.vie-publique.fr/en-bref/297159-immigration-en-france-les-chiffres-2024",
+        "publisher": "Vie publique"
+      },
+      "proof_url": "https://www.vie-publique.fr/en-bref/297159-immigration-en-france-les-chiffres-2024"
+    },
+    {
+      "id": "asile-ofpra-demandes-2025",
+      "label_fr": "Demandes d'asile OFPRA",
+      "value": 145270,
+      "unit": "count",
+      "as_of": "2025",
+      "category": "immigration",
+      "kind": "volume",
+      "source": {
+        "title": "Vie publique — Immigration en France, chiffres 2024",
+        "url": "https://www.vie-publique.fr/en-bref/297159-immigration-en-france-les-chiffres-2024",
+        "publisher": "Vie publique"
+      },
+      "proof_url": "https://www.vie-publique.fr/en-bref/297159-immigration-en-france-les-chiffres-2024"
+    },
+    {
+      "id": "asile-protection-rate-2025",
+      "label_fr": "Taux de protection synthétique",
+      "value": 52.1,
+      "unit": "percent",
+      "as_of": "2025",
+      "category": "immigration",
+      "kind": "volume",
+      "source": {
+        "title": "Vie publique — Immigration en France, chiffres 2024",
+        "url": "https://www.vie-publique.fr/en-bref/297159-immigration-en-france-les-chiffres-2024",
+        "publisher": "Vie publique"
+      },
+      "proof_url": "https://www.vie-publique.fr/en-bref/297159-immigration-en-france-les-chiffres-2024"
+    },
+    {
+      "id": "indus-detectes-2023",
+      "label_fr": "Indus détectés (4 branches, 2023)",
+      "value": 10300000000,
+      "unit": "EUR",
+      "as_of": "2023",
+      "category": "social",
+      "kind": "error",
+      "source": {
+        "title": "Cour des comptes — Gestion des indus (RALFSS 2025)",
+        "url": "https://www.ccomptes.fr/sites/default/files/2025-05/20250526-RALFSS-2025-Gestion-indus-par-caisses-SS-du-regime-general.pdf",
+        "publisher": "Cour des comptes"
+      },
+      "proof_url": "https://www.ccomptes.fr/sites/default/files/2025-05/20250526-RALFSS-2025-Gestion-indus-par-caisses-SS-du-regime-general.pdf"
+    },
+    {
+      "id": "indus-stock-recouvrer",
+      "label_fr": "Stock d'indus restant à recouvrer (fin 2023)",
+      "value": 3900000000,
+      "unit": "EUR",
+      "as_of": "2023",
+      "category": "social",
+      "kind": "error",
+      "source": {
+        "title": "Cour des comptes — Gestion des indus (RALFSS 2025)",
+        "url": "https://www.ccomptes.fr/sites/default/files/2025-05/20250526-RALFSS-2025-Gestion-indus-par-caisses-SS-du-regime-general.pdf",
+        "publisher": "Cour des comptes"
+      },
+      "proof_url": "https://www.ccomptes.fr/sites/default/files/2025-05/20250526-RALFSS-2025-Gestion-indus-par-caisses-SS-du-regime-general.pdf"
+    },
+    {
+      "id": "ppa-charges-2024",
+      "label_fr": "Charges prime d'activité",
+      "value": 10300000000,
+      "unit": "EUR",
+      "as_of": "2024",
+      "category": "caf",
+      "kind": "spend",
+      "source": {
+        "title": "Cour des comptes — Certification SS 2024",
+        "url": "https://www.ccomptes.fr/sites/default/files/2025-05/20250516-certification-comptes-securite-sociale-2024.pdf",
+        "publisher": "Cour des comptes"
+      },
+      "proof_url": "https://www.ccomptes.fr/sites/default/files/2025-05/20250516-certification-comptes-securite-sociale-2024.pdf"
+    },
+    {
+      "id": "aides-logement-charges-2024",
+      "label_fr": "Charges aides au logement",
+      "value": 15700000000,
+      "unit": "EUR",
+      "as_of": "2024",
+      "category": "caf",
+      "kind": "spend",
+      "source": {
+        "title": "Cour des comptes — Certification SS 2024",
+        "url": "https://www.ccomptes.fr/sites/default/files/2025-05/20250516-certification-comptes-securite-sociale-2024.pdf",
+        "publisher": "Cour des comptes"
+      },
+      "proof_url": "https://www.ccomptes.fr/sites/default/files/2025-05/20250516-certification-comptes-securite-sociale-2024.pdf"
+    },
+    {
+      "id": "case-ce-495335-montant",
+      "label_fr": "CE 495335 — prestations indûment versées",
+      "value": 17274.83,
+      "unit": "EUR",
+      "as_of": "2017-2019",
+      "category": "cas",
+      "kind": "fraud",
+      "source": {
+        "title": "Conseil d'État — décision n°495335",
+        "url": "https://librejustice.fr/decision/fr/7EKqdL1qF93J",
+        "publisher": "Conseil d'État (via LibreJustice)"
+      },
+      "confidence": "high",
+      "proof_url": "https://librejustice.fr/decision/fr/7EKqdL1qF93J"
+    },
+    {
+      "id": "case-nice-cnaf-montant",
+      "label_fr": "Affaire Nice — prejudice CNAF (DP national)",
+      "value": 210000,
+      "unit": "EUR",
+      "as_of": "2025",
+      "category": "cas",
+      "kind": "fraud",
+      "source": {
+        "title": "CNAF — Dossier de presse lutte contre la fraude 2025",
+        "url": "https://www.caf.fr/sites/default/files/medias/cnaf/Nous_connaitre/Presse/2026/260415%20DP%20Lutte%20contre%20la%20fraude.pdf",
+        "publisher": "CNAF"
+      },
+      "proof_url": "https://www.caf.fr/sites/default/files/medias/cnaf/Nous_connaitre/Presse/2026/260415%20DP%20Lutte%20contre%20la%20fraude.pdf"
+    },
+    {
+      "id": "case-trafalgar-montant",
+      "label_fr": "Affaire Trafalgar — montants détournés ou tentés",
+      "value": 400000,
+      "unit": "EUR",
+      "as_of": "2026",
+      "category": "cas",
+      "kind": "fraud",
+      "source": {
+        "title": "CAF Savoie — condamnation fraude identité",
+        "url": "https://caf.fr/allocataires/caf-de-la-savoie/actualites-departementales/condamnation-suite-identification-de-fraude",
+        "publisher": "CAF de la Savoie"
+      },
+      "notes": "Seuil « >400 000 € » dans la source.",
+      "proof_url": "https://caf.fr/allocataires/caf-de-la-savoie/actualites-departementales/condamnation-suite-identification-de-fraude"
+    },
+    {
+      "id": "case-var-san-francisco-montant",
+      "label_fr": "CAF Var — contrôle résidence San Francisco",
+      "value": 7837.72,
+      "unit": "EUR",
+      "as_of": "2024",
+      "category": "cas",
+      "kind": "fraud",
+      "source": {
+        "title": "CAF Var — DP contrôle fraude 2024",
+        "url": "https://www.caf.fr/sites/default/files/medias/831/Presse/DP_Controle_fraude_2024.pdf",
+        "publisher": "CAF du Var"
+      },
+      "proof_url": "https://www.caf.fr/sites/default/files/medias/831/Presse/DP_Controle_fraude_2024.pdf"
+    },
+    {
+      "id": "case-chateauroux-montant",
+      "label_fr": "TJ Châteauroux — indu notifié (solde)",
+      "value": 12343.62,
+      "unit": "EUR",
+      "as_of": "2021-2023",
+      "category": "cas",
+      "kind": "fraud",
+      "source": {
+        "title": "TJ Châteauroux — RG 24/00118",
+        "url": "https://librejustice.fr/decision/fr/NmRFqQO4jVNe",
+        "publisher": "Tribunal judiciaire"
+      },
+      "proof_url": "https://librejustice.fr/decision/fr/NmRFqQO4jVNe"
+    },
+    {
+      "id": "case-lyon-montant",
+      "label_fr": "TJ Lyon — indu AAH notifié",
+      "value": 13585.62,
+      "unit": "EUR",
+      "as_of": "2021-2022",
+      "category": "cas",
+      "kind": "fraud",
+      "source": {
+        "title": "TJ Lyon — RG 23/02150",
+        "url": "https://librejustice.fr/decision/fr/tPOCvqblV-d0",
+        "publisher": "Tribunal judiciaire"
+      },
+      "proof_url": "https://librejustice.fr/decision/fr/tPOCvqblV-d0"
+    },
+    {
+      "id": "case-haute-marne-residence",
+      "label_fr": "CAF Haute-Marne — 7 dossiers résidence (IP)",
+      "value": 94152,
+      "unit": "EUR",
+      "as_of": "2023",
+      "category": "cas",
+      "kind": "fraud",
+      "source": {
+        "title": "CAF Haute-Marne — webinaire partenaires",
+        "url": "https://www.caf.fr/sites/default/files/medias/521/partenaires/supports%20webinaires/Webinaire%20Partenaires%2003%2006%202024.pdf",
+        "publisher": "CAF Haute-Marne"
+      },
+      "proof_url": "https://www.caf.fr/sites/default/files/medias/521/partenaires/supports%20webinaires/Webinaire%20Partenaires%2003%2006%202024.pdf"
+    },
+    {
+      "id": "case-haute-marne-identity",
+      "label_fr": "CAF Haute-Marne — 16 dossiers identité/RIB",
+      "value": 24407,
+      "unit": "EUR",
+      "as_of": "2023",
+      "category": "cas",
+      "kind": "fraud",
+      "source": {
+        "title": "CAF Haute-Marne — webinaire partenaires",
+        "url": "https://www.caf.fr/sites/default/files/medias/521/partenaires/supports%20webinaires/Webinaire%20Partenaires%2003%2006%202024.pdf",
+        "publisher": "CAF Haute-Marne"
+      },
+      "proof_url": "https://www.caf.fr/sites/default/files/medias/521/partenaires/supports%20webinaires/Webinaire%20Partenaires%2003%2006%202024.pdf"
+    },
+    {
+      "id": "case-haute-garonne-evite",
+      "label_fr": "CAF Haute-Garonne — paiements RSA évités (détection)",
+      "value": 900000,
+      "unit": "EUR",
+      "as_of": "2024",
+      "category": "cas",
+      "kind": "fraud",
+      "source": {
+        "title": "Actu Toulouse — CAF31 cyber-fraude",
+        "url": "https://actu.fr/occitanie/toulouse_31555/toulouse-dans-le-viseur-de-la-caf-de-haute-garonne-ces-fraudeurs-d-un-nouveau-genre_61124722.html",
+        "publisher": "Actu.fr (citant CAF31)"
+      },
+      "notes": "Détection, pas condamnation.",
+      "proof_url": "https://actu.fr/occitanie/toulouse_31555/toulouse-dans-le-viseur-de-la-caf-de-haute-garonne-ces-fraudeurs-d-un-nouveau-genre_61124722.html"
+    }
+  ]
+}

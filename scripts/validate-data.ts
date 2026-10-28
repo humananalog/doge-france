@@ -1,0 +1,105 @@
+#!/usr/bin/env npx tsx
+/**
+ * Validates all crowd/agent submission files under data/.
+ * Fails CI when metrics lack proof_url or URLs are invalid.
+ */
+import { readFileSync, readdirSync, statSync } from "node:fs";
+import { join } from "node:path";
+import { parse as parseYaml } from "yaml";
+import { statsFileSchema } from "../schemas/stat.schema";
+import { casesFileSchema } from "../schemas/case.schema";
+import { leadFileSchema } from "../schemas/lead.schema";
+
+const root = join(import.meta.dirname, "..");
+let errors = 0;
+
+function fail(msg: string) {
+  console.error(`ERROR: ${msg}`);
+  errors += 1;
+}
+
+function readJson(path: string): unknown {
+  return JSON.parse(readFileSync(path, "utf8"));
+}
+
+function readJsonOrYaml(path: string): unknown {
+  const raw = readFileSync(path, "utf8");
+  if (path.endsWith(".yaml") || path.endsWith(".yml")) {
+    return parseYaml(raw);
+  }
+  return JSON.parse(raw);
+}
+
+function validateStats() {
+  const path = join(root, "data/stats/metrics.json");
+  const parsed = statsFileSchema.safeParse(readJson(path));
+  if (!parsed.success) {
+    fail(`data/stats/metrics.json — ${parsed.error.message}`);
+    return;
+  }
+  const ids = new Set<string>();
+  for (const m of parsed.data.metrics) {
+    if (ids.has(m.id)) fail(`duplicate stat id: ${m.id}`);
+    ids.add(m.id);
+  }
+  console.log(`OK stats: ${parsed.data.metrics.length} metrics`);
+}
+
+function validateCases() {
+  const path = join(root, "data/cases/manifest.json");
+  const parsed = casesFileSchema.safeParse(readJson(path));
+  if (!parsed.success) {
+    fail(`data/cases/manifest.json — ${parsed.error.message}`);
+    return;
+  }
+  const ids = new Set<string>();
+  for (const c of parsed.data.cases) {
+    if (ids.has(c.case_id)) fail(`duplicate case_id: ${c.case_id}`);
+    ids.add(c.case_id);
+    for (const url of c.proof_urls) {
+      if (!c.sources.some((s) => s.url === url)) {
+        fail(`${c.case_id}: proof_urls must be listed in sources[].url`);
+      }
+    }
+  }
+  console.log(`OK cases: ${parsed.data.cases.length} cases`);
+}
+
+function validateLeads() {
+  const dir = join(root, "data/leads");
+  const entries = readdirSync(dir).filter(
+    (f) =>
+      !f.startsWith(".") &&
+      (f.endsWith(".json") || f.endsWith(".yaml") || f.endsWith(".yml")),
+  );
+  if (entries.length === 0) {
+    console.log("OK leads: none (optional)");
+    return;
+  }
+  for (const file of entries) {
+    if (file.includes("template")) continue;
+    const path = join(dir, file);
+    if (!statSync(path).isFile()) continue;
+    try {
+      const parsed = leadFileSchema.safeParse(readJsonOrYaml(path));
+      if (!parsed.success) {
+        fail(`data/leads/${file} — ${parsed.error.message}`);
+      } else {
+        console.log(`OK lead: ${file}`);
+      }
+    } catch (e) {
+      fail(`data/leads/${file} — ${e}`);
+    }
+  }
+}
+
+console.log("Validating DOGE France data/ …");
+validateStats();
+validateCases();
+validateLeads();
+
+if (errors > 0) {
+  console.error(`\nValidation failed with ${errors} error(s).`);
+  process.exit(1);
+}
+console.log("\nAll data validations passed.");

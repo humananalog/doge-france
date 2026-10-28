@@ -1,0 +1,27 @@
+name: Challenge a claim
+description: Dispute a metric or case with better primary evidence
+title: "[challenge] "
+labels: ["challenge"]
+body:
+  - type: input
+    id: target
+    attributes:
+      label: metric id or case_id
+    validations:
+      required: true
+  - type: input
+    id: counter_proof_url
+    attributes:
+      label: Counter or correcting proof_url
+    validations:
+      required: true
+  - type: textarea
+    id: explanation
+    attributes:
+      label: What is wrong and what should change?
+    validations:
+      required: true
+  - type: textarea
+    id: proposed_diff
+    attributes:
+      label: Proposed JSON change (optional)
