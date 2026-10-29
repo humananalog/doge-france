@@ -29,6 +29,10 @@ export function getWasteTaggedMetrics(): Metric[] {
   return METRICS.filter((m) => m.waste_class != null);
 }
 
+export function getMetricsByWasteClass(wasteClass: Metric["waste_class"]): Metric[] {
+  return METRICS.filter((m) => m.waste_class === wasteClass);
+}
+
 export function getAllMetrics(): Metric[] {
   return METRICS;
 }

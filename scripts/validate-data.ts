@@ -38,9 +38,20 @@ function validateStats() {
     return;
   }
   const ids = new Set<string>();
+  const byId = new Map(parsed.data.metrics.map((m) => [m.id, m]));
   for (const m of parsed.data.metrics) {
     if (ids.has(m.id)) fail(`duplicate stat id: ${m.id}`);
     ids.add(m.id);
+    if (m.breakdown_of != null) {
+      const parent = byId.get(m.breakdown_of);
+      if (!parent) {
+        fail(`${m.id}: breakdown_of unknown id ${m.breakdown_of}`);
+      } else if (parent.breakdown_of != null) {
+        fail(`${m.id}: breakdown_of must point to a top-level metric`);
+      } else if (m.waste_class !== "legal" || parent.waste_class !== "legal") {
+        fail(`${m.id}: breakdown_of rows and parent must be waste_class=legal`);
+      }
+    }
   }
   console.log(`OK stats: ${parsed.data.metrics.length} metrics`);
 }

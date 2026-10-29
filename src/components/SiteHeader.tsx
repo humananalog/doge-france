@@ -4,6 +4,7 @@ const NAV = [
   { href: "/", label: "Accueil" },
   { href: "/economies", label: "Économies" },
   { href: "/depenses", label: "Dépenses" },
+  { href: "/gaspillage-legal", label: "Gaspillage légal" },
   { href: "/caf", label: "CAF" },
   { href: "/cas", label: "Cas" },
   { href: "/immigration", label: "Immigration" },

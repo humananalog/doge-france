@@ -28,6 +28,8 @@ export interface Metric {
   category: string;
   kind: MetricKind;
   waste_class?: WasteClass;
+  /** Parent metric id — detail only, never summed into dashboard KPIs. */
+  breakdown_of?: string;
   geography?: string;
   source: SourceRef;
   notes?: string;
