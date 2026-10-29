@@ -9,6 +9,8 @@ export const metricKindSchema = z.enum([
   "other",
 ]);
 
+export const wasteClassSchema = z.enum(["illegal", "legal"]);
+
 export const statRecordSchema = z
   .object({
     id: z
@@ -21,6 +23,8 @@ export const statRecordSchema = z
     as_of: z.string().min(1),
     category: z.string().min(1),
     kind: metricKindSchema,
+    waste_class: wasteClassSchema.optional(),
+    geography: z.string().min(1).optional(),
     proof_url: proofUrlSchema,
     source: sourceRefSchema,
     notes: z.string().optional(),
@@ -29,6 +33,14 @@ export const statRecordSchema = z
   .refine((s) => s.proof_url === s.source.url, {
     message: "proof_url must match source.url (single primary proof)",
     path: ["proof_url"],
+  })
+  .refine((s) => s.kind !== "fraud" || s.waste_class !== "legal", {
+    message: "fraud metrics must not use waste_class=legal",
+    path: ["waste_class"],
+  })
+  .refine((s) => s.kind !== "error" || s.waste_class == null, {
+    message: "error metrics must not set waste_class",
+    path: ["waste_class"],
   });
 
 export const statsFileSchema = z.object({

@@ -34,7 +34,11 @@ export function MetricsTable({ metrics }: { metrics: Metric[] }) {
               </td>
               <td className="px-4 py-3">
                 <span className="rounded-full bg-zinc-100 px-2 py-0.5 text-xs font-medium dark:bg-zinc-800">
-                  {kindLabel(m.kind)}
+                  {m.waste_class === "illegal"
+                    ? "Gaspillage illégal"
+                    : m.waste_class === "legal"
+                      ? "Gaspillage légal"
+                      : kindLabel(m.kind)}
                 </span>
               </td>
               <td className="px-4 py-3">

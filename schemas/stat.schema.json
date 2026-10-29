@@ -21,6 +21,8 @@
     "as_of": { "type": "string" },
     "category": { "type": "string" },
     "kind": { "enum": ["fraud", "error", "spend", "volume", "other"] },
+    "waste_class": { "enum": ["illegal", "legal"] },
+    "geography": { "type": "string", "minLength": 1 },
     "proof_url": { "type": "string", "format": "uri" },
     "source": {
       "type": "object",
