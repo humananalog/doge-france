@@ -18,7 +18,9 @@ function assertFormat(label: string, value: number, expected: string) {
 }
 
 assertFormat("Md€ decimal", 3_460_500_000_000, "3\u202f460,5 Md€");
+assertFormat("Md€ from 6,3 Md", 6_300_000_000, "6,3 Md€");
 assertFormat("M€ integer", 1_470_000_000, "1\u202f470 M€");
+assertFormat("M€ immigration scale", 1_800_000_000, "1\u202f800 M€");
 assertFormat("M€ small case", 210_000, "210\u202f000\u00a0€");
 
 const bad = statRecordSchema.safeParse({

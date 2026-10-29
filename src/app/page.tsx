@@ -88,7 +88,7 @@ export default function HomePage() {
               >
                 Contribuer une piste
               </Link>{" "}
-              — PR / issues sur le dépôt
+              — demandes de fusion et signalements sur le dépôt
             </li>
           </ul>
         </div>

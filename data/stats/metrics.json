@@ -173,7 +173,7 @@
     },
     {
       "id": "caf-fraude-detectee-2024",
-      "label_fr": "Prejudice de fraude caractérisée détecté (CNAF)",
+      "label_fr": "Préjudice de fraude caractérisée détecté (CNAF)",
       "value": 449200000,
       "unit": "EUR",
       "as_of": "2024",
@@ -188,7 +188,7 @@
     },
     {
       "id": "caf-fraude-detectee-2025",
-      "label_fr": "Prejudice de fraude caractérisée détecté (CNAF)",
+      "label_fr": "Préjudice de fraude caractérisée détecté (CNAF)",
       "value": 508800000,
       "unit": "EUR",
       "as_of": "2025",

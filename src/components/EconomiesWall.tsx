@@ -17,7 +17,7 @@ export function EconomiesWall() {
       {numericCount > 0 ? (
         <div className="rounded-xl border border-emerald-200 bg-emerald-50/70 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
           <p className="text-sm font-medium uppercase tracking-wider text-emerald-900 dark:text-emerald-200">
-            Somme transparente (registre /cas)
+            Somme transparente (registre cas)
           </p>
           <p className="mt-2 text-4xl font-semibold tabular-nums tracking-tight text-zinc-950 dark:text-zinc-50">
             {formatEurCompact(totalEur)}
@@ -71,7 +71,7 @@ export function EconomiesWall() {
                 href="/cas"
                 className="mt-2 text-xs text-sky-800 underline dark:text-sky-400"
               >
-                Voir le dossier dans /cas
+                Voir le dossier dans Cas
               </Link>
             </li>
           );

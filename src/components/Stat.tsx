@@ -36,7 +36,7 @@ export function Stat({
       {showLabel && (
         <p className="text-sm text-zinc-600 dark:text-zinc-400">{metric.label_fr}</p>
       )}
-      <p className={`${sizeClass} tabular-nums text-zinc-950 dark:text-zinc-50`}>
+      <p className={`${sizeClass} tabular-nums text-zinc-950 dark:text-zinc-50 break-words`}>
         {formatMetricValue(metric)}
         {metric.unit === "percent" ? null : metric.unit === "count" ? null : null}
       </p>

@@ -25,8 +25,8 @@ export function PublicDebtDashboard() {
           Dette publique — cadre macro (en attente)
         </h2>
         <p className="mt-2 max-w-3xl text-sm leading-relaxed text-zinc-700 dark:text-zinc-300">
-          Métriques Guard-PASS dette / déficit absentes du registre — aucun
-          chiffre affiché.
+          Indicateurs macro dette / déficit absents du registre — aucun chiffre
+          affiché.
         </p>
       </section>
     );
@@ -38,29 +38,29 @@ export function PublicDebtDashboard() {
     <section className="space-y-6">
       <div>
         <h2 className="text-sm font-semibold uppercase tracking-wider text-zinc-500">
-          Dette publique (KPI macro)
+          Dette publique (indicateurs macro)
         </h2>
-        <p className="mt-2 max-w-3xl text-sm text-zinc-600 dark:text-zinc-400">
-          North-star du tableau de bord : stock et % PIB (INSEE). Les dépenses
-          AME ci-dessous sont un{" "}
-          <strong>coût politique (entitlement)</strong>, pas de la fraude — et
-          ne « causent » pas la dette ; seulement une échelle flux vs stock /
-          flux vs flux (déficit, intérêts).
+        <p className="mt-2 max-w-3xl text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
+          Fil conducteur du tableau de bord&nbsp;: stock et % du PIB (INSEE).
+          Les dépenses AME ci-dessous sont un{" "}
+          <strong>coût politique (droit acquis)</strong>, pas de la fraude — et
+          ne «&nbsp;causent&nbsp;» pas la dette&nbsp;; seulement une échelle
+          flux vs stock / flux vs flux (déficit, intérêts).
         </p>
         <div className="mt-4 grid gap-6 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4">
-          <div className="rounded-xl border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-900/40">
+          <div className="rounded-xl border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-900/40 min-w-0">
             <Stat metricId={PUBLIC_DEBT_EUR_METRIC_ID} size="lg" showLabel />
           </div>
-          <div className="rounded-xl border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-900/40">
+          <div className="rounded-xl border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-900/40 min-w-0">
             <Stat metricId={PUBLIC_DEBT_PIB_PCT_METRIC_ID} size="lg" showLabel />
           </div>
           {debt.deficit && (
-            <div className="rounded-xl border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-900/40">
+            <div className="rounded-xl border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-900/40 min-w-0">
               <Stat metricId={PUBLIC_DEFICIT_METRIC_ID} size="lg" showLabel />
             </div>
           )}
           {debt.interestCharge && (
-            <div className="rounded-xl border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-900/40">
+            <div className="rounded-xl border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-900/40 min-w-0">
               <Stat
                 metricId={PUBLIC_INTEREST_CHARGE_METRIC_ID}
                 size="lg"
@@ -87,8 +87,9 @@ export function PublicDebtDashboard() {
           {ratios.vsInterest && <li>{ratios.vsInterest}</li>}
         </ul>
         <p className="mt-3 text-xs text-zinc-600 dark:text-zinc-400">
-          L&apos;AME n&apos;est pas présentée comme cause de la dette publique ;
-          comparaison de magnitudes uniquement (Guard-PASS policy scale).
+          L&apos;AME n&apos;est pas présentée comme cause de la dette publique&nbsp;;
+          comparaison d&apos;ordres de grandeur uniquement (échelle, pas
+          causalité).
         </p>
       </div>
     </section>

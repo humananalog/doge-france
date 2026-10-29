@@ -90,10 +90,10 @@ scripts/validate-data.ts`}
         <h2 className="text-xl font-semibold">Couloirs d&apos;enquête</h2>
         <div className="mt-4 grid gap-3 sm:grid-cols-2">
           {[
-            ["CAF / fraude sociale", "lane: caf"],
-            ["Marchés publics", "lane: marches"],
-            ["Immigration / OQTF", "lane: immigration"],
-            ["Élections / intégrité", "lane: elections"],
+            ["CAF / fraude sociale", "Couloir : CAF"],
+            ["Marchés publics", "Couloir : marchés publics"],
+            ["Immigration / OQTF", "Couloir : immigration"],
+            ["Élections / intégrité", "Couloir : élections"],
           ].map(([label, lane]) => (
             <div
               key={lane}
