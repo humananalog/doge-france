@@ -1041,7 +1041,7 @@
         "url": "https://www.ccomptes.fr/sites/default/files/2025-02/20250211-Missions-financement-controle-Etat-associations-dans-politique-dimmigration-et-d-integration.pdf",
         "publisher": "Cour des comptes"
       },
-      "notes": "Tableau n°7 — total dépenses associations 1 093,96 M€ CP (P303 hors Ofpra/Ada + P104 + marchés Ofii CIR/Spada). Gaspillage légal (coût politique), pas fraude. Détail P303/P104 en sous-lignes breakdown_of — ne pas les additionner au total.",
+      "notes": "Tableau n°7 — total dépenses associations 1 093,96 M€ CP (P303 hors Ofpra/Ada 786,76 + P104 188,45 + Ofii CIR 76,30 + Spada 42,44 — composantes incluses, pas de double comptage). Gaspillage légal (coût politique), pas fraude. Détail P303/P104 en sous-lignes breakdown_of — ne pas les additionner au total.",
       "proof_url": "https://www.ccomptes.fr/sites/default/files/2025-02/20250211-Missions-financement-controle-Etat-associations-dans-politique-dimmigration-et-d-integration.pdf",
       "confidence": "high"
     },
