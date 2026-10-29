@@ -49,19 +49,23 @@ export function PublicDebtDashboard() {
         </p>
         <div className="mt-4 grid gap-6 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4">
           <div className="rounded-xl border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-900/40">
-            <Stat metricId={PUBLIC_DEBT_EUR_METRIC_ID} showLabel />
+            <Stat metricId={PUBLIC_DEBT_EUR_METRIC_ID} size="lg" showLabel />
           </div>
           <div className="rounded-xl border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-900/40">
-            <Stat metricId={PUBLIC_DEBT_PIB_PCT_METRIC_ID} showLabel />
+            <Stat metricId={PUBLIC_DEBT_PIB_PCT_METRIC_ID} size="lg" showLabel />
           </div>
           {debt.deficit && (
             <div className="rounded-xl border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-900/40">
-              <Stat metricId={PUBLIC_DEFICIT_METRIC_ID} showLabel />
+              <Stat metricId={PUBLIC_DEFICIT_METRIC_ID} size="lg" showLabel />
             </div>
           )}
           {debt.interestCharge && (
             <div className="rounded-xl border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-900/40">
-              <Stat metricId={PUBLIC_INTEREST_CHARGE_METRIC_ID} showLabel />
+              <Stat
+                metricId={PUBLIC_INTEREST_CHARGE_METRIC_ID}
+                size="lg"
+                showLabel
+              />
             </div>
           )}
         </div>
