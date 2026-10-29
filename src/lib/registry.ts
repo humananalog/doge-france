@@ -24,6 +24,11 @@ export function getMetricsByKind(kind: Metric["kind"]): Metric[] {
   return METRICS.filter((m) => m.kind === kind);
 }
 
+/** Spend rows tagged waste_class (registry / sources table). */
+export function getWasteTaggedMetrics(): Metric[] {
+  return METRICS.filter((m) => m.waste_class != null);
+}
+
 export function getAllMetrics(): Metric[] {
   return METRICS;
 }

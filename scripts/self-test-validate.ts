@@ -66,5 +66,75 @@ if (mismatch.success) {
   console.log("OK: rejects proof_url / source.url mismatch");
 }
 
+const fraudLegalWaste = statRecordSchema.safeParse({
+  id: "bad-fraud-legal-waste",
+  label_fr: "Test",
+  value: 1,
+  as_of: "2026",
+  category: "test",
+  kind: "fraud",
+  waste_class: "legal",
+  proof_url: "https://example.com/a",
+  source: {
+    title: "T",
+    url: "https://example.com/a",
+    publisher: "X",
+  },
+});
+
+if (fraudLegalWaste.success) {
+  console.error("FAIL: schema should reject fraud + waste_class=legal");
+  failed++;
+} else {
+  console.log("OK: rejects fraud + waste_class=legal");
+}
+
+const errorWithWaste = statRecordSchema.safeParse({
+  id: "bad-error-waste",
+  label_fr: "Test",
+  value: 1,
+  as_of: "2026",
+  category: "test",
+  kind: "error",
+  waste_class: "illegal",
+  proof_url: "https://example.com/a",
+  source: {
+    title: "T",
+    url: "https://example.com/a",
+    publisher: "X",
+  },
+});
+
+if (errorWithWaste.success) {
+  console.error("FAIL: schema should reject error + waste_class");
+  failed++;
+} else {
+  console.log("OK: rejects error + waste_class");
+}
+
+const spendIllegalWaste = statRecordSchema.safeParse({
+  id: "ok-spend-waste",
+  label_fr: "Test",
+  value: 793000000,
+  unit: "EUR",
+  as_of: "2023-06",
+  category: "riots",
+  kind: "spend",
+  waste_class: "illegal",
+  proof_url: "https://example.com/a",
+  source: {
+    title: "T",
+    url: "https://example.com/a",
+    publisher: "X",
+  },
+});
+
+if (!spendIllegalWaste.success) {
+  console.error("FAIL: schema should accept spend + waste_class=illegal");
+  failed++;
+} else {
+  console.log("OK: accepts spend + waste_class=illegal");
+}
+
 if (failed > 0) process.exit(1);
 console.log("Self-test passed.");

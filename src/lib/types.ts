@@ -4,6 +4,8 @@ export type OriginBasis = "stated" | "inferred" | "unknown";
 
 export type Confidence = "high" | "medium" | "low";
 
+export type WasteClass = "illegal" | "legal";
+
 export type InvestigationLane =
   | "caf"
   | "marches"
@@ -25,6 +27,8 @@ export interface Metric {
   as_of: string;
   category: string;
   kind: MetricKind;
+  waste_class?: WasteClass;
+  geography?: string;
   source: SourceRef;
   notes?: string;
   confidence?: Confidence;

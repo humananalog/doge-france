@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { GaspillageSection } from "@/components/GaspillageSection";
 import { PublicDebtDashboard } from "@/components/PublicDebtDashboard";
 import { Stat } from "@/components/Stat";
 import { getHomepageHighlights } from "@/lib/registry";
@@ -20,6 +21,8 @@ export default function HomePage() {
       </section>
 
       <PublicDebtDashboard />
+
+      <GaspillageSection />
 
       <section>
         <h2 className="text-sm font-semibold uppercase tracking-wider text-zinc-500">

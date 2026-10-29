@@ -1024,6 +1024,60 @@
       },
       "notes": "Détection, pas condamnation.",
       "proof_url": "https://actu.fr/occitanie/toulouse_31555/toulouse-dans-le-viseur-de-la-caf-de-haute-garonne-ces-fraudeurs-d-un-nouveau-genre_61124722.html"
+    },
+    {
+      "id": "waste-emeutes-2023-sinistres-assures",
+      "label_fr": "Gaspillage illégal — émeutes été 2023 (sinistres assurés)",
+      "value": 793000000,
+      "unit": "EUR",
+      "as_of": "2023-06",
+      "category": "riots",
+      "kind": "spend",
+      "waste_class": "illegal",
+      "geography": "France",
+      "source": {
+        "title": "Pour une France assurable — France Assureurs",
+        "url": "https://www.franceassureurs.fr/espace-presse/pour-une-france-assurable/",
+        "publisher": "France Assureurs"
+      },
+      "proof_url": "https://www.franceassureurs.fr/espace-presse/pour-une-france-assurable/",
+      "notes": "793 M€ sinistres assurés émeutes urbaines début été 2023 (FA 27/03/2024). Corroboré Sénat r23-521 / CP 10-04-2024 (16 400 sinistres). Alt PDF: https://www.franceassureurs.fr/wp-content/uploads/20240327_pour-une-france-assurable.pdf"
+    },
+    {
+      "id": "waste-emeutes-2005-sinistres-assures",
+      "label_fr": "Gaspillage illégal — émeutes banlieues 2005 (sinistres assurés)",
+      "value": 204000000,
+      "unit": "EUR",
+      "as_of": "2005-10",
+      "category": "riots",
+      "kind": "spend",
+      "waste_class": "illegal",
+      "geography": "France",
+      "source": {
+        "title": "Coût des dommages déclarés — violences urbaines fin juin (CP)",
+        "url": "https://www.franceassureurs.fr/espace-presse/les-communiques-de-presse/cout-dommages-declares-violences-urbaines-fin-juin-trois-fois-superieur-sinistres-emeutes-automne-2005/",
+        "publisher": "France Assureurs"
+      },
+      "proof_url": "https://www.franceassureurs.fr/espace-presse/les-communiques-de-presse/cout-dommages-declares-violences-urbaines-fin-juin-trois-fois-superieur-sinistres-emeutes-automne-2005/",
+      "notes": "204 M€ (FA CP 11/07/2023; Sénat r23-521). FA chart 27/03/2024 shows 209 M€ for same episode — prefer 204; do not use 209 as the value."
+    },
+    {
+      "id": "waste-emeutes-2023-dommages-totaux-ordre",
+      "label_fr": "Gaspillage illégal — émeutes 2023 (dommages matériels totaux, ordre de grandeur)",
+      "value": "≈1 Md€ (ordre de grandeur Sénat — non additif)",
+      "as_of": "2023-06",
+      "category": "destruction",
+      "kind": "spend",
+      "waste_class": "illegal",
+      "geography": "France",
+      "source": {
+        "title": "Rapport d'information — Émeutes et destructions (Sénat r23-521)",
+        "url": "https://www.senat.fr/rap/r23-521/r23-5211.pdf",
+        "publisher": "Sénat"
+      },
+      "proof_url": "https://www.senat.fr/rap/r23-521/r23-5211.pdf",
+      "notes": "Sénat « près d’1 milliard » — ordre de grandeur des dommages matériels totaux. NE PAS sommer avec waste-emeutes-2023-sinistres-assures (793 M€ assurés inclus dans cette enveloppe). PASS-LOW narratif uniquement.",
+      "confidence": "low"
     }
   ]
 }
