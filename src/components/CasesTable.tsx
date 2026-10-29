@@ -86,7 +86,7 @@ export function CasesTable({ cases }: { cases: CafCase[] }) {
               <th className="px-3 py-3 text-left font-semibold">Personnes (telles que publiées)</th>
               <th className="px-3 py-3 text-left font-semibold">Origine</th>
               <th className="px-3 py-3 text-left font-semibold">Schéma</th>
-              <th className="px-3 py-3 text-left font-semibold">Montants</th>
+              <th className="px-3 py-3 text-right font-semibold">Montants</th>
               <th className="px-3 py-3 text-left font-semibold">Peine / issue</th>
               <th className="px-3 py-3 text-left font-semibold">Preuves</th>
             </tr>
@@ -110,7 +110,7 @@ export function CasesTable({ cases }: { cases: CafCase[] }) {
                       rel="noopener noreferrer"
                       className="mt-1 inline-block text-xs text-sky-700 underline dark:text-sky-400"
                     >
-                      Source des noms ↗
+                      Source des noms (externe)
                     </Link>
                   </td>
                   <td className="px-3 py-3">
@@ -123,7 +123,7 @@ export function CasesTable({ cases }: { cases: CafCase[] }) {
                     </p>
                   </td>
                   <td className="px-3 py-3 max-w-xs">{c.scheme_type_fr}</td>
-                  <td className="px-3 py-3 max-w-xs">
+                  <td className="px-3 py-3 max-w-xs text-right">
                     {metric ? (
                       <div>
                         <Stat metricId={c.amount_metric_id!} size="sm" showLabel={false} />

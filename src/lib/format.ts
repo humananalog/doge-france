@@ -10,7 +10,7 @@ const frNumber = (value: number, maximumFractionDigits: number) =>
 export function formatEurCompact(value: number): string {
   const abs = Math.abs(value);
   const millions = abs / 1_000_000;
-  if (abs >= 1_000_000_000 && millions >= 10_000) {
+  if (abs >= 1_000_000_000 && millions >= 5_000) {
     const scaled = value / 1_000_000_000;
     const fractionDigits =
       Math.abs(scaled - Math.round(scaled)) < 1e-6 ? 0 : 1;
@@ -61,10 +61,13 @@ export function originBasisLabel(basis: string): string {
 export function countryLabel(country: string): string {
   if (country === "unknown") return "Inconnu";
   const labels: Record<string, string> = {
+    Algeria: "Algérie",
     Armenia: "Arménie",
     Chad: "Tchad",
     France: "France",
+    Lebanon: "Liban",
     Senegal: "Sénégal",
+    Spain: "Espagne",
     Sudan: "Soudan",
     "United States": "États-Unis",
   };
