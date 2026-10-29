@@ -34,7 +34,7 @@ export default function HomePage() {
               <span className="text-xs font-medium uppercase text-zinc-500">
                 {kindLabel(m.kind)}
               </span>
-              <Stat metricId={m.id} className="mt-2" showLabel />
+              <Stat metricId={m.id} className="mt-2" size="lg" showLabel />
             </div>
           ))}
         </div>

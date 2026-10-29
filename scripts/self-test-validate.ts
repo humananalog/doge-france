@@ -3,8 +3,23 @@
  * Run: npx tsx scripts/self-test-validate.ts
  */
 import { statRecordSchema } from "../schemas/stat.schema";
+import { formatEurCompact } from "../src/lib/format";
 
 let failed = 0;
+
+function assertFormat(label: string, value: number, expected: string) {
+  const got = formatEurCompact(value);
+  if (got !== expected) {
+    console.error(`FAIL format ${label}: got "${got}", expected "${expected}"`);
+    failed++;
+  } else {
+    console.log(`OK format ${label}`);
+  }
+}
+
+assertFormat("Md€ decimal", 3_460_500_000_000, "3\u202f460,5 Md€");
+assertFormat("M€ integer", 1_470_000_000, "1\u202f470 M€");
+assertFormat("M€ small case", 210_000, "210\u202f000\u00a0€");
 
 const bad = statRecordSchema.safeParse({
   id: "bad-no-proof",

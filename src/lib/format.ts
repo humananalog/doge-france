@@ -1,13 +1,38 @@
 import type { Metric } from "./types";
 
+const frNumber = (value: number, maximumFractionDigits: number) =>
+  new Intl.NumberFormat("fr-FR", {
+    maximumFractionDigits,
+    minimumFractionDigits: 0,
+  }).format(value);
+
+/** French Md€ / M€ display for large EUR amounts (dashboard KPIs). */
+export function formatEurCompact(value: number): string {
+  const abs = Math.abs(value);
+  const millions = abs / 1_000_000;
+  if (abs >= 1_000_000_000 && millions >= 10_000) {
+    const scaled = value / 1_000_000_000;
+    const fractionDigits =
+      Math.abs(scaled - Math.round(scaled)) < 1e-6 ? 0 : 1;
+    return `${frNumber(scaled, fractionDigits)} Md€`;
+  }
+  if (abs >= 1_000_000) {
+    const scaled = value / 1_000_000;
+    const fractionDigits =
+      Math.abs(scaled - Math.round(scaled)) < 1e-6 ? 0 : 1;
+    return `${frNumber(scaled, fractionDigits)} M€`;
+  }
+  return new Intl.NumberFormat("fr-FR", {
+    style: "currency",
+    currency: "EUR",
+    maximumFractionDigits: abs >= 1_000 ? 0 : 2,
+  }).format(value);
+}
+
 export function formatMetricValue(metric: Metric): string {
   if (typeof metric.value === "number") {
     if (metric.unit === "EUR") {
-      return new Intl.NumberFormat("fr-FR", {
-        style: "currency",
-        currency: "EUR",
-        maximumFractionDigits: metric.value >= 1_000_000 ? 0 : 2,
-      }).format(metric.value);
+      return formatEurCompact(metric.value);
     }
     if (metric.unit === "percent") {
       return `${new Intl.NumberFormat("fr-FR", {
