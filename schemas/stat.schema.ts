@@ -24,6 +24,8 @@ export const statRecordSchema = z
     category: z.string().min(1),
     kind: metricKindSchema,
     waste_class: wasteClassSchema.optional(),
+    /** When set, row is a non-additive detail line of another metric (ex. Tab.7 postes → total associations). */
+    breakdown_of: z.string().min(1).optional(),
     geography: z.string().min(1).optional(),
     proof_url: proofUrlSchema,
     source: sourceRefSchema,

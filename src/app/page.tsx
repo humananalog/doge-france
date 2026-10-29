@@ -68,6 +68,15 @@ export default function HomePage() {
             </li>
             <li>
               <Link
+                href="/gaspillage-legal"
+                className="text-sky-800 underline dark:text-sky-400"
+              >
+                Gaspillage légal
+              </Link>{" "}
+              — associations IAI, AME (Cour, non additif)
+            </li>
+            <li>
+              <Link
                 href="/immigration"
                 className="text-sky-800 underline dark:text-sky-400"
               >

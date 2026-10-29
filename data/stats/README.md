@@ -30,4 +30,6 @@ Pour ajouter une métrique : éditez `metrics.json` ou déposez un fragment dans
 `macro-dette-publique-eur`, `macro-dette-publique-pib-pct`, `macro-deficit-public-2025` (INSEE https://www.insee.fr/fr/statistiques/8997691), `macro-charge-interets-dette-etat-2025` (Cour RBDE 2025). L&apos;accueil cadrera l&apos;AME total 2025 (~1,47 Md€) en ratios flux/stock dette, flux/déficit et flux/charge d&apos;intérêts — échelle uniquement, pas causalité.
 
 **Gaspillage (accueil)** — tuiles Guard-PASS (non additives entre elles ni avec le narratif Sénat) :
-`waste-emeutes-2023-sinistres-assures`, `waste-emeutes-2005-sinistres-assures`.
+
+- **Légal** — `waste-legal-iai-financements-associations-2023` (1 094 M€, Tab.7 Cour 2025-02), `immig-ame-total-reel-2025` (re-tag `waste_class=legal`, `category=benefits-non-citizens`), mission exécution `waste-legal-iai-mission-execution-2023|2024` ; détail P303/P104 via `breakdown_of` (non KPI).
+- **Illégal** — `waste-emeutes-2023-sinistres-assures`, `waste-emeutes-2005-sinistres-assures`.

@@ -456,7 +456,7 @@
     {
       "id": "immig-mission-cp-2024",
       "label_fr": "Mission Immigration, asile et intégration — CP exécutés",
-      "value": 2145000000,
+      "value": 2191000000,
       "unit": "EUR",
       "as_of": "2024",
       "category": "immigration",
@@ -614,18 +614,19 @@
     },
     {
       "id": "immig-ame-total-reel-2025",
-      "label_fr": "AME — coût total réel toutes AME (coût politique, pas fraude)",
+      "label_fr": "AME — coût total réel toutes AME (gaspillage légal, coût politique — pas fraude)",
       "value": 1470000000,
       "unit": "EUR",
       "as_of": "2025",
-      "category": "immigration",
+      "category": "benefits-non-citizens",
       "kind": "spend",
+      "waste_class": "legal",
       "source": {
         "title": "Cour des comptes — Analyse de l'exécution budgétaire 2025, Mission Santé",
         "url": "https://www.ccomptes.fr/sites/default/files/2026-04/NEB-2026-Sante.pdf",
         "publisher": "Cour des comptes"
       },
-      "notes": "Cour synthèse et Sénat l25-736 : 1 470 M€ (facturation définitive transmise à la Cour). Variante provisoire DSS 1 491 M€ dans le même NEB — retenu 1 470 ici. Non fraude.",
+      "notes": "Cour synthèse et Sénat l25-736 : 1 470 M€ (facturation définitive transmise à la Cour). Droit acquis (entitlement), gaspillage légal — non fraude. Ne pas additionner avec financements associations IAI ni mission IAI (périmètres distincts).",
       "proof_url": "https://www.ccomptes.fr/sites/default/files/2026-04/NEB-2026-Sante.pdf",
       "confidence": "high"
     },
@@ -1024,6 +1025,103 @@
       },
       "notes": "Détection, pas condamnation.",
       "proof_url": "https://actu.fr/occitanie/toulouse_31555/toulouse-dans-le-viseur-de-la-caf-de-haute-garonne-ces-fraudeurs-d-un-nouveau-genre_61124722.html"
+    },
+    {
+      "id": "waste-legal-iai-financements-associations-2023",
+      "label_fr": "Financements associations — mission immigration, asile et intégration (2023)",
+      "value": 1093960000,
+      "unit": "EUR",
+      "as_of": "2023",
+      "category": "ngo",
+      "kind": "spend",
+      "waste_class": "legal",
+      "geography": "France",
+      "source": {
+        "title": "Cour des comptes — Financement et contrôle des associations (politique d'immigration et d'intégration)",
+        "url": "https://www.ccomptes.fr/sites/default/files/2025-02/20250211-Missions-financement-controle-Etat-associations-dans-politique-dimmigration-et-d-integration.pdf",
+        "publisher": "Cour des comptes"
+      },
+      "notes": "Tableau n°7 — total dépenses associations 1 093,96 M€ CP (P303 hors Ofpra/Ada + P104 + marchés Ofii CIR/Spada). Gaspillage légal (coût politique), pas fraude. Détail P303/P104 en sous-lignes breakdown_of — ne pas les additionner au total.",
+      "proof_url": "https://www.ccomptes.fr/sites/default/files/2025-02/20250211-Missions-financement-controle-Etat-associations-dans-politique-dimmigration-et-d-integration.pdf",
+      "confidence": "high"
+    },
+    {
+      "id": "waste-legal-iai-associations-p303-2023",
+      "label_fr": "dont associations via programme 303 (hors Ofpra & Ada) — 2023",
+      "value": 786760000,
+      "unit": "EUR",
+      "as_of": "2023",
+      "category": "ngo",
+      "kind": "spend",
+      "waste_class": "legal",
+      "breakdown_of": "waste-legal-iai-financements-associations-2023",
+      "geography": "France",
+      "source": {
+        "title": "Cour des comptes — Financement et contrôle des associations (politique d'immigration et d'intégration)",
+        "url": "https://www.ccomptes.fr/sites/default/files/2025-02/20250211-Missions-financement-controle-Etat-associations-dans-politique-dimmigration-et-d-integration.pdf",
+        "publisher": "Cour des comptes"
+      },
+      "notes": "Tableau n°7 — composante du total 1 094 M€ (non additive seule).",
+      "proof_url": "https://www.ccomptes.fr/sites/default/files/2025-02/20250211-Missions-financement-controle-Etat-associations-dans-politique-dimmigration-et-d-integration.pdf",
+      "confidence": "high"
+    },
+    {
+      "id": "waste-legal-iai-associations-p104-2023",
+      "label_fr": "dont associations via programme 104 — 2023",
+      "value": 188450000,
+      "unit": "EUR",
+      "as_of": "2023",
+      "category": "ngo",
+      "kind": "spend",
+      "waste_class": "legal",
+      "breakdown_of": "waste-legal-iai-financements-associations-2023",
+      "geography": "France",
+      "source": {
+        "title": "Cour des comptes — Financement et contrôle des associations (politique d'immigration et d'intégration)",
+        "url": "https://www.ccomptes.fr/sites/default/files/2025-02/20250211-Missions-financement-controle-Etat-associations-dans-politique-dimmigration-et-d-integration.pdf",
+        "publisher": "Cour des comptes"
+      },
+      "notes": "Tableau n°7 — composante du total 1 094 M€ (non additive seule).",
+      "proof_url": "https://www.ccomptes.fr/sites/default/files/2025-02/20250211-Missions-financement-controle-Etat-associations-dans-politique-dimmigration-et-d-integration.pdf",
+      "confidence": "high"
+    },
+    {
+      "id": "waste-legal-iai-mission-execution-2023",
+      "label_fr": "Mission immigration, asile et intégration — exécution CP (2023)",
+      "value": 2268000000,
+      "unit": "EUR",
+      "as_of": "2023",
+      "category": "benefits-non-citizens",
+      "kind": "spend",
+      "waste_class": "legal",
+      "geography": "France",
+      "source": {
+        "title": "Cour des comptes — Financement et contrôle des associations (politique d'immigration et d'intégration)",
+        "url": "https://www.ccomptes.fr/sites/default/files/2025-02/20250211-Missions-financement-controle-Etat-associations-dans-politique-dimmigration-et-d-integration.pdf",
+        "publisher": "Cour des comptes"
+      },
+      "notes": "Tableau n°5 — mission IAI entière (P303 + P104 + autres crédits mission). Périmètre plus large que seuls financements associations (1 094 M€). Ne pas sommer avec AME ni avec le total associations.",
+      "proof_url": "https://www.ccomptes.fr/sites/default/files/2025-02/20250211-Missions-financement-controle-Etat-associations-dans-politique-dimmigration-et-d-integration.pdf",
+      "confidence": "high"
+    },
+    {
+      "id": "waste-legal-iai-mission-execution-2024",
+      "label_fr": "Mission immigration, asile et intégration — exécution CP (2024)",
+      "value": 2191000000,
+      "unit": "EUR",
+      "as_of": "2024",
+      "category": "benefits-non-citizens",
+      "kind": "spend",
+      "waste_class": "legal",
+      "geography": "France",
+      "source": {
+        "title": "Cour des comptes — NEB 2024 Immigration, asile et intégration",
+        "url": "https://www.ccomptes.fr/sites/default/files/2025-04/NEB-2024-Immigration.pdf",
+        "publisher": "Cour des comptes"
+      },
+      "notes": "Exécution CP mission IAI 2024 (2 191 M€ hors nuance FdC NEB). Non additif avec financements associations 2023 ni AME.",
+      "proof_url": "https://www.ccomptes.fr/sites/default/files/2025-04/NEB-2024-Immigration.pdf",
+      "confidence": "high"
     },
     {
       "id": "waste-emeutes-2023-sinistres-assures",

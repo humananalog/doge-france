@@ -34,6 +34,7 @@
       }
     },
     "notes": { "type": "string" },
-    "confidence": { "enum": ["high", "medium", "low"] }
+    "confidence": { "enum": ["high", "medium", "low"] },
+    "breakdown_of": { "type": "string", "pattern": "^[a-z0-9-]+$" }
   }
 }
