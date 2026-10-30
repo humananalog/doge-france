@@ -8,6 +8,8 @@
 - https://www.insee.fr/fr/statistiques/8242323 — Population et soldes naturel/migratoire France entière 1995–2023
 - https://www.insee.fr/fr/statistiques/serie/001641597 — Série BDM solde migratoire (référence)
 - https://www.insee.fr/fr/statistiques/8570442 — Entrées d’immigrés EAR 2006–2023 (+ `IP2051.xlsx`)
+- https://www.insee.fr/fr/statistiques/8242329 — Portrait immigration (tuiles G1/G2 lead : Figures 1 et 3, provisoire 2023)
+- https://www.insee.fr/fr/statistiques/6793242 — Origine et trajectoire (G3 panel sous-60 ans, TeO2 + Emploi 2019–2020)
 
 ## INSEE / MI / Justice — nationalité
 

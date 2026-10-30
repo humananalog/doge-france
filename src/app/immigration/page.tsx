@@ -1,5 +1,6 @@
 import { Stat } from "@/components/Stat";
 import { MetricsTable } from "@/components/MetricsTable";
+import { ImmigrationGenerationLeads } from "@/components/ImmigrationGenerationLeads";
 import { ImmigrationOfficialCharts } from "@/components/ImmigrationOfficialCharts";
 import { getMetricsByCategory } from "@/lib/registry";
 
@@ -17,10 +18,13 @@ export default function ImmigrationPage() {
           Immigration & éloignements
         </h1>
         <p className="mt-3 max-w-3xl text-zinc-600 dark:text-zinc-400">
-          Chiffres limités aux publications Cour des comptes, NEB, Assemblée
-          nationale et Vie publique — pas de statistiques non sourcées.
+          Portrait INSEE (générations G1–G3), séries chronologiques, puis
+          chiffres Cour des comptes, NEB, Assemblée nationale et Vie publique —
+          pas de statistiques non sourcées.
         </p>
       </header>
+
+      <ImmigrationGenerationLeads />
 
       <section className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
         <div className="rounded-xl border border-zinc-200 bg-white p-5 dark:border-zinc-800 dark:bg-zinc-900/40">
