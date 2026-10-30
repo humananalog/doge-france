@@ -26,6 +26,13 @@ Ne pas introduire `kind=waste` ni le champ `waste_legality`. Les montants « ord
 
 **Immigration (graphiques `/immigration`)** — séries chronologiques dans `immigration/series.json` (310 points, `source_url` obligatoire par point). Méthodologie : `immigration/methodology.md` ; index des sources : `immigration/sources.md`. Validées par `scripts/validate-data.ts` (`immigrationSeriesFileSchema`).
 
+**Immigration (tuiles générations G1–G3, guard-PASS / ship pack INSEE Desk)** — ids alignés sur `uploads/metrics.json` (tirets à la place des `_`) :
+- G1 lead — `g1-immigres-stock-2023-part` + `g1-immigres-stock-2023-effectif` (8242329 Fig. 1)
+- G2 lead — `g2-descendants-stock-2023-part` + `g2-descendants-stock-2023-effectif` (8242329 Fig. 3, logement ordinaire)
+- Optionnel — `g1-share-1954-part` + `g1-share-1954-effectif` (même série Fig. 1)
+- G3 panneau PASS-LOW — `g3-petits-enfants-under60-2019-20-part` + `g3-petits-enfants-under60-2019-20-effectif` (6793242, &lt;60 ans)
+- Contexte seulement — `pop-1950-metropole-context` (6037741, pas tuile lead)
+
 Pour ajouter une métrique : éditez `metrics.json` ou déposez un fragment dans une PR + issue **new-stat**.
 
 **Dette publique (tableau de bord)** — ids Guard-PASS :

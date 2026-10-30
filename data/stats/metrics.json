@@ -829,6 +829,168 @@
       "proof_url": "https://www.vie-publique.fr/en-bref/297159-immigration-en-france-les-chiffres-2024"
     },
     {
+      "id": "g1-immigres-stock-2023-part",
+      "label_fr": "Immigrés (1ʳᵉ génération) — part de la population",
+      "value": 10.6,
+      "unit": "percent",
+      "as_of": "2023",
+      "category": "immigration",
+      "kind": "volume",
+      "geography": "France hors Mayotte",
+      "source": {
+        "title": "INSEE — Immigrés et descendants d'immigrés, portrait social (Fig. 1)",
+        "url": "https://www.insee.fr/fr/statistiques/8242329",
+        "publisher": "INSEE"
+      },
+      "notes": "Pack g1_immigres_stock_2023. Effectif 7 174 milliers (g1-immigres-stock-2023-effectif). Données provisoires 2023. Champ Fig.1 : métropole jusqu'en 1982, hors Mayotte à partir de 1990. Ne pas mélanger série 2381757 (~7 309 k).",
+      "proof_url": "https://www.insee.fr/fr/statistiques/8242329",
+      "confidence": "high"
+    },
+    {
+      "id": "g1-immigres-stock-2023-effectif",
+      "label_fr": "Immigrés (1ʳᵉ génération) — effectif",
+      "value": 7174000,
+      "unit": "count",
+      "as_of": "2023",
+      "category": "immigration",
+      "kind": "volume",
+      "geography": "France hors Mayotte",
+      "source": {
+        "title": "INSEE — Immigrés et descendants d'immigrés, portrait social (Fig. 1)",
+        "url": "https://www.insee.fr/fr/statistiques/8242329",
+        "publisher": "INSEE"
+      },
+      "notes": "7 174 milliers · tuile lead G1. Définition : nés étrangers à l'étranger, résidant en France (y compris naturalisés). Ne pas sommer avec G2/G3 sans labels de champ.",
+      "proof_url": "https://www.insee.fr/fr/statistiques/8242329",
+      "confidence": "high"
+    },
+    {
+      "id": "g2-descendants-stock-2023-part",
+      "label_fr": "Descendants d'immigrés (2ᵉ génération) — part en logement ordinaire",
+      "value": 12.1,
+      "unit": "percent",
+      "as_of": "2023",
+      "category": "immigration",
+      "kind": "volume",
+      "geography": "France hors Mayotte",
+      "source": {
+        "title": "INSEE — Immigrés et descendants d'immigrés, portrait social (Fig. 3)",
+        "url": "https://www.insee.fr/fr/statistiques/8242329",
+        "publisher": "INSEE"
+      },
+      "notes": "Pack g2_descendants_stock_2023. Effectif 8 015 milliers (g2-descendants-stock-2023-effectif). Part = population en logement ordinaire, pas toute la population.",
+      "proof_url": "https://www.insee.fr/fr/statistiques/8242329",
+      "confidence": "high"
+    },
+    {
+      "id": "g2-descendants-stock-2023-effectif",
+      "label_fr": "Descendants d'immigrés (2ᵉ génération) — effectif",
+      "value": 8015000,
+      "unit": "count",
+      "as_of": "2023",
+      "category": "immigration",
+      "kind": "volume",
+      "geography": "France hors Mayotte",
+      "source": {
+        "title": "INSEE — Immigrés et descendants d'immigrés, portrait social (Fig. 3)",
+        "url": "https://www.insee.fr/fr/statistiques/8242329",
+        "publisher": "INSEE"
+      },
+      "notes": "Enquêtes Emploi 2013 et 2023 · logement ordinaire. Tuile lead G2 — ne pas sommer avec G1/G3.",
+      "proof_url": "https://www.insee.fr/fr/statistiques/8242329",
+      "confidence": "high"
+    },
+    {
+      "id": "g1-share-1954-part",
+      "label_fr": "Part des immigrés : 1954 vs 2023",
+      "value": 5.4,
+      "unit": "percent",
+      "as_of": "1954",
+      "category": "immigration",
+      "kind": "volume",
+      "geography": "France métropolitaine (1954)",
+      "source": {
+        "title": "INSEE — Immigrés et descendants d'immigrés, portrait social (Fig. 1)",
+        "url": "https://www.insee.fr/fr/statistiques/8242329",
+        "publisher": "INSEE"
+      },
+      "notes": "Pack g1_share_1954_vs_2023. 1954 : 2 293 milliers (g1-share-1954-effectif). Comparaison optionnelle avec g1-immigres-stock-2023-part (10,6 %). Pas de heap « base 1950 ».",
+      "proof_url": "https://www.insee.fr/fr/statistiques/8242329",
+      "confidence": "high"
+    },
+    {
+      "id": "g1-share-1954-effectif",
+      "label_fr": "Immigrés — effectif 1954 (Figure 1)",
+      "value": 2293000,
+      "unit": "count",
+      "as_of": "1954",
+      "category": "immigration",
+      "kind": "volume",
+      "geography": "France métropolitaine",
+      "source": {
+        "title": "INSEE — Immigrés et descendants d'immigrés, portrait social (Fig. 1)",
+        "url": "https://www.insee.fr/fr/statistiques/8242329",
+        "publisher": "INSEE"
+      },
+      "notes": "2 293 milliers · même série Figure 1 que la tuile 1954 → 2023.",
+      "proof_url": "https://www.insee.fr/fr/statistiques/8242329",
+      "confidence": "high"
+    },
+    {
+      "id": "g3-petits-enfants-under60-2019-20-part",
+      "label_fr": "Descendants d'immigrés de 3ᵉ génération (< 60 ans) — part",
+      "value": 10.2,
+      "unit": "percent",
+      "as_of": "2019-2020",
+      "category": "immigration",
+      "kind": "volume",
+      "geography": "France métropolitaine",
+      "source": {
+        "title": "INSEE — Descendants d'immigrés de troisième génération (TeO2 + Emploi)",
+        "url": "https://www.insee.fr/fr/statistiques/6793242",
+        "publisher": "INSEE"
+      },
+      "notes": "Pack g3_petits_enfants_under60_2019_20 · panneau PASS-LOW (pas tuile lead). 10,2 % des personnes de moins de 60 ans en logement ordinaire — jamais part de toute la population.",
+      "proof_url": "https://www.insee.fr/fr/statistiques/6793242",
+      "confidence": "high"
+    },
+    {
+      "id": "g3-petits-enfants-under60-2019-20-effectif",
+      "label_fr": "Petits-enfants d'immigrés (3ᵉ génération) — effectif < 60 ans",
+      "value": 4800000,
+      "unit": "count",
+      "as_of": "2019-2020",
+      "category": "immigration",
+      "kind": "volume",
+      "geography": "France métropolitaine",
+      "source": {
+        "title": "INSEE — Descendants d'immigrés de troisième génération (TeO2 + Emploi)",
+        "url": "https://www.insee.fr/fr/statistiques/6793242",
+        "publisher": "INSEE"
+      },
+      "notes": "4,8 millions · pas de stock G3 tous âges publié. Ne pas sommer avec G1+G2.",
+      "proof_url": "https://www.insee.fr/fr/statistiques/6793242",
+      "confidence": "high"
+    },
+    {
+      "id": "pop-1950-metropole-context",
+      "label_fr": "Population métropole 1950 (contexte historique)",
+      "value": 41647258,
+      "unit": "count",
+      "as_of": "1950",
+      "category": "immigration",
+      "kind": "other",
+      "geography": "France métropolitaine",
+      "source": {
+        "title": "INSEE — Populations de la France métropolitaine",
+        "url": "https://www.insee.fr/fr/statistiques/6037741",
+        "publisher": "INSEE"
+      },
+      "notes": "Pack pop_1950_metropole_context · contexte uniquement, pas tuile lead. FAIL si headline « % de la population 1950 » empilé G1+G2+G3.",
+      "proof_url": "https://www.insee.fr/fr/statistiques/6037741",
+      "confidence": "high"
+    },
+    {
       "id": "indus-detectes-2023",
       "label_fr": "Indus détectés (4 branches, 2023)",
       "value": 10300000000,
