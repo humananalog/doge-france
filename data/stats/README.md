@@ -24,6 +24,8 @@ Champs optionnels :
 
 Ne pas introduire `kind=waste` ni le champ `waste_legality`. Les montants « ordre de grandeur » (ex. Sénat « près d’1 Md€ ») restent en **notes** ou `value` textuelle non additive — ne pas les sommer avec les sinistres assurés chiffrés.
 
+**Immigration (graphiques `/immigration`)** — séries chronologiques dans `immigration/series.json` (310 points, `source_url` obligatoire par point). Méthodologie : `immigration/methodology.md` ; index des sources : `immigration/sources.md`. Validées par `scripts/validate-data.ts` (`immigrationSeriesFileSchema`).
+
 Pour ajouter une métrique : éditez `metrics.json` ou déposez un fragment dans une PR + issue **new-stat**.
 
 **Dette publique (tableau de bord)** — ids Guard-PASS :

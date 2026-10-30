@@ -1,5 +1,6 @@
 import { Stat } from "@/components/Stat";
 import { MetricsTable } from "@/components/MetricsTable";
+import { ImmigrationOfficialCharts } from "@/components/ImmigrationOfficialCharts";
 import { getMetricsByCategory } from "@/lib/registry";
 
 export const metadata = {
@@ -35,6 +36,8 @@ export default function ImmigrationPage() {
           <Stat metricId="immig-executes-2025" size="sm" />
         </div>
       </section>
+
+      <ImmigrationOfficialCharts />
 
       <section>
         <h2 className="text-xl font-semibold">Tableau complet</h2>

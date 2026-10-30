@@ -9,6 +9,7 @@ import { parse as parseYaml } from "yaml";
 import { statsFileSchema } from "../schemas/stat.schema";
 import { casesFileSchema } from "../schemas/case.schema";
 import { leadFileSchema } from "../schemas/lead.schema";
+import { immigrationSeriesFileSchema } from "../schemas/immigration-series.schema";
 
 const root = join(import.meta.dirname, "..");
 let errors = 0;
@@ -104,8 +105,27 @@ function validateLeads() {
   }
 }
 
+function validateImmigrationSeries() {
+  const path = join(root, "data/stats/immigration/series.json");
+  const parsed = immigrationSeriesFileSchema.safeParse(readJson(path));
+  if (!parsed.success) {
+    fail(`data/stats/immigration/series.json — ${parsed.error.message}`);
+    return;
+  }
+  const keys = new Set<string>();
+  for (const p of parsed.data) {
+    const key = `${p.series_id}:${p.year}`;
+    if (keys.has(key)) fail(`duplicate immigration point: ${key}`);
+    keys.add(key);
+  }
+  console.log(
+    `OK immigration series: ${parsed.data.length} points, ${new Set(parsed.data.map((p) => p.series_id)).size} series`,
+  );
+}
+
 console.log("Validating DOGE France data/ …");
 validateStats();
+validateImmigrationSeries();
 validateCases();
 validateLeads();
 
