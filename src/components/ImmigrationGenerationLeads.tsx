@@ -126,7 +126,8 @@ function G3PassLowPanel() {
         Panneau PASS-LOW — pas tuile lead
       </p>
       <h3 className="mt-2 text-base font-semibold text-amber-950 dark:text-amber-50">
-        Petits-enfants d&apos;immigrés (3ᵉ génération)
+        Petits-enfants d&apos;immigrés · &lt; 60 ans · logement ordinaire ·
+        métropole · 2019-2020
       </h3>
       <p className="mt-2 text-2xl font-semibold tabular-nums text-amber-950 dark:text-amber-50">
         {formatMillionsOneDecimal(effectif.value)}
