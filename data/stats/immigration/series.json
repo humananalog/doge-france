@@ -1,0 +1,3102 @@
+[
+  {
+    "year": 2008,
+    "series_id": "acquisitions_nationalite_ensemble",
+    "value": 137452,
+    "unit": "persons",
+    "label_fr": "Acquisitions de la nationalité française (ensemble)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2381644",
+    "source_org": "INSEE / MI / Justice",
+    "notes": "Tous modes: décret (naturalisation+réintégration), déclaration, sans formalité. Sources MI + Justice."
+  },
+  {
+    "year": 2009,
+    "series_id": "acquisitions_nationalite_ensemble",
+    "value": 135852,
+    "unit": "persons",
+    "label_fr": "Acquisitions de la nationalité française (ensemble)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2381644",
+    "source_org": "INSEE / MI / Justice",
+    "notes": "Tous modes: décret (naturalisation+réintégration), déclaration, sans formalité. Sources MI + Justice."
+  },
+  {
+    "year": 2010,
+    "series_id": "acquisitions_nationalite_ensemble",
+    "value": 143261,
+    "unit": "persons",
+    "label_fr": "Acquisitions de la nationalité française (ensemble)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2381644",
+    "source_org": "INSEE / MI / Justice",
+    "notes": "Tous modes: décret (naturalisation+réintégration), déclaration, sans formalité. Sources MI + Justice."
+  },
+  {
+    "year": 2011,
+    "series_id": "acquisitions_nationalite_ensemble",
+    "value": 114569,
+    "unit": "persons",
+    "label_fr": "Acquisitions de la nationalité française (ensemble)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2381644",
+    "source_org": "INSEE / MI / Justice",
+    "notes": "Tous modes: décret (naturalisation+réintégration), déclaration, sans formalité. Sources MI + Justice."
+  },
+  {
+    "year": 2012,
+    "series_id": "acquisitions_nationalite_ensemble",
+    "value": 96051,
+    "unit": "persons",
+    "label_fr": "Acquisitions de la nationalité française (ensemble)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2381644",
+    "source_org": "INSEE / MI / Justice",
+    "notes": "Tous modes: décret (naturalisation+réintégration), déclaration, sans formalité. Sources MI + Justice."
+  },
+  {
+    "year": 2013,
+    "series_id": "acquisitions_nationalite_ensemble",
+    "value": 97276,
+    "unit": "persons",
+    "label_fr": "Acquisitions de la nationalité française (ensemble)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2381644",
+    "source_org": "INSEE / MI / Justice",
+    "notes": "Tous modes: décret (naturalisation+réintégration), déclaration, sans formalité. Sources MI + Justice."
+  },
+  {
+    "year": 2014,
+    "series_id": "acquisitions_nationalite_ensemble",
+    "value": 105613,
+    "unit": "persons",
+    "label_fr": "Acquisitions de la nationalité française (ensemble)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2381644",
+    "source_org": "INSEE / MI / Justice",
+    "notes": "Tous modes: décret (naturalisation+réintégration), déclaration, sans formalité. Sources MI + Justice."
+  },
+  {
+    "year": 2015,
+    "series_id": "acquisitions_nationalite_ensemble",
+    "value": 113608,
+    "unit": "persons",
+    "label_fr": "Acquisitions de la nationalité française (ensemble)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2381644",
+    "source_org": "INSEE / MI / Justice",
+    "notes": "Tous modes: décret (naturalisation+réintégration), déclaration, sans formalité. Sources MI + Justice."
+  },
+  {
+    "year": 2016,
+    "series_id": "acquisitions_nationalite_ensemble",
+    "value": 119152,
+    "unit": "persons",
+    "label_fr": "Acquisitions de la nationalité française (ensemble)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2381644",
+    "source_org": "INSEE / MI / Justice",
+    "notes": "Tous modes: décret (naturalisation+réintégration), déclaration, sans formalité. Sources MI + Justice."
+  },
+  {
+    "year": 2017,
+    "series_id": "acquisitions_nationalite_ensemble",
+    "value": 114274,
+    "unit": "persons",
+    "label_fr": "Acquisitions de la nationalité française (ensemble)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2381644",
+    "source_org": "INSEE / MI / Justice",
+    "notes": "Tous modes: décret (naturalisation+réintégration), déclaration, sans formalité. Sources MI + Justice."
+  },
+  {
+    "year": 2018,
+    "series_id": "acquisitions_nationalite_ensemble",
+    "value": 110014,
+    "unit": "persons",
+    "label_fr": "Acquisitions de la nationalité française (ensemble)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2381644",
+    "source_org": "INSEE / MI / Justice",
+    "notes": "Tous modes: décret (naturalisation+réintégration), déclaration, sans formalité. Sources MI + Justice."
+  },
+  {
+    "year": 2019,
+    "series_id": "acquisitions_nationalite_ensemble",
+    "value": 109821,
+    "unit": "persons",
+    "label_fr": "Acquisitions de la nationalité française (ensemble)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2381644",
+    "source_org": "INSEE / MI / Justice",
+    "notes": "Tous modes: décret (naturalisation+réintégration), déclaration, sans formalité. Sources MI + Justice."
+  },
+  {
+    "year": 2020,
+    "series_id": "acquisitions_nationalite_ensemble",
+    "value": 84864,
+    "unit": "persons",
+    "label_fr": "Acquisitions de la nationalité française (ensemble)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2381644",
+    "source_org": "INSEE / MI / Justice",
+    "notes": "Tous modes: décret (naturalisation+réintégration), déclaration, sans formalité. Sources MI + Justice."
+  },
+  {
+    "year": 2021,
+    "series_id": "acquisitions_nationalite_ensemble",
+    "value": 128560,
+    "unit": "persons",
+    "label_fr": "Acquisitions de la nationalité française (ensemble)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2381644",
+    "source_org": "INSEE / MI / Justice",
+    "notes": "Tous modes: décret (naturalisation+réintégration), déclaration, sans formalité. Sources MI + Justice."
+  },
+  {
+    "year": 2022,
+    "series_id": "acquisitions_nationalite_ensemble",
+    "value": 114483,
+    "unit": "persons",
+    "label_fr": "Acquisitions de la nationalité française (ensemble)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2381644",
+    "source_org": "INSEE / MI / Justice",
+    "notes": "Tous modes: décret (naturalisation+réintégration), déclaration, sans formalité. Sources MI + Justice."
+  },
+  {
+    "year": 2023,
+    "series_id": "acquisitions_nationalite_ensemble",
+    "value": 97288,
+    "unit": "persons",
+    "label_fr": "Acquisitions de la nationalité française (ensemble)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2381644",
+    "source_org": "INSEE / MI / Justice",
+    "notes": "Tous modes: décret (naturalisation+réintégration), déclaration, sans formalité. Sources MI + Justice."
+  },
+  {
+    "year": 2024,
+    "series_id": "acquisitions_nationalite_ensemble",
+    "value": 103661,
+    "unit": "persons",
+    "label_fr": "Acquisitions de la nationalité française (ensemble)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2381644",
+    "source_org": "INSEE / MI / Justice",
+    "notes": "Tous modes: décret (naturalisation+réintégration), déclaration, sans formalité. Sources MI + Justice."
+  },
+  {
+    "year": 2025,
+    "series_id": "acquisitions_nationalite_ensemble",
+    "value": 98139,
+    "unit": "persons",
+    "label_fr": "Acquisitions de la nationalité française (ensemble)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2381644",
+    "source_org": "INSEE / MI / Justice",
+    "notes": "Tous modes: décret (naturalisation+réintégration), déclaration, sans formalité. Sources MI + Justice."
+  },
+  {
+    "year": 1946,
+    "series_id": "acquisitions_nationalite_historique",
+    "value": 38869,
+    "unit": "persons",
+    "label_fr": "Acquisitions nationalité (série historique 1946-1999)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2118519?sommaire=2118522",
+    "source_org": "INSEE (sources MI/Justice)",
+    "notes": "Acquisitions réelles et enregistrées (CD-AX1). Méthodologie distincte de la série 2008+; ne pas chaîner sans rupture. Exclut certaines acquisitions sans formalité (voir notes source)."
+  },
+  {
+    "year": 1947,
+    "series_id": "acquisitions_nationalite_historique",
+    "value": 111736,
+    "unit": "persons",
+    "label_fr": "Acquisitions nationalité (série historique 1946-1999)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2118519?sommaire=2118522",
+    "source_org": "INSEE (sources MI/Justice)",
+    "notes": "Acquisitions réelles et enregistrées (CD-AX1). Méthodologie distincte de la série 2008+; ne pas chaîner sans rupture. Exclut certaines acquisitions sans formalité (voir notes source)."
+  },
+  {
+    "year": 1948,
+    "series_id": "acquisitions_nationalite_historique",
+    "value": 70925,
+    "unit": "persons",
+    "label_fr": "Acquisitions nationalité (série historique 1946-1999)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2118519?sommaire=2118522",
+    "source_org": "INSEE (sources MI/Justice)",
+    "notes": "Acquisitions réelles et enregistrées (CD-AX1). Méthodologie distincte de la série 2008+; ne pas chaîner sans rupture. Exclut certaines acquisitions sans formalité (voir notes source)."
+  },
+  {
+    "year": 1949,
+    "series_id": "acquisitions_nationalite_historique",
+    "value": 61270,
+    "unit": "persons",
+    "label_fr": "Acquisitions nationalité (série historique 1946-1999)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2118519?sommaire=2118522",
+    "source_org": "INSEE (sources MI/Justice)",
+    "notes": "Acquisitions réelles et enregistrées (CD-AX1). Méthodologie distincte de la série 2008+; ne pas chaîner sans rupture. Exclut certaines acquisitions sans formalité (voir notes source)."
+  },
+  {
+    "year": 1950,
+    "series_id": "acquisitions_nationalite_historique",
+    "value": 43790,
+    "unit": "persons",
+    "label_fr": "Acquisitions nationalité (série historique 1946-1999)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2118519?sommaire=2118522",
+    "source_org": "INSEE (sources MI/Justice)",
+    "notes": "Acquisitions réelles et enregistrées (CD-AX1). Méthodologie distincte de la série 2008+; ne pas chaîner sans rupture. Exclut certaines acquisitions sans formalité (voir notes source)."
+  },
+  {
+    "year": 1951,
+    "series_id": "acquisitions_nationalite_historique",
+    "value": 25257,
+    "unit": "persons",
+    "label_fr": "Acquisitions nationalité (série historique 1946-1999)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2118519?sommaire=2118522",
+    "source_org": "INSEE (sources MI/Justice)",
+    "notes": "Acquisitions réelles et enregistrées (CD-AX1). Méthodologie distincte de la série 2008+; ne pas chaîner sans rupture. Exclut certaines acquisitions sans formalité (voir notes source)."
+  },
+  {
+    "year": 1952,
+    "series_id": "acquisitions_nationalite_historique",
+    "value": 28139,
+    "unit": "persons",
+    "label_fr": "Acquisitions nationalité (série historique 1946-1999)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2118519?sommaire=2118522",
+    "source_org": "INSEE (sources MI/Justice)",
+    "notes": "Acquisitions réelles et enregistrées (CD-AX1). Méthodologie distincte de la série 2008+; ne pas chaîner sans rupture. Exclut certaines acquisitions sans formalité (voir notes source)."
+  },
+  {
+    "year": 1953,
+    "series_id": "acquisitions_nationalite_historique",
+    "value": 34824,
+    "unit": "persons",
+    "label_fr": "Acquisitions nationalité (série historique 1946-1999)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2118519?sommaire=2118522",
+    "source_org": "INSEE (sources MI/Justice)",
+    "notes": "Acquisitions réelles et enregistrées (CD-AX1). Méthodologie distincte de la série 2008+; ne pas chaîner sans rupture. Exclut certaines acquisitions sans formalité (voir notes source)."
+  },
+  {
+    "year": 1954,
+    "series_id": "acquisitions_nationalite_historique",
+    "value": 39308,
+    "unit": "persons",
+    "label_fr": "Acquisitions nationalité (série historique 1946-1999)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2118519?sommaire=2118522",
+    "source_org": "INSEE (sources MI/Justice)",
+    "notes": "Acquisitions réelles et enregistrées (CD-AX1). Méthodologie distincte de la série 2008+; ne pas chaîner sans rupture. Exclut certaines acquisitions sans formalité (voir notes source)."
+  },
+  {
+    "year": 1955,
+    "series_id": "acquisitions_nationalite_historique",
+    "value": 44972,
+    "unit": "persons",
+    "label_fr": "Acquisitions nationalité (série historique 1946-1999)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2118519?sommaire=2118522",
+    "source_org": "INSEE (sources MI/Justice)",
+    "notes": "Acquisitions réelles et enregistrées (CD-AX1). Méthodologie distincte de la série 2008+; ne pas chaîner sans rupture. Exclut certaines acquisitions sans formalité (voir notes source)."
+  },
+  {
+    "year": 1956,
+    "series_id": "acquisitions_nationalite_historique",
+    "value": 38040,
+    "unit": "persons",
+    "label_fr": "Acquisitions nationalité (série historique 1946-1999)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2118519?sommaire=2118522",
+    "source_org": "INSEE (sources MI/Justice)",
+    "notes": "Acquisitions réelles et enregistrées (CD-AX1). Méthodologie distincte de la série 2008+; ne pas chaîner sans rupture. Exclut certaines acquisitions sans formalité (voir notes source)."
+  },
+  {
+    "year": 1957,
+    "series_id": "acquisitions_nationalite_historique",
+    "value": 36890,
+    "unit": "persons",
+    "label_fr": "Acquisitions nationalité (série historique 1946-1999)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2118519?sommaire=2118522",
+    "source_org": "INSEE (sources MI/Justice)",
+    "notes": "Acquisitions réelles et enregistrées (CD-AX1). Méthodologie distincte de la série 2008+; ne pas chaîner sans rupture. Exclut certaines acquisitions sans formalité (voir notes source)."
+  },
+  {
+    "year": 1958,
+    "series_id": "acquisitions_nationalite_historique",
+    "value": 34452,
+    "unit": "persons",
+    "label_fr": "Acquisitions nationalité (série historique 1946-1999)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2118519?sommaire=2118522",
+    "source_org": "INSEE (sources MI/Justice)",
+    "notes": "Acquisitions réelles et enregistrées (CD-AX1). Méthodologie distincte de la série 2008+; ne pas chaîner sans rupture. Exclut certaines acquisitions sans formalité (voir notes source)."
+  },
+  {
+    "year": 1959,
+    "series_id": "acquisitions_nationalite_historique",
+    "value": 34098,
+    "unit": "persons",
+    "label_fr": "Acquisitions nationalité (série historique 1946-1999)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2118519?sommaire=2118522",
+    "source_org": "INSEE (sources MI/Justice)",
+    "notes": "Acquisitions réelles et enregistrées (CD-AX1). Méthodologie distincte de la série 2008+; ne pas chaîner sans rupture. Exclut certaines acquisitions sans formalité (voir notes source)."
+  },
+  {
+    "year": 1960,
+    "series_id": "acquisitions_nationalite_historique",
+    "value": 29683,
+    "unit": "persons",
+    "label_fr": "Acquisitions nationalité (série historique 1946-1999)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2118519?sommaire=2118522",
+    "source_org": "INSEE (sources MI/Justice)",
+    "notes": "Acquisitions réelles et enregistrées (CD-AX1). Méthodologie distincte de la série 2008+; ne pas chaîner sans rupture. Exclut certaines acquisitions sans formalité (voir notes source)."
+  },
+  {
+    "year": 1961,
+    "series_id": "acquisitions_nationalite_historique",
+    "value": 25954,
+    "unit": "persons",
+    "label_fr": "Acquisitions nationalité (série historique 1946-1999)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2118519?sommaire=2118522",
+    "source_org": "INSEE (sources MI/Justice)",
+    "notes": "Acquisitions réelles et enregistrées (CD-AX1). Méthodologie distincte de la série 2008+; ne pas chaîner sans rupture. Exclut certaines acquisitions sans formalité (voir notes source)."
+  },
+  {
+    "year": 1962,
+    "series_id": "acquisitions_nationalite_historique",
+    "value": 28149,
+    "unit": "persons",
+    "label_fr": "Acquisitions nationalité (série historique 1946-1999)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2118519?sommaire=2118522",
+    "source_org": "INSEE (sources MI/Justice)",
+    "notes": "Acquisitions réelles et enregistrées (CD-AX1). Méthodologie distincte de la série 2008+; ne pas chaîner sans rupture. Exclut certaines acquisitions sans formalité (voir notes source)."
+  },
+  {
+    "year": 1963,
+    "series_id": "acquisitions_nationalite_historique",
+    "value": 30648,
+    "unit": "persons",
+    "label_fr": "Acquisitions nationalité (série historique 1946-1999)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2118519?sommaire=2118522",
+    "source_org": "INSEE (sources MI/Justice)",
+    "notes": "Acquisitions réelles et enregistrées (CD-AX1). Méthodologie distincte de la série 2008+; ne pas chaîner sans rupture. Exclut certaines acquisitions sans formalité (voir notes source)."
+  },
+  {
+    "year": 1964,
+    "series_id": "acquisitions_nationalite_historique",
+    "value": 27289,
+    "unit": "persons",
+    "label_fr": "Acquisitions nationalité (série historique 1946-1999)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2118519?sommaire=2118522",
+    "source_org": "INSEE (sources MI/Justice)",
+    "notes": "Acquisitions réelles et enregistrées (CD-AX1). Méthodologie distincte de la série 2008+; ne pas chaîner sans rupture. Exclut certaines acquisitions sans formalité (voir notes source)."
+  },
+  {
+    "year": 1965,
+    "series_id": "acquisitions_nationalite_historique",
+    "value": 41487,
+    "unit": "persons",
+    "label_fr": "Acquisitions nationalité (série historique 1946-1999)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2118519?sommaire=2118522",
+    "source_org": "INSEE (sources MI/Justice)",
+    "notes": "Acquisitions réelles et enregistrées (CD-AX1). Méthodologie distincte de la série 2008+; ne pas chaîner sans rupture. Exclut certaines acquisitions sans formalité (voir notes source)."
+  },
+  {
+    "year": 1966,
+    "series_id": "acquisitions_nationalite_historique",
+    "value": 30488,
+    "unit": "persons",
+    "label_fr": "Acquisitions nationalité (série historique 1946-1999)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2118519?sommaire=2118522",
+    "source_org": "INSEE (sources MI/Justice)",
+    "notes": "Acquisitions réelles et enregistrées (CD-AX1). Méthodologie distincte de la série 2008+; ne pas chaîner sans rupture. Exclut certaines acquisitions sans formalité (voir notes source)."
+  },
+  {
+    "year": 1967,
+    "series_id": "acquisitions_nationalite_historique",
+    "value": 57231,
+    "unit": "persons",
+    "label_fr": "Acquisitions nationalité (série historique 1946-1999)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2118519?sommaire=2118522",
+    "source_org": "INSEE (sources MI/Justice)",
+    "notes": "Acquisitions réelles et enregistrées (CD-AX1). Méthodologie distincte de la série 2008+; ne pas chaîner sans rupture. Exclut certaines acquisitions sans formalité (voir notes source). Pic lié à résorption de retard de dossiers."
+  },
+  {
+    "year": 1968,
+    "series_id": "acquisitions_nationalite_historique",
+    "value": 38287,
+    "unit": "persons",
+    "label_fr": "Acquisitions nationalité (série historique 1946-1999)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2118519?sommaire=2118522",
+    "source_org": "INSEE (sources MI/Justice)",
+    "notes": "Acquisitions réelles et enregistrées (CD-AX1). Méthodologie distincte de la série 2008+; ne pas chaîner sans rupture. Exclut certaines acquisitions sans formalité (voir notes source)."
+  },
+  {
+    "year": 1969,
+    "series_id": "acquisitions_nationalite_historique",
+    "value": 38397,
+    "unit": "persons",
+    "label_fr": "Acquisitions nationalité (série historique 1946-1999)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2118519?sommaire=2118522",
+    "source_org": "INSEE (sources MI/Justice)",
+    "notes": "Acquisitions réelles et enregistrées (CD-AX1). Méthodologie distincte de la série 2008+; ne pas chaîner sans rupture. Exclut certaines acquisitions sans formalité (voir notes source)."
+  },
+  {
+    "year": 1970,
+    "series_id": "acquisitions_nationalite_historique",
+    "value": 35000,
+    "unit": "persons",
+    "label_fr": "Acquisitions nationalité (série historique 1946-1999)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2118519?sommaire=2118522",
+    "source_org": "INSEE (sources MI/Justice)",
+    "notes": "Acquisitions réelles et enregistrées (CD-AX1). Méthodologie distincte de la série 2008+; ne pas chaîner sans rupture. Exclut certaines acquisitions sans formalité (voir notes source)."
+  },
+  {
+    "year": 1971,
+    "series_id": "acquisitions_nationalite_historique",
+    "value": 39989,
+    "unit": "persons",
+    "label_fr": "Acquisitions nationalité (série historique 1946-1999)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2118519?sommaire=2118522",
+    "source_org": "INSEE (sources MI/Justice)",
+    "notes": "Acquisitions réelles et enregistrées (CD-AX1). Méthodologie distincte de la série 2008+; ne pas chaîner sans rupture. Exclut certaines acquisitions sans formalité (voir notes source)."
+  },
+  {
+    "year": 1972,
+    "series_id": "acquisitions_nationalite_historique",
+    "value": 35254,
+    "unit": "persons",
+    "label_fr": "Acquisitions nationalité (série historique 1946-1999)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2118519?sommaire=2118522",
+    "source_org": "INSEE (sources MI/Justice)",
+    "notes": "Acquisitions réelles et enregistrées (CD-AX1). Méthodologie distincte de la série 2008+; ne pas chaîner sans rupture. Exclut certaines acquisitions sans formalité (voir notes source)."
+  },
+  {
+    "year": 1973,
+    "series_id": "acquisitions_nationalite_historique",
+    "value": 33616,
+    "unit": "persons",
+    "label_fr": "Acquisitions nationalité (série historique 1946-1999)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2118519?sommaire=2118522",
+    "source_org": "INSEE (sources MI/Justice)",
+    "notes": "Acquisitions réelles et enregistrées (CD-AX1). Méthodologie distincte de la série 2008+; ne pas chaîner sans rupture. Exclut certaines acquisitions sans formalité (voir notes source)."
+  },
+  {
+    "year": 1974,
+    "series_id": "acquisitions_nationalite_historique",
+    "value": 35983,
+    "unit": "persons",
+    "label_fr": "Acquisitions nationalité (série historique 1946-1999)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2118519?sommaire=2118522",
+    "source_org": "INSEE (sources MI/Justice)",
+    "notes": "Acquisitions réelles et enregistrées (CD-AX1). Méthodologie distincte de la série 2008+; ne pas chaîner sans rupture. Exclut certaines acquisitions sans formalité (voir notes source)."
+  },
+  {
+    "year": 1975,
+    "series_id": "acquisitions_nationalite_historique",
+    "value": 41338,
+    "unit": "persons",
+    "label_fr": "Acquisitions nationalité (série historique 1946-1999)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2118519?sommaire=2118522",
+    "source_org": "INSEE (sources MI/Justice)",
+    "notes": "Acquisitions réelles et enregistrées (CD-AX1). Méthodologie distincte de la série 2008+; ne pas chaîner sans rupture. Exclut certaines acquisitions sans formalité (voir notes source)."
+  },
+  {
+    "year": 1976,
+    "series_id": "acquisitions_nationalite_historique",
+    "value": 45088,
+    "unit": "persons",
+    "label_fr": "Acquisitions nationalité (série historique 1946-1999)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2118519?sommaire=2118522",
+    "source_org": "INSEE (sources MI/Justice)",
+    "notes": "Acquisitions réelles et enregistrées (CD-AX1). Méthodologie distincte de la série 2008+; ne pas chaîner sans rupture. Exclut certaines acquisitions sans formalité (voir notes source)."
+  },
+  {
+    "year": 1977,
+    "series_id": "acquisitions_nationalite_historique",
+    "value": 48082,
+    "unit": "persons",
+    "label_fr": "Acquisitions nationalité (série historique 1946-1999)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2118519?sommaire=2118522",
+    "source_org": "INSEE (sources MI/Justice)",
+    "notes": "Acquisitions réelles et enregistrées (CD-AX1). Méthodologie distincte de la série 2008+; ne pas chaîner sans rupture. Exclut certaines acquisitions sans formalité (voir notes source)."
+  },
+  {
+    "year": 1978,
+    "series_id": "acquisitions_nationalite_historique",
+    "value": 50938,
+    "unit": "persons",
+    "label_fr": "Acquisitions nationalité (série historique 1946-1999)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2118519?sommaire=2118522",
+    "source_org": "INSEE (sources MI/Justice)",
+    "notes": "Acquisitions réelles et enregistrées (CD-AX1). Méthodologie distincte de la série 2008+; ne pas chaîner sans rupture. Exclut certaines acquisitions sans formalité (voir notes source)."
+  },
+  {
+    "year": 1979,
+    "series_id": "acquisitions_nationalite_historique",
+    "value": 46790,
+    "unit": "persons",
+    "label_fr": "Acquisitions nationalité (série historique 1946-1999)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2118519?sommaire=2118522",
+    "source_org": "INSEE (sources MI/Justice)",
+    "notes": "Acquisitions réelles et enregistrées (CD-AX1). Méthodologie distincte de la série 2008+; ne pas chaîner sans rupture. Exclut certaines acquisitions sans formalité (voir notes source)."
+  },
+  {
+    "year": 1980,
+    "series_id": "acquisitions_nationalite_historique",
+    "value": 52103,
+    "unit": "persons",
+    "label_fr": "Acquisitions nationalité (série historique 1946-1999)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2118519?sommaire=2118522",
+    "source_org": "INSEE (sources MI/Justice)",
+    "notes": "Acquisitions réelles et enregistrées (CD-AX1). Méthodologie distincte de la série 2008+; ne pas chaîner sans rupture. Exclut certaines acquisitions sans formalité (voir notes source)."
+  },
+  {
+    "year": 1981,
+    "series_id": "acquisitions_nationalite_historique",
+    "value": 54011,
+    "unit": "persons",
+    "label_fr": "Acquisitions nationalité (série historique 1946-1999)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2118519?sommaire=2118522",
+    "source_org": "INSEE (sources MI/Justice)",
+    "notes": "Acquisitions réelles et enregistrées (CD-AX1). Méthodologie distincte de la série 2008+; ne pas chaîner sans rupture. Exclut certaines acquisitions sans formalité (voir notes source)."
+  },
+  {
+    "year": 1982,
+    "series_id": "acquisitions_nationalite_historique",
+    "value": 48827,
+    "unit": "persons",
+    "label_fr": "Acquisitions nationalité (série historique 1946-1999)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2118519?sommaire=2118522",
+    "source_org": "INSEE (sources MI/Justice)",
+    "notes": "Acquisitions réelles et enregistrées (CD-AX1). Méthodologie distincte de la série 2008+; ne pas chaîner sans rupture. Exclut certaines acquisitions sans formalité (voir notes source)."
+  },
+  {
+    "year": 1983,
+    "series_id": "acquisitions_nationalite_historique",
+    "value": 39695,
+    "unit": "persons",
+    "label_fr": "Acquisitions nationalité (série historique 1946-1999)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2118519?sommaire=2118522",
+    "source_org": "INSEE (sources MI/Justice)",
+    "notes": "Acquisitions réelles et enregistrées (CD-AX1). Méthodologie distincte de la série 2008+; ne pas chaîner sans rupture. Exclut certaines acquisitions sans formalité (voir notes source)."
+  },
+  {
+    "year": 1984,
+    "series_id": "acquisitions_nationalite_historique",
+    "value": 35573,
+    "unit": "persons",
+    "label_fr": "Acquisitions nationalité (série historique 1946-1999)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2118519?sommaire=2118522",
+    "source_org": "INSEE (sources MI/Justice)",
+    "notes": "Acquisitions réelles et enregistrées (CD-AX1). Méthodologie distincte de la série 2008+; ne pas chaîner sans rupture. Exclut certaines acquisitions sans formalité (voir notes source)."
+  },
+  {
+    "year": 1985,
+    "series_id": "acquisitions_nationalite_historique",
+    "value": 60677,
+    "unit": "persons",
+    "label_fr": "Acquisitions nationalité (série historique 1946-1999)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2118519?sommaire=2118522",
+    "source_org": "INSEE (sources MI/Justice)",
+    "notes": "Acquisitions réelles et enregistrées (CD-AX1). Méthodologie distincte de la série 2008+; ne pas chaîner sans rupture. Exclut certaines acquisitions sans formalité (voir notes source). Pic lié à résorption de retard de dossiers."
+  },
+  {
+    "year": 1986,
+    "series_id": "acquisitions_nationalite_historique",
+    "value": 55968,
+    "unit": "persons",
+    "label_fr": "Acquisitions nationalité (série historique 1946-1999)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2118519?sommaire=2118522",
+    "source_org": "INSEE (sources MI/Justice)",
+    "notes": "Acquisitions réelles et enregistrées (CD-AX1). Méthodologie distincte de la série 2008+; ne pas chaîner sans rupture. Exclut certaines acquisitions sans formalité (voir notes source)."
+  },
+  {
+    "year": 1987,
+    "series_id": "acquisitions_nationalite_historique",
+    "value": 41754,
+    "unit": "persons",
+    "label_fr": "Acquisitions nationalité (série historique 1946-1999)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2118519?sommaire=2118522",
+    "source_org": "INSEE (sources MI/Justice)",
+    "notes": "Acquisitions réelles et enregistrées (CD-AX1). Méthodologie distincte de la série 2008+; ne pas chaîner sans rupture. Exclut certaines acquisitions sans formalité (voir notes source)."
+  },
+  {
+    "year": 1988,
+    "series_id": "acquisitions_nationalite_historique",
+    "value": 54299,
+    "unit": "persons",
+    "label_fr": "Acquisitions nationalité (série historique 1946-1999)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2118519?sommaire=2118522",
+    "source_org": "INSEE (sources MI/Justice)",
+    "notes": "Acquisitions réelles et enregistrées (CD-AX1). Méthodologie distincte de la série 2008+; ne pas chaîner sans rupture. Exclut certaines acquisitions sans formalité (voir notes source)."
+  },
+  {
+    "year": 1989,
+    "series_id": "acquisitions_nationalite_historique",
+    "value": 59508,
+    "unit": "persons",
+    "label_fr": "Acquisitions nationalité (série historique 1946-1999)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2118519?sommaire=2118522",
+    "source_org": "INSEE (sources MI/Justice)",
+    "notes": "Acquisitions réelles et enregistrées (CD-AX1). Méthodologie distincte de la série 2008+; ne pas chaîner sans rupture. Exclut certaines acquisitions sans formalité (voir notes source)."
+  },
+  {
+    "year": 1990,
+    "series_id": "acquisitions_nationalite_historique",
+    "value": 64976,
+    "unit": "persons",
+    "label_fr": "Acquisitions nationalité (série historique 1946-1999)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2118519?sommaire=2118522",
+    "source_org": "INSEE (sources MI/Justice)",
+    "notes": "Acquisitions réelles et enregistrées (CD-AX1). Méthodologie distincte de la série 2008+; ne pas chaîner sans rupture. Exclut certaines acquisitions sans formalité (voir notes source)."
+  },
+  {
+    "year": 1991,
+    "series_id": "acquisitions_nationalite_historique",
+    "value": 72242,
+    "unit": "persons",
+    "label_fr": "Acquisitions nationalité (série historique 1946-1999)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2118519?sommaire=2118522",
+    "source_org": "INSEE (sources MI/Justice)",
+    "notes": "Acquisitions réelles et enregistrées (CD-AX1). Méthodologie distincte de la série 2008+; ne pas chaîner sans rupture. Exclut certaines acquisitions sans formalité (voir notes source)."
+  },
+  {
+    "year": 1992,
+    "series_id": "acquisitions_nationalite_historique",
+    "value": 71600,
+    "unit": "persons",
+    "label_fr": "Acquisitions nationalité (série historique 1946-1999)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2118519?sommaire=2118522",
+    "source_org": "INSEE (sources MI/Justice)",
+    "notes": "Acquisitions réelles et enregistrées (CD-AX1). Méthodologie distincte de la série 2008+; ne pas chaîner sans rupture. Exclut certaines acquisitions sans formalité (voir notes source)."
+  },
+  {
+    "year": 1993,
+    "series_id": "acquisitions_nationalite_historique",
+    "value": 73170,
+    "unit": "persons",
+    "label_fr": "Acquisitions nationalité (série historique 1946-1999)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2118519?sommaire=2118522",
+    "source_org": "INSEE (sources MI/Justice)",
+    "notes": "Acquisitions réelles et enregistrées (CD-AX1). Méthodologie distincte de la série 2008+; ne pas chaîner sans rupture. Exclut certaines acquisitions sans formalité (voir notes source)."
+  },
+  {
+    "year": 1994,
+    "series_id": "acquisitions_nationalite_historique",
+    "value": 126337,
+    "unit": "persons",
+    "label_fr": "Acquisitions nationalité (série historique 1946-1999)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2118519?sommaire=2118522",
+    "source_org": "INSEE (sources MI/Justice)",
+    "notes": "Acquisitions réelles et enregistrées (CD-AX1). Méthodologie distincte de la série 2008+; ne pas chaîner sans rupture. Exclut certaines acquisitions sans formalité (voir notes source). Inclut manifestations de volonté (procédure 1994-1998)."
+  },
+  {
+    "year": 1995,
+    "series_id": "acquisitions_nationalite_historique",
+    "value": 92410,
+    "unit": "persons",
+    "label_fr": "Acquisitions nationalité (série historique 1946-1999)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2118519?sommaire=2118522",
+    "source_org": "INSEE (sources MI/Justice)",
+    "notes": "Acquisitions réelles et enregistrées (CD-AX1). Méthodologie distincte de la série 2008+; ne pas chaîner sans rupture. Exclut certaines acquisitions sans formalité (voir notes source)."
+  },
+  {
+    "year": 1996,
+    "series_id": "acquisitions_nationalite_historique",
+    "value": 109823,
+    "unit": "persons",
+    "label_fr": "Acquisitions nationalité (série historique 1946-1999)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2118519?sommaire=2118522",
+    "source_org": "INSEE (sources MI/Justice)",
+    "notes": "Acquisitions réelles et enregistrées (CD-AX1). Méthodologie distincte de la série 2008+; ne pas chaîner sans rupture. Exclut certaines acquisitions sans formalité (voir notes source)."
+  },
+  {
+    "year": 1997,
+    "series_id": "acquisitions_nationalite_historique",
+    "value": 116194,
+    "unit": "persons",
+    "label_fr": "Acquisitions nationalité (série historique 1946-1999)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2118519?sommaire=2118522",
+    "source_org": "INSEE (sources MI/Justice)",
+    "notes": "Acquisitions réelles et enregistrées (CD-AX1). Méthodologie distincte de la série 2008+; ne pas chaîner sans rupture. Exclut certaines acquisitions sans formalité (voir notes source)."
+  },
+  {
+    "year": 1998,
+    "series_id": "acquisitions_nationalite_historique",
+    "value": 107461,
+    "unit": "persons",
+    "label_fr": "Acquisitions nationalité (série historique 1946-1999)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2118519?sommaire=2118522",
+    "source_org": "INSEE (sources MI/Justice)",
+    "notes": "Acquisitions réelles et enregistrées (CD-AX1). Méthodologie distincte de la série 2008+; ne pas chaîner sans rupture. Exclut certaines acquisitions sans formalité (voir notes source)."
+  },
+  {
+    "year": 1999,
+    "series_id": "acquisitions_nationalite_historique",
+    "value": 94002,
+    "unit": "persons",
+    "label_fr": "Acquisitions nationalité (série historique 1946-1999)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2118519?sommaire=2118522",
+    "source_org": "INSEE (sources MI/Justice)",
+    "notes": "Acquisitions réelles et enregistrées (CD-AX1). Méthodologie distincte de la série 2008+; ne pas chaîner sans rupture. Exclut certaines acquisitions sans formalité (voir notes source)."
+  },
+  {
+    "year": 2014,
+    "series_id": "eloignements_executes",
+    "value": 21489,
+    "unit": "persons",
+    "label_fr": "Éloignements exécutés (forcés+aidés+spontanés)",
+    "source_url": "https://www.data.gouv.fr/datasets/lutte-contre-limmigration-irreguliere-publication-du-27-juin-2024",
+    "source_org": "MI-DGEF-DSED / DCPAF",
+    "notes": "France métropolitaine, majeurs, tous pays. Proxy flux sortant irrégulier — PAS un stock d'immigrés illégaux."
+  },
+  {
+    "year": 2015,
+    "series_id": "eloignements_executes",
+    "value": 19991,
+    "unit": "persons",
+    "label_fr": "Éloignements exécutés (forcés+aidés+spontanés)",
+    "source_url": "https://www.data.gouv.fr/datasets/lutte-contre-limmigration-irreguliere-publication-du-27-juin-2024",
+    "source_org": "MI-DGEF-DSED / DCPAF",
+    "notes": "France métropolitaine, majeurs, tous pays. Proxy flux sortant irrégulier — PAS un stock d'immigrés illégaux."
+  },
+  {
+    "year": 2016,
+    "series_id": "eloignements_executes",
+    "value": 16489,
+    "unit": "persons",
+    "label_fr": "Éloignements exécutés (forcés+aidés+spontanés)",
+    "source_url": "https://www.data.gouv.fr/datasets/lutte-contre-limmigration-irreguliere-publication-du-27-juin-2024",
+    "source_org": "MI-DGEF-DSED / DCPAF",
+    "notes": "France métropolitaine, majeurs, tous pays. Proxy flux sortant irrégulier — PAS un stock d'immigrés illégaux."
+  },
+  {
+    "year": 2017,
+    "series_id": "eloignements_executes",
+    "value": 17567,
+    "unit": "persons",
+    "label_fr": "Éloignements exécutés (forcés+aidés+spontanés)",
+    "source_url": "https://www.data.gouv.fr/datasets/lutte-contre-limmigration-irreguliere-publication-du-27-juin-2024",
+    "source_org": "MI-DGEF-DSED / DCPAF",
+    "notes": "France métropolitaine, majeurs, tous pays. Proxy flux sortant irrégulier — PAS un stock d'immigrés illégaux."
+  },
+  {
+    "year": 2018,
+    "series_id": "eloignements_executes",
+    "value": 19957,
+    "unit": "persons",
+    "label_fr": "Éloignements exécutés (forcés+aidés+spontanés)",
+    "source_url": "https://www.data.gouv.fr/datasets/lutte-contre-limmigration-irreguliere-publication-du-27-juin-2024",
+    "source_org": "MI-DGEF-DSED / DCPAF",
+    "notes": "France métropolitaine, majeurs, tous pays. Proxy flux sortant irrégulier — PAS un stock d'immigrés illégaux."
+  },
+  {
+    "year": 2019,
+    "series_id": "eloignements_executes",
+    "value": 23746,
+    "unit": "persons",
+    "label_fr": "Éloignements exécutés (forcés+aidés+spontanés)",
+    "source_url": "https://www.data.gouv.fr/datasets/lutte-contre-limmigration-irreguliere-publication-du-27-juin-2024",
+    "source_org": "MI-DGEF-DSED / DCPAF",
+    "notes": "France métropolitaine, majeurs, tous pays. Proxy flux sortant irrégulier — PAS un stock d'immigrés illégaux."
+  },
+  {
+    "year": 2020,
+    "series_id": "eloignements_executes",
+    "value": 12384,
+    "unit": "persons",
+    "label_fr": "Éloignements exécutés (forcés+aidés+spontanés)",
+    "source_url": "https://www.data.gouv.fr/datasets/lutte-contre-limmigration-irreguliere-publication-du-27-juin-2024",
+    "source_org": "MI-DGEF-DSED / DCPAF",
+    "notes": "France métropolitaine, majeurs, tous pays. Proxy flux sortant irrégulier — PAS un stock d'immigrés illégaux."
+  },
+  {
+    "year": 2021,
+    "series_id": "eloignements_executes",
+    "value": 13403,
+    "unit": "persons",
+    "label_fr": "Éloignements exécutés (forcés+aidés+spontanés)",
+    "source_url": "https://www.data.gouv.fr/datasets/lutte-contre-limmigration-irreguliere-publication-du-27-juin-2024",
+    "source_org": "MI-DGEF-DSED / DCPAF",
+    "notes": "France métropolitaine, majeurs, tous pays. Proxy flux sortant irrégulier — PAS un stock d'immigrés illégaux."
+  },
+  {
+    "year": 2022,
+    "series_id": "eloignements_executes",
+    "value": 15400,
+    "unit": "persons",
+    "label_fr": "Éloignements exécutés (forcés+aidés+spontanés)",
+    "source_url": "https://www.data.gouv.fr/datasets/lutte-contre-limmigration-irreguliere-publication-du-27-juin-2024",
+    "source_org": "MI-DGEF-DSED / DCPAF",
+    "notes": "France métropolitaine, majeurs, tous pays. Proxy flux sortant irrégulier — PAS un stock d'immigrés illégaux."
+  },
+  {
+    "year": 2023,
+    "series_id": "eloignements_executes",
+    "value": 17048,
+    "unit": "persons",
+    "label_fr": "Éloignements exécutés (forcés+aidés+spontanés)",
+    "source_url": "https://www.data.gouv.fr/datasets/lutte-contre-limmigration-irreguliere-publication-du-27-juin-2024",
+    "source_org": "MI-DGEF-DSED / DCPAF",
+    "notes": "France métropolitaine, majeurs, tous pays. Proxy flux sortant irrégulier — PAS un stock d'immigrés illégaux."
+  },
+  {
+    "year": 2024,
+    "series_id": "eloignements_executes",
+    "value": 21601,
+    "unit": "persons",
+    "label_fr": "Éloignements exécutés (forcés+aidés+spontanés)",
+    "source_url": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE12755",
+    "source_org": "MI-DGEF-DSED (via Assemblée QE 12755)",
+    "notes": "Cohérent avec publication DSED (+26,7% vs 2023)."
+  },
+  {
+    "year": 2025,
+    "series_id": "eloignements_executes",
+    "value": 24985,
+    "unit": "persons",
+    "label_fr": "Éloignements exécutés (forcés+aidés+spontanés)",
+    "source_url": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE12755",
+    "source_org": "MI-DGEF-DSED (via Assemblée QE 12755)",
+    "notes": "Total éloignements mis en œuvre 2025."
+  },
+  {
+    "year": 2006,
+    "series_id": "entrees_immigres_ear",
+    "value": 234000,
+    "unit": "persons",
+    "label_fr": "Entrées d'immigrés (EAR, durée ≥1 an)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8570442",
+    "source_org": "INSEE",
+    "notes": "Estimations à partir des enquêtes annuelles de recensement. Inclut toutes situations administratives (y compris irrégulières) sans les identifier. Série révisée 2006-2023 (méthode 2025). Pas égal aux premiers titres."
+  },
+  {
+    "year": 2007,
+    "series_id": "entrees_immigres_ear",
+    "value": 230000,
+    "unit": "persons",
+    "label_fr": "Entrées d'immigrés (EAR, durée ≥1 an)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8570442",
+    "source_org": "INSEE",
+    "notes": "Estimations à partir des enquêtes annuelles de recensement. Inclut toutes situations administratives (y compris irrégulières) sans les identifier. Série révisée 2006-2023 (méthode 2025). Pas égal aux premiers titres."
+  },
+  {
+    "year": 2008,
+    "series_id": "entrees_immigres_ear",
+    "value": 235000,
+    "unit": "persons",
+    "label_fr": "Entrées d'immigrés (EAR, durée ≥1 an)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8570442",
+    "source_org": "INSEE",
+    "notes": "Estimations à partir des enquêtes annuelles de recensement. Inclut toutes situations administratives (y compris irrégulières) sans les identifier. Série révisée 2006-2023 (méthode 2025). Pas égal aux premiers titres."
+  },
+  {
+    "year": 2009,
+    "series_id": "entrees_immigres_ear",
+    "value": 238000,
+    "unit": "persons",
+    "label_fr": "Entrées d'immigrés (EAR, durée ≥1 an)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8570442",
+    "source_org": "INSEE",
+    "notes": "Estimations à partir des enquêtes annuelles de recensement. Inclut toutes situations administratives (y compris irrégulières) sans les identifier. Série révisée 2006-2023 (méthode 2025). Pas égal aux premiers titres."
+  },
+  {
+    "year": 2010,
+    "series_id": "entrees_immigres_ear",
+    "value": 251000,
+    "unit": "persons",
+    "label_fr": "Entrées d'immigrés (EAR, durée ≥1 an)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8570442",
+    "source_org": "INSEE",
+    "notes": "Estimations à partir des enquêtes annuelles de recensement. Inclut toutes situations administratives (y compris irrégulières) sans les identifier. Série révisée 2006-2023 (méthode 2025). Pas égal aux premiers titres."
+  },
+  {
+    "year": 2011,
+    "series_id": "entrees_immigres_ear",
+    "value": 255000,
+    "unit": "persons",
+    "label_fr": "Entrées d'immigrés (EAR, durée ≥1 an)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8570442",
+    "source_org": "INSEE",
+    "notes": "Estimations à partir des enquêtes annuelles de recensement. Inclut toutes situations administratives (y compris irrégulières) sans les identifier. Série révisée 2006-2023 (méthode 2025). Pas égal aux premiers titres."
+  },
+  {
+    "year": 2012,
+    "series_id": "entrees_immigres_ear",
+    "value": 278000,
+    "unit": "persons",
+    "label_fr": "Entrées d'immigrés (EAR, durée ≥1 an)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8570442",
+    "source_org": "INSEE",
+    "notes": "Estimations à partir des enquêtes annuelles de recensement. Inclut toutes situations administratives (y compris irrégulières) sans les identifier. Série révisée 2006-2023 (méthode 2025). Pas égal aux premiers titres."
+  },
+  {
+    "year": 2013,
+    "series_id": "entrees_immigres_ear",
+    "value": 277000,
+    "unit": "persons",
+    "label_fr": "Entrées d'immigrés (EAR, durée ≥1 an)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8570442",
+    "source_org": "INSEE",
+    "notes": "Estimations à partir des enquêtes annuelles de recensement. Inclut toutes situations administratives (y compris irrégulières) sans les identifier. Série révisée 2006-2023 (méthode 2025). Pas égal aux premiers titres."
+  },
+  {
+    "year": 2014,
+    "series_id": "entrees_immigres_ear",
+    "value": 259000,
+    "unit": "persons",
+    "label_fr": "Entrées d'immigrés (EAR, durée ≥1 an)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8570442",
+    "source_org": "INSEE",
+    "notes": "Estimations à partir des enquêtes annuelles de recensement. Inclut toutes situations administratives (y compris irrégulières) sans les identifier. Série révisée 2006-2023 (méthode 2025). Pas égal aux premiers titres."
+  },
+  {
+    "year": 2015,
+    "series_id": "entrees_immigres_ear",
+    "value": 278000,
+    "unit": "persons",
+    "label_fr": "Entrées d'immigrés (EAR, durée ≥1 an)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8570442",
+    "source_org": "INSEE",
+    "notes": "Estimations à partir des enquêtes annuelles de recensement. Inclut toutes situations administratives (y compris irrégulières) sans les identifier. Série révisée 2006-2023 (méthode 2025). Pas égal aux premiers titres."
+  },
+  {
+    "year": 2016,
+    "series_id": "entrees_immigres_ear",
+    "value": 287000,
+    "unit": "persons",
+    "label_fr": "Entrées d'immigrés (EAR, durée ≥1 an)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8570442",
+    "source_org": "INSEE",
+    "notes": "Estimations à partir des enquêtes annuelles de recensement. Inclut toutes situations administratives (y compris irrégulières) sans les identifier. Série révisée 2006-2023 (méthode 2025). Pas égal aux premiers titres."
+  },
+  {
+    "year": 2017,
+    "series_id": "entrees_immigres_ear",
+    "value": 291000,
+    "unit": "persons",
+    "label_fr": "Entrées d'immigrés (EAR, durée ≥1 an)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8570442",
+    "source_org": "INSEE",
+    "notes": "Estimations à partir des enquêtes annuelles de recensement. Inclut toutes situations administratives (y compris irrégulières) sans les identifier. Série révisée 2006-2023 (méthode 2025). Pas égal aux premiers titres."
+  },
+  {
+    "year": 2018,
+    "series_id": "entrees_immigres_ear",
+    "value": 306000,
+    "unit": "persons",
+    "label_fr": "Entrées d'immigrés (EAR, durée ≥1 an)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8570442",
+    "source_org": "INSEE",
+    "notes": "Estimations à partir des enquêtes annuelles de recensement. Inclut toutes situations administratives (y compris irrégulières) sans les identifier. Série révisée 2006-2023 (méthode 2025). Pas égal aux premiers titres."
+  },
+  {
+    "year": 2019,
+    "series_id": "entrees_immigres_ear",
+    "value": 307000,
+    "unit": "persons",
+    "label_fr": "Entrées d'immigrés (EAR, durée ≥1 an)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8570442",
+    "source_org": "INSEE",
+    "notes": "Estimations à partir des enquêtes annuelles de recensement. Inclut toutes situations administratives (y compris irrégulières) sans les identifier. Série révisée 2006-2023 (méthode 2025). Pas égal aux premiers titres."
+  },
+  {
+    "year": 2020,
+    "series_id": "entrees_immigres_ear",
+    "value": 246000,
+    "unit": "persons",
+    "label_fr": "Entrées d'immigrés (EAR, durée ≥1 an)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8570442",
+    "source_org": "INSEE",
+    "notes": "Estimations à partir des enquêtes annuelles de recensement. Inclut toutes situations administratives (y compris irrégulières) sans les identifier. Série révisée 2006-2023 (méthode 2025). Pas égal aux premiers titres."
+  },
+  {
+    "year": 2021,
+    "series_id": "entrees_immigres_ear",
+    "value": 283000,
+    "unit": "persons",
+    "label_fr": "Entrées d'immigrés (EAR, durée ≥1 an)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8570442",
+    "source_org": "INSEE",
+    "notes": "Estimations à partir des enquêtes annuelles de recensement. Inclut toutes situations administratives (y compris irrégulières) sans les identifier. Série révisée 2006-2023 (méthode 2025). Pas égal aux premiers titres."
+  },
+  {
+    "year": 2022,
+    "series_id": "entrees_immigres_ear",
+    "value": 375000,
+    "unit": "persons",
+    "label_fr": "Entrées d'immigrés (EAR, durée ≥1 an)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8570442",
+    "source_org": "INSEE",
+    "notes": "Estimations à partir des enquêtes annuelles de recensement. Inclut toutes situations administratives (y compris irrégulières) sans les identifier. Série révisée 2006-2023 (méthode 2025). Pas égal aux premiers titres."
+  },
+  {
+    "year": 2023,
+    "series_id": "entrees_immigres_ear",
+    "value": 347000,
+    "unit": "persons",
+    "label_fr": "Entrées d'immigrés (EAR, durée ≥1 an)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8570442",
+    "source_org": "INSEE",
+    "notes": "Estimations à partir des enquêtes annuelles de recensement. Inclut toutes situations administratives (y compris irrégulières) sans les identifier. Série révisée 2006-2023 (méthode 2025). Pas égal aux premiers titres."
+  },
+  {
+    "year": 2021,
+    "series_id": "mesures_eloignement_prononcees",
+    "value": 143226,
+    "unit": "persons",
+    "label_fr": "Mesures d'éloignement prononcées",
+    "source_url": "https://questions.assemblee-nationale.fr/q16/16-7326QE.htm",
+    "source_org": "MI-DGEF-DSED (via Assemblée)",
+    "notes": "Agrégat plus large que OQTF seules. Source réponse ministérielle citant DSED."
+  },
+  {
+    "year": 2022,
+    "series_id": "mesures_eloignement_prononcees",
+    "value": 153042,
+    "unit": "persons",
+    "label_fr": "Mesures d'éloignement prononcées",
+    "source_url": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE12755",
+    "source_org": "MI-DGEF-DSED (via Assemblée)",
+    "notes": "Agrégat plus large que OQTF seules. Source réponse ministérielle citant DSED."
+  },
+  {
+    "year": 2023,
+    "series_id": "mesures_eloignement_prononcees",
+    "value": 156587,
+    "unit": "persons",
+    "label_fr": "Mesures d'éloignement prononcées",
+    "source_url": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE12755",
+    "source_org": "MI-DGEF-DSED (via Assemblée)",
+    "notes": "Agrégat plus large que OQTF seules. Source réponse ministérielle citant DSED."
+  },
+  {
+    "year": 2024,
+    "series_id": "mesures_eloignement_prononcees",
+    "value": 145107,
+    "unit": "persons",
+    "label_fr": "Mesures d'éloignement prononcées",
+    "source_url": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE12755",
+    "source_org": "MI-DGEF-DSED (via Assemblée)",
+    "notes": "Agrégat plus large que OQTF seules. Source réponse ministérielle citant DSED."
+  },
+  {
+    "year": 2025,
+    "series_id": "mesures_eloignement_prononcees",
+    "value": 156180,
+    "unit": "persons",
+    "label_fr": "Mesures d'éloignement prononcées",
+    "source_url": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE12755",
+    "source_org": "MI-DGEF-DSED (via Assemblée)",
+    "notes": "Agrégat plus large que OQTF seules. Source réponse ministérielle citant DSED."
+  },
+  {
+    "year": 2008,
+    "series_id": "naturalisations_annuelles",
+    "value": 84323,
+    "unit": "persons",
+    "label_fr": "Naturalisations par décret",
+    "source_url": "https://www.insee.fr/fr/statistiques/2381644",
+    "source_org": "INSEE / MI",
+    "notes": "Sous-ensemble: acquisitions par naturalisation (décret), hors réintégrations et déclarations."
+  },
+  {
+    "year": 2009,
+    "series_id": "naturalisations_annuelles",
+    "value": 84730,
+    "unit": "persons",
+    "label_fr": "Naturalisations par décret",
+    "source_url": "https://www.insee.fr/fr/statistiques/2381644",
+    "source_org": "INSEE / MI",
+    "notes": "Sous-ensemble: acquisitions par naturalisation (décret), hors réintégrations et déclarations."
+  },
+  {
+    "year": 2010,
+    "series_id": "naturalisations_annuelles",
+    "value": 88509,
+    "unit": "persons",
+    "label_fr": "Naturalisations par décret",
+    "source_url": "https://www.insee.fr/fr/statistiques/2381644",
+    "source_org": "INSEE / MI",
+    "notes": "Sous-ensemble: acquisitions par naturalisation (décret), hors réintégrations et déclarations."
+  },
+  {
+    "year": 2011,
+    "series_id": "naturalisations_annuelles",
+    "value": 62382,
+    "unit": "persons",
+    "label_fr": "Naturalisations par décret",
+    "source_url": "https://www.insee.fr/fr/statistiques/2381644",
+    "source_org": "INSEE / MI",
+    "notes": "Sous-ensemble: acquisitions par naturalisation (décret), hors réintégrations et déclarations."
+  },
+  {
+    "year": 2012,
+    "series_id": "naturalisations_annuelles",
+    "value": 43067,
+    "unit": "persons",
+    "label_fr": "Naturalisations par décret",
+    "source_url": "https://www.insee.fr/fr/statistiques/2381644",
+    "source_org": "INSEE / MI",
+    "notes": "Sous-ensemble: acquisitions par naturalisation (décret), hors réintégrations et déclarations."
+  },
+  {
+    "year": 2013,
+    "series_id": "naturalisations_annuelles",
+    "value": 49757,
+    "unit": "persons",
+    "label_fr": "Naturalisations par décret",
+    "source_url": "https://www.insee.fr/fr/statistiques/2381644",
+    "source_org": "INSEE / MI",
+    "notes": "Sous-ensemble: acquisitions par naturalisation (décret), hors réintégrations et déclarations."
+  },
+  {
+    "year": 2014,
+    "series_id": "naturalisations_annuelles",
+    "value": 55010,
+    "unit": "persons",
+    "label_fr": "Naturalisations par décret",
+    "source_url": "https://www.insee.fr/fr/statistiques/2381644",
+    "source_org": "INSEE / MI",
+    "notes": "Sous-ensemble: acquisitions par naturalisation (décret), hors réintégrations et déclarations."
+  },
+  {
+    "year": 2015,
+    "series_id": "naturalisations_annuelles",
+    "value": 58858,
+    "unit": "persons",
+    "label_fr": "Naturalisations par décret",
+    "source_url": "https://www.insee.fr/fr/statistiques/2381644",
+    "source_org": "INSEE / MI",
+    "notes": "Sous-ensemble: acquisitions par naturalisation (décret), hors réintégrations et déclarations."
+  },
+  {
+    "year": 2016,
+    "series_id": "naturalisations_annuelles",
+    "value": 65524,
+    "unit": "persons",
+    "label_fr": "Naturalisations par décret",
+    "source_url": "https://www.insee.fr/fr/statistiques/2381644",
+    "source_org": "INSEE / MI",
+    "notes": "Sous-ensemble: acquisitions par naturalisation (décret), hors réintégrations et déclarations."
+  },
+  {
+    "year": 2017,
+    "series_id": "naturalisations_annuelles",
+    "value": 63128,
+    "unit": "persons",
+    "label_fr": "Naturalisations par décret",
+    "source_url": "https://www.insee.fr/fr/statistiques/2381644",
+    "source_org": "INSEE / MI",
+    "notes": "Sous-ensemble: acquisitions par naturalisation (décret), hors réintégrations et déclarations."
+  },
+  {
+    "year": 2018,
+    "series_id": "naturalisations_annuelles",
+    "value": 54104,
+    "unit": "persons",
+    "label_fr": "Naturalisations par décret",
+    "source_url": "https://www.insee.fr/fr/statistiques/2381644",
+    "source_org": "INSEE / MI",
+    "notes": "Sous-ensemble: acquisitions par naturalisation (décret), hors réintégrations et déclarations."
+  },
+  {
+    "year": 2019,
+    "series_id": "naturalisations_annuelles",
+    "value": 48358,
+    "unit": "persons",
+    "label_fr": "Naturalisations par décret",
+    "source_url": "https://www.insee.fr/fr/statistiques/2381644",
+    "source_org": "INSEE / MI",
+    "notes": "Sous-ensemble: acquisitions par naturalisation (décret), hors réintégrations et déclarations."
+  },
+  {
+    "year": 2020,
+    "series_id": "naturalisations_annuelles",
+    "value": 41035,
+    "unit": "persons",
+    "label_fr": "Naturalisations par décret",
+    "source_url": "https://www.insee.fr/fr/statistiques/2381644",
+    "source_org": "INSEE / MI",
+    "notes": "Sous-ensemble: acquisitions par naturalisation (décret), hors réintégrations et déclarations."
+  },
+  {
+    "year": 2021,
+    "series_id": "naturalisations_annuelles",
+    "value": 74048,
+    "unit": "persons",
+    "label_fr": "Naturalisations par décret",
+    "source_url": "https://www.insee.fr/fr/statistiques/2381644",
+    "source_org": "INSEE / MI",
+    "notes": "Sous-ensemble: acquisitions par naturalisation (décret), hors réintégrations et déclarations."
+  },
+  {
+    "year": 2022,
+    "series_id": "naturalisations_annuelles",
+    "value": 59904,
+    "unit": "persons",
+    "label_fr": "Naturalisations par décret",
+    "source_url": "https://www.insee.fr/fr/statistiques/2381644",
+    "source_org": "INSEE / MI",
+    "notes": "Sous-ensemble: acquisitions par naturalisation (décret), hors réintégrations et déclarations."
+  },
+  {
+    "year": 2023,
+    "series_id": "naturalisations_annuelles",
+    "value": 39721,
+    "unit": "persons",
+    "label_fr": "Naturalisations par décret",
+    "source_url": "https://www.insee.fr/fr/statistiques/2381644",
+    "source_org": "INSEE / MI",
+    "notes": "Sous-ensemble: acquisitions par naturalisation (décret), hors réintégrations et déclarations."
+  },
+  {
+    "year": 2024,
+    "series_id": "naturalisations_annuelles",
+    "value": 48494,
+    "unit": "persons",
+    "label_fr": "Naturalisations par décret",
+    "source_url": "https://www.insee.fr/fr/statistiques/2381644",
+    "source_org": "INSEE / MI",
+    "notes": "Sous-ensemble: acquisitions par naturalisation (décret), hors réintégrations et déclarations."
+  },
+  {
+    "year": 2025,
+    "series_id": "naturalisations_annuelles",
+    "value": 42063,
+    "unit": "persons",
+    "label_fr": "Naturalisations par décret",
+    "source_url": "https://www.insee.fr/fr/statistiques/2381644",
+    "source_org": "INSEE / MI",
+    "notes": "Sous-ensemble: acquisitions par naturalisation (décret), hors réintégrations et déclarations."
+  },
+  {
+    "year": 2018,
+    "series_id": "oqtf_prononcees",
+    "value": 103852,
+    "unit": "persons",
+    "label_fr": "OQTF prononcées",
+    "source_url": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE6440",
+    "source_org": "MI-DSED (via Assemblée QE 6440)",
+    "notes": "Données provisoires DSED citées dans réponse ministérielle. OQTF ≠ stock d'irréguliers. Pas de série continue officielle 1950-2017 dans les sources primaires retenues."
+  },
+  {
+    "year": 2019,
+    "series_id": "oqtf_prononcees",
+    "value": 122839,
+    "unit": "persons",
+    "label_fr": "OQTF prononcées",
+    "source_url": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE6440",
+    "source_org": "MI-DSED (via Assemblée QE 6440)",
+    "notes": "Données provisoires DSED citées dans réponse ministérielle. OQTF ≠ stock d'irréguliers. Pas de série continue officielle 1950-2017 dans les sources primaires retenues."
+  },
+  {
+    "year": 2020,
+    "series_id": "oqtf_prononcees",
+    "value": 107488,
+    "unit": "persons",
+    "label_fr": "OQTF prononcées",
+    "source_url": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE6440",
+    "source_org": "MI-DSED (via Assemblée QE 6440)",
+    "notes": "Données provisoires DSED citées dans réponse ministérielle. OQTF ≠ stock d'irréguliers. Pas de série continue officielle 1950-2017 dans les sources primaires retenues."
+  },
+  {
+    "year": 2021,
+    "series_id": "oqtf_prononcees",
+    "value": 124111,
+    "unit": "persons",
+    "label_fr": "OQTF prononcées",
+    "source_url": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE6440",
+    "source_org": "MI-DSED (via Assemblée QE 6440)",
+    "notes": "Données provisoires DSED citées dans réponse ministérielle. OQTF ≠ stock d'irréguliers. Pas de série continue officielle 1950-2017 dans les sources primaires retenues."
+  },
+  {
+    "year": 2022,
+    "series_id": "oqtf_prononcees",
+    "value": 134280,
+    "unit": "persons",
+    "label_fr": "OQTF prononcées",
+    "source_url": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE6440",
+    "source_org": "MI-DSED (via Assemblée QE 6440)",
+    "notes": "Données provisoires DSED citées dans réponse ministérielle. OQTF ≠ stock d'irréguliers. Pas de série continue officielle 1950-2017 dans les sources primaires retenues."
+  },
+  {
+    "year": 2023,
+    "series_id": "oqtf_prononcees",
+    "value": 138882,
+    "unit": "persons",
+    "label_fr": "OQTF prononcées",
+    "source_url": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE6440",
+    "source_org": "MI-DSED (via Assemblée QE 6440)",
+    "notes": "Données provisoires DSED citées dans réponse ministérielle. OQTF ≠ stock d'irréguliers. Pas de série continue officielle 1950-2017 dans les sources primaires retenues."
+  },
+  {
+    "year": 2024,
+    "series_id": "oqtf_prononcees",
+    "value": 129833,
+    "unit": "persons",
+    "label_fr": "OQTF prononcées",
+    "source_url": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE6440",
+    "source_org": "MI-DSED (via Assemblée QE 6440)",
+    "notes": "Données provisoires DSED citées dans réponse ministérielle. OQTF ≠ stock d'irréguliers. Pas de série continue officielle 1950-2017 dans les sources primaires retenues."
+  },
+  {
+    "year": 2011,
+    "series_id": "premiers_titres_sejour",
+    "value": 199414,
+    "unit": "persons",
+    "label_fr": "Premiers titres de séjour (pays tiers hors UK)",
+    "source_url": "https://www.data.gouv.fr/datasets/les-titres-de-sejour-publication-du-25-janvier-2024",
+    "source_org": "MI-DGEF-DSED",
+    "notes": "Premiers titres de séjour, ressortissants pays tiers hors Britanniques. France. Source DSED/AGDREF. 2023 estimé dans publication janv. 2024. Ne compte pas les UE (libre circulation)."
+  },
+  {
+    "year": 2012,
+    "series_id": "premiers_titres_sejour",
+    "value": 199811,
+    "unit": "persons",
+    "label_fr": "Premiers titres de séjour (pays tiers hors UK)",
+    "source_url": "https://www.data.gouv.fr/datasets/les-titres-de-sejour-publication-du-25-janvier-2024",
+    "source_org": "MI-DGEF-DSED",
+    "notes": "Premiers titres de séjour, ressortissants pays tiers hors Britanniques. France. Source DSED/AGDREF. 2023 estimé dans publication janv. 2024. Ne compte pas les UE (libre circulation)."
+  },
+  {
+    "year": 2013,
+    "series_id": "premiers_titres_sejour",
+    "value": 214193,
+    "unit": "persons",
+    "label_fr": "Premiers titres de séjour (pays tiers hors UK)",
+    "source_url": "https://www.data.gouv.fr/datasets/les-titres-de-sejour-publication-du-25-janvier-2024",
+    "source_org": "MI-DGEF-DSED",
+    "notes": "Premiers titres de séjour, ressortissants pays tiers hors Britanniques. France. Source DSED/AGDREF. 2023 estimé dans publication janv. 2024. Ne compte pas les UE (libre circulation)."
+  },
+  {
+    "year": 2014,
+    "series_id": "premiers_titres_sejour",
+    "value": 220594,
+    "unit": "persons",
+    "label_fr": "Premiers titres de séjour (pays tiers hors UK)",
+    "source_url": "https://www.data.gouv.fr/datasets/les-titres-de-sejour-publication-du-25-janvier-2024",
+    "source_org": "MI-DGEF-DSED",
+    "notes": "Premiers titres de séjour, ressortissants pays tiers hors Britanniques. France. Source DSED/AGDREF. 2023 estimé dans publication janv. 2024. Ne compte pas les UE (libre circulation)."
+  },
+  {
+    "year": 2015,
+    "series_id": "premiers_titres_sejour",
+    "value": 228685,
+    "unit": "persons",
+    "label_fr": "Premiers titres de séjour (pays tiers hors UK)",
+    "source_url": "https://www.data.gouv.fr/datasets/les-titres-de-sejour-publication-du-25-janvier-2024",
+    "source_org": "MI-DGEF-DSED",
+    "notes": "Premiers titres de séjour, ressortissants pays tiers hors Britanniques. France. Source DSED/AGDREF. 2023 estimé dans publication janv. 2024. Ne compte pas les UE (libre circulation)."
+  },
+  {
+    "year": 2016,
+    "series_id": "premiers_titres_sejour",
+    "value": 237210,
+    "unit": "persons",
+    "label_fr": "Premiers titres de séjour (pays tiers hors UK)",
+    "source_url": "https://www.data.gouv.fr/datasets/les-titres-de-sejour-publication-du-25-janvier-2024",
+    "source_org": "MI-DGEF-DSED",
+    "notes": "Premiers titres de séjour, ressortissants pays tiers hors Britanniques. France. Source DSED/AGDREF. 2023 estimé dans publication janv. 2024. Ne compte pas les UE (libre circulation)."
+  },
+  {
+    "year": 2017,
+    "series_id": "premiers_titres_sejour",
+    "value": 254628,
+    "unit": "persons",
+    "label_fr": "Premiers titres de séjour (pays tiers hors UK)",
+    "source_url": "https://www.data.gouv.fr/datasets/les-titres-de-sejour-publication-du-25-janvier-2024",
+    "source_org": "MI-DGEF-DSED",
+    "notes": "Premiers titres de séjour, ressortissants pays tiers hors Britanniques. France. Source DSED/AGDREF. 2023 estimé dans publication janv. 2024. Ne compte pas les UE (libre circulation)."
+  },
+  {
+    "year": 2018,
+    "series_id": "premiers_titres_sejour",
+    "value": 267421,
+    "unit": "persons",
+    "label_fr": "Premiers titres de séjour (pays tiers hors UK)",
+    "source_url": "https://www.data.gouv.fr/datasets/les-titres-de-sejour-publication-du-25-janvier-2024",
+    "source_org": "MI-DGEF-DSED",
+    "notes": "Premiers titres de séjour, ressortissants pays tiers hors Britanniques. France. Source DSED/AGDREF. 2023 estimé dans publication janv. 2024. Ne compte pas les UE (libre circulation)."
+  },
+  {
+    "year": 2019,
+    "series_id": "premiers_titres_sejour",
+    "value": 287503,
+    "unit": "persons",
+    "label_fr": "Premiers titres de séjour (pays tiers hors UK)",
+    "source_url": "https://www.data.gouv.fr/datasets/les-titres-de-sejour-publication-du-25-janvier-2024",
+    "source_org": "MI-DGEF-DSED",
+    "notes": "Premiers titres de séjour, ressortissants pays tiers hors Britanniques. France. Source DSED/AGDREF. 2023 estimé dans publication janv. 2024. Ne compte pas les UE (libre circulation)."
+  },
+  {
+    "year": 2020,
+    "series_id": "premiers_titres_sejour",
+    "value": 229388,
+    "unit": "persons",
+    "label_fr": "Premiers titres de séjour (pays tiers hors UK)",
+    "source_url": "https://www.data.gouv.fr/datasets/les-titres-de-sejour-publication-du-25-janvier-2024",
+    "source_org": "MI-DGEF-DSED",
+    "notes": "Premiers titres de séjour, ressortissants pays tiers hors Britanniques. France. Source DSED/AGDREF. 2023 estimé dans publication janv. 2024. Ne compte pas les UE (libre circulation)."
+  },
+  {
+    "year": 2021,
+    "series_id": "premiers_titres_sejour",
+    "value": 282772,
+    "unit": "persons",
+    "label_fr": "Premiers titres de séjour (pays tiers hors UK)",
+    "source_url": "https://www.data.gouv.fr/datasets/les-titres-de-sejour-publication-du-25-janvier-2024",
+    "source_org": "MI-DGEF-DSED",
+    "notes": "Premiers titres de séjour, ressortissants pays tiers hors Britanniques. France. Source DSED/AGDREF. 2023 estimé dans publication janv. 2024. Ne compte pas les UE (libre circulation)."
+  },
+  {
+    "year": 2022,
+    "series_id": "premiers_titres_sejour",
+    "value": 318926,
+    "unit": "persons",
+    "label_fr": "Premiers titres de séjour (pays tiers hors UK)",
+    "source_url": "https://www.data.gouv.fr/datasets/les-titres-de-sejour-publication-du-25-janvier-2024",
+    "source_org": "MI-DGEF-DSED",
+    "notes": "Premiers titres de séjour, ressortissants pays tiers hors Britanniques. France. Source DSED/AGDREF. 2023 estimé dans publication janv. 2024. Ne compte pas les UE (libre circulation). Définitif dans cette publication."
+  },
+  {
+    "year": 2023,
+    "series_id": "premiers_titres_sejour",
+    "value": 323260,
+    "unit": "persons",
+    "label_fr": "Premiers titres de séjour (pays tiers hors UK)",
+    "source_url": "https://www.data.gouv.fr/datasets/les-titres-de-sejour-publication-du-25-janvier-2024",
+    "source_org": "MI-DGEF-DSED",
+    "notes": "Premiers titres de séjour, ressortissants pays tiers hors Britanniques. France. Source DSED/AGDREF. 2023 estimé dans publication janv. 2024. Ne compte pas les UE (libre circulation). Estimé."
+  },
+  {
+    "year": 2008,
+    "series_id": "regularisations_annuelles",
+    "value": 17101,
+    "unit": "persons",
+    "label_fr": "Admission exceptionnelle au séjour (régularisations)",
+    "source_url": "https://www.data.gouv.fr/datasets/15058-volumes-dadmission-exceptionnelle-au-sejour-des-ressortissants-etrangers",
+    "source_org": "MI-DGEF-DSED",
+    "notes": "AES (CESEDA). France entière, tous pays. Série data.gouv 15058 (arrêtée 2013). Gap officiel 2014-2020 dans les sources primaires compilées ici."
+  },
+  {
+    "year": 2009,
+    "series_id": "regularisations_annuelles",
+    "value": 15827,
+    "unit": "persons",
+    "label_fr": "Admission exceptionnelle au séjour (régularisations)",
+    "source_url": "https://www.data.gouv.fr/datasets/15058-volumes-dadmission-exceptionnelle-au-sejour-des-ressortissants-etrangers",
+    "source_org": "MI-DGEF-DSED",
+    "notes": "AES (CESEDA). France entière, tous pays. Série data.gouv 15058 (arrêtée 2013). Gap officiel 2014-2020 dans les sources primaires compilées ici."
+  },
+  {
+    "year": 2010,
+    "series_id": "regularisations_annuelles",
+    "value": 17624,
+    "unit": "persons",
+    "label_fr": "Admission exceptionnelle au séjour (régularisations)",
+    "source_url": "https://www.data.gouv.fr/datasets/15058-volumes-dadmission-exceptionnelle-au-sejour-des-ressortissants-etrangers",
+    "source_org": "MI-DGEF-DSED",
+    "notes": "AES (CESEDA). France entière, tous pays. Série data.gouv 15058 (arrêtée 2013). Gap officiel 2014-2020 dans les sources primaires compilées ici."
+  },
+  {
+    "year": 2011,
+    "series_id": "regularisations_annuelles",
+    "value": 21707,
+    "unit": "persons",
+    "label_fr": "Admission exceptionnelle au séjour (régularisations)",
+    "source_url": "https://www.data.gouv.fr/datasets/15058-volumes-dadmission-exceptionnelle-au-sejour-des-ressortissants-etrangers",
+    "source_org": "MI-DGEF-DSED",
+    "notes": "AES (CESEDA). France entière, tous pays. Série data.gouv 15058 (arrêtée 2013). Gap officiel 2014-2020 dans les sources primaires compilées ici."
+  },
+  {
+    "year": 2012,
+    "series_id": "regularisations_annuelles",
+    "value": 23294,
+    "unit": "persons",
+    "label_fr": "Admission exceptionnelle au séjour (régularisations)",
+    "source_url": "https://www.data.gouv.fr/datasets/15058-volumes-dadmission-exceptionnelle-au-sejour-des-ressortissants-etrangers",
+    "source_org": "MI-DGEF-DSED",
+    "notes": "AES (CESEDA). France entière, tous pays. Série data.gouv 15058 (arrêtée 2013). Gap officiel 2014-2020 dans les sources primaires compilées ici."
+  },
+  {
+    "year": 2013,
+    "series_id": "regularisations_annuelles",
+    "value": 35270,
+    "unit": "persons",
+    "label_fr": "Admission exceptionnelle au séjour (régularisations)",
+    "source_url": "https://www.data.gouv.fr/datasets/15058-volumes-dadmission-exceptionnelle-au-sejour-des-ressortissants-etrangers",
+    "source_org": "MI-DGEF-DSED",
+    "notes": "AES (CESEDA). France entière, tous pays. Série data.gouv 15058 (arrêtée 2013). Gap officiel 2014-2020 dans les sources primaires compilées ici."
+  },
+  {
+    "year": 2021,
+    "series_id": "regularisations_annuelles",
+    "value": 31553,
+    "unit": "persons",
+    "label_fr": "Admission exceptionnelle au séjour (régularisations)",
+    "source_url": "https://www.immigration.interieur.gouv.fr/Info-ressources/Etudes-et-statistiques/Les-chiffres-de-l-immigration-en-France/Sejour",
+    "source_org": "MI-DGEF-DSED",
+    "notes": "Admission exceptionnelle au séjour (AES) + motifs de régularisation publiés (éco/familial/étudiant). Source MI-AGDREF/DSED Figure 15. 2025 estimé."
+  },
+  {
+    "year": 2022,
+    "series_id": "regularisations_annuelles",
+    "value": 34302,
+    "unit": "persons",
+    "label_fr": "Admission exceptionnelle au séjour (régularisations)",
+    "source_url": "https://www.immigration.interieur.gouv.fr/Info-ressources/Etudes-et-statistiques/Les-chiffres-de-l-immigration-en-France/Sejour",
+    "source_org": "MI-DGEF-DSED",
+    "notes": "Admission exceptionnelle au séjour (AES) + motifs de régularisation publiés (éco/familial/étudiant). Source MI-AGDREF/DSED Figure 15. 2025 estimé."
+  },
+  {
+    "year": 2023,
+    "series_id": "regularisations_annuelles",
+    "value": 34706,
+    "unit": "persons",
+    "label_fr": "Admission exceptionnelle au séjour (régularisations)",
+    "source_url": "https://www.immigration.interieur.gouv.fr/Info-ressources/Etudes-et-statistiques/Les-chiffres-de-l-immigration-en-France/Sejour",
+    "source_org": "MI-DGEF-DSED",
+    "notes": "Admission exceptionnelle au séjour (AES) + motifs de régularisation publiés (éco/familial/étudiant). Source MI-AGDREF/DSED Figure 15. 2025 estimé."
+  },
+  {
+    "year": 2024,
+    "series_id": "regularisations_annuelles",
+    "value": 31833,
+    "unit": "persons",
+    "label_fr": "Admission exceptionnelle au séjour (régularisations)",
+    "source_url": "https://www.immigration.interieur.gouv.fr/Info-ressources/Etudes-et-statistiques/Les-chiffres-de-l-immigration-en-France/Sejour",
+    "source_org": "MI-DGEF-DSED",
+    "notes": "Admission exceptionnelle au séjour (AES) + motifs de régularisation publiés (éco/familial/étudiant). Source MI-AGDREF/DSED Figure 15. 2025 estimé. Définitif dans publication 2025/2026."
+  },
+  {
+    "year": 2025,
+    "series_id": "regularisations_annuelles",
+    "value": 28610,
+    "unit": "persons",
+    "label_fr": "Admission exceptionnelle au séjour (régularisations)",
+    "source_url": "https://www.immigration.interieur.gouv.fr/Info-ressources/Etudes-et-statistiques/Les-chiffres-de-l-immigration-en-France/Sejour",
+    "source_org": "MI-DGEF-DSED",
+    "notes": "Admission exceptionnelle au séjour (AES) + motifs de régularisation publiés (éco/familial/étudiant). Source MI-AGDREF/DSED Figure 15. 2025 estimé. Estimé."
+  },
+  {
+    "year": 1995,
+    "series_id": "solde_migratoire_france",
+    "value": 42200,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France entière)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242323",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire NET, France entière (Mayotte inclus depuis 2014). PAS entrées légales seules. 2021-2023: provisoire (conventionnellement moyenne des derniers soldes connus)."
+  },
+  {
+    "year": 1996,
+    "series_id": "solde_migratoire_france",
+    "value": 38200,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France entière)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242323",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire NET, France entière (Mayotte inclus depuis 2014). PAS entrées légales seules. 2021-2023: provisoire (conventionnellement moyenne des derniers soldes connus)."
+  },
+  {
+    "year": 1997,
+    "series_id": "solde_migratoire_france",
+    "value": 43300,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France entière)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242323",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire NET, France entière (Mayotte inclus depuis 2014). PAS entrées légales seules. 2021-2023: provisoire (conventionnellement moyenne des derniers soldes connus)."
+  },
+  {
+    "year": 1998,
+    "series_id": "solde_migratoire_france",
+    "value": 50200,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France entière)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242323",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire NET, France entière (Mayotte inclus depuis 2014). PAS entrées légales seules. 2021-2023: provisoire (conventionnellement moyenne des derniers soldes connus)."
+  },
+  {
+    "year": 1999,
+    "series_id": "solde_migratoire_france",
+    "value": 62500,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France entière)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242323",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire NET, France entière (Mayotte inclus depuis 2014). PAS entrées légales seules. 2021-2023: provisoire (conventionnellement moyenne des derniers soldes connus)."
+  },
+  {
+    "year": 2000,
+    "series_id": "solde_migratoire_france",
+    "value": 72000,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France entière)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242323",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire NET, France entière (Mayotte inclus depuis 2014). PAS entrées légales seules. 2021-2023: provisoire (conventionnellement moyenne des derniers soldes connus)."
+  },
+  {
+    "year": 2001,
+    "series_id": "solde_migratoire_france",
+    "value": 87000,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France entière)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242323",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire NET, France entière (Mayotte inclus depuis 2014). PAS entrées légales seules. 2021-2023: provisoire (conventionnellement moyenne des derniers soldes connus)."
+  },
+  {
+    "year": 2002,
+    "series_id": "solde_migratoire_france",
+    "value": 97000,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France entière)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242323",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire NET, France entière (Mayotte inclus depuis 2014). PAS entrées légales seules. 2021-2023: provisoire (conventionnellement moyenne des derniers soldes connus)."
+  },
+  {
+    "year": 2003,
+    "series_id": "solde_migratoire_france",
+    "value": 102000,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France entière)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242323",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire NET, France entière (Mayotte inclus depuis 2014). PAS entrées légales seules. 2021-2023: provisoire (conventionnellement moyenne des derniers soldes connus)."
+  },
+  {
+    "year": 2004,
+    "series_id": "solde_migratoire_france",
+    "value": 105100,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France entière)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242323",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire NET, France entière (Mayotte inclus depuis 2014). PAS entrées légales seules. 2021-2023: provisoire (conventionnellement moyenne des derniers soldes connus)."
+  },
+  {
+    "year": 2005,
+    "series_id": "solde_migratoire_france",
+    "value": 92200,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France entière)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242323",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire NET, France entière (Mayotte inclus depuis 2014). PAS entrées légales seules. 2021-2023: provisoire (conventionnellement moyenne des derniers soldes connus)."
+  },
+  {
+    "year": 2006,
+    "series_id": "solde_migratoire_france",
+    "value": 112100,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France entière)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242323",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire NET, France entière (Mayotte inclus depuis 2014). PAS entrées légales seules. 2021-2023: provisoire (conventionnellement moyenne des derniers soldes connus)."
+  },
+  {
+    "year": 2007,
+    "series_id": "solde_migratoire_france",
+    "value": 73600,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France entière)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242323",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire NET, France entière (Mayotte inclus depuis 2014). PAS entrées légales seules. 2021-2023: provisoire (conventionnellement moyenne des derniers soldes connus)."
+  },
+  {
+    "year": 2008,
+    "series_id": "solde_migratoire_france",
+    "value": 56800,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France entière)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242323",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire NET, France entière (Mayotte inclus depuis 2014). PAS entrées légales seules. 2021-2023: provisoire (conventionnellement moyenne des derniers soldes connus)."
+  },
+  {
+    "year": 2009,
+    "series_id": "solde_migratoire_france",
+    "value": 32300,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France entière)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242323",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire NET, France entière (Mayotte inclus depuis 2014). PAS entrées légales seules. 2021-2023: provisoire (conventionnellement moyenne des derniers soldes connus)."
+  },
+  {
+    "year": 2010,
+    "series_id": "solde_migratoire_france",
+    "value": 38900,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France entière)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242323",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire NET, France entière (Mayotte inclus depuis 2014). PAS entrées légales seules. 2021-2023: provisoire (conventionnellement moyenne des derniers soldes connus)."
+  },
+  {
+    "year": 2011,
+    "series_id": "solde_migratoire_france",
+    "value": 29500,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France entière)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242323",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire NET, France entière (Mayotte inclus depuis 2014). PAS entrées légales seules. 2021-2023: provisoire (conventionnellement moyenne des derniers soldes connus)."
+  },
+  {
+    "year": 2012,
+    "series_id": "solde_migratoire_france",
+    "value": 72300,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France entière)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242323",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire NET, France entière (Mayotte inclus depuis 2014). PAS entrées légales seules. 2021-2023: provisoire (conventionnellement moyenne des derniers soldes connus)."
+  },
+  {
+    "year": 2013,
+    "series_id": "solde_migratoire_france",
+    "value": 100100,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France entière)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242323",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire NET, France entière (Mayotte inclus depuis 2014). PAS entrées légales seules. 2021-2023: provisoire (conventionnellement moyenne des derniers soldes connus)."
+  },
+  {
+    "year": 2014,
+    "series_id": "solde_migratoire_france",
+    "value": 32300,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France entière)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242323",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire NET, France entière (Mayotte inclus depuis 2014). PAS entrées légales seules. 2021-2023: provisoire (conventionnellement moyenne des derniers soldes connus)."
+  },
+  {
+    "year": 2015,
+    "series_id": "solde_migratoire_france",
+    "value": 40200,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France entière)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242323",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire NET, France entière (Mayotte inclus depuis 2014). PAS entrées légales seules. 2021-2023: provisoire (conventionnellement moyenne des derniers soldes connus)."
+  },
+  {
+    "year": 2016,
+    "series_id": "solde_migratoire_france",
+    "value": 65000,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France entière)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242323",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire NET, France entière (Mayotte inclus depuis 2014). PAS entrées légales seules. 2021-2023: provisoire (conventionnellement moyenne des derniers soldes connus)."
+  },
+  {
+    "year": 2017,
+    "series_id": "solde_migratoire_france",
+    "value": 154700,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France entière)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242323",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire NET, France entière (Mayotte inclus depuis 2014). PAS entrées légales seules. 2021-2023: provisoire (conventionnellement moyenne des derniers soldes connus)."
+  },
+  {
+    "year": 2018,
+    "series_id": "solde_migratoire_france",
+    "value": 200500,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France entière)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242323",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire NET, France entière (Mayotte inclus depuis 2014). PAS entrées légales seules. 2021-2023: provisoire (conventionnellement moyenne des derniers soldes connus)."
+  },
+  {
+    "year": 2019,
+    "series_id": "solde_migratoire_france",
+    "value": 127600,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France entière)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242323",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire NET, France entière (Mayotte inclus depuis 2014). PAS entrées légales seules. 2021-2023: provisoire (conventionnellement moyenne des derniers soldes connus)."
+  },
+  {
+    "year": 2020,
+    "series_id": "solde_migratoire_france",
+    "value": 223000,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France entière)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242323",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire NET, France entière (Mayotte inclus depuis 2014). PAS entrées légales seules. 2021-2023: provisoire (conventionnellement moyenne des derniers soldes connus)."
+  },
+  {
+    "year": 2021,
+    "series_id": "solde_migratoire_france",
+    "value": 183000,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France entière)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242323",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire NET, France entière (Mayotte inclus depuis 2014). PAS entrées légales seules. 2021-2023: provisoire (conventionnellement moyenne des derniers soldes connus)."
+  },
+  {
+    "year": 2022,
+    "series_id": "solde_migratoire_france",
+    "value": 183000,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France entière)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242323",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire NET, France entière (Mayotte inclus depuis 2014). PAS entrées légales seules. 2021-2023: provisoire (conventionnellement moyenne des derniers soldes connus)."
+  },
+  {
+    "year": 2023,
+    "series_id": "solde_migratoire_france",
+    "value": 183000,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France entière)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242323",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire NET, France entière (Mayotte inclus depuis 2014). PAS entrées légales seules. 2021-2023: provisoire (conventionnellement moyenne des derniers soldes connus)."
+  },
+  {
+    "year": 1946,
+    "series_id": "solde_migratoire_metro",
+    "value": 25000,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 1947,
+    "series_id": "solde_migratoire_metro",
+    "value": 130000,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 1948,
+    "series_id": "solde_migratoire_metro",
+    "value": 45000,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 1949,
+    "series_id": "solde_migratoire_metro",
+    "value": 35000,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 1950,
+    "series_id": "solde_migratoire_metro",
+    "value": 35000,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 1951,
+    "series_id": "solde_migratoire_metro",
+    "value": 30000,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 1952,
+    "series_id": "solde_migratoire_metro",
+    "value": 20000,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 1953,
+    "series_id": "solde_migratoire_metro",
+    "value": 19071,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 1954,
+    "series_id": "solde_migratoire_metro",
+    "value": 50872,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 1955,
+    "series_id": "solde_migratoire_metro",
+    "value": 120000,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 1956,
+    "series_id": "solde_migratoire_metro",
+    "value": 170000,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 1957,
+    "series_id": "solde_migratoire_metro",
+    "value": 220000,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 1958,
+    "series_id": "solde_migratoire_metro",
+    "value": 140000,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 1959,
+    "series_id": "solde_migratoire_metro",
+    "value": 130000,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 1960,
+    "series_id": "solde_migratoire_metro",
+    "value": 140000,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 1961,
+    "series_id": "solde_migratoire_metro",
+    "value": 180000,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 1962,
+    "series_id": "solde_migratoire_metro",
+    "value": 860200,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers. Pic 1962: rapatriements d'Algérie inclus."
+  },
+  {
+    "year": 1963,
+    "series_id": "solde_migratoire_metro",
+    "value": 214599,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 1964,
+    "series_id": "solde_migratoire_metro",
+    "value": 185000,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 1965,
+    "series_id": "solde_migratoire_metro",
+    "value": 110000,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 1966,
+    "series_id": "solde_migratoire_metro",
+    "value": 125000,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 1967,
+    "series_id": "solde_migratoire_metro",
+    "value": 92000,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 1968,
+    "series_id": "solde_migratoire_metro",
+    "value": 102308,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 1969,
+    "series_id": "solde_migratoire_metro",
+    "value": 151574,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 1970,
+    "series_id": "solde_migratoire_metro",
+    "value": 179911,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 1971,
+    "series_id": "solde_migratoire_metro",
+    "value": 142586,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 1972,
+    "series_id": "solde_migratoire_metro",
+    "value": 102314,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 1973,
+    "series_id": "solde_migratoire_metro",
+    "value": 106448,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 1974,
+    "series_id": "solde_migratoire_metro",
+    "value": 30608,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 1975,
+    "series_id": "solde_migratoire_metro",
+    "value": 13626,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 1976,
+    "series_id": "solde_migratoire_metro",
+    "value": 57386,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 1977,
+    "series_id": "solde_migratoire_metro",
+    "value": 44038,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 1978,
+    "series_id": "solde_migratoire_metro",
+    "value": 19361,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 1979,
+    "series_id": "solde_migratoire_metro",
+    "value": 34765,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 1980,
+    "series_id": "solde_migratoire_metro",
+    "value": 43974,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 1981,
+    "series_id": "solde_migratoire_metro",
+    "value": 55710,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 1982,
+    "series_id": "solde_migratoire_metro",
+    "value": 60865,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 1983,
+    "series_id": "solde_migratoire_metro",
+    "value": 56000,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 1984,
+    "series_id": "solde_migratoire_metro",
+    "value": 45000,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 1985,
+    "series_id": "solde_migratoire_metro",
+    "value": 38000,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 1986,
+    "series_id": "solde_migratoire_metro",
+    "value": 39000,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 1987,
+    "series_id": "solde_migratoire_metro",
+    "value": 44000,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 1988,
+    "series_id": "solde_migratoire_metro",
+    "value": 57000,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 1989,
+    "series_id": "solde_migratoire_metro",
+    "value": 71000,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 1990,
+    "series_id": "solde_migratoire_metro",
+    "value": 80000,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 1991,
+    "series_id": "solde_migratoire_metro",
+    "value": 90000,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 1992,
+    "series_id": "solde_migratoire_metro",
+    "value": 90000,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 1993,
+    "series_id": "solde_migratoire_metro",
+    "value": 70000,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 1994,
+    "series_id": "solde_migratoire_metro",
+    "value": 50000,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 1995,
+    "series_id": "solde_migratoire_metro",
+    "value": 40000,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 1996,
+    "series_id": "solde_migratoire_metro",
+    "value": 35000,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 1997,
+    "series_id": "solde_migratoire_metro",
+    "value": 40000,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 1998,
+    "series_id": "solde_migratoire_metro",
+    "value": 45000,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 1999,
+    "series_id": "solde_migratoire_metro",
+    "value": 60000,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 2000,
+    "series_id": "solde_migratoire_metro",
+    "value": 70000,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 2001,
+    "series_id": "solde_migratoire_metro",
+    "value": 85000,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 2002,
+    "series_id": "solde_migratoire_metro",
+    "value": 95000,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 2003,
+    "series_id": "solde_migratoire_metro",
+    "value": 100000,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 2004,
+    "series_id": "solde_migratoire_metro",
+    "value": 105000,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 2005,
+    "series_id": "solde_migratoire_metro",
+    "value": 95000,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 2006,
+    "series_id": "solde_migratoire_metro",
+    "value": 115025,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 2007,
+    "series_id": "solde_migratoire_metro",
+    "value": 74659,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 2008,
+    "series_id": "solde_migratoire_metro",
+    "value": 66930,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 2009,
+    "series_id": "solde_migratoire_metro",
+    "value": 44222,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 2010,
+    "series_id": "solde_migratoire_metro",
+    "value": 43354,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 2011,
+    "series_id": "solde_migratoire_metro",
+    "value": 47426,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 2012,
+    "series_id": "solde_migratoire_metro",
+    "value": 90831,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 2013,
+    "series_id": "solde_migratoire_metro",
+    "value": 106880,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 2014,
+    "series_id": "solde_migratoire_metro",
+    "value": 38699,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 2015,
+    "series_id": "solde_migratoire_metro",
+    "value": 53025,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 2016,
+    "series_id": "solde_migratoire_metro",
+    "value": 87964,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 2017,
+    "series_id": "solde_migratoire_metro",
+    "value": 166654,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 2018,
+    "series_id": "solde_migratoire_metro",
+    "value": 211349,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers."
+  },
+  {
+    "year": 2019,
+    "series_id": "solde_migratoire_metro",
+    "value": 155000,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers. Provisoire dans publication juillet 2022."
+  },
+  {
+    "year": 2020,
+    "series_id": "solde_migratoire_metro",
+    "value": 155000,
+    "unit": "persons",
+    "label_fr": "Solde migratoire (France métropolitaine)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6327224",
+    "source_org": "INSEE",
+    "notes": "Solde migratoire apparent NET (entrées−sorties), France métropolitaine. PAS les entrées légales seules. Inclut Français et étrangers. Provisoire dans publication juillet 2022."
+  },
+  {
+    "year": 1946,
+    "series_id": "stock_immigres",
+    "value": 1986000,
+    "unit": "persons",
+    "label_fr": "Effectif des immigrés (stock)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Recensement. Champ: France métropolitaine. Point de référence avant 1950."
+  },
+  {
+    "year": 1954,
+    "series_id": "stock_immigres",
+    "value": 2293000,
+    "unit": "persons",
+    "label_fr": "Effectif des immigrés (stock)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Recensement/estimations INSEE. Champ: métropole jusqu'en 1982; France hors Mayotte 1990-2013; France depuis 2014."
+  },
+  {
+    "year": 1962,
+    "series_id": "stock_immigres",
+    "value": 2861000,
+    "unit": "persons",
+    "label_fr": "Effectif des immigrés (stock)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Recensement/estimations INSEE. Champ: métropole jusqu'en 1982; France hors Mayotte 1990-2013; France depuis 2014."
+  },
+  {
+    "year": 1968,
+    "series_id": "stock_immigres",
+    "value": 3238000,
+    "unit": "persons",
+    "label_fr": "Effectif des immigrés (stock)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Recensement/estimations INSEE. Champ: métropole jusqu'en 1982; France hors Mayotte 1990-2013; France depuis 2014."
+  },
+  {
+    "year": 1975,
+    "series_id": "stock_immigres",
+    "value": 3887000,
+    "unit": "persons",
+    "label_fr": "Effectif des immigrés (stock)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Recensement/estimations INSEE. Champ: métropole jusqu'en 1982; France hors Mayotte 1990-2013; France depuis 2014."
+  },
+  {
+    "year": 1982,
+    "series_id": "stock_immigres",
+    "value": 4037000,
+    "unit": "persons",
+    "label_fr": "Effectif des immigrés (stock)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Recensement/estimations INSEE. Champ: métropole jusqu'en 1982; France hors Mayotte 1990-2013; France depuis 2014."
+  },
+  {
+    "year": 1990,
+    "series_id": "stock_immigres",
+    "value": 4222000,
+    "unit": "persons",
+    "label_fr": "Effectif des immigrés (stock)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Recensement/estimations INSEE. Champ: métropole jusqu'en 1982; France hors Mayotte 1990-2013; France depuis 2014."
+  },
+  {
+    "year": 1999,
+    "series_id": "stock_immigres",
+    "value": 4374000,
+    "unit": "persons",
+    "label_fr": "Effectif des immigrés (stock)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Recensement/estimations INSEE. Champ: métropole jusqu'en 1982; France hors Mayotte 1990-2013; France depuis 2014."
+  },
+  {
+    "year": 2006,
+    "series_id": "stock_immigres",
+    "value": 5136000,
+    "unit": "persons",
+    "label_fr": "Effectif des immigrés (stock)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Recensement/estimations INSEE. Champ: métropole jusqu'en 1982; France hors Mayotte 1990-2013; France depuis 2014."
+  },
+  {
+    "year": 2010,
+    "series_id": "stock_immigres",
+    "value": 5514000,
+    "unit": "persons",
+    "label_fr": "Effectif des immigrés (stock)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Recensement/estimations INSEE. Champ: métropole jusqu'en 1982; France hors Mayotte 1990-2013; France depuis 2014."
+  },
+  {
+    "year": 2011,
+    "series_id": "stock_immigres",
+    "value": 5605000,
+    "unit": "persons",
+    "label_fr": "Effectif des immigrés (stock)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Recensement/estimations INSEE. Champ: métropole jusqu'en 1982; France hors Mayotte 1990-2013; France depuis 2014."
+  },
+  {
+    "year": 2012,
+    "series_id": "stock_immigres",
+    "value": 5714000,
+    "unit": "persons",
+    "label_fr": "Effectif des immigrés (stock)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Recensement/estimations INSEE. Champ: métropole jusqu'en 1982; France hors Mayotte 1990-2013; France depuis 2014."
+  },
+  {
+    "year": 2013,
+    "series_id": "stock_immigres",
+    "value": 5835000,
+    "unit": "persons",
+    "label_fr": "Effectif des immigrés (stock)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Recensement/estimations INSEE. Champ: métropole jusqu'en 1982; France hors Mayotte 1990-2013; France depuis 2014."
+  },
+  {
+    "year": 2014,
+    "series_id": "stock_immigres",
+    "value": 6028000,
+    "unit": "persons",
+    "label_fr": "Effectif des immigrés (stock)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2381757",
+    "source_org": "INSEE",
+    "notes": "Estimations/recensements INSEE (chiffres-clés). Champ: France. "
+  },
+  {
+    "year": 2015,
+    "series_id": "stock_immigres",
+    "value": 6169000,
+    "unit": "persons",
+    "label_fr": "Effectif des immigrés (stock)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2381757",
+    "source_org": "INSEE",
+    "notes": "Estimations/recensements INSEE (chiffres-clés). Champ: France. "
+  },
+  {
+    "year": 2016,
+    "series_id": "stock_immigres",
+    "value": 6291000,
+    "unit": "persons",
+    "label_fr": "Effectif des immigrés (stock)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2381757",
+    "source_org": "INSEE",
+    "notes": "Estimations/recensements INSEE (chiffres-clés). Champ: France. "
+  },
+  {
+    "year": 2017,
+    "series_id": "stock_immigres",
+    "value": 6449000,
+    "unit": "persons",
+    "label_fr": "Effectif des immigrés (stock)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2381757",
+    "source_org": "INSEE",
+    "notes": "Estimations/recensements INSEE (chiffres-clés). Champ: France. "
+  },
+  {
+    "year": 2018,
+    "series_id": "stock_immigres",
+    "value": 6579000,
+    "unit": "persons",
+    "label_fr": "Effectif des immigrés (stock)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2381757",
+    "source_org": "INSEE",
+    "notes": "Estimations/recensements INSEE (chiffres-clés). Champ: France. "
+  },
+  {
+    "year": 2019,
+    "series_id": "stock_immigres",
+    "value": 6734000,
+    "unit": "persons",
+    "label_fr": "Effectif des immigrés (stock)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2381757",
+    "source_org": "INSEE",
+    "notes": "Estimations/recensements INSEE (chiffres-clés). Champ: France. "
+  },
+  {
+    "year": 2020,
+    "series_id": "stock_immigres",
+    "value": 6847000,
+    "unit": "persons",
+    "label_fr": "Effectif des immigrés (stock)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2381757",
+    "source_org": "INSEE",
+    "notes": "Estimations/recensements INSEE (chiffres-clés). Champ: France. Données réajustées dans publication 2026."
+  },
+  {
+    "year": 2021,
+    "series_id": "stock_immigres",
+    "value": 6932000,
+    "unit": "persons",
+    "label_fr": "Effectif des immigrés (stock)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2381757",
+    "source_org": "INSEE",
+    "notes": "Estimations/recensements INSEE (chiffres-clés). Champ: France. "
+  },
+  {
+    "year": 2022,
+    "series_id": "stock_immigres",
+    "value": 7029000,
+    "unit": "persons",
+    "label_fr": "Effectif des immigrés (stock)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2381757",
+    "source_org": "INSEE",
+    "notes": "Estimations/recensements INSEE (chiffres-clés). Champ: France. "
+  },
+  {
+    "year": 2023,
+    "series_id": "stock_immigres",
+    "value": 7309000,
+    "unit": "persons",
+    "label_fr": "Effectif des immigrés (stock)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2381757",
+    "source_org": "INSEE",
+    "notes": "Estimations/recensements INSEE (chiffres-clés). Champ: France. "
+  },
+  {
+    "year": 2024,
+    "series_id": "stock_immigres",
+    "value": 7749000,
+    "unit": "persons",
+    "label_fr": "Effectif des immigrés (stock)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2381757",
+    "source_org": "INSEE",
+    "notes": "Estimations/recensements INSEE (chiffres-clés). Champ: France. Données provisoires; rupture de série 2024 (amélioration protocole recensement) — non directement comparable aux années antérieures."
+  },
+  {
+    "year": 2025,
+    "series_id": "stock_immigres",
+    "value": 7970000,
+    "unit": "persons",
+    "label_fr": "Effectif des immigrés (stock)",
+    "source_url": "https://www.insee.fr/fr/statistiques/2381757",
+    "source_org": "INSEE",
+    "notes": "Estimations/recensements INSEE (chiffres-clés). Champ: France. Données provisoires; rupture de série 2024 (amélioration protocole recensement) — non directement comparable aux années antérieures."
+  },
+  {
+    "year": 1946,
+    "series_id": "stock_immigres_part",
+    "value": 5.0,
+    "unit": "percent",
+    "label_fr": "Part des immigrés dans la population",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Part des immigrés dans la population totale."
+  },
+  {
+    "year": 1954,
+    "series_id": "stock_immigres_part",
+    "value": 5.4,
+    "unit": "percent",
+    "label_fr": "Part des immigrés dans la population",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Part des immigrés dans la population totale."
+  },
+  {
+    "year": 1962,
+    "series_id": "stock_immigres_part",
+    "value": 6.2,
+    "unit": "percent",
+    "label_fr": "Part des immigrés dans la population",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Part des immigrés dans la population totale."
+  },
+  {
+    "year": 1968,
+    "series_id": "stock_immigres_part",
+    "value": 6.5,
+    "unit": "percent",
+    "label_fr": "Part des immigrés dans la population",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Part des immigrés dans la population totale."
+  },
+  {
+    "year": 1975,
+    "series_id": "stock_immigres_part",
+    "value": 7.4,
+    "unit": "percent",
+    "label_fr": "Part des immigrés dans la population",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Part des immigrés dans la population totale."
+  },
+  {
+    "year": 1982,
+    "series_id": "stock_immigres_part",
+    "value": 7.4,
+    "unit": "percent",
+    "label_fr": "Part des immigrés dans la population",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Part des immigrés dans la population totale."
+  },
+  {
+    "year": 1990,
+    "series_id": "stock_immigres_part",
+    "value": 7.3,
+    "unit": "percent",
+    "label_fr": "Part des immigrés dans la population",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Part des immigrés dans la population totale."
+  },
+  {
+    "year": 1999,
+    "series_id": "stock_immigres_part",
+    "value": 7.3,
+    "unit": "percent",
+    "label_fr": "Part des immigrés dans la population",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Part des immigrés dans la population totale."
+  },
+  {
+    "year": 2006,
+    "series_id": "stock_immigres_part",
+    "value": 8.1,
+    "unit": "percent",
+    "label_fr": "Part des immigrés dans la population",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Part des immigrés dans la population totale."
+  },
+  {
+    "year": 2010,
+    "series_id": "stock_immigres_part",
+    "value": 8.5,
+    "unit": "percent",
+    "label_fr": "Part des immigrés dans la population",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Part des immigrés dans la population totale."
+  },
+  {
+    "year": 2011,
+    "series_id": "stock_immigres_part",
+    "value": 8.6,
+    "unit": "percent",
+    "label_fr": "Part des immigrés dans la population",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Part des immigrés dans la population totale."
+  },
+  {
+    "year": 2012,
+    "series_id": "stock_immigres_part",
+    "value": 8.8,
+    "unit": "percent",
+    "label_fr": "Part des immigrés dans la population",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Part des immigrés dans la population totale."
+  },
+  {
+    "year": 2013,
+    "series_id": "stock_immigres_part",
+    "value": 8.9,
+    "unit": "percent",
+    "label_fr": "Part des immigrés dans la population",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Part des immigrés dans la population totale."
+  },
+  {
+    "year": 2014,
+    "series_id": "stock_immigres_part",
+    "value": 9.1,
+    "unit": "percent",
+    "label_fr": "Part des immigrés dans la population",
+    "source_url": "https://www.insee.fr/fr/statistiques/2381757",
+    "source_org": "INSEE",
+    "notes": "Part des immigrés dans la population totale."
+  },
+  {
+    "year": 2015,
+    "series_id": "stock_immigres_part",
+    "value": 9.3,
+    "unit": "percent",
+    "label_fr": "Part des immigrés dans la population",
+    "source_url": "https://www.insee.fr/fr/statistiques/2381757",
+    "source_org": "INSEE",
+    "notes": "Part des immigrés dans la population totale."
+  },
+  {
+    "year": 2016,
+    "series_id": "stock_immigres_part",
+    "value": 9.4,
+    "unit": "percent",
+    "label_fr": "Part des immigrés dans la population",
+    "source_url": "https://www.insee.fr/fr/statistiques/2381757",
+    "source_org": "INSEE",
+    "notes": "Part des immigrés dans la population totale."
+  },
+  {
+    "year": 2017,
+    "series_id": "stock_immigres_part",
+    "value": 9.7,
+    "unit": "percent",
+    "label_fr": "Part des immigrés dans la population",
+    "source_url": "https://www.insee.fr/fr/statistiques/2381757",
+    "source_org": "INSEE",
+    "notes": "Part des immigrés dans la population totale."
+  },
+  {
+    "year": 2018,
+    "series_id": "stock_immigres_part",
+    "value": 9.8,
+    "unit": "percent",
+    "label_fr": "Part des immigrés dans la population",
+    "source_url": "https://www.insee.fr/fr/statistiques/2381757",
+    "source_org": "INSEE",
+    "notes": "Part des immigrés dans la population totale."
+  },
+  {
+    "year": 2019,
+    "series_id": "stock_immigres_part",
+    "value": 10.0,
+    "unit": "percent",
+    "label_fr": "Part des immigrés dans la population",
+    "source_url": "https://www.insee.fr/fr/statistiques/2381757",
+    "source_org": "INSEE",
+    "notes": "Part des immigrés dans la population totale."
+  },
+  {
+    "year": 2020,
+    "series_id": "stock_immigres_part",
+    "value": 10.2,
+    "unit": "percent",
+    "label_fr": "Part des immigrés dans la population",
+    "source_url": "https://www.insee.fr/fr/statistiques/2381757",
+    "source_org": "INSEE",
+    "notes": "Part des immigrés dans la population totale."
+  },
+  {
+    "year": 2021,
+    "series_id": "stock_immigres_part",
+    "value": 10.2,
+    "unit": "percent",
+    "label_fr": "Part des immigrés dans la population",
+    "source_url": "https://www.insee.fr/fr/statistiques/2381757",
+    "source_org": "INSEE",
+    "notes": "Part des immigrés dans la population totale."
+  },
+  {
+    "year": 2022,
+    "series_id": "stock_immigres_part",
+    "value": 10.3,
+    "unit": "percent",
+    "label_fr": "Part des immigrés dans la population",
+    "source_url": "https://www.insee.fr/fr/statistiques/2381757",
+    "source_org": "INSEE",
+    "notes": "Part des immigrés dans la population totale."
+  },
+  {
+    "year": 2023,
+    "series_id": "stock_immigres_part",
+    "value": 10.7,
+    "unit": "percent",
+    "label_fr": "Part des immigrés dans la population",
+    "source_url": "https://www.insee.fr/fr/statistiques/2381757",
+    "source_org": "INSEE",
+    "notes": "Part des immigrés dans la population totale."
+  },
+  {
+    "year": 2024,
+    "series_id": "stock_immigres_part",
+    "value": 11.3,
+    "unit": "percent",
+    "label_fr": "Part des immigrés dans la population",
+    "source_url": "https://www.insee.fr/fr/statistiques/2381757",
+    "source_org": "INSEE",
+    "notes": "Part des immigrés dans la population totale. Provisoire; rupture de série 2024."
+  },
+  {
+    "year": 2025,
+    "series_id": "stock_immigres_part",
+    "value": 11.6,
+    "unit": "percent",
+    "label_fr": "Part des immigrés dans la population",
+    "source_url": "https://www.insee.fr/fr/statistiques/2381757",
+    "source_org": "INSEE",
+    "notes": "Part des immigrés dans la population totale. Provisoire; rupture de série 2024."
+  }
+]

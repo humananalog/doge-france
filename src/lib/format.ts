@@ -6,6 +6,24 @@ const frNumber = (value: number, maximumFractionDigits: number) =>
     minimumFractionDigits: 0,
   }).format(value);
 
+/** French display for large person counts (charts / KPIs). */
+export function formatPersonCompact(value: number): string {
+  const abs = Math.abs(value);
+  if (abs >= 1_000_000) {
+    const scaled = value / 1_000_000;
+    const fractionDigits =
+      Math.abs(scaled - Math.round(scaled)) < 1e-6 ? 0 : 2;
+    return `${frNumber(scaled, fractionDigits)} M`;
+  }
+  if (abs >= 10_000) {
+    const scaled = value / 1_000;
+    const fractionDigits =
+      Math.abs(scaled - Math.round(scaled)) < 1e-6 ? 0 : 1;
+    return `${frNumber(scaled, fractionDigits)} k`;
+  }
+  return new Intl.NumberFormat("fr-FR").format(value);
+}
+
 /** French Md€ / M€ display for large EUR amounts (dashboard KPIs). */
 export function formatEurCompact(value: number): string {
   const abs = Math.abs(value);
