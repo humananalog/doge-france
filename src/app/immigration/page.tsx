@@ -1,6 +1,7 @@
 import { Stat } from "@/components/Stat";
 import { MetricsTable } from "@/components/MetricsTable";
 import { ImmigrationGenerationLeads } from "@/components/ImmigrationGenerationLeads";
+import { ImmigrationOnomasticsStudy } from "@/components/ImmigrationOnomasticsStudy";
 import { ImmigrationProxyTriangulation } from "@/components/ImmigrationProxyTriangulation";
 import { ImmigrationWorldOriginsMap } from "@/components/ImmigrationWorldOriginsMap";
 import { ImmigrationOfficialCharts } from "@/components/ImmigrationOfficialCharts";
@@ -27,6 +28,8 @@ export default function ImmigrationPage() {
       </header>
 
       <ImmigrationGenerationLeads />
+
+      <ImmigrationOnomasticsStudy />
 
       <ImmigrationProxyTriangulation />
 

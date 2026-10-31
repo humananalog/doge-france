@@ -5,6 +5,8 @@ import {
 } from "@/lib/immigration-series";
 import {
   seriesFromRows,
+} from "@/lib/chart-series";
+import {
   TimeSeriesChart,
 } from "@/components/charts/TimeSeriesChart";
 

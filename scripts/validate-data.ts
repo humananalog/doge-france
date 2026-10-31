@@ -132,6 +132,11 @@ function validatePresidentialEras() {
     fail(`data/stats/presidential-eras.json — ${parsed.error.message}`);
     return;
   }
+  for (const era of parsed.data.eras) {
+    if (!era.primary_url.includes("elysee.fr")) {
+      fail(`${era.president}: primary_url must be Élysée (got ${era.primary_url})`);
+    }
+  }
   console.log(`OK presidential eras: ${parsed.data.eras.length} mandates`);
 }
 

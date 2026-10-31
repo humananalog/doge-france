@@ -17,9 +17,10 @@ export function PresidentialEraToggle() {
       <span>Mandats président · parti</span>
       <span
         id="era-toggle-hint"
-        className="hidden sm:inline font-normal text-zinc-500 dark:text-zinc-400"
+        className="hidden max-w-xs sm:inline font-normal text-zinc-500 dark:text-zinc-400"
       >
-        (convention politique)
+        (convention politique · Élysée — pas de causalité ni attribution
+        dépenses/fraude)
       </span>
     </label>
   );

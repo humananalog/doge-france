@@ -1946,6 +1946,294 @@
       "notes": "Flux admin premiers titres 2024 définitif.",
       "proof_url": "https://www.data.gouv.fr/datasets/stock-et-flux-des-titres-de-sejour-en-france-sur-lannee-2024",
       "confidence": "high"
+    },
+    {
+      "id": "onom-jean-classic-boys-share-1950",
+      "label_fr": "Faisceau « Jean » classique (garçons) — part naissances",
+      "value": 67.272,
+      "unit": "percent",
+      "as_of": "1950",
+      "category": "onomastics",
+      "kind": "volume",
+      "geography": "France (fichier national des prénoms)",
+      "source": {
+        "title": "INSEE — Fichier des prénoms (agrégats nationaux)",
+        "url": "https://www.insee.fr/fr/statistiques/8595130",
+        "publisher": "INSEE"
+      },
+      "proof_url": "https://www.insee.fr/fr/statistiques/8595130",
+      "confidence": "medium",
+      "notes": "Étude non officielle — signal onomastique inféré. Somme desk-définie sur cellules INSEE ; pas taxonomie INSEE ; pas substitut G1/G2/G3."
+    },
+    {
+      "id": "onom-jean-classic-boys-share-2025",
+      "label_fr": "Faisceau « Jean » classique (garçons) — part naissances",
+      "value": 2.982,
+      "unit": "percent",
+      "as_of": "2025",
+      "category": "onomastics",
+      "kind": "volume",
+      "geography": "France (fichier national des prénoms)",
+      "source": {
+        "title": "INSEE — Fichier des prénoms (agrégats nationaux)",
+        "url": "https://www.insee.fr/fr/statistiques/8595130",
+        "publisher": "INSEE"
+      },
+      "proof_url": "https://www.insee.fr/fr/statistiques/8595130",
+      "confidence": "medium",
+      "notes": "Étude non officielle — signal onomastique inféré. Somme desk-définie sur cellules INSEE ; pas taxonomie INSEE ; pas substitut G1/G2/G3."
+    },
+    {
+      "id": "onom-jean-classic-boys-count-1950",
+      "label_fr": "Faisceau « Jean » classique (garçons) — effectif",
+      "value": 303600,
+      "unit": "count",
+      "as_of": "1950",
+      "category": "onomastics",
+      "kind": "volume",
+      "geography": "France (fichier national des prénoms)",
+      "source": {
+        "title": "INSEE — Fichier des prénoms (agrégats nationaux)",
+        "url": "https://www.insee.fr/fr/statistiques/8595130",
+        "publisher": "INSEE"
+      },
+      "proof_url": "https://www.insee.fr/fr/statistiques/8595130",
+      "confidence": "medium",
+      "notes": "Étude non officielle — signal onomastique inféré. Somme desk-définie sur cellules INSEE ; pas taxonomie INSEE ; pas substitut G1/G2/G3."
+    },
+    {
+      "id": "onom-jean-classic-boys-count-2025",
+      "label_fr": "Faisceau « Jean » classique (garçons) — effectif",
+      "value": 9025,
+      "unit": "count",
+      "as_of": "2025",
+      "category": "onomastics",
+      "kind": "volume",
+      "geography": "France (fichier national des prénoms)",
+      "source": {
+        "title": "INSEE — Fichier des prénoms (agrégats nationaux)",
+        "url": "https://www.insee.fr/fr/statistiques/8595130",
+        "publisher": "INSEE"
+      },
+      "proof_url": "https://www.insee.fr/fr/statistiques/8595130",
+      "confidence": "medium",
+      "notes": "Étude non officielle — signal onomastique inféré. Somme desk-définie sur cellules INSEE ; pas taxonomie INSEE ; pas substitut G1/G2/G3."
+    },
+    {
+      "id": "onom-mohamed-core-boys-share-1950",
+      "label_fr": "Faisceau « Mohamed » noyau (garçons) — part naissances",
+      "value": 0.073,
+      "unit": "percent",
+      "as_of": "1950",
+      "category": "onomastics",
+      "kind": "volume",
+      "geography": "France (fichier national des prénoms)",
+      "source": {
+        "title": "INSEE — Fichier des prénoms (agrégats nationaux)",
+        "url": "https://www.insee.fr/fr/statistiques/8595130",
+        "publisher": "INSEE"
+      },
+      "proof_url": "https://www.insee.fr/fr/statistiques/8595130",
+      "confidence": "medium",
+      "notes": "Étude non officielle — signal onomastique inféré. Somme desk-définie sur cellules INSEE ; pas taxonomie INSEE ; pas substitut G1/G2/G3. Noyau sans ADAM/RAYAN/YANIS/NOAH ; RAYANE inclus (choix desk)."
+    },
+    {
+      "id": "onom-mohamed-core-boys-share-2025",
+      "label_fr": "Faisceau « Mohamed » noyau (garçons) — part naissances",
+      "value": 5.823,
+      "unit": "percent",
+      "as_of": "2025",
+      "category": "onomastics",
+      "kind": "volume",
+      "geography": "France (fichier national des prénoms)",
+      "source": {
+        "title": "INSEE — Fichier des prénoms (agrégats nationaux)",
+        "url": "https://www.insee.fr/fr/statistiques/8595130",
+        "publisher": "INSEE"
+      },
+      "proof_url": "https://www.insee.fr/fr/statistiques/8595130",
+      "confidence": "medium",
+      "notes": "Étude non officielle — signal onomastique inféré. Somme desk-définie sur cellules INSEE ; pas taxonomie INSEE ; pas substitut G1/G2/G3. Noyau sans ADAM/RAYAN/YANIS/NOAH ; RAYANE inclus (choix desk)."
+    },
+    {
+      "id": "onom-mohamed-core-boys-count-1950",
+      "label_fr": "Faisceau « Mohamed » noyau (garçons) — effectif",
+      "value": 330,
+      "unit": "count",
+      "as_of": "1950",
+      "category": "onomastics",
+      "kind": "volume",
+      "geography": "France (fichier national des prénoms)",
+      "source": {
+        "title": "INSEE — Fichier des prénoms (agrégats nationaux)",
+        "url": "https://www.insee.fr/fr/statistiques/8595130",
+        "publisher": "INSEE"
+      },
+      "proof_url": "https://www.insee.fr/fr/statistiques/8595130",
+      "confidence": "medium",
+      "notes": "Étude non officielle — signal onomastique inféré. Somme desk-définie sur cellules INSEE ; pas taxonomie INSEE ; pas substitut G1/G2/G3."
+    },
+    {
+      "id": "onom-mohamed-core-boys-count-2025",
+      "label_fr": "Faisceau « Mohamed » noyau (garçons) — effectif",
+      "value": 17625,
+      "unit": "count",
+      "as_of": "2025",
+      "category": "onomastics",
+      "kind": "volume",
+      "geography": "France (fichier national des prénoms)",
+      "source": {
+        "title": "INSEE — Fichier des prénoms (agrégats nationaux)",
+        "url": "https://www.insee.fr/fr/statistiques/8595130",
+        "publisher": "INSEE"
+      },
+      "proof_url": "https://www.insee.fr/fr/statistiques/8595130",
+      "confidence": "medium",
+      "notes": "Étude non officielle — signal onomastique inféré. Somme desk-définie sur cellules INSEE ; pas taxonomie INSEE ; pas substitut G1/G2/G3."
+    },
+    {
+      "id": "onom-single-jean-g-1950",
+      "label_fr": "Prénom JEAN (garçons) — cellule INSEE",
+      "value": 38155,
+      "unit": "count",
+      "as_of": "1950",
+      "category": "onomastics",
+      "kind": "volume",
+      "geography": "France (fichier national des prénoms)",
+      "source": {
+        "title": "INSEE — Fichier des prénoms (agrégats nationaux)",
+        "url": "https://www.insee.fr/fr/statistiques/8595130",
+        "publisher": "INSEE"
+      },
+      "proof_url": "https://www.insee.fr/fr/statistiques/8595130",
+      "confidence": "medium",
+      "notes": "Cellule publiée INSEE (published cell, not bundle)."
+    },
+    {
+      "id": "onom-single-jean-g-2025",
+      "label_fr": "Prénom JEAN (garçons) — cellule INSEE",
+      "value": 580,
+      "unit": "count",
+      "as_of": "2025",
+      "category": "onomastics",
+      "kind": "volume",
+      "geography": "France (fichier national des prénoms)",
+      "source": {
+        "title": "INSEE — Fichier des prénoms (agrégats nationaux)",
+        "url": "https://www.insee.fr/fr/statistiques/8595130",
+        "publisher": "INSEE"
+      },
+      "proof_url": "https://www.insee.fr/fr/statistiques/8595130",
+      "confidence": "medium",
+      "notes": "Cellule publiée INSEE (published cell, not bundle)."
+    },
+    {
+      "id": "onom-single-marie-f-1950",
+      "label_fr": "Prénom MARIE (filles) — cellule INSEE",
+      "value": 27935,
+      "unit": "count",
+      "as_of": "1950",
+      "category": "onomastics",
+      "kind": "volume",
+      "geography": "France (fichier national des prénoms)",
+      "source": {
+        "title": "INSEE — Fichier des prénoms (agrégats nationaux)",
+        "url": "https://www.insee.fr/fr/statistiques/8595130",
+        "publisher": "INSEE"
+      },
+      "proof_url": "https://www.insee.fr/fr/statistiques/8595130",
+      "confidence": "medium",
+      "notes": "Cellule publiée INSEE (published cell, not bundle)."
+    },
+    {
+      "id": "onom-single-marie-f-2025",
+      "label_fr": "Prénom MARIE (filles) — cellule INSEE",
+      "value": 510,
+      "unit": "count",
+      "as_of": "2025",
+      "category": "onomastics",
+      "kind": "volume",
+      "geography": "France (fichier national des prénoms)",
+      "source": {
+        "title": "INSEE — Fichier des prénoms (agrégats nationaux)",
+        "url": "https://www.insee.fr/fr/statistiques/8595130",
+        "publisher": "INSEE"
+      },
+      "proof_url": "https://www.insee.fr/fr/statistiques/8595130",
+      "confidence": "medium",
+      "notes": "Cellule publiée INSEE (published cell, not bundle)."
+    },
+    {
+      "id": "onom-single-mohamed-g-1950",
+      "label_fr": "Prénom MOHAMED (garçons) — cellule INSEE",
+      "value": 90,
+      "unit": "count",
+      "as_of": "1950",
+      "category": "onomastics",
+      "kind": "volume",
+      "geography": "France (fichier national des prénoms)",
+      "source": {
+        "title": "INSEE — Fichier des prénoms (agrégats nationaux)",
+        "url": "https://www.insee.fr/fr/statistiques/8595130",
+        "publisher": "INSEE"
+      },
+      "proof_url": "https://www.insee.fr/fr/statistiques/8595130",
+      "confidence": "medium",
+      "notes": "Cellule publiée INSEE (published cell, not bundle)."
+    },
+    {
+      "id": "onom-single-mohamed-g-2025",
+      "label_fr": "Prénom MOHAMED (garçons) — cellule INSEE",
+      "value": 1790,
+      "unit": "count",
+      "as_of": "2025",
+      "category": "onomastics",
+      "kind": "volume",
+      "geography": "France (fichier national des prénoms)",
+      "source": {
+        "title": "INSEE — Fichier des prénoms (agrégats nationaux)",
+        "url": "https://www.insee.fr/fr/statistiques/8595130",
+        "publisher": "INSEE"
+      },
+      "proof_url": "https://www.insee.fr/fr/statistiques/8595130",
+      "confidence": "medium",
+      "notes": "Cellule publiée INSEE (published cell, not bundle)."
+    },
+    {
+      "id": "onom-pop-immigres-share-1946",
+      "label_fr": "Part des immigrés (stock) — contexte population uniquement",
+      "value": 5,
+      "unit": "percent",
+      "as_of": "1946",
+      "category": "onomastics",
+      "kind": "volume",
+      "geography": "France",
+      "source": {
+        "title": "INSEE — Immigrés et descendants (contexte population)",
+        "url": "https://www.insee.fr/fr/statistiques/8242329",
+        "publisher": "INSEE"
+      },
+      "proof_url": "https://www.insee.fr/fr/statistiques/8242329",
+      "confidence": "medium",
+      "notes": "Contexte démographique INSEE Fig.1 — PAS un claim onomastique. Ne pas écrire « 95 % de prénoms natifs »."
+    },
+    {
+      "id": "onom-pop-immigres-share-1954",
+      "label_fr": "Part des immigrés (stock) — contexte population uniquement",
+      "value": 5.4,
+      "unit": "percent",
+      "as_of": "1954",
+      "category": "onomastics",
+      "kind": "volume",
+      "geography": "France",
+      "source": {
+        "title": "INSEE — Immigrés et descendants (contexte population)",
+        "url": "https://www.insee.fr/fr/statistiques/8242329",
+        "publisher": "INSEE"
+      },
+      "proof_url": "https://www.insee.fr/fr/statistiques/8242329",
+      "confidence": "medium",
+      "notes": "Contexte démographique INSEE Fig.1 — PAS un claim onomastique. Ne pas écrire « 95 % de prénoms natifs »."
     }
   ]
 }
