@@ -5,6 +5,7 @@ import { ImmigrationOnomasticsStudy } from "@/components/ImmigrationOnomasticsSt
 import { ImmigrationProxyTriangulation } from "@/components/ImmigrationProxyTriangulation";
 import { ImmigrationWorldOriginsMap } from "@/components/ImmigrationWorldOriginsMap";
 import { ImmigrationOfficialCharts } from "@/components/ImmigrationOfficialCharts";
+import { ImmigrationOriginsDecennialCharts } from "@/components/ImmigrationOriginsDecennialCharts";
 import { getMetricsByCategory } from "@/lib/registry";
 
 export const metadata = {
@@ -34,6 +35,8 @@ export default function ImmigrationPage() {
       <ImmigrationProxyTriangulation />
 
       <ImmigrationWorldOriginsMap />
+
+      <ImmigrationOriginsDecennialCharts />
 
       <section className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
         <div className="rounded-xl border border-zinc-200 bg-white p-5 dark:border-zinc-800 dark:bg-zinc-900/40">

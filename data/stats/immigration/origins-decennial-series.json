@@ -1,0 +1,1052 @@
+[
+  {
+    "year": 1954,
+    "series_id": "g1_decennial_part_population",
+    "value": 5.4,
+    "unit": "percent",
+    "label_fr": "Part des immigrés dans la population",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242329",
+    "source_org": "INSEE",
+    "notes": "Champ: France métropolitaine · Figure 1"
+  },
+  {
+    "year": 1962,
+    "series_id": "g1_decennial_part_population",
+    "value": 6.2,
+    "unit": "percent",
+    "label_fr": "Part des immigrés dans la population",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242329",
+    "source_org": "INSEE",
+    "notes": "Champ: France métropolitaine · Figure 1"
+  },
+  {
+    "year": 1968,
+    "series_id": "g1_decennial_part_population",
+    "value": 6.5,
+    "unit": "percent",
+    "label_fr": "Part des immigrés dans la population",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242329",
+    "source_org": "INSEE",
+    "notes": "Champ: France métropolitaine · Figure 1"
+  },
+  {
+    "year": 1975,
+    "series_id": "g1_decennial_part_population",
+    "value": 7.4,
+    "unit": "percent",
+    "label_fr": "Part des immigrés dans la population",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242329",
+    "source_org": "INSEE",
+    "notes": "Champ: France métropolitaine · Figure 1"
+  },
+  {
+    "year": 1982,
+    "series_id": "g1_decennial_part_population",
+    "value": 7.4,
+    "unit": "percent",
+    "label_fr": "Part des immigrés dans la population",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242329",
+    "source_org": "INSEE",
+    "notes": "Champ: France métropolitaine · Figure 1"
+  },
+  {
+    "year": 1990,
+    "series_id": "g1_decennial_part_population",
+    "value": 7.3,
+    "unit": "percent",
+    "label_fr": "Part des immigrés dans la population",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242329",
+    "source_org": "INSEE",
+    "notes": "Champ: France hors Mayotte · Figure 1"
+  },
+  {
+    "year": 1999,
+    "series_id": "g1_decennial_part_population",
+    "value": 7.3,
+    "unit": "percent",
+    "label_fr": "Part des immigrés dans la population",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242329",
+    "source_org": "INSEE",
+    "notes": "Champ: France hors Mayotte · Figure 1"
+  },
+  {
+    "year": 2008,
+    "series_id": "g1_decennial_part_population",
+    "value": 8.4,
+    "unit": "percent",
+    "label_fr": "Part des immigrés dans la population",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242329",
+    "source_org": "INSEE",
+    "notes": "Champ: France hors Mayotte · Figure 1"
+  },
+  {
+    "year": 2013,
+    "series_id": "g1_decennial_part_population",
+    "value": 8.9,
+    "unit": "percent",
+    "label_fr": "Part des immigrés dans la population",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242329",
+    "source_org": "INSEE",
+    "notes": "Champ: France hors Mayotte · Figure 1"
+  },
+  {
+    "year": 2020,
+    "series_id": "g1_decennial_part_population",
+    "value": 10.1,
+    "unit": "percent",
+    "label_fr": "Part des immigrés dans la population",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242329",
+    "source_org": "INSEE",
+    "notes": "Champ: France hors Mayotte · Figure 1"
+  },
+  {
+    "year": 2023,
+    "series_id": "g1_decennial_part_population",
+    "value": 10.6,
+    "unit": "percent",
+    "label_fr": "Part des immigrés dans la population",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242329",
+    "source_org": "INSEE",
+    "notes": "Champ: France hors Mayotte · Figure 1"
+  },
+  {
+    "year": 1954,
+    "series_id": "g1_decennial_stock",
+    "value": 2293000,
+    "unit": "persons",
+    "label_fr": "Stock immigrés (G1)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242329",
+    "source_org": "INSEE",
+    "notes": "Champ: France métropolitaine · Figure 1"
+  },
+  {
+    "year": 1962,
+    "series_id": "g1_decennial_stock",
+    "value": 2861000,
+    "unit": "persons",
+    "label_fr": "Stock immigrés (G1)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242329",
+    "source_org": "INSEE",
+    "notes": "Champ: France métropolitaine · Figure 1"
+  },
+  {
+    "year": 1968,
+    "series_id": "g1_decennial_stock",
+    "value": 3238000,
+    "unit": "persons",
+    "label_fr": "Stock immigrés (G1)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242329",
+    "source_org": "INSEE",
+    "notes": "Champ: France métropolitaine · Figure 1"
+  },
+  {
+    "year": 1975,
+    "series_id": "g1_decennial_stock",
+    "value": 3887000,
+    "unit": "persons",
+    "label_fr": "Stock immigrés (G1)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242329",
+    "source_org": "INSEE",
+    "notes": "Champ: France métropolitaine · Figure 1"
+  },
+  {
+    "year": 1982,
+    "series_id": "g1_decennial_stock",
+    "value": 4037000,
+    "unit": "persons",
+    "label_fr": "Stock immigrés (G1)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242329",
+    "source_org": "INSEE",
+    "notes": "Champ: France métropolitaine · Figure 1"
+  },
+  {
+    "year": 1990,
+    "series_id": "g1_decennial_stock",
+    "value": 4222000,
+    "unit": "persons",
+    "label_fr": "Stock immigrés (G1)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242329",
+    "source_org": "INSEE",
+    "notes": "Champ: France hors Mayotte · Figure 1"
+  },
+  {
+    "year": 1999,
+    "series_id": "g1_decennial_stock",
+    "value": 4374000,
+    "unit": "persons",
+    "label_fr": "Stock immigrés (G1)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242329",
+    "source_org": "INSEE",
+    "notes": "Champ: France hors Mayotte · Figure 1"
+  },
+  {
+    "year": 2008,
+    "series_id": "g1_decennial_stock",
+    "value": 5342000,
+    "unit": "persons",
+    "label_fr": "Stock immigrés (G1)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242329",
+    "source_org": "INSEE",
+    "notes": "Champ: France hors Mayotte · Figure 1"
+  },
+  {
+    "year": 2013,
+    "series_id": "g1_decennial_stock",
+    "value": 5835000,
+    "unit": "persons",
+    "label_fr": "Stock immigrés (G1)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242329",
+    "source_org": "INSEE",
+    "notes": "Champ: France hors Mayotte · Figure 1"
+  },
+  {
+    "year": 2020,
+    "series_id": "g1_decennial_stock",
+    "value": 6750000,
+    "unit": "persons",
+    "label_fr": "Stock immigrés (G1)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242329",
+    "source_org": "INSEE",
+    "notes": "Champ: France hors Mayotte · Figure 1"
+  },
+  {
+    "year": 2023,
+    "series_id": "g1_decennial_stock",
+    "value": 7174000,
+    "unit": "persons",
+    "label_fr": "Stock immigrés (G1)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242329",
+    "source_org": "INSEE",
+    "notes": "Champ: France hors Mayotte · Figure 1"
+  },
+  {
+    "year": 1962,
+    "series_id": "g1_origin_afrique_hors_maghreb",
+    "value": 20029,
+    "unit": "persons",
+    "label_fr": "G1 — Afrique hors Maghreb",
+    "source_url": "https://www.insee.fr/fr/statistiques/fichier/1371772/IMMFRA05d.PDF",
+    "source_org": "INSEE",
+    "notes": "Champ: France métropolitaine · Tableau 1.8-1 · Statut: pct_published_thousands_derived"
+  },
+  {
+    "year": 1968,
+    "series_id": "g1_origin_afrique_hors_maghreb",
+    "value": 44000,
+    "unit": "persons",
+    "label_fr": "G1 — Afrique hors Maghreb",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Champ: France métropolitaine · Figure 2 · Afrique hors Maghreb = « Autres pays d'Afrique » published cell (subsah. not split pre-2006)"
+  },
+  {
+    "year": 1975,
+    "series_id": "g1_origin_afrique_hors_maghreb",
+    "value": 94000,
+    "unit": "persons",
+    "label_fr": "G1 — Afrique hors Maghreb",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Champ: France métropolitaine · Figure 2 · Afrique hors Maghreb = « Autres pays d'Afrique » published cell (subsah. not split pre-2006)"
+  },
+  {
+    "year": 1982,
+    "series_id": "g1_origin_afrique_hors_maghreb",
+    "value": 172000,
+    "unit": "persons",
+    "label_fr": "G1 — Afrique hors Maghreb",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Champ: France métropolitaine · Figure 2 · Afrique hors Maghreb = « Autres pays d'Afrique » published cell (subsah. not split pre-2006)"
+  },
+  {
+    "year": 1990,
+    "series_id": "g1_origin_afrique_hors_maghreb",
+    "value": 280000,
+    "unit": "persons",
+    "label_fr": "G1 — Afrique hors Maghreb",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Champ: France métropolitaine · Figure 2 · Afrique hors Maghreb = « Autres pays d'Afrique » published cell (subsah. not split pre-2006)"
+  },
+  {
+    "year": 1999,
+    "series_id": "g1_origin_afrique_hors_maghreb",
+    "value": 402000,
+    "unit": "persons",
+    "label_fr": "G1 — Afrique hors Maghreb",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Champ: France hors Mayotte · Figure 2 · Afrique hors Maghreb = « Autres pays d'Afrique » published cell (subsah. not split pre-2006)"
+  },
+  {
+    "year": 2006,
+    "series_id": "g1_origin_afrique_hors_maghreb",
+    "value": 615000,
+    "unit": "persons",
+    "label_fr": "G1 — Afrique hors Maghreb",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Champ: France hors Mayotte · Figure 2 · Afrique hors Maghreb = somme publiée Autres + Afrique guinéenne/centrale + sahélienne (nomenclature 2006+)"
+  },
+  {
+    "year": 2008,
+    "series_id": "g1_origin_afrique_hors_maghreb",
+    "value": 670000,
+    "unit": "persons",
+    "label_fr": "G1 — Afrique hors Maghreb",
+    "source_url": "https://www.insee.fr/fr/statistiques/fichier/1373887/FPORSOC11d_VE22Immig.pdf",
+    "source_org": "INSEE",
+    "notes": "Champ: France · Figure 1 (tableau)"
+  },
+  {
+    "year": 2010,
+    "series_id": "g1_origin_afrique_hors_maghreb",
+    "value": 720000,
+    "unit": "persons",
+    "label_fr": "G1 — Afrique hors Maghreb",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Champ: France hors Mayotte · Figure 2 · Afrique hors Maghreb = somme publiée Autres + Afrique guinéenne/centrale + sahélienne (nomenclature 2006+)"
+  },
+  {
+    "year": 2013,
+    "series_id": "g1_origin_afrique_hors_maghreb",
+    "value": 813000,
+    "unit": "persons",
+    "label_fr": "G1 — Afrique hors Maghreb",
+    "source_url": "https://www.insee.fr/fr/statistiques/fichier/2492220/FPORSOC16j3_F2.3_immigres.pdf",
+    "source_org": "INSEE",
+    "notes": "Champ: France · Tableau 2"
+  },
+  {
+    "year": 2021,
+    "series_id": "g1_origin_afrique_hors_maghreb",
+    "value": 1272000,
+    "unit": "persons",
+    "label_fr": "G1 — Afrique hors Maghreb",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Champ: France (y compris Mayotte depuis 2014 pour cette série 6793226) · Figure 2 · Afrique hors Maghreb = somme publiée Autres + Afrique guinéenne/centrale + sahélienne (nomenclature 2006+)"
+  },
+  {
+    "year": 2023,
+    "series_id": "g1_origin_afrique_hors_maghreb",
+    "value": 1275000,
+    "unit": "persons",
+    "label_fr": "G1 — Afrique hors Maghreb",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242329",
+    "source_org": "INSEE",
+    "notes": "Champ: France hors Mayotte · Figure 2"
+  },
+  {
+    "year": 1962,
+    "series_id": "g1_origin_amerique_oceanie",
+    "value": 91561,
+    "unit": "persons",
+    "label_fr": "G1 — Amérique, Océanie",
+    "source_url": "https://www.insee.fr/fr/statistiques/fichier/1371772/IMMFRA05d.PDF",
+    "source_org": "INSEE",
+    "notes": "Champ: France métropolitaine · Tableau 1.8-1 · Statut: pct_published_thousands_derived"
+  },
+  {
+    "year": 1968,
+    "series_id": "g1_origin_amerique_oceanie",
+    "value": 37000,
+    "unit": "persons",
+    "label_fr": "G1 — Amérique, Océanie",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Champ: France métropolitaine · Figure 2"
+  },
+  {
+    "year": 1975,
+    "series_id": "g1_origin_amerique_oceanie",
+    "value": 49000,
+    "unit": "persons",
+    "label_fr": "G1 — Amérique, Océanie",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Champ: France métropolitaine · Figure 2"
+  },
+  {
+    "year": 1982,
+    "series_id": "g1_origin_amerique_oceanie",
+    "value": 63000,
+    "unit": "persons",
+    "label_fr": "G1 — Amérique, Océanie",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Champ: France métropolitaine · Figure 2"
+  },
+  {
+    "year": 1990,
+    "series_id": "g1_origin_amerique_oceanie",
+    "value": 141000,
+    "unit": "persons",
+    "label_fr": "G1 — Amérique, Océanie",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Champ: France métropolitaine · Figure 2"
+  },
+  {
+    "year": 1999,
+    "series_id": "g1_origin_amerique_oceanie",
+    "value": 181000,
+    "unit": "persons",
+    "label_fr": "G1 — Amérique, Océanie",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Champ: France hors Mayotte · Figure 2"
+  },
+  {
+    "year": 2006,
+    "series_id": "g1_origin_amerique_oceanie",
+    "value": 261000,
+    "unit": "persons",
+    "label_fr": "G1 — Amérique, Océanie",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Champ: France hors Mayotte · Figure 2"
+  },
+  {
+    "year": 2008,
+    "series_id": "g1_origin_amerique_oceanie",
+    "value": 280000,
+    "unit": "persons",
+    "label_fr": "G1 — Amérique, Océanie",
+    "source_url": "https://www.insee.fr/fr/statistiques/fichier/1373887/FPORSOC11d_VE22Immig.pdf",
+    "source_org": "INSEE",
+    "notes": "Champ: France · Figure 1 (tableau)"
+  },
+  {
+    "year": 2010,
+    "series_id": "g1_origin_amerique_oceanie",
+    "value": 299000,
+    "unit": "persons",
+    "label_fr": "G1 — Amérique, Océanie",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Champ: France hors Mayotte · Figure 2"
+  },
+  {
+    "year": 2013,
+    "series_id": "g1_origin_amerique_oceanie",
+    "value": 329000,
+    "unit": "persons",
+    "label_fr": "G1 — Amérique, Océanie",
+    "source_url": "https://www.insee.fr/fr/statistiques/fichier/2492220/FPORSOC16j3_F2.3_immigres.pdf",
+    "source_org": "INSEE",
+    "notes": "Champ: France · Tableau 2"
+  },
+  {
+    "year": 2021,
+    "series_id": "g1_origin_amerique_oceanie",
+    "value": 404000,
+    "unit": "persons",
+    "label_fr": "G1 — Amérique, Océanie",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Champ: France (y compris Mayotte depuis 2014 pour cette série 6793226) · Figure 2"
+  },
+  {
+    "year": 2023,
+    "series_id": "g1_origin_amerique_oceanie",
+    "value": 456000,
+    "unit": "persons",
+    "label_fr": "G1 — Amérique, Océanie",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242329",
+    "source_org": "INSEE",
+    "notes": "Champ: France hors Mayotte · Figure 2"
+  },
+  {
+    "year": 1962,
+    "series_id": "g1_origin_asie",
+    "value": 68671,
+    "unit": "persons",
+    "label_fr": "G1 — Asie (ensemble 6793226)",
+    "source_url": "https://www.insee.fr/fr/statistiques/fichier/1371772/IMMFRA05d.PDF",
+    "source_org": "INSEE",
+    "notes": "Champ: France métropolitaine · Tableau 1.8-1 · Statut: pct_published_thousands_derived"
+  },
+  {
+    "year": 1968,
+    "series_id": "g1_origin_asie",
+    "value": 81000,
+    "unit": "persons",
+    "label_fr": "G1 — Asie (ensemble 6793226)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Champ: France métropolitaine · Figure 2"
+  },
+  {
+    "year": 1975,
+    "series_id": "g1_origin_asie",
+    "value": 140000,
+    "unit": "persons",
+    "label_fr": "G1 — Asie (ensemble 6793226)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Champ: France métropolitaine · Figure 2"
+  },
+  {
+    "year": 1982,
+    "series_id": "g1_origin_asie",
+    "value": 322000,
+    "unit": "persons",
+    "label_fr": "G1 — Asie (ensemble 6793226)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Champ: France métropolitaine · Figure 2"
+  },
+  {
+    "year": 1990,
+    "series_id": "g1_origin_asie",
+    "value": 478000,
+    "unit": "persons",
+    "label_fr": "G1 — Asie (ensemble 6793226)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Champ: France métropolitaine · Figure 2"
+  },
+  {
+    "year": 1999,
+    "series_id": "g1_origin_asie",
+    "value": 552000,
+    "unit": "persons",
+    "label_fr": "G1 — Asie (ensemble 6793226)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Champ: France hors Mayotte · Figure 2"
+  },
+  {
+    "year": 2006,
+    "series_id": "g1_origin_asie",
+    "value": 692000,
+    "unit": "persons",
+    "label_fr": "G1 — Asie (ensemble 6793226)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Champ: France hors Mayotte · Figure 2"
+  },
+  {
+    "year": 2008,
+    "series_id": "g1_origin_asie",
+    "value": 760000,
+    "unit": "persons",
+    "label_fr": "G1 — Asie (ensemble 6793226)",
+    "source_url": "https://www.insee.fr/fr/statistiques/fichier/1373887/FPORSOC11d_VE22Immig.pdf",
+    "source_org": "INSEE",
+    "notes": "Champ: France · Figure 1 (tableau)"
+  },
+  {
+    "year": 2010,
+    "series_id": "g1_origin_asie",
+    "value": 761000,
+    "unit": "persons",
+    "label_fr": "G1 — Asie (ensemble 6793226)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Champ: France hors Mayotte · Figure 2"
+  },
+  {
+    "year": 2013,
+    "series_id": "g1_origin_asie",
+    "value": 841000,
+    "unit": "persons",
+    "label_fr": "G1 — Asie (ensemble 6793226)",
+    "source_url": "https://www.insee.fr/fr/statistiques/fichier/2492220/FPORSOC16j3_F2.3_immigres.pdf",
+    "source_org": "INSEE",
+    "notes": "Champ: France · Tableau 2"
+  },
+  {
+    "year": 2021,
+    "series_id": "g1_origin_asie",
+    "value": 945000,
+    "unit": "persons",
+    "label_fr": "G1 — Asie (ensemble 6793226)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Champ: France (y compris Mayotte depuis 2014 pour cette série 6793226) · Figure 2"
+  },
+  {
+    "year": 2023,
+    "series_id": "g1_origin_asie",
+    "value": 1000000,
+    "unit": "persons",
+    "label_fr": "G1 — Asie (ensemble 6793226)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242329",
+    "source_org": "INSEE",
+    "notes": "Champ: France hors Mayotte · Figure 2"
+  },
+  {
+    "year": 2023,
+    "series_id": "g1_origin_asie_hors_turquie_mo",
+    "value": 605000,
+    "unit": "persons",
+    "label_fr": "G1 — Asie (hors TR/MO)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242329",
+    "source_org": "INSEE",
+    "notes": "Champ: France hors Mayotte · Figure 2"
+  },
+  {
+    "year": 2023,
+    "series_id": "g1_origin_autres_pays_d_europe",
+    "value": 624000,
+    "unit": "persons",
+    "label_fr": "G1 — Autres Europe",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242329",
+    "source_org": "INSEE",
+    "notes": "Champ: France hors Mayotte · Figure 2"
+  },
+  {
+    "year": 2023,
+    "series_id": "g1_origin_autres_pays_de_l_ue",
+    "value": 638000,
+    "unit": "persons",
+    "label_fr": "G1 — Autres UE",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242329",
+    "source_org": "INSEE",
+    "notes": "Champ: France hors Mayotte · Figure 2"
+  },
+  {
+    "year": 1968,
+    "series_id": "g1_origin_europe_du_sud",
+    "value": 1737000,
+    "unit": "persons",
+    "label_fr": "G1 — Europe du Sud",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Champ: France métropolitaine · Figure 2"
+  },
+  {
+    "year": 1975,
+    "series_id": "g1_origin_europe_du_sud",
+    "value": 1915000,
+    "unit": "persons",
+    "label_fr": "G1 — Europe du Sud",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Champ: France métropolitaine · Figure 2"
+  },
+  {
+    "year": 1982,
+    "series_id": "g1_origin_europe_du_sud",
+    "value": 1681000,
+    "unit": "persons",
+    "label_fr": "G1 — Europe du Sud",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Champ: France métropolitaine · Figure 2"
+  },
+  {
+    "year": 1990,
+    "series_id": "g1_origin_europe_du_sud",
+    "value": 1482000,
+    "unit": "persons",
+    "label_fr": "G1 — Europe du Sud",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Champ: France métropolitaine · Figure 2"
+  },
+  {
+    "year": 1999,
+    "series_id": "g1_origin_europe_du_sud",
+    "value": 1268000,
+    "unit": "persons",
+    "label_fr": "G1 — Europe du Sud",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Champ: France hors Mayotte · Figure 2"
+  },
+  {
+    "year": 2006,
+    "series_id": "g1_origin_europe_du_sud",
+    "value": 1169000,
+    "unit": "persons",
+    "label_fr": "G1 — Europe du Sud",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Champ: France hors Mayotte · Figure 2"
+  },
+  {
+    "year": 2008,
+    "series_id": "g1_origin_europe_du_sud",
+    "value": 1160000,
+    "unit": "persons",
+    "label_fr": "G1 — Europe du Sud",
+    "source_url": "https://www.insee.fr/fr/statistiques/fichier/1373887/FPORSOC11d_VE22Immig.pdf",
+    "source_org": "INSEE",
+    "notes": "Champ: France · Figure 1 (Espagne+Italie+Portugal) · Statut: derived_sum_of_published_cells"
+  },
+  {
+    "year": 2010,
+    "series_id": "g1_origin_europe_du_sud",
+    "value": 1141000,
+    "unit": "persons",
+    "label_fr": "G1 — Europe du Sud",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Champ: France hors Mayotte · Figure 2"
+  },
+  {
+    "year": 2013,
+    "series_id": "g1_origin_europe_du_sud",
+    "value": 1142000,
+    "unit": "persons",
+    "label_fr": "G1 — Europe du Sud",
+    "source_url": "https://www.insee.fr/fr/statistiques/fichier/2492220/FPORSOC16j3_F2.3_immigres.pdf",
+    "source_org": "INSEE",
+    "notes": "Champ: France · Tableau 2 (Espagne+Italie+Portugal) · Statut: derived_sum_of_published_cells"
+  },
+  {
+    "year": 2021,
+    "series_id": "g1_origin_europe_du_sud",
+    "value": 1130000,
+    "unit": "persons",
+    "label_fr": "G1 — Europe du Sud",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Champ: France (y compris Mayotte depuis 2014 pour cette série 6793226) · Figure 2"
+  },
+  {
+    "year": 2023,
+    "series_id": "g1_origin_europe_du_sud",
+    "value": 1091000,
+    "unit": "persons",
+    "label_fr": "G1 — Europe du Sud",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242329",
+    "source_org": "INSEE",
+    "notes": "Champ: France hors Mayotte · Figure 2"
+  },
+  {
+    "year": 1962,
+    "series_id": "g1_origin_maghreb",
+    "value": 406302,
+    "unit": "persons",
+    "label_fr": "G1 — Maghreb",
+    "source_url": "https://www.insee.fr/fr/statistiques/fichier/1371772/IMMFRA05d.PDF",
+    "source_org": "INSEE",
+    "notes": "Champ: France métropolitaine · Tableau 1.8-1 (Algérie+Maroc+Tunisie %) · Statut: derived_sum_of_published_pct · Maghreb aggregate not a single published row — sum of three country %"
+  },
+  {
+    "year": 1968,
+    "series_id": "g1_origin_maghreb",
+    "value": 597000,
+    "unit": "persons",
+    "label_fr": "G1 — Maghreb",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Champ: France métropolitaine · Figure 2"
+  },
+  {
+    "year": 1975,
+    "series_id": "g1_origin_maghreb",
+    "value": 993000,
+    "unit": "persons",
+    "label_fr": "G1 — Maghreb",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Champ: France métropolitaine · Figure 2"
+  },
+  {
+    "year": 1982,
+    "series_id": "g1_origin_maghreb",
+    "value": 1168000,
+    "unit": "persons",
+    "label_fr": "G1 — Maghreb",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Champ: France métropolitaine · Figure 2"
+  },
+  {
+    "year": 1990,
+    "series_id": "g1_origin_maghreb",
+    "value": 1221000,
+    "unit": "persons",
+    "label_fr": "G1 — Maghreb",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Champ: France métropolitaine · Figure 2"
+  },
+  {
+    "year": 1999,
+    "series_id": "g1_origin_maghreb",
+    "value": 1299000,
+    "unit": "persons",
+    "label_fr": "G1 — Maghreb",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Champ: France hors Mayotte · Figure 2"
+  },
+  {
+    "year": 2006,
+    "series_id": "g1_origin_maghreb",
+    "value": 1553000,
+    "unit": "persons",
+    "label_fr": "G1 — Maghreb",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Champ: France hors Mayotte · Figure 2"
+  },
+  {
+    "year": 2008,
+    "series_id": "g1_origin_maghreb",
+    "value": 1600000,
+    "unit": "persons",
+    "label_fr": "G1 — Maghreb",
+    "source_url": "https://www.insee.fr/fr/statistiques/fichier/1373887/FPORSOC11d_VE22Immig.pdf",
+    "source_org": "INSEE",
+    "notes": "Champ: France · Figure 1 (tableau)"
+  },
+  {
+    "year": 2010,
+    "series_id": "g1_origin_maghreb",
+    "value": 1643000,
+    "unit": "persons",
+    "label_fr": "G1 — Maghreb",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Champ: France hors Mayotte · Figure 2"
+  },
+  {
+    "year": 2013,
+    "series_id": "g1_origin_maghreb",
+    "value": 1728000,
+    "unit": "persons",
+    "label_fr": "G1 — Maghreb",
+    "source_url": "https://www.insee.fr/fr/statistiques/fichier/2492220/FPORSOC16j3_F2.3_immigres.pdf",
+    "source_org": "INSEE",
+    "notes": "Champ: France · Tableau 2 (Algérie+Maroc+Tunisie) · Statut: derived_sum_of_published_cells"
+  },
+  {
+    "year": 2021,
+    "series_id": "g1_origin_maghreb",
+    "value": 2038000,
+    "unit": "persons",
+    "label_fr": "G1 — Maghreb",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Champ: France (y compris Mayotte depuis 2014 pour cette série 6793226) · Figure 2"
+  },
+  {
+    "year": 2023,
+    "series_id": "g1_origin_maghreb",
+    "value": 2091000,
+    "unit": "persons",
+    "label_fr": "G1 — Maghreb",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242329",
+    "source_org": "INSEE",
+    "notes": "Champ: France hors Mayotte · Figure 2"
+  },
+  {
+    "year": 1968,
+    "series_id": "g1_origin_turquie",
+    "value": 43000,
+    "unit": "persons",
+    "label_fr": "G1 — Turquie (6793226)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Champ: France métropolitaine · Figure 2"
+  },
+  {
+    "year": 1975,
+    "series_id": "g1_origin_turquie",
+    "value": 76000,
+    "unit": "persons",
+    "label_fr": "G1 — Turquie (6793226)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Champ: France métropolitaine · Figure 2"
+  },
+  {
+    "year": 1982,
+    "series_id": "g1_origin_turquie",
+    "value": 121000,
+    "unit": "persons",
+    "label_fr": "G1 — Turquie (6793226)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Champ: France métropolitaine · Figure 2"
+  },
+  {
+    "year": 1990,
+    "series_id": "g1_origin_turquie",
+    "value": 168000,
+    "unit": "persons",
+    "label_fr": "G1 — Turquie (6793226)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Champ: France métropolitaine · Figure 2"
+  },
+  {
+    "year": 1999,
+    "series_id": "g1_origin_turquie",
+    "value": 174000,
+    "unit": "persons",
+    "label_fr": "G1 — Turquie (6793226)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Champ: France hors Mayotte · Figure 2"
+  },
+  {
+    "year": 2006,
+    "series_id": "g1_origin_turquie",
+    "value": 229000,
+    "unit": "persons",
+    "label_fr": "G1 — Turquie (6793226)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Champ: France hors Mayotte · Figure 2"
+  },
+  {
+    "year": 2008,
+    "series_id": "g1_origin_turquie",
+    "value": 240000,
+    "unit": "persons",
+    "label_fr": "G1 — Turquie (6793226)",
+    "source_url": "https://www.insee.fr/fr/statistiques/fichier/1373887/FPORSOC11d_VE22Immig.pdf",
+    "source_org": "INSEE",
+    "notes": "Champ: France · Figure 1 (tableau)"
+  },
+  {
+    "year": 2010,
+    "series_id": "g1_origin_turquie",
+    "value": 246000,
+    "unit": "persons",
+    "label_fr": "G1 — Turquie (6793226)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Champ: France hors Mayotte · Figure 2"
+  },
+  {
+    "year": 2013,
+    "series_id": "g1_origin_turquie",
+    "value": 249000,
+    "unit": "persons",
+    "label_fr": "G1 — Turquie (6793226)",
+    "source_url": "https://www.insee.fr/fr/statistiques/fichier/2492220/FPORSOC16j3_F2.3_immigres.pdf",
+    "source_org": "INSEE",
+    "notes": "Champ: France · Tableau 2 · Turquie alone — not « Turquie, Moyen-Orient » aggregate of 8242329"
+  },
+  {
+    "year": 2021,
+    "series_id": "g1_origin_turquie",
+    "value": 251000,
+    "unit": "persons",
+    "label_fr": "G1 — Turquie (6793226)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793226",
+    "source_org": "INSEE",
+    "notes": "Champ: France (y compris Mayotte depuis 2014 pour cette série 6793226) · Figure 2"
+  },
+  {
+    "year": 2023,
+    "series_id": "g1_origin_turquie_moyen_orient",
+    "value": 395000,
+    "unit": "persons",
+    "label_fr": "G1 — Turquie, Moyen-Orient",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242329",
+    "source_org": "INSEE",
+    "notes": "Champ: France hors Mayotte · Figure 2"
+  },
+  {
+    "year": 2008,
+    "series_id": "g2_decennial_part_population",
+    "value": 11,
+    "unit": "percent",
+    "label_fr": "Part G2 (logement ordinaire)",
+    "source_url": "https://www.insee.fr/fr/statistiques/fichier/1373887/FPORSOC11d_VE22Immig.pdf",
+    "source_org": "INSEE",
+    "notes": "Champ: France métropolitaine · texte p.33-35 · Statut: published_approx_text · 2008: 6,5 M is text estimate; origin table in same PDF is 18–50 only — do not use 18–50 as all-age"
+  },
+  {
+    "year": 2013,
+    "series_id": "g2_decennial_part_population",
+    "value": 10,
+    "unit": "percent",
+    "label_fr": "Part G2 (logement ordinaire)",
+    "source_url": "https://www.insee.fr/fr/statistiques/fichier/2492220/FPORSOC16j3_F2.3_immigres.pdf",
+    "source_org": "INSEE",
+    "notes": "Champ: France · texte + Tableau 3"
+  },
+  {
+    "year": 2021,
+    "series_id": "g2_decennial_part_population",
+    "value": 10.9,
+    "unit": "percent",
+    "label_fr": "Part G2 (logement ordinaire)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793230",
+    "source_org": "INSEE",
+    "notes": "Champ: France hors Mayotte · Figure 1"
+  },
+  {
+    "year": 2023,
+    "series_id": "g2_decennial_part_population",
+    "value": 12.1,
+    "unit": "percent",
+    "label_fr": "Part G2 (logement ordinaire)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242329",
+    "source_org": "INSEE",
+    "notes": "Champ: France hors Mayotte · Figure 3"
+  },
+  {
+    "year": 2005,
+    "series_id": "g2_decennial_stock",
+    "value": 4275000,
+    "unit": "persons",
+    "label_fr": "Stock descendants d'immigrés (G2)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793314",
+    "source_org": "INSEE",
+    "notes": "Champ: France hors Mayotte · Figure 1"
+  },
+  {
+    "year": 2008,
+    "series_id": "g2_decennial_stock",
+    "value": 6500000,
+    "unit": "persons",
+    "label_fr": "Stock descendants d'immigrés (G2)",
+    "source_url": "https://www.insee.fr/fr/statistiques/fichier/1373887/FPORSOC11d_VE22Immig.pdf",
+    "source_org": "INSEE",
+    "notes": "Champ: France métropolitaine · texte p.33-35 · Statut: published_approx_text · 2008: 6,5 M is text estimate; origin table in same PDF is 18–50 only — do not use 18–50 as all-age"
+  },
+  {
+    "year": 2011,
+    "series_id": "g2_decennial_stock",
+    "value": 6558000,
+    "unit": "persons",
+    "label_fr": "Stock descendants d'immigrés (G2)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793314",
+    "source_org": "INSEE",
+    "notes": "Champ: France hors Mayotte · Figure 1"
+  },
+  {
+    "year": 2013,
+    "series_id": "g2_decennial_stock",
+    "value": 6840000,
+    "unit": "persons",
+    "label_fr": "Stock descendants d'immigrés (G2)",
+    "source_url": "https://www.insee.fr/fr/statistiques/fichier/2492220/FPORSOC16j3_F2.3_immigres.pdf",
+    "source_org": "INSEE",
+    "notes": "Champ: France · texte + Tableau 3"
+  },
+  {
+    "year": 2021,
+    "series_id": "g2_decennial_stock",
+    "value": 7349000,
+    "unit": "persons",
+    "label_fr": "Stock descendants d'immigrés (G2)",
+    "source_url": "https://www.insee.fr/fr/statistiques/6793230",
+    "source_org": "INSEE",
+    "notes": "Champ: France hors Mayotte · Figure 1"
+  },
+  {
+    "year": 2023,
+    "series_id": "g2_decennial_stock",
+    "value": 8015000,
+    "unit": "persons",
+    "label_fr": "Stock descendants d'immigrés (G2)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8242329",
+    "source_org": "INSEE",
+    "notes": "Champ: France hors Mayotte · Figure 3"
+  }
+]

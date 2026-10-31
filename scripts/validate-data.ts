@@ -107,11 +107,11 @@ function validateLeads() {
   }
 }
 
-function validateImmigrationSeries() {
-  const path = join(root, "data/stats/immigration/series.json");
+function validateImmigrationSeriesFile(relativePath: string, label: string) {
+  const path = join(root, relativePath);
   const parsed = immigrationSeriesFileSchema.safeParse(readJson(path));
   if (!parsed.success) {
-    fail(`data/stats/immigration/series.json — ${parsed.error.message}`);
+    fail(`${relativePath} — ${parsed.error.message}`);
     return;
   }
   const keys = new Set<string>();
@@ -121,7 +121,18 @@ function validateImmigrationSeries() {
     keys.add(key);
   }
   console.log(
-    `OK immigration series: ${parsed.data.length} points, ${new Set(parsed.data.map((p) => p.series_id)).size} series`,
+    `OK ${label}: ${parsed.data.length} points, ${new Set(parsed.data.map((p) => p.series_id)).size} series`,
+  );
+}
+
+function validateImmigrationSeries() {
+  validateImmigrationSeriesFile(
+    "data/stats/immigration/series.json",
+    "immigration series",
+  );
+  validateImmigrationSeriesFile(
+    "data/stats/immigration/origins-decennial-series.json",
+    "origins decennial series",
   );
 }
 

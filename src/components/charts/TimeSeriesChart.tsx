@@ -329,5 +329,3 @@ export function TimeSeriesChart({
     </figure>
   );
 }
-
-export { seriesFromRows, toChartPoints } from "@/lib/chart-series";

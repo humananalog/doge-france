@@ -1,10 +1,11 @@
 {
   "name": "doge-france",
-  "version": "0.3.16",
+  "version": "0.3.17",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "validate": "tsx scripts/validate-data.ts",
+    "build:origins-series": "tsx scripts/build-origins-decennial-series.ts",
     "test:validate": "tsx scripts/self-test-validate.ts",
     "build": "npm run test:validate && npm run validate && next build",
     "start": "next start",
