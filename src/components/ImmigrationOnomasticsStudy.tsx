@@ -1,16 +1,10 @@
 import { getMetric } from "@/lib/registry";
 import { ProofLink } from "@/components/ProofLink";
+import { OnomasticsShareChart } from "@/components/OnomasticsShareChart";
 import {
-  getOnomasticsShareSeries,
   ONOMASTICS_BANNER_FR,
   ONOMASTICS_CHART_BADGE,
-  POP_CONTEXT_PROOF_URL,
-  PRENOMS_PROOF_URL,
 } from "@/lib/onomastics-series";
-import {
-  seriesFromRows,
-  TimeSeriesChart,
-} from "@/components/charts/TimeSeriesChart";
 import type { Metric } from "@/lib/types";
 
 const CHART_BADGE = ONOMASTICS_CHART_BADGE;
@@ -207,41 +201,86 @@ function PopContextPanel() {
   );
 }
 
-function OnomasticsShareChart() {
-  const jean = getOnomasticsShareSeries("onom-jean-classic-boys-share");
-  const mohamed = getOnomasticsShareSeries("onom-mohamed-core-boys-share");
-  if (jean.length === 0 || mohamed.length === 0) return null;
+const INED_PS565_URL =
+  "https://www.ined.fr/fr/publications/editions/population-et-societes/quels-prenoms-les-immigres-donnent-ils-a-leurs-enfants";
+const INED_PS565_HAL_URL = "https://hal.science/hal-04625724";
+const INSEE_IMMIG_STOCK_URL =
+  "https://www.insee.fr/fr/statistiques/8242329";
 
+function OnomasticsGroundingNote() {
   return (
-    <div>
-      <TimeSeriesChart
-        title="Parts de faisceaux (garçons), 1946–2025"
-        description="Signal onomastique inféré — listes de prénoms définies par le desk, pas une taxonomie INSEE."
-        primary={[
-          seriesFromRows(
-            "onom-jean-classic-boys-share",
-            "Faisceau « Jean » classique (% garçons)",
-            "#64748b",
-            jean,
-          ),
-          seriesFromRows(
-            "onom-mohamed-core-boys-share",
-            "Faisceau « Mohamed » noyau (% garçons)",
-            "#0d9488",
-            mohamed,
-          ),
-        ]}
-        annotations={[
-          { year: 1950, label: "Baseline 1950" },
-          { year: 2025, label: "2025" },
-        ]}
-        formatYPrimary={(v) =>
-          `${new Intl.NumberFormat("fr-FR", { maximumFractionDigits: 1 }).format(v)} %`
-        }
-        caption={`${CHART_BADGE} · ${ONOMASTICS_BANNER_FR}`}
-        sourceHint={`Source agrégats : ${PRENOMS_PROOF_URL} · Contexte pop. (panneau D) : ${POP_CONTEXT_PROOF_URL}`}
-      />
+    <div className="rounded-xl border border-zinc-200 bg-zinc-50/90 p-5 dark:border-zinc-800 dark:bg-zinc-900/50">
+      <h3 className="text-sm font-semibold text-zinc-900 dark:text-zinc-50">
+        Méthode — origine ethnico-religieuse des prénoms (inférée)
+      </h3>
       <StudyBadge className="mt-2" />
+      <p className="mt-3 text-sm leading-relaxed text-zinc-700 dark:text-zinc-300">
+        Les faisceaux desk ne sont pas des listes arbitaires : ils regroupent
+        des prénoms selon une{" "}
+        <strong className="font-medium">association linguistique / religieuse
+        inférée</strong> documentée — pas un recensement d&apos;ethnicité ni de
+        religion.
+      </p>
+      <ul className="mt-3 list-disc space-y-2 pl-5 text-sm leading-relaxed text-zinc-700 dark:text-zinc-300">
+        <li>
+          <strong className="font-medium">Jean / Marie classique</strong> —
+          stock de prénoms chrétiens / d&apos;état civil très fréquents en
+          métropole au milieu du XX<sup>e</sup> siècle (calendrier chrétien,
+          registres civils).
+        </li>
+        <li>
+          <strong className="font-medium">Mohamed noyau</strong> — anthroponymie
+          arabo-musulmane Maghreb–MENA (logique de classe « arabo-musulman »
+          INED–Insee TeO,{" "}
+          <em>Population &amp; Sociétés</em> n°565, Coulmont &amp; Simon, 2019) :
+          parmi les immigrés maghrébins, ~94&nbsp;% portent un prénom classé
+          arabo-musulman ; un prénom arabo-musulman désigne une origine
+          maghrébine (immigré ou descendant) dans ~82&nbsp;% des cas —{" "}
+          <strong className="font-medium">proxies, pas certitude</strong>.
+        </li>
+      </ul>
+      <p className="mt-3 text-sm leading-relaxed text-zinc-700 dark:text-zinc-300">
+        <strong className="font-medium">Limite dure :</strong> ce grounding
+        explique <em>pourquoi</em> un prénom est dans un faisceau — il ne
+        transforme pas une part de naissances 2025 en «&nbsp;% maghrébin&nbsp;»
+        ou «&nbsp;% musulmans&nbsp;». Rare ≠ impossible ; pas de matrice
+        parent×enfant ; pas de religion déclarée déduite du seul prénom.
+      </p>
+      <p className="mt-3 text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
+        Stock d&apos;origine immigrés (Fig.&nbsp;1) : lien séparé vers{" "}
+        <a
+          href={INSEE_IMMIG_STOCK_URL}
+          className="underline decoration-zinc-400 underline-offset-2"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          INSEE 8242329
+        </a>{" "}
+        — <strong className="font-medium">ne pas fusionner</strong> avec les
+        parts de prénoms ci-dessous.
+      </p>
+      <p className="mt-3 text-xs leading-relaxed text-zinc-500">
+        Sources recherche :{" "}
+        <a
+          href={INED_PS565_URL}
+          className="underline decoration-zinc-400 underline-offset-2"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          INED Population &amp; Sociétés n°565
+        </a>
+        {" · "}
+        <a
+          href={INED_PS565_HAL_URL}
+          className="underline decoration-zinc-400 underline-offset-2"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          HAL hal-04625724
+        </a>{" "}
+        (miroir si PDF ined.fr indisponible). Toujours inféré ; ≠ part
+        musulmans au recensement.
+      </p>
     </div>
   );
 }
@@ -277,6 +316,8 @@ export function ImmigrationOnomasticsStudy() {
         </p>
       </div>
 
+      <OnomasticsGroundingNote />
+
       <div className="grid gap-6 lg:grid-cols-2">
         <BundlePanel
           title="Prénoms « Jean » classique — part des naissances garçons"
@@ -284,7 +325,7 @@ export function ImmigrationOnomasticsStudy() {
           share2025Id="onom-jean-classic-boys-share-2025"
           count1950Id="onom-jean-classic-boys-count-1950"
           count2025Id="onom-jean-classic-boys-count-2025"
-          microligne="Somme desk-définie (JEAN, JACQUES, PIERRE, MICHEL, …) ÷ naissances garçons du fichier INSEE."
+          microligne="Somme desk-définie (JEAN, JACQUES, PIERRE, MICHEL, …) ÷ naissances garçons INSEE. Faisceau = prénoms chrétiens / état civil mid-century (association inférée, pas « % français de souche »)."
         />
         <BundlePanel
           title="Prénoms « Mohamed » noyau — part des naissances garçons"
@@ -292,7 +333,7 @@ export function ImmigrationOnomasticsStudy() {
           share2025Id="onom-mohamed-core-boys-share-2025"
           count1950Id="onom-mohamed-core-boys-count-1950"
           count2025Id="onom-mohamed-core-boys-count-2025"
-          microligne="Noyau sans ADAM, RAYAN/RYAN, YANIS, NOAH (ambigus / multi-origine)."
+          microligne="Classe arabo-musulmane Maghreb–MENA (logique INED P&S n°565) — noyau sans ADAM, RAYAN/RYAN, YANIS, NOAH. Part ≠ origine maghrébine ni religion au recensement."
           footnote="RAYANE est inclus dans le noyau ; RAYAN/RYAN exclus — choix desk documenté."
         />
       </div>

@@ -1,5 +1,7 @@
+"use client";
+
 import { formatPersonCompact } from "@/lib/format";
-import type { ImmigrationSeriesPoint } from "../../../schemas/immigration-series.schema";
+import { PRESIDENTIAL_ERA_DISCLAIMER } from "@/lib/presidential-eras";
 import {
   CHART_MARGIN,
   extentValues,
@@ -14,13 +16,10 @@ import {
   type MissingDataRange,
 } from "./time-series-math";
 import { PresidentialEraBands } from "./PresidentialEraBands";
+import { usePresidentialEras } from "./PresidentialEraContext";
 
 const VIEW_W = 720;
 const VIEW_H = 280;
-
-function toChartPoints(rows: ImmigrationSeriesPoint[]) {
-  return rows.map((r) => ({ year: r.year, value: r.value }));
-}
 
 function formatYPersons(v: number) {
   return formatPersonCompact(v);
@@ -57,6 +56,7 @@ export function TimeSeriesChart({
   formatYSecondary = formatYPercent,
   sourceHint,
 }: Props) {
+  const { showEras, hydrated } = usePresidentialEras();
   const allPrimary = primary;
   const [minYear, maxYear] = extentYears([...allPrimary, ...secondary]);
   const [minVal, maxVal] = extentValues(allPrimary);
@@ -321,24 +321,13 @@ export function TimeSeriesChart({
           {sourceHint}
         </p>
       )}
+      {hydrated && showEras && (
+        <p className="mt-2 text-xs leading-relaxed text-zinc-500 dark:text-zinc-400">
+          {PRESIDENTIAL_ERA_DISCLAIMER}
+        </p>
+      )}
     </figure>
   );
 }
 
-export function seriesFromRows(
-  id: string,
-  label: string,
-  color: string,
-  rows: ImmigrationSeriesPoint[],
-  opts?: Partial<LineSeriesConfig>,
-): LineSeriesConfig {
-  return {
-    id,
-    label,
-    color,
-    points: toChartPoints(rows),
-    ...opts,
-  };
-}
-
-export { toChartPoints };
+export { seriesFromRows, toChartPoints } from "@/lib/chart-series";
