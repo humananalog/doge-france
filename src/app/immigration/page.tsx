@@ -7,6 +7,7 @@ import { ImmigrationWorldOriginsMap } from "@/components/ImmigrationWorldOrigins
 import { ImmigrationOfficialCharts } from "@/components/ImmigrationOfficialCharts";
 import { ImmigrationOriginsDecennialCharts } from "@/components/ImmigrationOriginsDecennialCharts";
 import { ImmigrationFertilityAidesPanels } from "@/components/ImmigrationGeoComparisonTiles";
+import { ImmigrationProjections25PctBounds } from "@/components/ImmigrationProjections25PctBounds";
 import { getMetricsByCategory } from "@/lib/registry";
 
 export const metadata = {
@@ -40,6 +41,8 @@ export default function ImmigrationPage() {
       <ImmigrationOriginsDecennialCharts />
 
       <ImmigrationFertilityAidesPanels />
+
+      <ImmigrationProjections25PctBounds />
 
       <section className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
         <div className="rounded-xl border border-zinc-200 bg-white p-5 dark:border-zinc-800 dark:bg-zinc-900/40">
