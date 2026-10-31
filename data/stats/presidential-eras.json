@@ -1,6 +1,14 @@
 {
   "version": 1,
   "disclaimer_fr": "Bandes verticales = mandats présidentiels (chronologie Élysée). Couleurs gauche/droite = convention politique du site, pas une catégorie INSEE. Aucun lien de causalité avec les courbes.",
+  "chronology_primary_url": "https://www.elysee.fr/fr/suivre-l-elysee/les-presidents-de-la-5eme-republique",
+  "party_color_convention": {
+    "ui_label_fr": "Convention politique (parti déclaré · fiche Élysée primary_url)",
+    "red_parties_stated": ["SFIO", "PS", "PCF", "Verts", "EELV", "FG"],
+    "blue_parties_stated": ["CNIP", "UNR", "UDR", "UDF", "RPR", "UMP", "LR", "FN", "RN"],
+    "neutral_parties_stated": ["La République en marche / Renaissance", "RE", "LREM", "Ensemble"],
+    "mapping_note_fr": "Rouge = partis listés gauche (PS, PCF, Verts…). Bleu = RPR, UMP, LR, FN, RN, UNR, UDR, UDF, CNIP… Neutre = Renaissance / LREM (macroniste). Couleur lue depuis le champ party de chaque mandat (primary_url Élysée), sans inférer au-delà du libellé source."
+  },
   "eras": [
     {
       "start": 1947,

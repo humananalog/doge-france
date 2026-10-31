@@ -26,6 +26,16 @@ export const presidentialErasFileSchema = z.object({
   version: z.literal(1),
   /** UI chrome only — not causal claims about series. */
   disclaimer_fr: z.string().min(1),
+  chronology_primary_url: proofUrlSchema.optional(),
+  party_color_convention: z
+    .object({
+      ui_label_fr: z.string().min(1),
+      red_parties_stated: z.array(z.string()),
+      blue_parties_stated: z.array(z.string()),
+      neutral_parties_stated: z.array(z.string()),
+      mapping_note_fr: z.string().min(1),
+    })
+    .optional(),
   eras: z.array(presidentialEraSchema).min(1),
 });
 
