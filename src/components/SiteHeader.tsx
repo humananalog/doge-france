@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { PresidentialEraToggle } from "@/components/charts/PresidentialEraToggle";
 
 const NAV = [
   { href: "/", label: "Accueil" },
@@ -30,20 +31,23 @@ export function SiteHeader() {
             </p>
           </Link>
         </div>
-        <nav
-          className="flex flex-wrap gap-x-4 gap-y-2 text-sm font-medium"
-          aria-label="Navigation principale"
-        >
-          {NAV.map((item) => (
-            <Link
-              key={item.href}
-              href={item.href}
-              className="text-zinc-700 hover:text-sky-800 dark:text-zinc-300 dark:hover:text-sky-400"
-            >
-              {item.label}
-            </Link>
-          ))}
-        </nav>
+        <div className="flex flex-col gap-3 md:items-end">
+          <PresidentialEraToggle />
+          <nav
+            className="flex flex-wrap gap-x-4 gap-y-2 text-sm font-medium md:justify-end"
+            aria-label="Navigation principale"
+          >
+            {NAV.map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="text-zinc-700 hover:text-sky-800 dark:text-zinc-300 dark:hover:text-sky-400"
+              >
+                {item.label}
+              </Link>
+            ))}
+          </nav>
+        </div>
       </div>
     </header>
   );

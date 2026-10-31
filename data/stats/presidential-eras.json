@@ -1,0 +1,96 @@
+{
+  "version": 1,
+  "disclaimer_fr": "Bandes verticales = mandats présidentiels (chronologie Élysée). Couleurs gauche/droite = convention politique du site, pas une catégorie INSEE. Aucun lien de causalité avec les courbes.",
+  "eras": [
+    {
+      "start": 1947,
+      "end": 1954,
+      "name": "Vincent Auriol",
+      "president": "Auriol",
+      "party": "SFIO",
+      "side": "left",
+      "primary_url": "https://www.elysee.fr/vincent-auriol"
+    },
+    {
+      "start": 1954,
+      "end": 1959,
+      "name": "René Coty",
+      "president": "Coty",
+      "party": "CNIP",
+      "side": "right",
+      "primary_url": "https://www.elysee.fr/rene-coty"
+    },
+    {
+      "start": 1959,
+      "end": 1969,
+      "name": "Charles de Gaulle",
+      "president": "de Gaulle",
+      "party": "UNR (gaulliste)",
+      "side": "right",
+      "primary_url": "https://www.elysee.fr/charles-de-gaulle"
+    },
+    {
+      "start": 1969,
+      "end": 1974,
+      "name": "Georges Pompidou",
+      "president": "Pompidou",
+      "party": "UDR (gaulliste)",
+      "side": "right",
+      "primary_url": "https://www.elysee.fr/georges-pompidou"
+    },
+    {
+      "start": 1974,
+      "end": 1981,
+      "name": "Valéry Giscard d'Estaing",
+      "president": "Giscard",
+      "party": "UDF",
+      "side": "right",
+      "primary_url": "https://www.elysee.fr/valery-giscard-destaing"
+    },
+    {
+      "start": 1981,
+      "end": 1995,
+      "name": "François Mitterrand",
+      "president": "Mitterrand",
+      "party": "PS",
+      "side": "left",
+      "primary_url": "https://www.elysee.fr/francois-mitterrand"
+    },
+    {
+      "start": 1995,
+      "end": 2007,
+      "name": "Jacques Chirac",
+      "president": "Chirac",
+      "party": "RPR puis UMP",
+      "side": "right",
+      "primary_url": "https://www.elysee.fr/jacques-chirac"
+    },
+    {
+      "start": 2007,
+      "end": 2012,
+      "name": "Nicolas Sarkozy",
+      "president": "Sarkozy",
+      "party": "UMP",
+      "side": "right",
+      "primary_url": "https://www.elysee.fr/nicolas-sarkozy"
+    },
+    {
+      "start": 2012,
+      "end": 2017,
+      "name": "François Hollande",
+      "president": "Hollande",
+      "party": "PS",
+      "side": "left",
+      "primary_url": "https://www.elysee.fr/francois-hollande"
+    },
+    {
+      "start": 2017,
+      "end": null,
+      "name": "Emmanuel Macron",
+      "president": "Macron",
+      "party": "La République en marche / Renaissance",
+      "side": "neutral",
+      "primary_url": "https://www.elysee.fr/emmanuel-macron"
+    }
+  ]
+}

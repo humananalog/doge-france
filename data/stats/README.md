@@ -26,6 +26,8 @@ Ne pas introduire `kind=waste` ni le champ `waste_legality`. Les montants « ord
 
 **Immigration (graphiques `/immigration`)** — séries chronologiques dans `immigration/series.json` (310 points, `source_url` obligatoire par point). Méthodologie : `immigration/methodology.md` ; index des sources : `immigration/sources.md`. Validées par `scripts/validate-data.ts` (`immigrationSeriesFileSchema`).
 
+**Mandats présidentiels (bandes sur graphiques chronologiques)** — `presidential-eras.json` : `{ start, end, name, president, party, side, primary_url }` (chronologie [Élysée](https://www.elysee.fr/la-presidence/les-presidents-de-la-republique)). `side` = convention politique **UI** (`left` rouge · `right` bleu · `neutral` teinte tierce) — pas INSEE, pas causalité.
+
 **Immigration (tuiles générations G1–G3, guard-PASS / ship pack INSEE Desk)** — ids alignés sur `uploads/metrics.json` (tirets à la place des `_`) :
 - G1 lead — `g1-immigres-stock-2023-part` + `g1-immigres-stock-2023-effectif` (8242329 Fig. 1)
 - G2 lead — `g2-descendants-stock-2023-part` + `g2-descendants-stock-2023-effectif` (8242329 Fig. 3, logement ordinaire)

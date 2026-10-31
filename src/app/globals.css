@@ -3,6 +3,11 @@
 :root {
   --background: #fafafa;
   --foreground: #18181b;
+  /* Président / parti overlay — convention politique UI (not INSEE). */
+  --era-band-alpha: 0.15;
+  --era-band-left: rgb(220 38 38);
+  --era-band-right: rgb(37 99 235);
+  --era-band-neutral: rgb(124 58 237);
 }
 
 @theme inline {
