@@ -1,0 +1,296 @@
+{
+  "pack_id": "projections-immigres-25pct-bornes-2026-10-31",
+  "desk": "INSEE Desk · Stats",
+  "framing": "étude · recomposition de bornes",
+  "framing_forbid": ["projection ethnique officielle", "année officielle ethnie/musulmans 25%", "Grand Remplacement daté"],
+  "as_of": "2026-10-31",
+  "ask": "when will this ethnicity group reach 25% of population",
+  "answer_headline": "No official French ethnie/Muslim 25% year. INSEE does not project immigrés or descendants shares. Pew 2017 France Muslim 2050 scenarios top out at ~18% (high). Maghreb+Turquie/MO G1+G2 floor ~8% derived. Recomposition bounds only — no invented certainty year.",
+  "fail_flags": [
+    "FAIL_invent_ethnie_or_muslim_25pct_year_as_fact",
+    "FAIL_present_pew_or_heran_as_insee",
+    "FAIL_interpolate_missing_year_to_fake_25pct",
+    "FAIL_all_age_G3_projection",
+    "FAIL_ui_title_projection_ethnique",
+    "FAIL_apply_teo2_10pct_to_all_ages_without_label"
+  ],
+  "current_floors": [
+    {
+      "metric_id": "g1_immigres_share_2023",
+      "label_fr": "Immigrés (G1) — part population",
+      "year": 2023,
+      "geography": "France hors Mayotte",
+      "champ": "Population (recensements + estimations)",
+      "numerator_thousands": 7174,
+      "pct": 10.6,
+      "published_vs_derived": "published",
+      "primary_url": "https://www.insee.fr/fr/statistiques/8242329",
+      "confidence": "high",
+      "notes": "Données provisoires 2022-2023. Fig.1 Portrait social."
+    },
+    {
+      "metric_id": "g1_immigres_share_2024",
+      "label_fr": "Immigrés (G1) — part population",
+      "year": 2024,
+      "geography": "France hors Mayotte",
+      "champ": "Population (estimations provisoires)",
+      "numerator_thousands": 7615,
+      "pct": 11.2,
+      "published_vs_derived": "published",
+      "primary_url": "https://www.insee.fr/fr/statistiques/8612512",
+      "confidence": "high",
+      "notes": "Portrait social éd. 2025. p = provisoire."
+    },
+    {
+      "metric_id": "g2_descendants_share_2023",
+      "label_fr": "Descendants d’immigrés (G2)",
+      "year": 2023,
+      "geography": "France hors Mayotte",
+      "champ": "Logement ordinaire",
+      "numerator_thousands": 8015,
+      "pct": 12.1,
+      "published_vs_derived": "published",
+      "primary_url": "https://www.insee.fr/fr/statistiques/8242329",
+      "confidence": "high",
+      "notes": "Fig.3 + texte. Ne pas appliquer à toute la population sans label logement ordinaire."
+    },
+    {
+      "metric_id": "g2_descendants_share_2024",
+      "label_fr": "Descendants d’immigrés (G2)",
+      "year": 2024,
+      "geography": "France hors Mayotte",
+      "champ": "Logement ordinaire",
+      "numerator_thousands": 7987,
+      "pct": 12.0,
+      "published_vs_derived": "published",
+      "primary_url": "https://www.insee.fr/fr/statistiques/8612512",
+      "confidence": "high"
+    },
+    {
+      "metric_id": "maghreb_turquie_mo_g1_g2_floor_2023",
+      "label_fr": "Maghreb + Turquie/Moyen-Orient — stock G1+G2 (borne basse géo)",
+      "year": 2023,
+      "geography": "France hors Mayotte",
+      "components": {
+        "g1_maghreb_thousands": 2091,
+        "g1_turquie_mo_thousands": 395,
+        "g1_sum_thousands": 2486,
+        "g2_maghreb_thousands": 2597,
+        "g2_turquie_mo_thousands": 380,
+        "g2_sum_thousands": 2977,
+        "g1_g2_sum_thousands": 5463
+      },
+      "pct_of_population_approx": 8.1,
+      "pct_note": "DERIVED: 5 463 k / ~67,7 M (dénominateur implicite 7 174 k / 10,6 %). G2 mesuré en logement ordinaire — champ légèrement distinct. Ne pas présenter comme % officiel publié.",
+      "g1_only_pct_approx": 3.7,
+      "g2_only_pct_logement_ordinaire_approx": 4.5,
+      "published_vs_derived": "derived",
+      "figure": "Fig.2 + Fig.3",
+      "primary_url": "https://www.insee.fr/fr/statistiques/8242329",
+      "confidence": "medium",
+      "must_not_claim": [
+        "Pas une ethnie",
+        "Pas une part musulmane",
+        "Pas une projection"
+      ]
+    },
+    {
+      "metric_id": "births_mother_maghreb_2024",
+      "label_fr": "Naissances — mère née au Maghreb (Algérie+Maroc+Tunisie)",
+      "year": 2024,
+      "geography": "France (y compris Mayotte depuis 2014)",
+      "numerator": 51929,
+      "denominator": 660787,
+      "pct": 7.86,
+      "published_vs_derived": "derived",
+      "derivation": "Somme T38BIS colonnes Algérie+Maroc+Tunisie / Ensemble",
+      "primary_url": "https://www.insee.fr/fr/statistiques/8582134",
+      "table": "T38BIS",
+      "extract_file": "downloads/t38bis-2024.xlsx",
+      "confidence": "high",
+      "notes": "Pays de naissance de la mère uniquement. Exclut mères G2 nées en France d’origine maghrébine. Pas religion."
+    },
+    {
+      "metric_id": "births_mother_maghreb_turquie_2024",
+      "label_fr": "Naissances — mère née Maghreb ou Turquie",
+      "year": 2024,
+      "geography": "France (y compris Mayotte depuis 2014)",
+      "numerator": 56121,
+      "denominator": 660787,
+      "pct": 8.49,
+      "published_vs_derived": "derived",
+      "derivation": "Algérie+Maroc+Tunisie+Turquie / Ensemble (T38BIS)",
+      "primary_url": "https://www.insee.fr/fr/statistiques/8582134",
+      "confidence": "high",
+      "notes": "Turquie seule (pas Moyen-Orient entier). Métropole 2024: 8,95 %."
+    },
+    {
+      "metric_id": "teo2_muslim_declare_18_59_2019_20",
+      "label_fr": "Déclaration musulmane (TeO2)",
+      "year": "2019-2020",
+      "geography": "France métropolitaine",
+      "champ": "18–59 ans, logement ordinaire",
+      "pct": 10,
+      "published_vs_derived": "published",
+      "primary_url": "https://www.insee.fr/fr/statistiques/6793308",
+      "confidence": "high",
+      "notes": "Auto-déclaration. Catholiques 29 %, sans religion 51 %. FAIL si présenté comme % tous âges.",
+      "must_not_claim": [
+        "Pas un recensement religieux tous âges",
+        "Pas une projection",
+        "Pas une ethnie"
+      ]
+    }
+  ],
+  "official_projections": {
+    "insee_population_2026": {
+      "exists": true,
+      "projects_immigres_share": false,
+      "projects_descendants_share": false,
+      "projects_maghreb_share": false,
+      "projects_muslim_share": false,
+      "horizon": 2070,
+      "scenarios_solde_migratoire_annual": {
+        "basse": 70000,
+        "centrale": 150000,
+        "haute": 230000,
+        "travail_nul": 0
+      },
+      "primary_url": "https://www.insee.fr/fr/statistiques/8991068",
+      "insee_premiere_url": "https://www.insee.fr/fr/statistiques/fichier/9004289/ip2108.pdf",
+      "confidence": "high",
+      "notes": "Solde migratoire indépendant de la nationalité. Aucune ventilation immigrés/descendants/religion."
+    },
+    "insee_immigres_or_descendants_share_scenarios": {
+      "exists": false,
+      "crosses_25pct": null,
+      "latest_published_share": {"g1_2024_pct": 11.2, "g2_2024_pct_logement_ordinaire": 12.0},
+      "notes": "Aucun scénario officiel INSEE ne publie une trajectoire de part immigrés ou immigrés+descendants. Impossible de dire si/quand ~25 % serait croisé — FAIL inventer."
+    },
+    "ined_heran_pop_soc_558_immigres_by_origin_2050": {
+      "exists": true,
+      "label": "semi-official academic (INED Population & Sociétés) — immigrés G1 by origin, NOT ethnicity/Muslim",
+      "author": "François Héran",
+      "year_published": 2018,
+      "horizon": 2050,
+      "france": {
+        "sub_saharan_immigrants_2015_pct": 1.5,
+        "sub_saharan_immigrants_2050_pct": 2.9,
+        "north_africa_immigrants_2015_pct": 4.3,
+        "north_africa_immigrants_2050_pct": 5.3
+      },
+      "crosses_25pct": false,
+      "primary_url": "https://www.ined.fr/sites/default/files/imported_images/558.population.societes.migration.subsaharienne.europe.fr.pdf",
+      "doi": "https://doi.org/10.3917/popsoc.558.0001",
+      "confidence": "medium",
+      "notes": "Hypothèse de persistance des facteurs migratoires + projections ONU. Immigrés seule génération. Maghreb/Afrique du Nord ~5,3 % en 2050 — loin de 25 %. Ne pas étiqueter INSEE."
+    }
+  },
+  "non_official_projections": {
+    "pew_2017_europe_growing_muslim_population": {
+      "label": "NON-INSEE / NOT French official statistics",
+      "org": "Pew Research Center",
+      "year_published": 2017,
+      "baseline_france_2016": {"muslim_millions": 5.72, "pct": 8.8},
+      "france_2050_scenarios": [
+        {"name": "zero_migration", "pct": 12.7, "muslim_millions": 8.6},
+        {"name": "medium_migration", "pct": 17.4, "muslim_millions": 12.63},
+        {"name": "high_migration", "pct": 18.0, "muslim_millions": 13.21}
+      ],
+      "any_scenario_reaches_25pct": false,
+      "primary_url": "https://www.pewresearch.org/religion/2017/11/29/europes-growing-muslim-population/",
+      "report_pdf": "https://www.pewresearch.org/religion/wp-content/uploads/sites/7/2017/11/FULL-REPORT-FOR-WEB-POSTING.pdf",
+      "confidence": "medium",
+      "must_label": "Scénario Pew (non officiel FR) — pas une statistique INSEE/INED",
+      "notes": "Scénarios, pas prévisions. Aucun des trois n’atteint 25 % en France en 2050. High = 18 %."
+    }
+  },
+  "assumption_band_25pct": {
+    "purpose": "Illustrate what would be needed to approach ~25% — DERIVED scenarios with listed assumptions. No certainty year as fact.",
+    "geo_maghreb_turquie_mo_stock": {
+      "current_floor_pct_derived": 8.1,
+      "target_pct": 25,
+      "gap_points": 16.9,
+      "logic": "Long-run stock share converges toward durable contribution share (births attributable to the geo group + net migration of that origin − exits). Current Maghreb+Turquie mother birth share alone ≈ 8.5% (2024 FR) — far below 25%. Even adding unobserved G2 mothers born in France, TeO2-style ancestry birth share is unpublished as an official series.",
+      "illustrative_scenarios": [
+        {
+          "id": "geo_A_status_quo_birth_share",
+          "assumptions": [
+            "Effective Maghreb+Turquie/MO-linked birth contribution stays ≈ 8–12% (mother-born Maghreb/Turquie 8.5% + partial G2 mothers — order-of-magnitude band)",
+            "Net migration of that origin remains a modest fraction of INSEE central solde (+150k total, all origins)",
+            "No sudden discontinuity"
+          ],
+          "implication": "Stock share rises slowly if at all toward a plateau well below 25%. No official crossing year. FAIL invent year.",
+          "published_vs_derived": "derived"
+        },
+        {
+          "id": "geo_B_contribution_must_near_25",
+          "assumptions": [
+            "To converge near 25% of population, durable annual contribution (births + net migrants of Maghreb+Turquie/MO origin as share of all births+net entries) must approach ~25%",
+            "That is ≈ 3× current Maghreb+Turquie mother birth share (8.5%)",
+            "Would require sustained Maghreb+Turquie/MO-linked births and/or net migration far above observed levels"
+          ],
+          "implication": "Bound only: 25% is not reachable under continuation of current birth-origin structure. No year assigned.",
+          "published_vs_derived": "derived"
+        }
+      ]
+    },
+    "muslim_declare": {
+      "current_teo2_18_59_pct": 10,
+      "pew_2050_high_pct": 18.0,
+      "target_pct": 25,
+      "gap_above_pew_high_points": 7.0,
+      "illustrative_scenarios": [
+        {
+          "id": "muslim_A_pew_envelope",
+          "assumptions": [
+            "Use Pew 2017 France scenarios as upper published envelope (non-INSEE)",
+            "High migration → 18% in 2050"
+          ],
+          "implication": "Even Pew high stays 7 pts under 25% at 2050. No Pew scenario hits 25%.",
+          "published_vs_derived": "published_scenario_non_official"
+        },
+        {
+          "id": "muslim_B_above_pew_high_illustrative",
+          "assumptions": [
+            "DERIVED ONLY — not a forecast",
+            "Start from Pew high 18% in 2050",
+            "Assume continued net gain of ~0.25 pts/year (rough order of Pew medium path 8.8→17.4 over ~34 years ≈ 0.25 pts/yr)",
+            "Then +7 pts would take on the order of ~28 years after 2050 → mid-2070s ballpark"
+          ],
+          "implication": "Order-of-magnitude band under heroic continuation of Pew-medium pace AFTER already assuming Pew-high 2050. NOT an official year. NOT INSEE. Soft-hold: never ship as fact.",
+          "certainty_year": null,
+          "published_vs_derived": "derived",
+          "fail_if_presented_as": "« les musulmans seront 25% en 207X »"
+        },
+        {
+          "id": "muslim_C_birth_share_gate",
+          "assumptions": [
+            "Long-run Muslim declare share cannot sustainably exceed the share of births that grow up Muslim (transmission ~91% TeO2 among those raised Muslim — 6793308) plus net Muslim migration",
+            "Mother Maghreb+Turquie birth share ≈ 8.5% is a lower proxy for 'countries of Muslim tradition' births — incomplete (excludes Sahel, G2 mothers, conversions, etc.)",
+            "TeO2 shows high transmission but also some exit; Pew models switching"
+          ],
+          "implication": "Without a durable birth+migration contribution near 25%, stock share does not lock at 25%. Bound, not a date.",
+          "published_vs_derived": "derived"
+        }
+      ]
+    },
+    "immigres_alone_or_immigres_plus_descendants": {
+      "g1_alone_2024_pct": 11.2,
+      "g1_plus_g2_naive_sum_pct_derived": 23.2,
+      "naive_sum_note": "DERIVED 11.2% + 12.0% — different champs (pop vs logement ordinaire). INSEE does not publish this sum as official all-population %. Near 25% arithmetically for ALL origins combined, not Maghreb/Muslim.",
+      "official_scenario_crosses_25_g1": "unknown_no_official_share_projection",
+      "official_scenario_crosses_25_g1_g2": "unknown_no_official_share_projection",
+      "maghreb_subset_near_25": false
+    }
+  },
+  "crosses_25pct_summary": {
+    "ethnie_official": "FAIL — no series",
+    "muslim_official_fr": "FAIL — no projection series; TeO2 stock 10% (18–59) only",
+    "muslim_pew_2050": "No — max scenario 18%",
+    "immigres_g1_official_projection": "No official share projection published",
+    "immigres_plus_descendants_official_projection": "No official share projection published",
+    "maghreb_g1_heran_2050": "No — ~5.3% immigrants North Africa",
+    "maghreb_turquie_mo_g1_g2_floor": "No — ~8% derived current; no official path to 25%"
+  }
+}
