@@ -1338,6 +1338,362 @@
       "proof_url": "https://www.senat.fr/rap/r23-521/r23-5211.pdf",
       "notes": "Sénat « près d’1 milliard » — ordre de grandeur des dommages matériels totaux. NE PAS sommer avec waste-emeutes-2023-sinistres-assures (793 M€ assurés inclus dans cette enveloppe). PASS-LOW narratif uniquement.",
       "confidence": "low"
+    },
+    {
+      "id": "g1-origin-maghreb-part",
+      "label_fr": "Immigrés (G1) — part origine Maghreb",
+      "value": 29.2,
+      "unit": "percent",
+      "as_of": "2023",
+      "category": "immigration",
+      "kind": "volume",
+      "geography": "France hors Mayotte",
+      "source": {
+        "title": "INSEE — Immigrés et descendants d'immigrés (Fig. 2)",
+        "url": "https://www.insee.fr/fr/statistiques/8242329",
+        "publisher": "INSEE"
+      },
+      "notes": "Pack proxy-triangulation leg 1. 2 091 milliers · % des immigrés, pas ethnie recensée. Ne pas sommer avec religion ou onomastique.",
+      "proof_url": "https://www.insee.fr/fr/statistiques/8242329",
+      "confidence": "high"
+    },
+    {
+      "id": "g1-origin-maghreb-effectif",
+      "label_fr": "Immigrés (G1) — effectif origine Maghreb",
+      "value": 2091000,
+      "unit": "count",
+      "as_of": "2023",
+      "category": "immigration",
+      "kind": "volume",
+      "geography": "France hors Mayotte",
+      "source": {
+        "title": "INSEE — Immigrés et descendants d'immigrés (Fig. 2)",
+        "url": "https://www.insee.fr/fr/statistiques/8242329",
+        "publisher": "INSEE"
+      },
+      "notes": "2 091 milliers · origine géographique / ascendance migratoire — PAS une ethnie recensée.",
+      "proof_url": "https://www.insee.fr/fr/statistiques/8242329",
+      "confidence": "high"
+    },
+    {
+      "id": "g1-origin-afrique-part",
+      "label_fr": "Immigrés (G1) — part origine Afrique (total)",
+      "value": 46.9,
+      "unit": "percent",
+      "as_of": "2023",
+      "category": "immigration",
+      "kind": "volume",
+      "geography": "France hors Mayotte",
+      "source": {
+        "title": "INSEE — Immigrés et descendants d'immigrés (Fig. 2)",
+        "url": "https://www.insee.fr/fr/statistiques/8242329",
+        "publisher": "INSEE"
+      },
+      "notes": "Pack proxy-triangulation leg 1 · % des immigrés.",
+      "proof_url": "https://www.insee.fr/fr/statistiques/8242329",
+      "confidence": "high"
+    },
+    {
+      "id": "g1-origin-europe-part",
+      "label_fr": "Immigrés (G1) — part origine Europe",
+      "value": 32.8,
+      "unit": "percent",
+      "as_of": "2023",
+      "category": "immigration",
+      "kind": "volume",
+      "geography": "France hors Mayotte",
+      "source": {
+        "title": "INSEE — Immigrés et descendants d'immigrés (Fig. 2)",
+        "url": "https://www.insee.fr/fr/statistiques/8242329",
+        "publisher": "INSEE"
+      },
+      "notes": "Pack proxy-triangulation leg 1 · % des immigrés.",
+      "proof_url": "https://www.insee.fr/fr/statistiques/8242329",
+      "confidence": "high"
+    },
+    {
+      "id": "g2-origin-maghreb-part",
+      "label_fr": "Descendants (G2) — part origine Maghreb",
+      "value": 32.4,
+      "unit": "percent",
+      "as_of": "2023",
+      "category": "immigration",
+      "kind": "volume",
+      "geography": "France hors Mayotte",
+      "source": {
+        "title": "INSEE — Immigrés et descendants d'immigrés (Fig. 3)",
+        "url": "https://www.insee.fr/fr/statistiques/8242329",
+        "publisher": "INSEE"
+      },
+      "notes": "Pack proxy-triangulation leg 1 · % des descendants · logement ordinaire.",
+      "proof_url": "https://www.insee.fr/fr/statistiques/8242329",
+      "confidence": "high"
+    },
+    {
+      "id": "onomastic-jean-classic-share-1950",
+      "label_fr": "Faisceau Jean classique (G) — part naissances garçons 1950",
+      "value": 67.272,
+      "unit": "percent",
+      "as_of": "1950",
+      "category": "immigration",
+      "kind": "other",
+      "source": {
+        "title": "INSEE — Fichier des prénoms (8595130)",
+        "url": "https://www.insee.fr/fr/statistiques/8595130",
+        "publisher": "INSEE"
+      },
+      "notes": "Pack proxy-triangulation leg 2 · PASS-LOW · dérivé desk bundle ÷ total garçons INSEE. Marqueur culturel INFÉRÉ — ≠ % musulmans · pas ethnie.",
+      "proof_url": "https://www.insee.fr/fr/statistiques/8595130",
+      "confidence": "medium"
+    },
+    {
+      "id": "onomastic-jean-classic-share-2025",
+      "label_fr": "Faisceau Jean classique (G) — part naissances garçons 2025",
+      "value": 2.982,
+      "unit": "percent",
+      "as_of": "2025",
+      "category": "immigration",
+      "kind": "other",
+      "source": {
+        "title": "INSEE — Fichier des prénoms (8595130)",
+        "url": "https://www.insee.fr/fr/statistiques/8595130",
+        "publisher": "INSEE"
+      },
+      "notes": "Pack proxy-triangulation leg 2 · PASS-LOW · inferred cultural marker only.",
+      "proof_url": "https://www.insee.fr/fr/statistiques/8595130",
+      "confidence": "medium"
+    },
+    {
+      "id": "onomastic-mohamed-core-share-1950",
+      "label_fr": "Faisceau Mohamed noyau (G) — part naissances garçons 1950",
+      "value": 0.073,
+      "unit": "percent",
+      "as_of": "1950",
+      "category": "immigration",
+      "kind": "other",
+      "source": {
+        "title": "INSEE — Fichier des prénoms (8595130)",
+        "url": "https://www.insee.fr/fr/statistiques/8595130",
+        "publisher": "INSEE"
+      },
+      "notes": "Pack proxy-triangulation leg 2 · PASS-LOW · ne pas convertir en % musulmans · ADAM exclu du noyau.",
+      "proof_url": "https://www.insee.fr/fr/statistiques/8595130",
+      "confidence": "medium"
+    },
+    {
+      "id": "onomastic-mohamed-core-share-2025",
+      "label_fr": "Faisceau Mohamed noyau (G) — part naissances garçons 2025",
+      "value": 5.823,
+      "unit": "percent",
+      "as_of": "2025",
+      "category": "immigration",
+      "kind": "other",
+      "source": {
+        "title": "INSEE — Fichier des prénoms (8595130)",
+        "url": "https://www.insee.fr/fr/statistiques/8595130",
+        "publisher": "INSEE"
+      },
+      "notes": "Pack proxy-triangulation leg 2 · PASS-LOW · ≠ religion déclarée TeO2.",
+      "proof_url": "https://www.insee.fr/fr/statistiques/8595130",
+      "confidence": "medium"
+    },
+    {
+      "id": "teo2-religion-sans-part",
+      "label_fr": "Sans religion (déclaré, TeO2)",
+      "value": 51,
+      "unit": "percent",
+      "as_of": "2019-2020",
+      "category": "immigration",
+      "kind": "volume",
+      "geography": "France métropolitaine",
+      "source": {
+        "title": "INSEE — Religion (6793308)",
+        "url": "https://www.insee.fr/fr/statistiques/6793308",
+        "publisher": "INSEE"
+      },
+      "notes": "Champ obligatoire UI : 18–59 ans · métropole · logement ordinaire. Pas toute la population · pas dérivé des prénoms.",
+      "proof_url": "https://www.insee.fr/fr/statistiques/6793308",
+      "confidence": "high"
+    },
+    {
+      "id": "teo2-religion-catholique-part",
+      "label_fr": "Catholique (déclaré, TeO2)",
+      "value": 29,
+      "unit": "percent",
+      "as_of": "2019-2020",
+      "category": "immigration",
+      "kind": "volume",
+      "geography": "France métropolitaine",
+      "source": {
+        "title": "INSEE — Religion (6793308)",
+        "url": "https://www.insee.fr/fr/statistiques/6793308",
+        "publisher": "INSEE"
+      },
+      "notes": "Champ : 18–59 · métropole · logement ordinaire (TeO2).",
+      "proof_url": "https://www.insee.fr/fr/statistiques/6793308",
+      "confidence": "high"
+    },
+    {
+      "id": "teo2-religion-musulman-part",
+      "label_fr": "Musulman (déclaré, TeO2)",
+      "value": 10,
+      "unit": "percent",
+      "as_of": "2019-2020",
+      "category": "immigration",
+      "kind": "volume",
+      "geography": "France métropolitaine",
+      "source": {
+        "title": "INSEE — Religion (6793308)",
+        "url": "https://www.insee.fr/fr/statistiques/6793308",
+        "publisher": "INSEE"
+      },
+      "notes": "Champ : 18–59 · métropole · logement ordinaire. Ne jamais dériver depuis onomastique Mohamed.",
+      "proof_url": "https://www.insee.fr/fr/statistiques/6793308",
+      "confidence": "high"
+    },
+    {
+      "id": "teo2-religion-autres-part",
+      "label_fr": "Autres religions (déclaré, agrégat INSEE, TeO2)",
+      "value": 10,
+      "unit": "percent",
+      "as_of": "2019-2020",
+      "category": "immigration",
+      "kind": "volume",
+      "geography": "France métropolitaine",
+      "source": {
+        "title": "INSEE — Religion (6793308)",
+        "url": "https://www.insee.fr/fr/statistiques/6793308",
+        "publisher": "INSEE"
+      },
+      "notes": "Champ : 18–59 · métropole · logement ordinaire.",
+      "proof_url": "https://www.insee.fr/fr/statistiques/6793308",
+      "confidence": "high"
+    },
+    {
+      "id": "teo2-musulman-parmi-immigres-part",
+      "label_fr": "Musulmans déclarés parmi immigrés (TeO2)",
+      "value": 44,
+      "unit": "percent",
+      "as_of": "2019-2020",
+      "category": "immigration",
+      "kind": "volume",
+      "geography": "France métropolitaine",
+      "source": {
+        "title": "INSEE — Religion (6793308)",
+        "url": "https://www.insee.fr/fr/statistiques/6793308",
+        "publisher": "INSEE"
+      },
+      "notes": "Sous-groupe immigrés · 18–59 · logement ordinaire — pas % national tous âges.",
+      "proof_url": "https://www.insee.fr/fr/statistiques/6793308",
+      "confidence": "high"
+    },
+    {
+      "id": "teo2-musulman-parmi-desc-2-parents-part",
+      "label_fr": "Musulmans déclarés parmi descendants de deux parents immigrés (TeO2)",
+      "value": 48,
+      "unit": "percent",
+      "as_of": "2019-2020",
+      "category": "immigration",
+      "kind": "volume",
+      "geography": "France métropolitaine",
+      "source": {
+        "title": "INSEE — Religion (6793308)",
+        "url": "https://www.insee.fr/fr/statistiques/6793308",
+        "publisher": "INSEE"
+      },
+      "notes": "Champ 18–59 TeO2 — pas stock G2 logement ordinaire 2023.",
+      "proof_url": "https://www.insee.fr/fr/statistiques/6793308",
+      "confidence": "high"
+    },
+    {
+      "id": "teo2-musulman-sans-ascendance-migratoire-part",
+      "label_fr": "Musulmans déclarés — sans ascendance migratoire sur 2 générations (TeO2)",
+      "value": 1,
+      "unit": "percent",
+      "as_of": "2019-2020",
+      "category": "immigration",
+      "kind": "volume",
+      "geography": "France métropolitaine",
+      "source": {
+        "title": "INSEE — Religion (6793308)",
+        "url": "https://www.insee.fr/fr/statistiques/6793308",
+        "publisher": "INSEE"
+      },
+      "notes": "Champ 18–59 TeO2.",
+      "proof_url": "https://www.insee.fr/fr/statistiques/6793308",
+      "confidence": "high"
+    },
+    {
+      "id": "premier-titre-2024-total",
+      "label_fr": "Premiers titres de séjour 2024 — total pays tiers",
+      "value": 345587,
+      "unit": "count",
+      "as_of": "2024",
+      "category": "immigration",
+      "kind": "volume",
+      "geography": "France",
+      "source": {
+        "title": "data.gouv — Stock et flux des titres de séjour 2024",
+        "url": "https://www.data.gouv.fr/datasets/stock-et-flux-des-titres-de-sejour-en-france-sur-lannee-2024",
+        "publisher": "data.gouv.fr / MI-DGEF"
+      },
+      "notes": "Pack proxy-triangulation leg 4 · flux administratif premiers titres — PAS stock INSEE immigrés. Corroboré DGEF Séjour.",
+      "proof_url": "https://www.data.gouv.fr/datasets/stock-et-flux-des-titres-de-sejour-en-france-sur-lannee-2024",
+      "confidence": "high"
+    },
+    {
+      "id": "premier-titre-2024-maroc",
+      "label_fr": "Premiers titres de séjour 2024 — nationalité marocaine",
+      "value": 36962,
+      "unit": "count",
+      "as_of": "2024",
+      "category": "immigration",
+      "kind": "volume",
+      "geography": "France",
+      "source": {
+        "title": "data.gouv — Stock et flux des titres de séjour 2024",
+        "url": "https://www.data.gouv.fr/datasets/stock-et-flux-des-titres-de-sejour-en-france-sur-lannee-2024",
+        "publisher": "data.gouv.fr / MI-DGEF"
+      },
+      "notes": "Flux admin · hors UE libre circulation · pas ethnie ni religion.",
+      "proof_url": "https://www.data.gouv.fr/datasets/stock-et-flux-des-titres-de-sejour-en-france-sur-lannee-2024",
+      "confidence": "high"
+    },
+    {
+      "id": "premier-titre-2024-algerie",
+      "label_fr": "Premiers titres de séjour 2024 — nationalité algérienne",
+      "value": 29346,
+      "unit": "count",
+      "as_of": "2024",
+      "category": "immigration",
+      "kind": "volume",
+      "geography": "France",
+      "source": {
+        "title": "data.gouv — Stock et flux des titres de séjour 2024",
+        "url": "https://www.data.gouv.fr/datasets/stock-et-flux-des-titres-de-sejour-en-france-sur-lannee-2024",
+        "publisher": "data.gouv.fr / MI-DGEF"
+      },
+      "notes": "Flux admin premiers titres 2024 définitif.",
+      "proof_url": "https://www.data.gouv.fr/datasets/stock-et-flux-des-titres-de-sejour-en-france-sur-lannee-2024",
+      "confidence": "high"
+    },
+    {
+      "id": "premier-titre-2024-tunisie",
+      "label_fr": "Premiers titres de séjour 2024 — nationalité tunisienne",
+      "value": 22499,
+      "unit": "count",
+      "as_of": "2024",
+      "category": "immigration",
+      "kind": "volume",
+      "geography": "France",
+      "source": {
+        "title": "data.gouv — Stock et flux des titres de séjour 2024",
+        "url": "https://www.data.gouv.fr/datasets/stock-et-flux-des-titres-de-sejour-en-france-sur-lannee-2024",
+        "publisher": "data.gouv.fr / MI-DGEF"
+      },
+      "notes": "Flux admin premiers titres 2024 définitif.",
+      "proof_url": "https://www.data.gouv.fr/datasets/stock-et-flux-des-titres-de-sejour-en-france-sur-lannee-2024",
+      "confidence": "high"
     }
   ]
 }
