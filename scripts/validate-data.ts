@@ -11,6 +11,7 @@ import { casesFileSchema } from "../schemas/case.schema";
 import { leadFileSchema } from "../schemas/lead.schema";
 import { immigrationSeriesFileSchema } from "../schemas/immigration-series.schema";
 import { presidentialErasFileSchema } from "../schemas/presidential-eras.schema";
+import { worldmapOriginsFileSchema } from "../schemas/worldmap-origins.schema";
 
 const root = join(import.meta.dirname, "..");
 let errors = 0;
@@ -134,10 +135,45 @@ function validatePresidentialEras() {
   console.log(`OK presidential eras: ${parsed.data.eras.length} mandates`);
 }
 
+function validateWorldmapOrigins() {
+  const path = join(root, "data/stats/immigration/worldmap-origins.json");
+  const parsed = worldmapOriginsFileSchema.safeParse(readJson(path));
+  if (!parsed.success) {
+    fail(`data/stats/immigration/worldmap-origins.json — ${parsed.error.message}`);
+    return;
+  }
+  const statsPath = join(root, "data/stats/metrics.json");
+  const stats = statsFileSchema.safeParse(readJson(statsPath));
+  if (!stats.success) {
+    fail(`worldmap cross-check — metrics.json unreadable`);
+    return;
+  }
+  const ids = new Set(stats.data.metrics.map((m) => m.id));
+  for (const r of parsed.data.regions) {
+    if (!ids.has(r.effectif_metric_id)) {
+      fail(`worldmap ${r.region_id}: missing metric ${r.effectif_metric_id}`);
+    }
+    if (!ids.has(r.part_metric_id)) {
+      fail(`worldmap ${r.region_id}: missing metric ${r.part_metric_id}`);
+    }
+  }
+  const sumK = parsed.data.regions.reduce((s, r) => s + r.g1_thousands, 0);
+  if (sumK < 7170 || sumK > 7180) {
+    fail(
+      `worldmap regions sum ${sumK}k — expected ~7174k (Fig. 2 rounding)`,
+    );
+  }
+  if (!parsed.data.title_fr.toLowerCase().includes("origines géographiques")) {
+    fail(`worldmap title_fr must mention origines géographiques des immigrés`);
+  }
+  console.log(`OK worldmap origins: ${parsed.data.regions.length} INSEE regions`);
+}
+
 console.log("Validating DOGE France data/ …");
 validateStats();
 validatePresidentialEras();
 validateImmigrationSeries();
+validateWorldmapOrigins();
 validateCases();
 validateLeads();
 
