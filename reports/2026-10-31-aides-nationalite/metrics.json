@@ -1,0 +1,20 @@
+{
+  "pack": "aides-ascendance",
+  "gate": "PASS-LOW",
+  "gate_file": "gates/2026-10-31-fertility-aides-claims-gate.md",
+  "primary_url": "https://www.insee.fr/fr/statistiques/6793278",
+  "year": 2019,
+  "metric": "part_prestations_dans_niveau_de_vie",
+  "champ": "France métropolitaine, ERFS 2019; prestations = famille/logement/minima/prime d'activité (+CRDS); hors pensions/chômage",
+  "locks": [
+    "Part du niveau de vie — not fraude, not « ils utilisent beaucoup d'aides » as fraud",
+    "Ascendance migratoire / nés en Afrique|Europe — NOT musulman / ethnie"
+  ],
+  "cells": [
+    {"id": "prest-immigres-2019", "label": "Immigrés", "value": 12, "unit": "% du niveau de vie", "source_url": "https://www.insee.fr/fr/statistiques/6793278"},
+    {"id": "prest-descendants-2019", "label": "Descendants d'immigrés", "value": 10, "unit": "% du niveau de vie", "source_url": "https://www.insee.fr/fr/statistiques/6793278"},
+    {"id": "prest-sans-ascendance-2019", "label": "Sans ascendance migratoire", "value": 5, "unit": "% du niveau de vie", "source_url": "https://www.insee.fr/fr/statistiques/6793278"},
+    {"id": "prest-immigres-afrique-2019", "label": "Immigrés nés en Afrique", "value": 18, "unit": "% du niveau de vie", "source_url": "https://www.insee.fr/fr/statistiques/6793278", "optional": true},
+    {"id": "prest-immigres-europe-2019", "label": "Immigrés nés en Europe", "value": 6, "unit": "% du niveau de vie", "source_url": "https://www.insee.fr/fr/statistiques/6793278", "optional": true}
+  ]
+}
