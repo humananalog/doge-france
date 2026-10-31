@@ -24,7 +24,7 @@ Champs optionnels :
 
 Ne pas introduire `kind=waste` ni le champ `waste_legality`. Les montants « ordre de grandeur » (ex. Sénat « près d’1 Md€ ») restent en **notes** ou `value` textuelle non additive — ne pas les sommer avec les sinistres assurés chiffrés.
 
-**Immigration (graphiques `/immigration`)** — séries chronologiques dans `immigration/series.json` (310 points, `source_url` obligatoire par point). Méthodologie : `immigration/methodology.md` ; index des sources : `immigration/sources.md`. Validées par `scripts/validate-data.ts` (`immigrationSeriesFileSchema`).
+**Immigration (graphiques `/immigration`)** — séries chronologiques dans `immigration/series.json` (310 points, `source_url` obligatoire par point). **Origines géographiques décennal (G1/G2)** : pack `reports/2026-10-31-origins-decennial/metrics.json` → `immigration/origins-decennial-series.json` (regénérer via `npm run build:origins-series`). Méthodologie : `immigration/methodology.md` ; index des sources : `immigration/sources.md`. Validées par `scripts/validate-data.ts` (`immigrationSeriesFileSchema`).
 
 **Mandats présidentiels (bandes sur graphiques chronologiques)** — `presidential-eras.json` : `{ start, end, name, president, party, side, primary_url }` (chronologie [Élysée](https://www.elysee.fr/la-presidence/les-presidents-de-la-republique)). `side` = convention politique **UI** (`left` rouge · `right` bleu · `neutral` teinte tierce) — pas INSEE, pas causalité.
 
