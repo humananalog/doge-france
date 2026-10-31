@@ -1,11 +1,12 @@
 {
   "name": "doge-france",
-  "version": "0.3.17",
+  "version": "0.3.18",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "validate": "tsx scripts/validate-data.ts",
     "build:origins-series": "tsx scripts/build-origins-decennial-series.ts",
+    "build:onom-categories-series": "tsx scripts/build-onomastics-categories-decennial-series.ts",
     "test:validate": "tsx scripts/self-test-validate.ts",
     "build": "npm run test:validate && npm run validate && next build",
     "start": "next start",

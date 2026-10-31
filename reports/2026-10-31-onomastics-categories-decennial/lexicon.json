@@ -1,0 +1,1288 @@
+{
+  "banner": "Étude onomastique non officielle — faisceaux culturels/géographiques de prénoms (desk) — PAS un recensement ethnique ni % religion",
+  "religion_from_names": "FAIL",
+  "clusters": {
+    "classiques_fr": {
+      "id": "classiques_fr",
+      "label_fr": "Classiques FR (stock civil / calendaire mid-century)",
+      "label_en": "Classical French mid-century civil/Christian stock",
+      "ined565_class_map": "France (CAT1 129) + calendrical Christian civil register stock dominant ~1950",
+      "confidence": "high",
+      "inclusion_rules": [
+        "Prénoms masculins/féminins parmi les plus fréquents en France métropolitaine vers 1950 (top fichier + faisceaux Jean/Marie prior pack).",
+        "Stock civil / calendaire chrétien mid-century — choix desk, pas une catégorie INSEE.",
+        "Inclut formes accentuées et non accentuées du fichier (ANDRÉ/ANDRE, FRANÇOISE/FRANCOISE).",
+        "Composés mid-century JEAN-* / ANNE-MARIE / MARIE-* fréquents en 1950 inclus."
+      ],
+      "exclusion_rules": [
+        "Pas de Kevin/Jennifer (vague anglo).",
+        "Pas de Mohamed/Fatima (classe arabo-musulmane P&S 565).",
+        "Ne PAS claim « ethnie française » ni « % chrétiens » — stock onomastique civil seulement."
+      ],
+      "must_not_claim": [
+        "religion Christian % from names",
+        "ethnic French census share",
+        "95% native names"
+      ],
+      "etymology_note": "Calendrical/Christian given names + mid-century French civil fashion (Jean, Pierre, Marie, Françoise…). Grounding: dominant métropole stock ~1950; P&S 565 « French » class = French-sounding / calendrical. Assumption: 1950 naming stock ≈ classical FR reference — NOT a census of ethnie.",
+      "names": {
+        "1": [
+          "ALAIN",
+          "ANDRE",
+          "ANDRÉ",
+          "BERNARD",
+          "CHRISTIAN",
+          "CLAUDE",
+          "DANIEL",
+          "DENIS",
+          "DIDIER",
+          "DOMINIQUE",
+          "FRANCIS",
+          "FRANCOIS",
+          "FRANÇOIS",
+          "GEORGES",
+          "GERARD",
+          "GILBERT",
+          "GILLES",
+          "GUY",
+          "GÉRARD",
+          "HENRI",
+          "JACKY",
+          "JACQUES",
+          "JEAN",
+          "JEAN-CLAUDE",
+          "JEAN-LOUIS",
+          "JEAN-MARIE",
+          "JEAN-PAUL",
+          "JEAN-PIERRE",
+          "JOEL",
+          "JOSEPH",
+          "JOËL",
+          "LOUIS",
+          "LUC",
+          "MARC",
+          "MARCEL",
+          "MAURICE",
+          "MICHEL",
+          "PATRICE",
+          "PATRICK",
+          "PAUL",
+          "PHILIPPE",
+          "PIERRE",
+          "RAYMOND",
+          "RENE",
+          "RENÉ",
+          "ROBERT",
+          "ROGER",
+          "ROLAND",
+          "SERGE",
+          "YVES"
+        ],
+        "2": [
+          "ANNE",
+          "ANNE-MARIE",
+          "ANNICK",
+          "ANNIE",
+          "BERNADETTE",
+          "BRIGITTE",
+          "CATHERINE",
+          "CHANTAL",
+          "CHRISTIANE",
+          "CHRISTINE",
+          "CLAUDINE",
+          "COLETTE",
+          "DANIELE",
+          "DANIELLE",
+          "DANIÈLE",
+          "DENISE",
+          "DOMINIQUE",
+          "ELIANE",
+          "ELISABETH",
+          "EVELYNE",
+          "FRANCOISE",
+          "FRANÇOISE",
+          "GENEVIEVE",
+          "GENEVIÈVE",
+          "GISELE",
+          "GISÈLE",
+          "HELENE",
+          "HÉLÈNE",
+          "ISABELLE",
+          "JACQUELINE",
+          "JEANNE",
+          "JEANNINE",
+          "JOCELYNE",
+          "JOELLE",
+          "JOSEPHINE",
+          "JOSETTE",
+          "JOSIANE",
+          "JOSÉPHINE",
+          "JOËLLE",
+          "LILIANE",
+          "MADELEINE",
+          "MARIE",
+          "MARIE-CLAUDE",
+          "MARIE-THERESE",
+          "MARIE-THÉRÈSE",
+          "MARTINE",
+          "MARYSE",
+          "MICHELE",
+          "MICHELLE",
+          "MICHÈLE",
+          "MIREILLE",
+          "MONIQUE",
+          "NATHALIE",
+          "NICOLE",
+          "SANDRINE",
+          "SIMONE",
+          "SUZANNE",
+          "SYLVIE",
+          "THERESE",
+          "THÉRÈSE",
+          "VALERIE",
+          "VALÉRIE",
+          "YVETTE",
+          "YVONNE",
+          "ÉLIANE",
+          "ÉLISABETH",
+          "ÉVELYNE"
+        ]
+      },
+      "name_count": {
+        "1": 50,
+        "2": 67,
+        "total_unique": 116
+      },
+      "rare_names_peak_lt_50_count": 14,
+      "rare_names_sample": [
+        {
+          "name": "ANDRE",
+          "sex": "1",
+          "peak": 40
+        },
+        {
+          "name": "GERARD",
+          "sex": "1",
+          "peak": 5
+        },
+        {
+          "name": "JOEL",
+          "sex": "1",
+          "peak": 20
+        },
+        {
+          "name": "RENE",
+          "sex": "1",
+          "peak": 5
+        },
+        {
+          "name": "FRANCOISE",
+          "sex": "2",
+          "peak": 5
+        },
+        {
+          "name": "GENEVIEVE",
+          "sex": "2",
+          "peak": 5
+        },
+        {
+          "name": "GISELE",
+          "sex": "2",
+          "peak": 5
+        },
+        {
+          "name": "JOELLE",
+          "sex": "2",
+          "peak": 10
+        },
+        {
+          "name": "MARIE-THERESE",
+          "sex": "2",
+          "peak": 5
+        },
+        {
+          "name": "MICHELE",
+          "sex": "2",
+          "peak": 5
+        },
+        {
+          "name": "THERESE",
+          "sex": "2",
+          "peak": 5
+        },
+        {
+          "name": "VALERIE",
+          "sex": "2",
+          "peak": 10
+        },
+        {
+          "name": "ÉLIANE",
+          "sex": "2",
+          "peak": 15
+        },
+        {
+          "name": "ÉVELYNE",
+          "sex": "2",
+          "peak": 10
+        }
+      ],
+      "lacune": false,
+      "lacune_note": null
+    },
+    "maghreb_arabo_musulman": {
+      "id": "maghreb_arabo_musulman",
+      "label_fr": "Maghreb / arabo-musulman (classe de prénoms)",
+      "label_en": "Maghreb / Arab-Muslim name class (NOT % Muslim)",
+      "ined565_class_map": "Prénoms Arabo-musulmans (annex CAT1 regroup: 221,252,224,622,422,425,439,450,641,643,662) — Maghreb + Arabic-speaking + Middle East + Muslim-without-further-class; Turkish versions of arabo-muslim names included per P&S 565 prose",
+      "confidence": "high",
+      "inclusion_rules": [
+        "Extension du noyau Mohamed prior pack (garçons) + prénoms féminins clairement arabo-musulmans / maghrébins fréquents dans le fichier.",
+        "Formes turques de prénoms arabo-musulmans (MEHMET, YUSUF, AHMET, MUSTAFA…) incluses — logique P&S 565 « including Turkish versions thereof ».",
+        "RAYANE inclus ; RAYAN/RYAN exclus (choix desk transparent, prior Guard).",
+        "Mutually exclusive vs Afrique / Asie / Slaves / anglo / classiques."
+      ],
+      "exclusion_rules": [
+        "ADAM, RAYAN, RYAN, YANIS, NOAH, NOUR — ambigus / multi-origine / internationaux (prior pack).",
+        "SARAH, SARA, INÈS, INES, LINA, SOFIA, NORA, NORAH, MYRIAM, SABRINA, LYNA, LILA, LAYA — fashion / multi-origine (hébreu, espagnol, international).",
+        "Ne PAS dériver % musulmans ni % Maghrébins ethniques depuis les parts de naissances."
+      ],
+      "must_not_claim": [
+        "share = % Muslim religion",
+        "share = % ethnic Maghrebi census",
+        "TeO 94%/82% applied as birth-share multipliers"
+      ],
+      "etymology_note": "Arabo-muslim Maghreb–MENA Islamic anthroponymy (P&S 565). Mohamed ← Arabic Muhammad; Fatima, Aïcha, Khadija classical Islamic female stock. Mehmet/Yusuf = Turkish forms. Desk list ≠ Humpert&Schneiderheinze algorithm — illustrative high-frequency proxy.",
+      "names": {
+        "1": [
+          "ABDALLAH",
+          "ABDELKADER",
+          "ABDELLAH",
+          "AHMAD",
+          "AHMED",
+          "AHMET",
+          "ALI",
+          "AMIN",
+          "AMINE",
+          "ANAS",
+          "ANASS",
+          "ANIS",
+          "ANISS",
+          "ANWAR",
+          "AYMAN",
+          "AYMEN",
+          "BADIS",
+          "BILAL",
+          "CHAFIK",
+          "CHAKIB",
+          "DJAMEL",
+          "FADIL",
+          "FARES",
+          "FARID",
+          "FARÈS",
+          "FOUAD",
+          "GHILAN",
+          "HAKIM",
+          "HALIM",
+          "HAMID",
+          "HAMZA",
+          "HASAN",
+          "HASSAN",
+          "HICHAM",
+          "HICHAME",
+          "HOUSSAM",
+          "HUSEYIN",
+          "HUSSEIN",
+          "HÜSEYIN",
+          "IBRAHIM",
+          "IBRAHIMA",
+          "IDRIS",
+          "IDRISSA",
+          "ILIAS",
+          "ILIES",
+          "ILYAS",
+          "ILYES",
+          "ILYESS",
+          "ILYÈS",
+          "IMRAN",
+          "IMRANE",
+          "ISLEM",
+          "ISMAEL",
+          "ISMAIL",
+          "ISMAËL",
+          "ISSAM",
+          "JAD",
+          "JAMEL",
+          "KAIS",
+          "KAISSE",
+          "KAMEL",
+          "KARIM",
+          "KAÏS",
+          "KHALED",
+          "KHALIL",
+          "LOTFI",
+          "MAHDI",
+          "MALIK",
+          "MAROUANE",
+          "MARWAN",
+          "MEHDI",
+          "MEHMET",
+          "MOHAMED",
+          "MOHAMMED",
+          "MOUNIR",
+          "MUHAMMAD",
+          "MUHAMMED",
+          "MUSTAFA",
+          "NABIL",
+          "NAEL",
+          "NAIM",
+          "NASSIM",
+          "NAWEL",
+          "NAËL",
+          "NAÏM",
+          "NOUREDDINE",
+          "OMAR",
+          "OMER",
+          "OTHMANE",
+          "OUSMANE",
+          "RACHID",
+          "RAMI",
+          "RAMZI",
+          "RAYANE",
+          "REDA",
+          "REDHA",
+          "RIAD",
+          "RIYAD",
+          "RÉDA",
+          "SAAD",
+          "SAID",
+          "SALAH",
+          "SALIM",
+          "SAMI",
+          "SAMIR",
+          "SAÏD",
+          "SELIM",
+          "SOFIANE",
+          "SOFYAN",
+          "SOUFIANE",
+          "TAHA",
+          "TARIK",
+          "TARIQ",
+          "WAEL",
+          "WALID",
+          "WASSIM",
+          "WAËL",
+          "YACINE",
+          "YAHYA",
+          "YASSINE",
+          "YOUCEF",
+          "YOUNES",
+          "YOUNÈS",
+          "YOUSSEF",
+          "YUSUF",
+          "ZAKARIA",
+          "ZAKARIYA",
+          "ZIAD",
+          "ZIYAD",
+          "ZYAD",
+          "ÖMER"
+        ],
+        "2": [
+          "AICHA",
+          "AMINA",
+          "ASMA",
+          "ASMAE",
+          "ASSIA",
+          "AÏCHA",
+          "CHAHINEZ",
+          "CHAIMA",
+          "CHAÏMA",
+          "DALILA",
+          "DJAMILA",
+          "DOUNIA",
+          "EMNA",
+          "FARIDA",
+          "FATIHA",
+          "FATIMA",
+          "GHIZLANE",
+          "HABIBA",
+          "HAFSA",
+          "HANANE",
+          "HASNA",
+          "HIND",
+          "HOUDA",
+          "IKRAM",
+          "ILHAM",
+          "IMANE",
+          "IMEN",
+          "KAOUTAR",
+          "KAWTAR",
+          "KHADIDJA",
+          "KHADIJA",
+          "LAMIA",
+          "LAMYA",
+          "LATIFA",
+          "LEILA",
+          "LEÏLA",
+          "LOUBNA",
+          "MAISSA",
+          "MALIKA",
+          "MANAL",
+          "MARWA",
+          "MARYAM",
+          "MAYSSA",
+          "MAÏSSA",
+          "MERIEM",
+          "NAIMA",
+          "NASSIMA",
+          "NAÏMA",
+          "NESRINE",
+          "NIHAL",
+          "NISRINE",
+          "NOURA",
+          "OUARDA",
+          "RACHIDA",
+          "RAHMA",
+          "RANIA",
+          "RIM",
+          "SABAH",
+          "SAFAA",
+          "SAFIA",
+          "SAIDA",
+          "SALIMA",
+          "SALMA",
+          "SAMIRA",
+          "SANA",
+          "SANAA",
+          "SANAE",
+          "SAÏDA",
+          "SELMA",
+          "SIHAM",
+          "SIRINE",
+          "SOUAD",
+          "SOUKAINA",
+          "SOUMAYA",
+          "WAFA",
+          "WAFAA",
+          "WASSILA",
+          "YAMINA",
+          "YASMINA",
+          "YASMINE",
+          "YOUSRA",
+          "ZAHRA",
+          "ZINEB",
+          "ZOHRA"
+        ]
+      },
+      "name_count": {
+        "1": 131,
+        "2": 84,
+        "total_unique": 215
+      },
+      "rare_names_peak_lt_50_count": 28,
+      "rare_names_sample": [
+        {
+          "name": "ANISS",
+          "sex": "1",
+          "peak": 40
+        },
+        {
+          "name": "ANWAR",
+          "sex": "1",
+          "peak": 30
+        },
+        {
+          "name": "CHAFIK",
+          "sex": "1",
+          "peak": 30
+        },
+        {
+          "name": "CHAKIB",
+          "sex": "1",
+          "peak": 35
+        },
+        {
+          "name": "FADIL",
+          "sex": "1",
+          "peak": 10
+        },
+        {
+          "name": "GHILAN",
+          "sex": "1",
+          "peak": 0
+        },
+        {
+          "name": "HALIM",
+          "sex": "1",
+          "peak": 45
+        },
+        {
+          "name": "HICHAME",
+          "sex": "1",
+          "peak": 35
+        },
+        {
+          "name": "HOUSSAM",
+          "sex": "1",
+          "peak": 25
+        },
+        {
+          "name": "HUSEYIN",
+          "sex": "1",
+          "peak": 40
+        },
+        {
+          "name": "HUSSEIN",
+          "sex": "1",
+          "peak": 35
+        },
+        {
+          "name": "HÜSEYIN",
+          "sex": "1",
+          "peak": 10
+        },
+        {
+          "name": "KAISSE",
+          "sex": "1",
+          "peak": 5
+        },
+        {
+          "name": "LOTFI",
+          "sex": "1",
+          "peak": 45
+        },
+        {
+          "name": "NAWEL",
+          "sex": "1",
+          "peak": 5
+        }
+      ],
+      "lacune": false,
+      "lacune_note": null
+    },
+    "afrique_hors_maghreb": {
+      "id": "afrique_hors_maghreb",
+      "label_fr": "Afrique hors Maghreb (Sahel / Afrique de l'Ouest — classe de prénoms)",
+      "label_en": "Sub-Saharan / Sahel–West African name class",
+      "ined565_class_map": "Afrique sub-saharienne (annex: 231-251,262-283,621,623) — P&S 565 « African » class; 95% of African first names → origin sub-Saharan in TeO",
+      "confidence": "medium",
+      "inclusion_rules": [
+        "Prénoms distinctifs Sahel / Afrique de l'Ouest documentables (Mandingue, Wolof, Peul…): Mamadou, Fatoumata, Aminata, Abdoulaye, Awa, Fatou…",
+        "Exclus les formes déjà dans Maghreb/arabo-musulman (Ibrahima, Ousmane, Ismaël, Mohamed…) pour éviter double-comptage.",
+        "ISSA inclus ici (forte présence Sahel) — note: aussi forme arabe de Jésus."
+      ],
+      "exclusion_rules": [
+        "Pas de prénoms français coloniaux (Jean, Marie) même fréquents chez immigrés d'Afrique centrale (P&S 565: ~2/3 Afrique centrale portent prénoms français).",
+        "Pas de fusion avec Maghreb.",
+        "Couverture lacuneaire: beaucoup de prénoms africains rares ou orthographiés hors top fichier."
+      ],
+      "must_not_claim": [
+        "complete sub-Saharan naming share (under-coverage)",
+        "religion %",
+        "ethnic census %"
+      ],
+      "etymology_note": "West African / Sahel anthroponymy (Mamadou←Muhammad regional form; Fatoumata←Fatima regional; Awa, Aminata, Abdoulaye…). P&S 565 African class. Medium confidence: thin lists + under-coverage of Central African French-name patterns.",
+      "names": {
+        "1": [
+          "ABDOU",
+          "ABDOUL",
+          "ABDOULAYE",
+          "ADAMA",
+          "ALPHA",
+          "AMADOU",
+          "BAKARY",
+          "BOUBACAR",
+          "CHEIKH",
+          "DRAMANE",
+          "IBOU",
+          "ISSA",
+          "KADER",
+          "LAMINE",
+          "MAMADOU",
+          "MODIBO",
+          "MOUSSA",
+          "PAPA",
+          "SALIFOU",
+          "SEKOU",
+          "SEYDOU",
+          "SOULEYMAN",
+          "SOULEYMANE",
+          "SÉKOU",
+          "THIERNO",
+          "YAYA"
+        ],
+        "2": [
+          "AMINATA",
+          "ASTOU",
+          "AWA",
+          "BINTOU",
+          "COUMBA",
+          "DIEYNABA",
+          "FATOU",
+          "FATOUMATA",
+          "KHADY",
+          "MARIAMA",
+          "NDEYE",
+          "RAMATOULAYE"
+        ]
+      },
+      "name_count": {
+        "1": 26,
+        "2": 12,
+        "total_unique": 38
+      },
+      "rare_names_peak_lt_50_count": 14,
+      "rare_names_sample": [
+        {
+          "name": "ABDOU",
+          "sex": "1",
+          "peak": 45
+        },
+        {
+          "name": "DRAMANE",
+          "sex": "1",
+          "peak": 20
+        },
+        {
+          "name": "IBOU",
+          "sex": "1",
+          "peak": 0
+        },
+        {
+          "name": "KADER",
+          "sex": "1",
+          "peak": 35
+        },
+        {
+          "name": "MODIBO",
+          "sex": "1",
+          "peak": 25
+        },
+        {
+          "name": "PAPA",
+          "sex": "1",
+          "peak": 10
+        },
+        {
+          "name": "SALIFOU",
+          "sex": "1",
+          "peak": 0
+        },
+        {
+          "name": "SÉKOU",
+          "sex": "1",
+          "peak": 30
+        },
+        {
+          "name": "YAYA",
+          "sex": "1",
+          "peak": 35
+        },
+        {
+          "name": "ASTOU",
+          "sex": "2",
+          "peak": 20
+        },
+        {
+          "name": "DIEYNABA",
+          "sex": "2",
+          "peak": 45
+        },
+        {
+          "name": "KHADY",
+          "sex": "2",
+          "peak": 40
+        },
+        {
+          "name": "NDEYE",
+          "sex": "2",
+          "peak": 30
+        },
+        {
+          "name": "RAMATOULAYE",
+          "sex": "2",
+          "peak": 35
+        }
+      ],
+      "lacune": "Central/Guinean African populations often use French calendrical names (P&S 565) — invisible in this cluster. Counts are a lower bound on Sahel-distinctive names only.",
+      "lacune_note": "Central/Guinean African populations often use French calendrical names (P&S 565) — invisible in this cluster. Counts are a lower bound on Sahel-distinctive names only."
+    },
+    "asie": {
+      "id": "asie",
+      "label_fr": "Asie (hors Turquie/MENA islamique — liste mince)",
+      "label_en": "Asia (SE Asia / East Asia / Indic — thin list)",
+      "ined565_class_map": "Asie (annex: 427,431-437,442,446,449,457-479,644,645) — Vietnam, China, Cambodia, Laos, Korea, India, etc. Turkey NOT here (Turkish arabo-muslim forms → Maghreb class; secular Turkish names not exhaustively listed).",
+      "confidence": "low",
+      "inclusion_rules": [
+        "Prénoms vietnamiens / chinois / est-asiatiques repérables comme premier prénom dans le fichier national.",
+        "Turquie: formes arabo-musulmanes déjà dans Maghreb; prénoms turcs séculiers (Emre, Deniz, Elif, Zeynep, Esra, Selin, Burak, Can) — sous-liste documentée à part (asie_turquie_seculier) OU exclus du bundle Asie principal pour éviter mélange MENA.",
+        "Préférer haute fréquence; flag rare."
+      ],
+      "exclusion_rules": [
+        "LOAN (forme bretonne/anglo fréquente en France ≠ Loan vietnamien).",
+        "KIM souvent coréen/vietnamien mais aussi anglo/scandinave — inclus avec note ambiguïté, confiance basse.",
+        "AN, VAN, MAI trop ambigus / courts — exclus ou rare only."
+      ],
+      "must_not_claim": [
+        "stable Asia ethnic share (lacune fichier: many SE Asian given names are middle names or rare as first token)",
+        "religion %"
+      ],
+      "etymology_note": "SE/East Asian given-name stock. INSEE fichier under-represents Vietnamese compound patterns (middle name Thi, etc.). LOW CONFIDENCE / lacune — shares will be near-zero and unstable.",
+      "names": {
+        "1": [
+          "BAO",
+          "BINH",
+          "CHEN",
+          "CUONG",
+          "DAT",
+          "DUC",
+          "HAI",
+          "HAO",
+          "HOANG",
+          "HUNG",
+          "JUN",
+          "KHANH",
+          "LI",
+          "LONG",
+          "MING",
+          "MINH",
+          "NAM",
+          "NGOC",
+          "PHONG",
+          "QUANG",
+          "RUI",
+          "SON",
+          "THANH",
+          "THAO",
+          "TRUNG",
+          "TUAN",
+          "VINH",
+          "WEI",
+          "XUAN",
+          "YI",
+          "YU"
+        ],
+        "2": [
+          "DIEP",
+          "FANG",
+          "HANH",
+          "HOA",
+          "HUONG",
+          "JING",
+          "LAN",
+          "LIEN",
+          "LINH",
+          "MAI",
+          "MEI",
+          "MY",
+          "NGA",
+          "OANH",
+          "PHUONG",
+          "THI",
+          "THUY",
+          "TING",
+          "TRANG",
+          "XIN",
+          "XUE",
+          "YEN",
+          "YING"
+        ]
+      },
+      "name_count": {
+        "1": 31,
+        "2": 23,
+        "total_unique": 54
+      },
+      "rare_names_peak_lt_50_count": 52,
+      "rare_names_sample": [
+        {
+          "name": "BAO",
+          "sex": "1",
+          "peak": 5
+        },
+        {
+          "name": "BINH",
+          "sex": "1",
+          "peak": 0
+        },
+        {
+          "name": "CHEN",
+          "sex": "1",
+          "peak": 0
+        },
+        {
+          "name": "CUONG",
+          "sex": "1",
+          "peak": 0
+        },
+        {
+          "name": "DAT",
+          "sex": "1",
+          "peak": 5
+        },
+        {
+          "name": "DUC",
+          "sex": "1",
+          "peak": 5
+        },
+        {
+          "name": "HAI",
+          "sex": "1",
+          "peak": 0
+        },
+        {
+          "name": "HAO",
+          "sex": "1",
+          "peak": 5
+        },
+        {
+          "name": "HOANG",
+          "sex": "1",
+          "peak": 10
+        },
+        {
+          "name": "HUNG",
+          "sex": "1",
+          "peak": 5
+        },
+        {
+          "name": "JUN",
+          "sex": "1",
+          "peak": 25
+        },
+        {
+          "name": "KHANH",
+          "sex": "1",
+          "peak": 0
+        },
+        {
+          "name": "LI",
+          "sex": "1",
+          "peak": 0
+        },
+        {
+          "name": "LONG",
+          "sex": "1",
+          "peak": 5
+        },
+        {
+          "name": "MING",
+          "sex": "1",
+          "peak": 0
+        }
+      ],
+      "lacune": true,
+      "lacune_note": "SE/East Asian given-name stock. INSEE fichier under-represents Vietnamese compound patterns (middle name Thi, etc.). LOW CONFIDENCE / lacune — shares will be near-zero and unstable.",
+      "turkish_secular_side_list": {
+        "note": "NOT merged into Asie main metrics — documented for transparency. P&S 565: 92% Turkish immigrants have Turkish first name; Turkish versions of arabo-muslim names sit in Maghreb class.",
+        "names_1": [
+          "EMRE",
+          "DENIZ",
+          "BURAK",
+          "CAN",
+          "ARDA",
+          "BERK",
+          "KAAN",
+          "EFE",
+          "KEREM",
+          "ONUR",
+          "TOLGA"
+        ],
+        "names_2": [
+          "ELIF",
+          "ELİF",
+          "ZEYNEP",
+          "ESRA",
+          "SELIN",
+          "SELİN",
+          "CEREN",
+          "AYSE",
+          "AYŞE",
+          "DEFNE",
+          "MELIS",
+          "MELİS"
+        ]
+      }
+    },
+    "slaves": {
+      "id": "slaves",
+      "label_fr": "Slaves (stock prénoms polonais / russe / serbe…)",
+      "label_en": "Slavic given-name stock",
+      "ined565_class_map": "Europe et Balkans (annex codes including 152 Poland, 160 Russia, 166 Ukraine, 138 Serbo-Croat, 162 Czechia…) — NOT a dedicated P&S 565 published bundle; desk etymology",
+      "confidence": "low",
+      "inclusion_rules": [
+        "Prénoms d'étymologie slave orientale/occidentale/sud clairement documentable.",
+        "Exclure les prénoms devenus mode majoritaire française sans ancrage slave fort (Alexandre, Alexandra, Katia fashion, Sofia, Ana)."
+      ],
+      "exclusion_rules": [
+        "ALEXANDRE, ALEXANDRA — stock gréco-français classique, pas marqueur slave en France.",
+        "NADIA — overlap arabe/slave; exclu des deux clusters pour pureté.",
+        "SOFIA, ANA, KATIA — mode internationale / française.",
+        "STANISLAS — saint calendaire français aussi (Saint Stanislas); exclu (ambigu).",
+        "MILAN — mode italienne/internationale récente aussi; inclus avec note faible."
+      ],
+      "must_not_claim": [
+        "ethnic Slavic census %",
+        "stable high-confidence share (fashion contamination 1960–1990 among majority)"
+      ],
+      "etymology_note": "Slavic etymology (Vladimir, Olga, Dimitri, Ivan, Natacha, Svetlana, Serbian South-Slavic stock…). LOW confidence: several names had majority-population fashion waves in France (Boris, Olga, Natacha, Dimitri 1970–1990).",
+      "names": {
+        "1": [
+          "ALEKSANDAR",
+          "BOGDAN",
+          "BORIS",
+          "DIMITRI",
+          "DMITRI",
+          "DRAGAN",
+          "GORAN",
+          "IGOR",
+          "IVAN",
+          "MILAN",
+          "MILOS",
+          "MILOŠ",
+          "MIROSLAW",
+          "NENAD",
+          "NIKOLA",
+          "NIKOLAI",
+          "NIKOLAÏ",
+          "OLEG",
+          "PAVEL",
+          "PETAR",
+          "RADOSLAV",
+          "SERGUEI",
+          "SERGUEÏ",
+          "SLAVKO",
+          "TADEUSZ",
+          "VLADIMIR",
+          "WOJCIECH",
+          "YOURI",
+          "YURI",
+          "ZBIGNIEW",
+          "ZORAN"
+        ],
+        "2": [
+          "ANASTASIA",
+          "ANASTASIE",
+          "GALINA",
+          "HALINA",
+          "IRENA",
+          "IRINA",
+          "IVANA",
+          "JADWIGA",
+          "JELENA",
+          "KATARZYNA",
+          "KATYA",
+          "KRYSTYNA",
+          "LARISSA",
+          "LJUBICA",
+          "MARIJA",
+          "MILENA",
+          "NATACHA",
+          "NATASHA",
+          "OLGA",
+          "SNEZANA",
+          "SVETLANA",
+          "TATIANA",
+          "VESNA"
+        ]
+      },
+      "name_count": {
+        "1": 31,
+        "2": 23,
+        "total_unique": 54
+      },
+      "rare_names_peak_lt_50_count": 36,
+      "rare_names_sample": [
+        {
+          "name": "ALEKSANDAR",
+          "sex": "1",
+          "peak": 15
+        },
+        {
+          "name": "BOGDAN",
+          "sex": "1",
+          "peak": 35
+        },
+        {
+          "name": "DMITRI",
+          "sex": "1",
+          "peak": 0
+        },
+        {
+          "name": "DRAGAN",
+          "sex": "1",
+          "peak": 25
+        },
+        {
+          "name": "GORAN",
+          "sex": "1",
+          "peak": 30
+        },
+        {
+          "name": "MILOS",
+          "sex": "1",
+          "peak": 10
+        },
+        {
+          "name": "MILOŠ",
+          "sex": "1",
+          "peak": 0
+        },
+        {
+          "name": "MIROSLAW",
+          "sex": "1",
+          "peak": 0
+        },
+        {
+          "name": "NENAD",
+          "sex": "1",
+          "peak": 15
+        },
+        {
+          "name": "NIKOLAI",
+          "sex": "1",
+          "peak": 5
+        },
+        {
+          "name": "NIKOLAÏ",
+          "sex": "1",
+          "peak": 10
+        },
+        {
+          "name": "OLEG",
+          "sex": "1",
+          "peak": 5
+        },
+        {
+          "name": "PETAR",
+          "sex": "1",
+          "peak": 5
+        },
+        {
+          "name": "RADOSLAV",
+          "sex": "1",
+          "peak": 0
+        },
+        {
+          "name": "SERGUEI",
+          "sex": "1",
+          "peak": 5
+        }
+      ],
+      "lacune": false,
+      "lacune_note": null
+    },
+    "americain_anglo": {
+      "id": "americain_anglo",
+      "label_fr": "Américain / anglo (vague de mode US–UK)",
+      "label_en": "American / Anglo naming fashion wave",
+      "ined565_class_map": "Prénoms Anglophones et internationaux (annex: 135,168,368,697) — Ireland, Great Britain, USA, international mainly Anglo-American",
+      "confidence": "high",
+      "inclusion_rules": [
+        "Vague de mode onomastique US/UK en France (~1980–2005 « génération Kevin ») + prolongements anglo récents clairement fashion.",
+        "Marqueur culturel de mode, PAS une ethnie américaine.",
+        "Formes clairement anglo: Kevin, Bryan, Jennifer, Jessica, Cindy, Dylan, Brandon, Ashley, Tiffany, Jordan, Anthony, Steven, Jason, Jimmy, Johnny, Christopher, Melissa…"
+      ],
+      "exclusion_rules": [
+        "Formes françaises équivalentes: CHRISTOPHE (≠ Christopher), MICHEL (≠ Michael), ÉTIENNE, etc.",
+        "Bibliques / internationaux largement francisés: DAVID, THOMAS, EMMA, LUCAS, NATHAN, CHLOÉ, NOAH — exclus (trop majoritaires / multi-origine).",
+        "CHRISTOPHE, ROBERT, CHARLES, WILLIAM, RICHARD, NICOLE, STÉPHANIE, LAURA, CAROLE — stock FR/européen mid-late century, pas vague US."
+      ],
+      "must_not_claim": [
+        "ethnicity American/British",
+        "English-speaker census %"
+      ],
+      "etymology_note": "US/UK given-name fashion (Kevin, Jennifer wave; later Ethan/Liam/Logan). Cultural naming fashion ≠ ethnicity. P&S 565 Anglophone/international class.",
+      "names": {
+        "1": [
+          "AIDEN",
+          "ANTHONY",
+          "AYDEN",
+          "AÏDEN",
+          "BAILEY",
+          "BOBBY",
+          "BRAD",
+          "BRADLEY",
+          "BRANDON",
+          "BRIAN",
+          "BRYAN",
+          "CALEB",
+          "CHRISTOPHER",
+          "DANNY",
+          "DANY",
+          "DONALD",
+          "DYLAN",
+          "ETHAN",
+          "HARRY",
+          "JACK",
+          "JASON",
+          "JAYDEN",
+          "JIMMY",
+          "JOEY",
+          "JOHN",
+          "JOHNNY",
+          "JORDAN",
+          "JUSTIN",
+          "KENNY",
+          "KEVIN",
+          "KILIAN",
+          "KILLIAN",
+          "KYLE",
+          "KYLIAN",
+          "KYLLIAN",
+          "LIAM",
+          "LOGAN",
+          "MASON",
+          "MATHEW",
+          "MATTHEW",
+          "MICHAEL",
+          "RONALD",
+          "STEVE",
+          "STEVEN",
+          "TONY",
+          "TYLER"
+        ],
+        "2": [
+          "AMANDA",
+          "AMBER",
+          "ANGELA",
+          "ASHLEY",
+          "AVA",
+          "BETTY",
+          "BRITNEY",
+          "BRITTANY",
+          "BROOKLYN",
+          "CANDY",
+          "CINDY",
+          "COURTNEY",
+          "CRYSTAL",
+          "DEBORAH",
+          "HAILEY",
+          "HEATHER",
+          "JENNIFER",
+          "JESSICA",
+          "JUDY",
+          "KAREN",
+          "KAYLA",
+          "KELLY",
+          "LINDA",
+          "LISA",
+          "LOANE",
+          "MADISON",
+          "MEGAN",
+          "MELISSA",
+          "MIA",
+          "MORGAN",
+          "MÉLISSA",
+          "NANCY",
+          "OLIVIA",
+          "SANDY",
+          "SCARLETT",
+          "SHARON",
+          "SOPHIA",
+          "SUSAN",
+          "TAYLOR",
+          "TIFFANY",
+          "WHITNEY"
+        ]
+      },
+      "name_count": {
+        "1": 46,
+        "2": 41,
+        "total_unique": 87
+      },
+      "rare_names_peak_lt_50_count": 16,
+      "rare_names_sample": [
+        {
+          "name": "BAILEY",
+          "sex": "1",
+          "peak": 0
+        },
+        {
+          "name": "BOBBY",
+          "sex": "1",
+          "peak": 5
+        },
+        {
+          "name": "BRAD",
+          "sex": "1",
+          "peak": 30
+        },
+        {
+          "name": "DONALD",
+          "sex": "1",
+          "peak": 35
+        },
+        {
+          "name": "MASON",
+          "sex": "1",
+          "peak": 20
+        },
+        {
+          "name": "MATHEW",
+          "sex": "1",
+          "peak": 30
+        },
+        {
+          "name": "AMBER",
+          "sex": "2",
+          "peak": 45
+        },
+        {
+          "name": "BRITNEY",
+          "sex": "2",
+          "peak": 45
+        },
+        {
+          "name": "BRITTANY",
+          "sex": "2",
+          "peak": 20
+        },
+        {
+          "name": "BROOKLYN",
+          "sex": "2",
+          "peak": 15
+        },
+        {
+          "name": "COURTNEY",
+          "sex": "2",
+          "peak": 10
+        },
+        {
+          "name": "HEATHER",
+          "sex": "2",
+          "peak": 40
+        },
+        {
+          "name": "JUDY",
+          "sex": "2",
+          "peak": 35
+        },
+        {
+          "name": "SUSAN",
+          "sex": "2",
+          "peak": 35
+        },
+        {
+          "name": "TAYLOR",
+          "sex": "2",
+          "peak": 30
+        }
+      ],
+      "lacune": false,
+      "lacune_note": null
+    }
+  },
+  "mutual_exclusion_priority": [
+    "maghreb_arabo_musulman",
+    "afrique_hors_maghreb",
+    "asie",
+    "slaves",
+    "americain_anglo",
+    "classiques_fr"
+  ],
+  "grounding": {
+    "ined565": "https://hal.science/hal-04625724",
+    "doi": "https://doi.org/10.3917/popsoc.565.0001",
+    "annex_local": "downloads/annex.pdf"
+  }
+}

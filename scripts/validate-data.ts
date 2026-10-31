@@ -134,6 +134,10 @@ function validateImmigrationSeries() {
     "data/stats/immigration/origins-decennial-series.json",
     "origins decennial series",
   );
+  validateImmigrationSeriesFile(
+    "data/stats/onomastics/categories-decennial-series.json",
+    "onomastics categories decennial series",
+  );
 }
 
 function validatePresidentialEras() {

@@ -1,6 +1,7 @@
 import { getMetric } from "@/lib/registry";
 import { ProofLink } from "@/components/ProofLink";
 import { OnomasticsShareChart } from "@/components/OnomasticsShareChart";
+import { ImmigrationOnomasticsCategoriesCharts } from "@/components/ImmigrationOnomasticsCategoriesCharts";
 import {
   ONOMASTICS_BANNER_FR,
   ONOMASTICS_CHART_BADGE,
@@ -344,6 +345,8 @@ export function ImmigrationOnomasticsStudy() {
       </div>
 
       <OnomasticsShareChart />
+
+      <ImmigrationOnomasticsCategoriesCharts />
     </section>
   );
 }
