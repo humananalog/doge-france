@@ -1,20 +1,274 @@
 {
-  "pack": "aides-ascendance",
-  "gate": "PASS-LOW",
-  "gate_file": "gates/2026-10-31-fertility-aides-claims-gate.md",
-  "primary_url": "https://www.insee.fr/fr/statistiques/6793278",
-  "year": 2019,
-  "metric": "part_prestations_dans_niveau_de_vie",
-  "champ": "France métropolitaine, ERFS 2019; prestations = famille/logement/minima/prime d'activité (+CRDS); hors pensions/chômage",
-  "locks": [
-    "Part du niveau de vie — not fraude, not « ils utilisent beaucoup d'aides » as fraud",
-    "Ascendance migratoire / nés en Afrique|Europe — NOT musulman / ethnie"
+  "pack_id": "aides-nationalite-2026-10-31",
+  "desk": "CAF Hunter",
+  "as_of": "2026-10-31",
+  "timezone_label": "Asia/Hong_Kong",
+  "gate": "PASS",
+  "gate_file": "gates/2026-10-31-aides-nationalite-gate.md",
+  "claim_under_review": "Immigrant / Maghreb-origin households « use a lot of aides »",
+  "ship_path": {
+    "lead_tiles": [
+      "prest_ndd_immigres_2021",
+      "prest_ndd_non_immigres_2021",
+      "prest_ndd_immigres_afrique_2021",
+      "rsa_hors_ue_eee_foyers_2022",
+      "af_hors_eee_beneficiaires_2013"
+    ],
+    "context": [
+      "prest_ndd_ascendance_2019",
+      "apl_extra_comm_pass_low",
+      "af_eee_beneficiaires_2013",
+      "cnaf_foyers_etrangers_afp_pass_low"
+    ],
+    "fraude_separate_no_nationality": [
+      "cdc_fraude_famille_est_2018",
+      "caf_fraude_detectee_2024",
+      "cdc_erreurs_2024"
+    ]
+  },
+  "fail_do_not_ship": [
+    "Any Maghreb / Muslim / ethnie share of aides € or bénéficiaires",
+    "Viral « 42% of CAF are foreigners »",
+    "hors-EEE AF ~6% labeled as Maghreb spend",
+    "Immigrés « take most aides » as absolute CAF budget share",
+    "Fraude 2–6 Md€ = immigrant fraud",
+    "Naturalised / descendants labeled as étrangers",
+    "Fusing fertility × aides as one causal claim"
   ],
-  "cells": [
-    {"id": "prest-immigres-2019", "label": "Immigrés", "value": 12, "unit": "% du niveau de vie", "source_url": "https://www.insee.fr/fr/statistiques/6793278"},
-    {"id": "prest-descendants-2019", "label": "Descendants d'immigrés", "value": 10, "unit": "% du niveau de vie", "source_url": "https://www.insee.fr/fr/statistiques/6793278"},
-    {"id": "prest-sans-ascendance-2019", "label": "Sans ascendance migratoire", "value": 5, "unit": "% du niveau de vie", "source_url": "https://www.insee.fr/fr/statistiques/6793278"},
-    {"id": "prest-immigres-afrique-2019", "label": "Immigrés nés en Afrique", "value": 18, "unit": "% du niveau de vie", "source_url": "https://www.insee.fr/fr/statistiques/6793278", "optional": true},
-    {"id": "prest-immigres-europe-2019", "label": "Immigrés nés en Europe", "value": 6, "unit": "% du niveau de vie", "source_url": "https://www.insee.fr/fr/statistiques/6793278", "optional": true}
+  "locks": [
+    "Always use source labels: immigrés / étrangers hors EEE / extra-communautaires / nés en Afrique — never Maghreb/Muslim invent",
+    "Part du niveau de vie ≠ % du budget CAF ≠ fraude",
+    "% of bénéficiaires ≠ % of € unless both published",
+    "Fraude détectée / estimée / erreurs / spend légal stay separate panels",
+    "Afrique = continent (not Maghreb-only)"
+  ],
+  "metrics": [
+    {
+      "metric_id": "prest_ndd_immigres_2021",
+      "name": "Prestations non contributives · part du niveau de vie · immigrés",
+      "definition": "Part des prestations sociales non contributives (famille, logement, minima, prime d'activité, bruts de CRDS) dans le niveau de vie. Hors pensions et chômage.",
+      "definition_scope": "Immigrés (statut) — France métropolitaine, logement ordinaire, ERFS 2021",
+      "year": 2021,
+      "geography": "France métropolitaine",
+      "value": 11.1,
+      "value_eur_uc": 2410,
+      "unit": "% du niveau de vie",
+      "published_vs_derived": "published",
+      "source_org": "INSEE",
+      "source_title": "RPM 2024 · F18 · ERFS 2021",
+      "primary_url": "https://www.insee.fr/fr/statistiques/7941405?sommaire=7941491",
+      "pdf_url": "https://www.insee.fr/fr/statistiques/fichier/7941405/RPM2024-F18.pdf",
+      "confidence": "HIGH",
+      "gate": "PASS",
+      "must_not_claim": [
+        "Not Maghreb / Muslim / ethnie",
+        "Not % of CAF budget",
+        "Not fraude"
+      ]
+    },
+    {
+      "metric_id": "prest_ndd_non_immigres_2021",
+      "name": "Prestations non contributives · part du niveau de vie · non-immigrés",
+      "definition": "Same champ as prest_ndd_immigres_2021",
+      "definition_scope": "Non-immigrés — ERFS 2021",
+      "year": 2021,
+      "geography": "France métropolitaine",
+      "value": 5.6,
+      "value_eur_uc": 1530,
+      "unit": "% du niveau de vie",
+      "published_vs_derived": "published",
+      "source_org": "INSEE",
+      "primary_url": "https://www.insee.fr/fr/statistiques/7941405?sommaire=7941491",
+      "confidence": "HIGH",
+      "gate": "PASS",
+      "must_not_claim": ["Not « native French ethnie »"]
+    },
+    {
+      "metric_id": "prest_ndd_immigres_afrique_2021",
+      "name": "Prestations · part du niveau de vie · immigrés nés en Afrique",
+      "definition": "Immigrés nés en Afrique (continent entier)",
+      "definition_scope": "Continent Afrique — includes Maghreb AND sub-Saharan; NOT Maghreb-only; NOT religion",
+      "year": 2021,
+      "geography": "France métropolitaine",
+      "value": 16.4,
+      "value_eur_uc": 3110,
+      "unit": "% du niveau de vie",
+      "published_vs_derived": "published",
+      "source_org": "INSEE",
+      "primary_url": "https://www.insee.fr/fr/statistiques/7941405?sommaire=7941491",
+      "confidence": "HIGH",
+      "gate": "PASS",
+      "must_not_claim": [
+        "FAIL if labeled Maghreb / Muslim / ethnie",
+        "Continent ≠ Maghreb"
+      ]
+    },
+    {
+      "metric_id": "prest_ndd_immigres_europe_2021",
+      "name": "Prestations · part du niveau de vie · immigrés nés en Europe",
+      "year": 2021,
+      "value": 5.6,
+      "value_eur_uc": 1380,
+      "unit": "% du niveau de vie",
+      "published_vs_derived": "published",
+      "primary_url": "https://www.insee.fr/fr/statistiques/7941405?sommaire=7941491",
+      "confidence": "HIGH",
+      "gate": "PASS",
+      "optional": true
+    },
+    {
+      "metric_id": "prest_ndd_ascendance_2019",
+      "name": "Prestations · part du niveau de vie · ascendance migratoire (2019)",
+      "definition": "ERFS 2019 — immigrés / descendants / sans ascendance",
+      "year": 2019,
+      "geography": "France métropolitaine",
+      "cells": [
+        {"label": "Immigrés", "value": 12},
+        {"label": "Descendants d'immigrés", "value": 10},
+        {"label": "Sans ascendance migratoire", "value": 5},
+        {"label": "Immigrés nés en Afrique", "value": 18, "optional": true},
+        {"label": "Immigrés nés en Europe", "value": 6, "optional": true}
+      ],
+      "unit": "% du niveau de vie",
+      "published_vs_derived": "published",
+      "source_org": "INSEE",
+      "primary_url": "https://www.insee.fr/fr/statistiques/6793278?sommaire=6793391",
+      "confidence": "HIGH",
+      "gate": "PASS",
+      "note": "Already shipped in PR #15; keep as context / prior year. Prefer 2021 F18 for lead tiles when updating UI."
+    },
+    {
+      "metric_id": "rsa_hors_ue_eee_foyers_2022",
+      "name": "RSA · foyers dont le responsable est hors UE/EEE",
+      "definition": "Part des foyers bénéficiaires du RSA dont le responsable de dossier est issu d'un pays hors UE/EEE",
+      "definition_scope": "Nationalité du responsable de dossier — not « immigrés » (naturalised French count as French); not Maghreb",
+      "year": 2022,
+      "as_of": "2022-06-30",
+      "geography": "France (CNAF + CCMSA)",
+      "value": 15.6,
+      "count_foyers": "<300000",
+      "unit": "% des foyers RSA",
+      "published_vs_derived": "published",
+      "source_org": "Assemblée nationale / CNAF+MSA",
+      "source_title": "AN Q5157",
+      "primary_url": "https://www.assemblee-nationale.fr/dyn/16/questions/QANR5L16QE5157",
+      "confidence": "HIGH",
+      "gate": "PASS",
+      "must_not_claim": [
+        "Not Maghreb",
+        "No € amount for this subset in the answer",
+        "Not all non-French (88.4% of non-French RSA heads are hors UE/EEE)"
+      ]
+    },
+    {
+      "metric_id": "af_hors_eee_beneficiaires_2013",
+      "name": "Allocations familiales · bénéficiaires étrangers hors EEE",
+      "definition": "Share of AF bénéficiaires who are foreign nationals hors EEE",
+      "definition_scope": "% of bénéficiaires (not €); hors EEE = worldwide non-EEE — not Maghreb",
+      "year": 2013,
+      "as_of": "2013-12-31",
+      "value": 6,
+      "companion_eee_ch_pct": 2,
+      "spend_total_mdeur": 12.4,
+      "beneficiaires_approx": 5000000,
+      "unit": "% des bénéficiaires AF",
+      "published_vs_derived": "published",
+      "source_org": "Assemblée nationale / CNAF",
+      "source_title": "AN Q29143",
+      "primary_url": "https://www.assemblee-nationale.fr/dyn/14/questions/QANR5L14QE29143",
+      "confidence": "HIGH",
+      "gate": "PASS",
+      "must_not_claim": [
+        "Not Maghreb spend",
+        "Not % of € (CNAF has no finer nationality €)",
+        "Dated 2013 — Sénat end-2014 same ~6%"
+      ],
+      "related_url": "https://www.senat.fr/questions/base/2014/qSEQ140210272.html"
+    },
+    {
+      "metric_id": "af_eee_beneficiaires_2013",
+      "name": "AF · bénéficiaires EEE + Suisse",
+      "year": 2013,
+      "value": 2,
+      "unit": "% des bénéficiaires AF",
+      "primary_url": "https://www.assemblee-nationale.fr/dyn/14/questions/QANR5L14QE29143",
+      "gate": "PASS",
+      "optional": true
+    },
+    {
+      "metric_id": "apl_extra_comm_pass_low",
+      "name": "APL · ménages extra-communautaires",
+      "definition": "Share of APL beneficiaries and spend going to extra-communautaire households",
+      "year": null,
+      "year_note": "Reference year MISSING in JO answer published 2023-04-11 → PASS-LOW",
+      "value_beneficiaires_pct": 14.8,
+      "count_menages": 859554,
+      "value_spend_pct": 16.4,
+      "spend_mdeur": 2.4,
+      "unit": "% bénéficiaires / % dépenses APL",
+      "published_vs_derived": "published",
+      "source_org": "Assemblée nationale",
+      "source_title": "AN Q5530",
+      "primary_url": "https://www.assemblee-nationale.fr/dyn/16/questions/QANR5L16QE5530",
+      "confidence": "MEDIUM",
+      "gate": "PASS-LOW",
+      "must_not_claim": [
+        "Do not invent reference year",
+        "extra-communautaire ≠ Maghreb"
+      ],
+      "ui_note": "Ship only with PASS-LOW badge and year caveat, or hold until dated CNAF extract"
+    },
+    {
+      "metric_id": "cnaf_foyers_etrangers_afp_pass_low",
+      "name": "Foyers allocataires de nationalité étrangère (CNAF via AFP)",
+      "year": 2022,
+      "value": 11,
+      "denominator_foyers_m": 13.5,
+      "unit": "% des foyers allocataires",
+      "published_vs_derived": "secondary_quoting_primary",
+      "primary_url": "https://factuel.afp.com/doc.afp.com.833N2NQ",
+      "confidence": "MEDIUM",
+      "gate": "PASS-LOW",
+      "must_not_claim": [
+        "Debunks viral 42% (wrong NIR÷foyers units)",
+        "Upgrade to PASS only with CNAF PDF/page URL"
+      ],
+      "optional": true
+    },
+    {
+      "metric_id": "cdc_fraude_famille_est_2018",
+      "name": "Estimation fraude branche famille (Cour des comptes)",
+      "year": 2018,
+      "value_mdeur": 2.3,
+      "type": "fraude_estimee",
+      "primary_url": "https://www.ccomptes.fr/fr/publications/la-lutte-contre-les-fraudes-aux-prestations-sociales",
+      "gate": "PASS",
+      "must_not_claim": ["ZERO nationality split — do not invent immigrant fraud"],
+      "panel": "fraude_separate"
+    },
+    {
+      "metric_id": "caf_fraude_detectee_2024",
+      "name": "CAF fraude détectée 2024",
+      "year": 2024,
+      "value_meur": 449.2,
+      "count_fraudes": 49030,
+      "type": "fraude_detectee",
+      "primary_url": "https://questions.assemblee-nationale.fr/q17/17-4323QE.htm",
+      "gate": "PASS",
+      "must_not_claim": ["No nationality split"],
+      "panel": "fraude_separate"
+    },
+    {
+      "metric_id": "cdc_erreurs_2024",
+      "name": "Erreurs non corrigées à 24 mois (certification CNAF)",
+      "year": 2024,
+      "value_mdeur": 6.3,
+      "value_pct_prestations": 8,
+      "type": "erreurs_not_fraude",
+      "primary_url": "https://ccomptes.fr/fr/publications/certification-des-comptes-du-regime-general-de-securite-sociale-et-du-cpsti-exercice",
+      "gate": "PASS",
+      "must_not_claim": ["Errors ≠ fraude; no nationality"],
+      "panel": "fraude_separate"
+    }
   ]
 }

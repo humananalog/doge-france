@@ -1,0 +1,161 @@
+{
+  "pack": "2026-10-31-aides-nationalite",
+  "generated": "2026-10-31",
+  "tz": "Asia/Hong_Kong",
+  "sources": [
+    {
+      "title": "Assemblée nationale QE 29143 — répartition allocations familiales / nationalité",
+      "url": "https://www.assemblee-nationale.fr/dyn/14/questions/QANR5L14QE29143",
+      "year": 2013,
+      "claim": "AF beneficiaries ~5M for 12.4 Md€; ~2% EEE+Suisse, ~6% étrangers hors EEE; CNAF no finer nationality amounts",
+      "value": "5e6 beneficiaires; 12.4e9 EUR; ~2% EEE+CH; ~6% hors EEE",
+      "unit": "beneficiaires_count_and_EUR_total_and_pct_beneficiaires",
+      "champ": "CNAF allocations familiales, situation au 31/12/2013; % = share of beneficiaries not of spend",
+      "note": "Réponse JO 30/12/2014. Maghreb/Muslim NOT in source. Soft-hold inventing Maghreb from hors EEE. PDF: https://www.assemblee-nationale.fr/dyn/14/questions/QANR5L14QE29143.pdf Local: downloads/AN-Q29143-AF-nationalite.pdf",
+      "verdict_candidate": "PASS"
+    },
+    {
+      "title": "Sénat QE qSEQ140210272 — CNAF AF EEE vs hors EEE",
+      "url": "https://www.senat.fr/questions/base/2014/qSEQ140210272.html",
+      "year": 2014,
+      "claim": "Near 5M AF beneficiaries, 12.7 Md€; ~2% EEE+Suisse, ~6% hors EEE; CNAF has no nationality amounts beyond those two buckets",
+      "value": "~5e6; 12.7e9 EUR; ~2%; ~6%",
+      "unit": "beneficiaires_count_and_EUR_total_and_pct_beneficiaires",
+      "champ": "CNAF AF au 31/12/2014",
+      "note": "Réponse ministère 12/05/2016. Explicit 'ne dispose pas de données par nationalité'. Maghreb NOT in source.",
+      "verdict_candidate": "PASS"
+    },
+    {
+      "title": "Assemblée nationale QE 5157 — bénéficiaires étrangers du RSA",
+      "url": "https://www.assemblee-nationale.fr/dyn/16/questions/QANR5L16QE5157",
+      "year": 2022,
+      "claim": "Less than 300000 RSA foyers with dossier head from hors UE/EEE = 15.6% of RSA foyers; 88.4% of non-French-nationality RSA foyers",
+      "value": "<300000; 15.6%; 88.4%",
+      "unit": "foyers_count_and_pct_of_RSA_foyers",
+      "champ": "CNAF+CCMSA, 30/06/2022; nationality of responsable de dossier",
+      "note": "Réponse JO 20/06/2023. Not Maghreb; not immigrés (naturalised = French). No EUR for subset.",
+      "verdict_candidate": "PASS"
+    },
+    {
+      "title": "Assemblée nationale QE 5530 — bénéficiaires étrangers des aides au logement (APL)",
+      "url": "https://www.assemblee-nationale.fr/dyn/16/questions/QANR5L16QE5530",
+      "year": null,
+      "claim": "Extra-community households = 14.8% of APL beneficiaries (859554 households) and 16.4% of APL spend (2.4 Md€)",
+      "value": "14.8%; 859554 menages; 16.4%; 2.4e9 EUR",
+      "unit": "pct_beneficiaires_and_pct_spend_and_EUR",
+      "champ": "APL ménages extra-communautaires; year of figures NOT stated in JO answer published 11/04/2023",
+      "note": "PASS-LOW because reference year missing. Maghreb NOT in source. PDF: .../QANR5L16QE5530.pdf",
+      "verdict_candidate": "PASS-LOW"
+    },
+    {
+      "title": "INSEE RPM 2024 F18 — Niveau de vie et pauvreté des immigrés (ERFS 2021)",
+      "url": "https://www.insee.fr/fr/statistiques/7941405?sommaire=7941491",
+      "year": 2021,
+      "claim": "Non-contributory social benefits = 11.1% of immigrés living standard (2410€) vs 5.6% non-immigrés (1530€); Africa-born immigrés 16.4% (3110€)",
+      "value": "immigres 2410 EUR / 11.1%; non-immigres 1530 / 5.6%; Afrique 3110 / 16.4%",
+      "unit": "EUR_per_UC_per_year_and_pct_of_niveau_de_vie",
+      "champ": "France métropolitaine, logement ordinaire, ERFS 2021; prestations = PF+logement+minima+PPA (excl. pensions, chômage)",
+      "note": "PDF https://www.insee.fr/fr/statistiques/fichier/7941405/RPM2024-F18.pdf Local downloads/INSEE-RPM2024-F18-immigres.pdf. 'Nés en Afrique' = continent NOT Maghreb-only; religion absent. Share of living standard ≠ share of CAF budget.",
+      "verdict_candidate": "PASS"
+    },
+    {
+      "title": "INSEE RPM 2024 — Prestations sociales (aggregate, no nationality)",
+      "url": "https://www.insee.fr/fr/statistiques/7941379?sommaire=7941491",
+      "year": 2021,
+      "claim": "63.3 Md€ non-contributory benefits to ordinary households; 12.9M households (44%) receive at least one",
+      "value": "63.3e9 EUR; 12.9e6 menages; 44%",
+      "unit": "EUR_total_and_menages_count",
+      "champ": "FR métro ERFS 2021; no immigrant split on this page",
+      "note": "Context denominator only. Do not invent nationality split.",
+      "verdict_candidate": "PASS"
+    },
+    {
+      "title": "Assemblée nationale QE 4877 — ASPA / nationalité",
+      "url": "https://questions.assemblee-nationale.fr/q16/16-4877QE.htm",
+      "year": 2023,
+      "claim": "CNAV does not record nationality of ASPA beneficiaries — no nationality data available",
+      "value": "null / data unavailable",
+      "unit": "documented_gap",
+      "champ": "ASPA / minimum vieillesse; caisses de retraite + SASPA",
+      "note": "Réponse JO 27/06/2023. Primary gap cite. Maghreb/Muslim N/A.",
+      "verdict_candidate": "PASS"
+    },
+    {
+      "title": "Assemblée nationale QE 6272 — transparence nationalité RSA et ASPA (unanswered)",
+      "url": "https://questions.assemblee-nationale.fr/q17/17-6272QE.htm",
+      "year": 2025,
+      "claim": "Parliamentary demand for RSA/ASPA beneficiaries by nationality since 2017; no government answer at dig time",
+      "value": "no_answer",
+      "unit": "documented_gap",
+      "champ": "RSA + ASPA nationality series requested",
+      "note": "Published 29/04/2025; renewed 03/03/2026. Evidence that fine nationality series remain unavailable publicly.",
+      "verdict_candidate": "PASS"
+    },
+    {
+      "title": "Cour des comptes — La lutte contre les fraudes aux prestations sociales",
+      "url": "https://www.ccomptes.fr/fr/publications/la-lutte-contre-les-fraudes-aux-prestations-sociales",
+      "year": 2020,
+      "claim": "Branche famille estimated fraud 2.3 Md€ in 2018; CAF detected ~13%; CAF residual wrong payments ~3 Md€ (4.5%); multi-organism detected ~1 Md€ in 2019",
+      "value": "estimated_fraud_2.3e9_EUR_2018; residual_wrong_3e9_EUR; detected_all_1e9_EUR_2019",
+      "unit": "EUR_fraud_estimate_and_detected",
+      "champ": "Fraude/erreurs — NO nationality or immigrant split",
+      "note": "FRAUDE section only. Do not mix with legal immigrant spend. Report date 08/09/2020.",
+      "verdict_candidate": "PASS"
+    },
+    {
+      "title": "Assemblée nationale QE 4323 — fraude sociale / résultats CAF 2024",
+      "url": "https://questions.assemblee-nationale.fr/q17/17-4323QE.htm",
+      "year": 2024,
+      "claim": "CAF characterized frauds 49030 (+5%); prejudice 449.2 M€ (+20% vs 2023) including 28 M€ from 10% surcharge",
+      "value": "49030; 449.2e6 EUR",
+      "unit": "fraud_cases_and_EUR_detected",
+      "champ": "Branche famille detected fraud 2024; no nationality split",
+      "note": "FRAUDE detected ≠ legal spend. Separated from section A.",
+      "verdict_candidate": "PASS"
+    },
+    {
+      "title": "Cour des comptes — Certification comptes régime général / CNAF exercice 2024",
+      "url": "https://ccomptes.fr/fr/publications/certification-des-comptes-du-regime-general-de-securite-sociale-et-du-cpsti-exercice",
+      "year": 2024,
+      "claim": "Inability to certify CNAF/family branch accounts; 6.3 Md€ uncorrected errors after 24 months = 8% of benefits (RSA, PPA, housing aids)",
+      "value": "6.3e9 EUR erreurs; 8%",
+      "unit": "EUR_errors_residual_not_fraud",
+      "champ": "Erreurs de liquidations — NOT fraude; no nationality",
+      "note": "Label as ERRORS not fraud. Do not attribute to immigrants.",
+      "verdict_candidate": "PASS"
+    },
+    {
+      "title": "AFP Factuel quoting CNAF — part étrangers parmi foyers allocataires",
+      "url": "https://factuel.afp.com/doc.afp.com.833N2NQ",
+      "year": 2022,
+      "claim": "CNAF told AFP (28 Oct 2025): end-2022, all benefits, 11% of 13.5M allocataire households are foreign nationality; viral 42% is false",
+      "value": "11%; 13.5e6 foyers",
+      "unit": "pct_foyers_allocataires_nationalite_etrangere",
+      "champ": "CNAF all prestations fin 2022 — via AFP paraphrase not CNAF URL",
+      "note": "PASS-LOW: secondary quoting CNAF; caf.fr maintenance blocked direct fetch. Debunks 42%. Maghreb NOT stated.",
+      "verdict_candidate": "PASS-LOW"
+    },
+    {
+      "title": "CNAF MREIC 2024 — droits des migrants aux prestations familiales (eligibility law, not spend)",
+      "url": "https://caf.fr/sites/default/files/medias/cnaf/Professionnels/International/Comparaisons_Internationales/2024/2024_CNAF_MREIC_03_Droits_PF_Migrants.pdf",
+      "year": 2024,
+      "claim": "Comparative eligibility conditions for foreigners (residence/stay); no French spend-by-nationality table",
+      "value": "eligibility_rules_only",
+      "unit": "qualitative",
+      "champ": "International comparison of access rules",
+      "note": "Useful for eligibility context; NOT a Maghreb spend figure. caf.fr may be intermittent.",
+      "verdict_candidate": "PASS"
+    },
+    {
+      "title": "INSEE Immigrés et descendants 2023 — Niveau de vie et pauvreté monétaire (ERFS 2019)",
+      "url": "https://www.insee.fr/fr/statistiques/6793278?sommaire=6793391",
+      "year": 2019,
+      "claim": "Prestations sociales share of living standard: immigrés 12%, descendants 10%, sans ascendance 5%; Africa-born immigrés 18%, Europe-born 6%",
+      "value": "immigres 12%; descendants 10%; sans_ascendance 5%; Afrique 18%; Europe 6%",
+      "unit": "pct_of_niveau_de_vie",
+      "champ": "FR métro ERFS 2019; prestations = famille/logement/minima/PPA; excl. pensions/chômage; ascendance migratoire (not religion)",
+      "note": "Adds DESENDANTS series absent from RPM2024-F18. Soft-hold: Afrique ≠ Maghreb ≠ Muslim. Aligns directionally with 2021 F18 (11.1/5.6/16.4). Related metrics.json in pack is from aides-ascendance gate.",
+      "verdict_candidate": "PASS"
+    }
+  ]
+}
