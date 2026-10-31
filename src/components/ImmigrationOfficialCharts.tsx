@@ -3,12 +3,8 @@ import {
   getImmigrationSeries,
   IRREGULAR_STOCK_DISCLAIMER_FR,
 } from "@/lib/immigration-series";
-import {
-  seriesFromRows,
-} from "@/lib/chart-series";
-import {
-  TimeSeriesChart,
-} from "@/components/charts/TimeSeriesChart";
+import { seriesFromRows } from "@/components/charts/time-series-math";
+import { TimeSeriesChart } from "@/components/charts/TimeSeriesChart";
 
 export function ImmigrationOfficialCharts() {
   const stock = getImmigrationSeries("stock_immigres");

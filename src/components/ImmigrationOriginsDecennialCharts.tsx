@@ -6,10 +6,8 @@ import {
   ORIGINS_CHART_TITLE,
   ORIGINS_DECENNIAL_BANNER,
 } from "@/lib/origins-decennial-series";
-import {
-  seriesFromRows,
-  TimeSeriesChart,
-} from "@/components/charts/TimeSeriesChart";
+import { seriesFromRows } from "@/components/charts/time-series-math";
+import { TimeSeriesChart } from "@/components/charts/TimeSeriesChart";
 
 function originPrimarySeries() {
   return G1_ORIGIN_SERIES_ORDER.flatMap((seriesId) => {
