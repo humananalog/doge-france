@@ -1,0 +1,25 @@
+{
+  "pack": "fertility-origin",
+  "gate": "PASS-LOW",
+  "gate_file": "gates/2026-10-31-fertility-aides-claims-gate.md",
+  "primary_url": "https://www.insee.fr/fr/statistiques/6801884",
+  "year": 2021,
+  "metric": "ICF_ajuste",
+  "champ": "France — pays de naissance (état civil); ICF ajusté pour nées à l'étranger",
+  "locks": [
+    "Label nées à l'étranger · ICF ajusté — not bare immigrées ICF",
+    "Birthplace ≠ religion / ethnie",
+    "Do not swap with descendance finale"
+  ],
+  "cells": [
+    {"id": "icf-nees-etranger-2021", "label": "Nées à l'étranger", "value": 2.33, "unit": "enfants/femme", "source_url": "https://www.insee.fr/fr/statistiques/6801884"},
+    {"id": "icf-nees-france-2021", "label": "Nées en France", "value": 1.67, "unit": "enfants/femme", "source_url": "https://www.insee.fr/fr/statistiques/6801884"},
+    {"id": "icf-maghreb-2021", "label": "Maghreb (Algérie/Maroc/Tunisie)", "value": 2.51, "unit": "enfants/femme", "source_url": "https://www.insee.fr/fr/statistiques/6801884"},
+    {"id": "icf-afrique-hors-maghreb-2021", "label": "Afrique hors Maghreb", "value": 3.32, "unit": "enfants/femme", "source_url": "https://www.insee.fr/fr/statistiques/6801884"},
+    {"id": "icf-turquie-mo-2021", "label": "Turquie, Moyen-Orient", "value": 1.99, "unit": "enfants/femme", "source_url": "https://www.insee.fr/fr/statistiques/6801884", "optional": true}
+  ],
+  "notes": [
+    "Maghreb ICF down since 2014; Afrique hors Maghreb up (same primary).",
+    "Descendance finale TeO gens 1960–74: immigrées 2.35 vs sans ascendance 1.86 — separate metric, do not swap with ICF."
+  ]
+}
