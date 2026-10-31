@@ -1,0 +1,115 @@
+{
+  "title_fr": "Origines géographiques des immigrés (INSEE)",
+  "banner": "Étude non officielle — proxys d'origine INSEE — pas un recensement ethnique",
+  "data_year": 2023,
+  "primary_url": "https://www.insee.fr/fr/statistiques/8242329",
+  "figure": "Figure 2",
+  "denominator": "7 174 milliers immigrés · 10,6 % population France hors Mayotte (Fig. 1)",
+  "metric": "G1 immigrés stock by INSEE geographic origin (thousands)",
+  "what_map_is": "Choropleth of country/region of birth origin of immigrés (G1) living in France — INSEE published aggregates",
+  "what_map_is_not": [
+    "Not a map of ethnicity races",
+    "Not painted from prénoms / onomastics",
+    "Not religion",
+    "Not G2/G3 without separate labels",
+    "Country ISO paint inside Maghreb/Asie is illustrative — one stock per INSEE aggregate region"
+  ],
+  "ui_locks": [
+    "Title must say « origines géographiques des immigrés (INSEE) » not « ethnie »",
+    "Tooltip: thousands + % of immigrés + URL",
+    "Side panel may CROSS-LINK onomastic bundles — never fuse into one layer",
+    "Evidence Guard PASS-LOW world map pack"
+  ],
+  "regions": [
+    {
+      "region_id": "maghreb",
+      "label_fr": "Maghreb",
+      "insee_label": "Maghreb",
+      "g1_thousands": 2091,
+      "g1_pct_of_immigres": 29.2,
+      "color": "#c45c26",
+      "effectif_metric_id": "g1-origin-maghreb-effectif",
+      "part_metric_id": "g1-origin-maghreb-part"
+    },
+    {
+      "region_id": "afrique_hors_maghreb",
+      "label_fr": "Afrique hors Maghreb",
+      "insee_label": "Autres pays d'Afrique",
+      "g1_thousands": 1275,
+      "g1_pct_of_immigres": 17.8,
+      "color": "#e09b3d",
+      "effectif_metric_id": "g1-origin-afrique-hors-maghreb-effectif",
+      "part_metric_id": "g1-origin-afrique-hors-maghreb-part"
+    },
+    {
+      "region_id": "turquie_moyen_orient",
+      "label_fr": "Turquie, Moyen-Orient",
+      "insee_label": "Turquie, Moyen-Orient",
+      "g1_thousands": 395,
+      "g1_pct_of_immigres": 5.5,
+      "color": "#8b4513",
+      "effectif_metric_id": "g1-origin-turquie-moyen-orient-effectif",
+      "part_metric_id": "g1-origin-turquie-moyen-orient-part"
+    },
+    {
+      "region_id": "asie_hors_turquie_mo",
+      "label_fr": "Asie (hors Turquie/MO)",
+      "insee_label": "Autres pays d'Asie",
+      "g1_thousands": 605,
+      "g1_pct_of_immigres": 8.4,
+      "color": "#2a6f97",
+      "effectif_metric_id": "g1-origin-asie-hors-tr-mo-effectif",
+      "part_metric_id": "g1-origin-asie-hors-tr-mo-part"
+    },
+    {
+      "region_id": "europe_sud",
+      "label_fr": "Europe du Sud",
+      "insee_label": "Europe du Sud",
+      "g1_thousands": 1091,
+      "g1_pct_of_immigres": 15.2,
+      "color": "#3d5a80",
+      "effectif_metric_id": "g1-origin-europe-sud-effectif",
+      "part_metric_id": "g1-origin-europe-sud-part"
+    },
+    {
+      "region_id": "ue_autres",
+      "label_fr": "Autres pays de l'UE",
+      "insee_label": "Autres pays de l'UE",
+      "g1_thousands": 638,
+      "g1_pct_of_immigres": 8.9,
+      "color": "#98c1d9",
+      "effectif_metric_id": "g1-origin-ue-autres-effectif",
+      "part_metric_id": "g1-origin-ue-autres-part"
+    },
+    {
+      "region_id": "europe_hors_ue",
+      "label_fr": "Autres pays d'Europe",
+      "insee_label": "Autres pays d'Europe",
+      "g1_thousands": 624,
+      "g1_pct_of_immigres": 8.7,
+      "color": "#293241",
+      "effectif_metric_id": "g1-origin-europe-hors-ue-effectif",
+      "part_metric_id": "g1-origin-europe-hors-ue-part"
+    },
+    {
+      "region_id": "amerique_oceanie",
+      "label_fr": "Amérique, Océanie",
+      "insee_label": "Amérique, Océanie",
+      "g1_thousands": 456,
+      "g1_pct_of_immigres": 6.4,
+      "color": "#6a994e",
+      "effectif_metric_id": "g1-origin-amerique-oceanie-effectif",
+      "part_metric_id": "g1-origin-amerique-oceanie-part"
+    }
+  ],
+  "optional_layer_g2": {
+    "source": "https://www.insee.fr/fr/statistiques/8242329",
+    "figure": "Figure 3",
+    "champ": "logement ordinaire",
+    "note": "Separate toggle — do not blend with G1 without labels"
+  },
+  "onomastic_crosswalk": {
+    "anchor_id": "proxy-triangulation-heading",
+    "rule": "Name bundles are inferred cultural markers — map stays INSEE G1 origin stocks only"
+  }
+}

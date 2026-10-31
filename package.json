@@ -1,6 +1,6 @@
 {
   "name": "doge-france",
-  "version": "0.3.14",
+  "version": "0.3.15",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -14,6 +14,7 @@
     "next": "16.4.3",
     "react": "19.3.0",
     "react-dom": "19.3.0",
+    "react-svg-worldmap": "^2.3.0",
     "zod": "^4.6.7"
   },
   "devDependencies": {

@@ -1376,6 +1376,258 @@
       "confidence": "high"
     },
     {
+      "id": "g1-origin-afrique-hors-maghreb-part",
+      "label_fr": "Immigrés (G1) — part origine Afrique hors Maghreb",
+      "value": 17.8,
+      "unit": "percent",
+      "as_of": "2023",
+      "category": "immigration",
+      "kind": "volume",
+      "geography": "France hors Mayotte",
+      "source": {
+        "title": "INSEE — Immigrés et descendants d'immigrés (Fig. 2)",
+        "url": "https://www.insee.fr/fr/statistiques/8242329",
+        "publisher": "INSEE"
+      },
+      "notes": "Pack worldmap G1 · 1 275 milliers · % des immigrés · pas ethnie recensée.",
+      "proof_url": "https://www.insee.fr/fr/statistiques/8242329",
+      "confidence": "high"
+    },
+    {
+      "id": "g1-origin-afrique-hors-maghreb-effectif",
+      "label_fr": "Immigrés (G1) — effectif origine Afrique hors Maghreb",
+      "value": 1275000,
+      "unit": "count",
+      "as_of": "2023",
+      "category": "immigration",
+      "kind": "volume",
+      "geography": "France hors Mayotte",
+      "source": {
+        "title": "INSEE — Immigrés et descendants d'immigrés (Fig. 2)",
+        "url": "https://www.insee.fr/fr/statistiques/8242329",
+        "publisher": "INSEE"
+      },
+      "notes": "1 275 milliers · worldmap choropleth aggregate.",
+      "proof_url": "https://www.insee.fr/fr/statistiques/8242329",
+      "confidence": "high"
+    },
+    {
+      "id": "g1-origin-europe-sud-part",
+      "label_fr": "Immigrés (G1) — part origine Europe du Sud",
+      "value": 15.2,
+      "unit": "percent",
+      "as_of": "2023",
+      "category": "immigration",
+      "kind": "volume",
+      "geography": "France hors Mayotte",
+      "source": {
+        "title": "INSEE — Immigrés et descendants d'immigrés (Fig. 2)",
+        "url": "https://www.insee.fr/fr/statistiques/8242329",
+        "publisher": "INSEE"
+      },
+      "notes": "Pack worldmap G1 · 1 091 milliers · ES/IT/PT aggregate on map.",
+      "proof_url": "https://www.insee.fr/fr/statistiques/8242329",
+      "confidence": "high"
+    },
+    {
+      "id": "g1-origin-europe-sud-effectif",
+      "label_fr": "Immigrés (G1) — effectif origine Europe du Sud",
+      "value": 1091000,
+      "unit": "count",
+      "as_of": "2023",
+      "category": "immigration",
+      "kind": "volume",
+      "geography": "France hors Mayotte",
+      "source": {
+        "title": "INSEE — Immigrés et descendants d'immigrés (Fig. 2)",
+        "url": "https://www.insee.fr/fr/statistiques/8242329",
+        "publisher": "INSEE"
+      },
+      "notes": "1 091 milliers · worldmap choropleth.",
+      "proof_url": "https://www.insee.fr/fr/statistiques/8242329",
+      "confidence": "high"
+    },
+    {
+      "id": "g1-origin-ue-autres-part",
+      "label_fr": "Immigrés (G1) — part origine autres pays UE",
+      "value": 8.9,
+      "unit": "percent",
+      "as_of": "2023",
+      "category": "immigration",
+      "kind": "volume",
+      "geography": "France hors Mayotte",
+      "source": {
+        "title": "INSEE — Immigrés et descendants d'immigrés (Fig. 2)",
+        "url": "https://www.insee.fr/fr/statistiques/8242329",
+        "publisher": "INSEE"
+      },
+      "notes": "Pack worldmap G1 · 638 milliers.",
+      "proof_url": "https://www.insee.fr/fr/statistiques/8242329",
+      "confidence": "high"
+    },
+    {
+      "id": "g1-origin-ue-autres-effectif",
+      "label_fr": "Immigrés (G1) — effectif origine autres pays UE",
+      "value": 638000,
+      "unit": "count",
+      "as_of": "2023",
+      "category": "immigration",
+      "kind": "volume",
+      "geography": "France hors Mayotte",
+      "source": {
+        "title": "INSEE — Immigrés et descendants d'immigrés (Fig. 2)",
+        "url": "https://www.insee.fr/fr/statistiques/8242329",
+        "publisher": "INSEE"
+      },
+      "notes": "638 milliers · worldmap choropleth.",
+      "proof_url": "https://www.insee.fr/fr/statistiques/8242329",
+      "confidence": "high"
+    },
+    {
+      "id": "g1-origin-europe-hors-ue-part",
+      "label_fr": "Immigrés (G1) — part origine autres pays d'Europe",
+      "value": 8.7,
+      "unit": "percent",
+      "as_of": "2023",
+      "category": "immigration",
+      "kind": "volume",
+      "geography": "France hors Mayotte",
+      "source": {
+        "title": "INSEE — Immigrés et descendants d'immigrés (Fig. 2)",
+        "url": "https://www.insee.fr/fr/statistiques/8242329",
+        "publisher": "INSEE"
+      },
+      "notes": "Pack worldmap G1 · 624 milliers.",
+      "proof_url": "https://www.insee.fr/fr/statistiques/8242329",
+      "confidence": "high"
+    },
+    {
+      "id": "g1-origin-europe-hors-ue-effectif",
+      "label_fr": "Immigrés (G1) — effectif origine autres pays d'Europe",
+      "value": 624000,
+      "unit": "count",
+      "as_of": "2023",
+      "category": "immigration",
+      "kind": "volume",
+      "geography": "France hors Mayotte",
+      "source": {
+        "title": "INSEE — Immigrés et descendants d'immigrés (Fig. 2)",
+        "url": "https://www.insee.fr/fr/statistiques/8242329",
+        "publisher": "INSEE"
+      },
+      "notes": "624 milliers · worldmap choropleth.",
+      "proof_url": "https://www.insee.fr/fr/statistiques/8242329",
+      "confidence": "high"
+    },
+    {
+      "id": "g1-origin-asie-hors-tr-mo-part",
+      "label_fr": "Immigrés (G1) — part origine Asie (hors Turquie/MO)",
+      "value": 8.4,
+      "unit": "percent",
+      "as_of": "2023",
+      "category": "immigration",
+      "kind": "volume",
+      "geography": "France hors Mayotte",
+      "source": {
+        "title": "INSEE — Immigrés et descendants d'immigrés (Fig. 2)",
+        "url": "https://www.insee.fr/fr/statistiques/8242329",
+        "publisher": "INSEE"
+      },
+      "notes": "Pack worldmap G1 · 605 milliers.",
+      "proof_url": "https://www.insee.fr/fr/statistiques/8242329",
+      "confidence": "high"
+    },
+    {
+      "id": "g1-origin-asie-hors-tr-mo-effectif",
+      "label_fr": "Immigrés (G1) — effectif origine Asie (hors Turquie/MO)",
+      "value": 605000,
+      "unit": "count",
+      "as_of": "2023",
+      "category": "immigration",
+      "kind": "volume",
+      "geography": "France hors Mayotte",
+      "source": {
+        "title": "INSEE — Immigrés et descendants d'immigrés (Fig. 2)",
+        "url": "https://www.insee.fr/fr/statistiques/8242329",
+        "publisher": "INSEE"
+      },
+      "notes": "605 milliers · worldmap choropleth.",
+      "proof_url": "https://www.insee.fr/fr/statistiques/8242329",
+      "confidence": "high"
+    },
+    {
+      "id": "g1-origin-turquie-moyen-orient-part",
+      "label_fr": "Immigrés (G1) — part origine Turquie, Moyen-Orient",
+      "value": 5.5,
+      "unit": "percent",
+      "as_of": "2023",
+      "category": "immigration",
+      "kind": "volume",
+      "geography": "France hors Mayotte",
+      "source": {
+        "title": "INSEE — Immigrés et descendants d'immigrés (Fig. 2)",
+        "url": "https://www.insee.fr/fr/statistiques/8242329",
+        "publisher": "INSEE"
+      },
+      "notes": "Pack worldmap G1 · 395 milliers.",
+      "proof_url": "https://www.insee.fr/fr/statistiques/8242329",
+      "confidence": "high"
+    },
+    {
+      "id": "g1-origin-turquie-moyen-orient-effectif",
+      "label_fr": "Immigrés (G1) — effectif origine Turquie, Moyen-Orient",
+      "value": 395000,
+      "unit": "count",
+      "as_of": "2023",
+      "category": "immigration",
+      "kind": "volume",
+      "geography": "France hors Mayotte",
+      "source": {
+        "title": "INSEE — Immigrés et descendants d'immigrés (Fig. 2)",
+        "url": "https://www.insee.fr/fr/statistiques/8242329",
+        "publisher": "INSEE"
+      },
+      "notes": "395 milliers · worldmap choropleth.",
+      "proof_url": "https://www.insee.fr/fr/statistiques/8242329",
+      "confidence": "high"
+    },
+    {
+      "id": "g1-origin-amerique-oceanie-part",
+      "label_fr": "Immigrés (G1) — part origine Amérique, Océanie",
+      "value": 6.4,
+      "unit": "percent",
+      "as_of": "2023",
+      "category": "immigration",
+      "kind": "volume",
+      "geography": "France hors Mayotte",
+      "source": {
+        "title": "INSEE — Immigrés et descendants d'immigrés (Fig. 2)",
+        "url": "https://www.insee.fr/fr/statistiques/8242329",
+        "publisher": "INSEE"
+      },
+      "notes": "Pack worldmap G1 · 456 milliers.",
+      "proof_url": "https://www.insee.fr/fr/statistiques/8242329",
+      "confidence": "high"
+    },
+    {
+      "id": "g1-origin-amerique-oceanie-effectif",
+      "label_fr": "Immigrés (G1) — effectif origine Amérique, Océanie",
+      "value": 456000,
+      "unit": "count",
+      "as_of": "2023",
+      "category": "immigration",
+      "kind": "volume",
+      "geography": "France hors Mayotte",
+      "source": {
+        "title": "INSEE — Immigrés et descendants d'immigrés (Fig. 2)",
+        "url": "https://www.insee.fr/fr/statistiques/8242329",
+        "publisher": "INSEE"
+      },
+      "notes": "456 milliers · worldmap choropleth.",
+      "proof_url": "https://www.insee.fr/fr/statistiques/8242329",
+      "confidence": "high"
+    },
+    {
       "id": "g1-origin-afrique-part",
       "label_fr": "Immigrés (G1) — part origine Afrique (total)",
       "value": 46.9,
