@@ -1,0 +1,542 @@
+[
+  {
+    "year": 1950,
+    "series_id": "onom_cat_afrique_hors_maghreb",
+    "value": 0.002,
+    "unit": "percent",
+    "label_fr": "Afrique hors Maghreb (Sahel / Afrique de l'Ouest — classe de prénoms)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8595130",
+    "source_org": "INSEE",
+    "notes": "Confiance: medium · Grounding: https://hal.science/hal-04625724"
+  },
+  {
+    "year": 1960,
+    "series_id": "onom_cat_afrique_hors_maghreb",
+    "value": 0.012,
+    "unit": "percent",
+    "label_fr": "Afrique hors Maghreb (Sahel / Afrique de l'Ouest — classe de prénoms)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8595130",
+    "source_org": "INSEE",
+    "notes": "Confiance: medium · Grounding: https://hal.science/hal-04625724"
+  },
+  {
+    "year": 1970,
+    "series_id": "onom_cat_afrique_hors_maghreb",
+    "value": 0.02,
+    "unit": "percent",
+    "label_fr": "Afrique hors Maghreb (Sahel / Afrique de l'Ouest — classe de prénoms)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8595130",
+    "source_org": "INSEE",
+    "notes": "Confiance: medium · Grounding: https://hal.science/hal-04625724"
+  },
+  {
+    "year": 1980,
+    "series_id": "onom_cat_afrique_hors_maghreb",
+    "value": 0.097,
+    "unit": "percent",
+    "label_fr": "Afrique hors Maghreb (Sahel / Afrique de l'Ouest — classe de prénoms)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8595130",
+    "source_org": "INSEE",
+    "notes": "Confiance: medium · Grounding: https://hal.science/hal-04625724"
+  },
+  {
+    "year": 1990,
+    "series_id": "onom_cat_afrique_hors_maghreb",
+    "value": 0.185,
+    "unit": "percent",
+    "label_fr": "Afrique hors Maghreb (Sahel / Afrique de l'Ouest — classe de prénoms)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8595130",
+    "source_org": "INSEE",
+    "notes": "Confiance: medium · Grounding: https://hal.science/hal-04625724"
+  },
+  {
+    "year": 2000,
+    "series_id": "onom_cat_afrique_hors_maghreb",
+    "value": 0.193,
+    "unit": "percent",
+    "label_fr": "Afrique hors Maghreb (Sahel / Afrique de l'Ouest — classe de prénoms)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8595130",
+    "source_org": "INSEE",
+    "notes": "Confiance: medium · Grounding: https://hal.science/hal-04625724"
+  },
+  {
+    "year": 2010,
+    "series_id": "onom_cat_afrique_hors_maghreb",
+    "value": 0.34,
+    "unit": "percent",
+    "label_fr": "Afrique hors Maghreb (Sahel / Afrique de l'Ouest — classe de prénoms)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8595130",
+    "source_org": "INSEE",
+    "notes": "Confiance: medium · Grounding: https://hal.science/hal-04625724"
+  },
+  {
+    "year": 2020,
+    "series_id": "onom_cat_afrique_hors_maghreb",
+    "value": 0.655,
+    "unit": "percent",
+    "label_fr": "Afrique hors Maghreb (Sahel / Afrique de l'Ouest — classe de prénoms)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8595130",
+    "source_org": "INSEE",
+    "notes": "Confiance: medium · Grounding: https://hal.science/hal-04625724"
+  },
+  {
+    "year": 2025,
+    "series_id": "onom_cat_afrique_hors_maghreb",
+    "value": 0.975,
+    "unit": "percent",
+    "label_fr": "Afrique hors Maghreb (Sahel / Afrique de l'Ouest — classe de prénoms)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8595130",
+    "source_org": "INSEE",
+    "notes": "Confiance: medium · Grounding: https://hal.science/hal-04625724"
+  },
+  {
+    "year": 1950,
+    "series_id": "onom_cat_americain_anglo",
+    "value": 0.158,
+    "unit": "percent",
+    "label_fr": "Américain / anglo (vague de mode US–UK)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8595130",
+    "source_org": "INSEE",
+    "notes": "Confiance: high · Grounding: https://hal.science/hal-04625724"
+  },
+  {
+    "year": 1960,
+    "series_id": "onom_cat_americain_anglo",
+    "value": 0.288,
+    "unit": "percent",
+    "label_fr": "Américain / anglo (vague de mode US–UK)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8595130",
+    "source_org": "INSEE",
+    "notes": "Confiance: high · Grounding: https://hal.science/hal-04625724"
+  },
+  {
+    "year": 1970,
+    "series_id": "onom_cat_americain_anglo",
+    "value": 0.824,
+    "unit": "percent",
+    "label_fr": "Américain / anglo (vague de mode US–UK)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8595130",
+    "source_org": "INSEE",
+    "notes": "Confiance: high · Grounding: https://hal.science/hal-04625724"
+  },
+  {
+    "year": 1980,
+    "series_id": "onom_cat_americain_anglo",
+    "value": 3.349,
+    "unit": "percent",
+    "label_fr": "Américain / anglo (vague de mode US–UK)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8595130",
+    "source_org": "INSEE",
+    "notes": "Confiance: high · Grounding: https://hal.science/hal-04625724"
+  },
+  {
+    "year": 1990,
+    "series_id": "onom_cat_americain_anglo",
+    "value": 7.274,
+    "unit": "percent",
+    "label_fr": "Américain / anglo (vague de mode US–UK)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8595130",
+    "source_org": "INSEE",
+    "notes": "Confiance: high · Grounding: https://hal.science/hal-04625724"
+  },
+  {
+    "year": 2000,
+    "series_id": "onom_cat_americain_anglo",
+    "value": 5.203,
+    "unit": "percent",
+    "label_fr": "Américain / anglo (vague de mode US–UK)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8595130",
+    "source_org": "INSEE",
+    "notes": "Confiance: high · Grounding: https://hal.science/hal-04625724"
+  },
+  {
+    "year": 2010,
+    "series_id": "onom_cat_americain_anglo",
+    "value": 3.097,
+    "unit": "percent",
+    "label_fr": "Américain / anglo (vague de mode US–UK)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8595130",
+    "source_org": "INSEE",
+    "notes": "Confiance: high · Grounding: https://hal.science/hal-04625724"
+  },
+  {
+    "year": 2020,
+    "series_id": "onom_cat_americain_anglo",
+    "value": 2.917,
+    "unit": "percent",
+    "label_fr": "Américain / anglo (vague de mode US–UK)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8595130",
+    "source_org": "INSEE",
+    "notes": "Confiance: high · Grounding: https://hal.science/hal-04625724"
+  },
+  {
+    "year": 2025,
+    "series_id": "onom_cat_americain_anglo",
+    "value": 2.6,
+    "unit": "percent",
+    "label_fr": "Américain / anglo (vague de mode US–UK)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8595130",
+    "source_org": "INSEE",
+    "notes": "Confiance: high · Grounding: https://hal.science/hal-04625724"
+  },
+  {
+    "year": 1950,
+    "series_id": "onom_cat_asie",
+    "value": 0.001,
+    "unit": "percent",
+    "label_fr": "Asie (hors Turquie/MENA islamique — liste mince)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8595130",
+    "source_org": "INSEE",
+    "notes": "Confiance: low · Grounding: https://hal.science/hal-04625724"
+  },
+  {
+    "year": 1960,
+    "series_id": "onom_cat_asie",
+    "value": 0.004,
+    "unit": "percent",
+    "label_fr": "Asie (hors Turquie/MENA islamique — liste mince)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8595130",
+    "source_org": "INSEE",
+    "notes": "Confiance: low · Grounding: https://hal.science/hal-04625724"
+  },
+  {
+    "year": 1970,
+    "series_id": "onom_cat_asie",
+    "value": 0.012,
+    "unit": "percent",
+    "label_fr": "Asie (hors Turquie/MENA islamique — liste mince)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8595130",
+    "source_org": "INSEE",
+    "notes": "Confiance: low · Grounding: https://hal.science/hal-04625724"
+  },
+  {
+    "year": 1980,
+    "series_id": "onom_cat_asie",
+    "value": 0.023,
+    "unit": "percent",
+    "label_fr": "Asie (hors Turquie/MENA islamique — liste mince)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8595130",
+    "source_org": "INSEE",
+    "notes": "Confiance: low · Grounding: https://hal.science/hal-04625724"
+  },
+  {
+    "year": 1990,
+    "series_id": "onom_cat_asie",
+    "value": 0.02,
+    "unit": "percent",
+    "label_fr": "Asie (hors Turquie/MENA islamique — liste mince)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8595130",
+    "source_org": "INSEE",
+    "notes": "Confiance: low · Grounding: https://hal.science/hal-04625724"
+  },
+  {
+    "year": 2000,
+    "series_id": "onom_cat_asie",
+    "value": 0.014,
+    "unit": "percent",
+    "label_fr": "Asie (hors Turquie/MENA islamique — liste mince)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8595130",
+    "source_org": "INSEE",
+    "notes": "Confiance: low · Grounding: https://hal.science/hal-04625724"
+  },
+  {
+    "year": 2010,
+    "series_id": "onom_cat_asie",
+    "value": 0.027,
+    "unit": "percent",
+    "label_fr": "Asie (hors Turquie/MENA islamique — liste mince)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8595130",
+    "source_org": "INSEE",
+    "notes": "Confiance: low · Grounding: https://hal.science/hal-04625724"
+  },
+  {
+    "year": 2020,
+    "series_id": "onom_cat_asie",
+    "value": 0.027,
+    "unit": "percent",
+    "label_fr": "Asie (hors Turquie/MENA islamique — liste mince)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8595130",
+    "source_org": "INSEE",
+    "notes": "Confiance: low · Grounding: https://hal.science/hal-04625724"
+  },
+  {
+    "year": 2025,
+    "series_id": "onom_cat_asie",
+    "value": 0.021,
+    "unit": "percent",
+    "label_fr": "Asie (hors Turquie/MENA islamique — liste mince)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8595130",
+    "source_org": "INSEE",
+    "notes": "Confiance: low · Grounding: https://hal.science/hal-04625724"
+  },
+  {
+    "year": 1950,
+    "series_id": "onom_cat_classiques_fr",
+    "value": 75.292,
+    "unit": "percent",
+    "label_fr": "Classiques FR (stock civil / calendaire mid-century)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8595130",
+    "source_org": "INSEE",
+    "notes": "Confiance: high · Grounding: https://hal.science/hal-04625724 · Baseline: classical FR naming stock reference (assumption) · 1950 fichier shares for classiques_fr used as mid-century reference stock — NOT published by INSEE as « prénoms natifs ». Immigrés stock context ~5% (1946) / 5.4% (1954) is demographic only."
+  },
+  {
+    "year": 1960,
+    "series_id": "onom_cat_classiques_fr",
+    "value": 57.515,
+    "unit": "percent",
+    "label_fr": "Classiques FR (stock civil / calendaire mid-century)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8595130",
+    "source_org": "INSEE",
+    "notes": "Confiance: high · Grounding: https://hal.science/hal-04625724"
+  },
+  {
+    "year": 1970,
+    "series_id": "onom_cat_classiques_fr",
+    "value": 29.941,
+    "unit": "percent",
+    "label_fr": "Classiques FR (stock civil / calendaire mid-century)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8595130",
+    "source_org": "INSEE",
+    "notes": "Confiance: high · Grounding: https://hal.science/hal-04625724"
+  },
+  {
+    "year": 1980,
+    "series_id": "onom_cat_classiques_fr",
+    "value": 10.227,
+    "unit": "percent",
+    "label_fr": "Classiques FR (stock civil / calendaire mid-century)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8595130",
+    "source_org": "INSEE",
+    "notes": "Confiance: high · Grounding: https://hal.science/hal-04625724"
+  },
+  {
+    "year": 1990,
+    "series_id": "onom_cat_classiques_fr",
+    "value": 5.084,
+    "unit": "percent",
+    "label_fr": "Classiques FR (stock civil / calendaire mid-century)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8595130",
+    "source_org": "INSEE",
+    "notes": "Confiance: high · Grounding: https://hal.science/hal-04625724"
+  },
+  {
+    "year": 2000,
+    "series_id": "onom_cat_classiques_fr",
+    "value": 4.031,
+    "unit": "percent",
+    "label_fr": "Classiques FR (stock civil / calendaire mid-century)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8595130",
+    "source_org": "INSEE",
+    "notes": "Confiance: high · Grounding: https://hal.science/hal-04625724"
+  },
+  {
+    "year": 2010,
+    "series_id": "onom_cat_classiques_fr",
+    "value": 2.408,
+    "unit": "percent",
+    "label_fr": "Classiques FR (stock civil / calendaire mid-century)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8595130",
+    "source_org": "INSEE",
+    "notes": "Confiance: high · Grounding: https://hal.science/hal-04625724"
+  },
+  {
+    "year": 2020,
+    "series_id": "onom_cat_classiques_fr",
+    "value": 2.312,
+    "unit": "percent",
+    "label_fr": "Classiques FR (stock civil / calendaire mid-century)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8595130",
+    "source_org": "INSEE",
+    "notes": "Confiance: high · Grounding: https://hal.science/hal-04625724"
+  },
+  {
+    "year": 2025,
+    "series_id": "onom_cat_classiques_fr",
+    "value": 2.45,
+    "unit": "percent",
+    "label_fr": "Classiques FR (stock civil / calendaire mid-century)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8595130",
+    "source_org": "INSEE",
+    "notes": "Confiance: high · Grounding: https://hal.science/hal-04625724"
+  },
+  {
+    "year": 1950,
+    "series_id": "onom_cat_maghreb_arabo_musulman",
+    "value": 0.117,
+    "unit": "percent",
+    "label_fr": "Maghreb / arabo-musulman (classe de prénoms)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8595130",
+    "source_org": "INSEE",
+    "notes": "Confiance: high · Grounding: https://hal.science/hal-04625724"
+  },
+  {
+    "year": 1960,
+    "series_id": "onom_cat_maghreb_arabo_musulman",
+    "value": 0.645,
+    "unit": "percent",
+    "label_fr": "Maghreb / arabo-musulman (classe de prénoms)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8595130",
+    "source_org": "INSEE",
+    "notes": "Confiance: high · Grounding: https://hal.science/hal-04625724"
+  },
+  {
+    "year": 1970,
+    "series_id": "onom_cat_maghreb_arabo_musulman",
+    "value": 1.358,
+    "unit": "percent",
+    "label_fr": "Maghreb / arabo-musulman (classe de prénoms)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8595130",
+    "source_org": "INSEE",
+    "notes": "Confiance: high · Grounding: https://hal.science/hal-04625724"
+  },
+  {
+    "year": 1980,
+    "series_id": "onom_cat_maghreb_arabo_musulman",
+    "value": 2.625,
+    "unit": "percent",
+    "label_fr": "Maghreb / arabo-musulman (classe de prénoms)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8595130",
+    "source_org": "INSEE",
+    "notes": "Confiance: high · Grounding: https://hal.science/hal-04625724"
+  },
+  {
+    "year": 1990,
+    "series_id": "onom_cat_maghreb_arabo_musulman",
+    "value": 2.666,
+    "unit": "percent",
+    "label_fr": "Maghreb / arabo-musulman (classe de prénoms)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8595130",
+    "source_org": "INSEE",
+    "notes": "Confiance: high · Grounding: https://hal.science/hal-04625724"
+  },
+  {
+    "year": 2000,
+    "series_id": "onom_cat_maghreb_arabo_musulman",
+    "value": 3.184,
+    "unit": "percent",
+    "label_fr": "Maghreb / arabo-musulman (classe de prénoms)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8595130",
+    "source_org": "INSEE",
+    "notes": "Confiance: high · Grounding: https://hal.science/hal-04625724"
+  },
+  {
+    "year": 2010,
+    "series_id": "onom_cat_maghreb_arabo_musulman",
+    "value": 5.316,
+    "unit": "percent",
+    "label_fr": "Maghreb / arabo-musulman (classe de prénoms)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8595130",
+    "source_org": "INSEE",
+    "notes": "Confiance: high · Grounding: https://hal.science/hal-04625724"
+  },
+  {
+    "year": 2020,
+    "series_id": "onom_cat_maghreb_arabo_musulman",
+    "value": 5.968,
+    "unit": "percent",
+    "label_fr": "Maghreb / arabo-musulman (classe de prénoms)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8595130",
+    "source_org": "INSEE",
+    "notes": "Confiance: high · Grounding: https://hal.science/hal-04625724"
+  },
+  {
+    "year": 2025,
+    "series_id": "onom_cat_maghreb_arabo_musulman",
+    "value": 5.86,
+    "unit": "percent",
+    "label_fr": "Maghreb / arabo-musulman (classe de prénoms)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8595130",
+    "source_org": "INSEE",
+    "notes": "Confiance: high · Grounding: https://hal.science/hal-04625724"
+  },
+  {
+    "year": 1950,
+    "series_id": "onom_cat_slaves",
+    "value": 0.032,
+    "unit": "percent",
+    "label_fr": "Slaves (stock prénoms polonais / russe / serbe…)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8595130",
+    "source_org": "INSEE",
+    "notes": "Confiance: low · Grounding: https://hal.science/hal-04625724"
+  },
+  {
+    "year": 1960,
+    "series_id": "onom_cat_slaves",
+    "value": 0.051,
+    "unit": "percent",
+    "label_fr": "Slaves (stock prénoms polonais / russe / serbe…)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8595130",
+    "source_org": "INSEE",
+    "notes": "Confiance: low · Grounding: https://hal.science/hal-04625724"
+  },
+  {
+    "year": 1970,
+    "series_id": "onom_cat_slaves",
+    "value": 0.197,
+    "unit": "percent",
+    "label_fr": "Slaves (stock prénoms polonais / russe / serbe…)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8595130",
+    "source_org": "INSEE",
+    "notes": "Confiance: low · Grounding: https://hal.science/hal-04625724"
+  },
+  {
+    "year": 1980,
+    "series_id": "onom_cat_slaves",
+    "value": 0.445,
+    "unit": "percent",
+    "label_fr": "Slaves (stock prénoms polonais / russe / serbe…)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8595130",
+    "source_org": "INSEE",
+    "notes": "Confiance: low · Grounding: https://hal.science/hal-04625724"
+  },
+  {
+    "year": 1990,
+    "series_id": "onom_cat_slaves",
+    "value": 0.58,
+    "unit": "percent",
+    "label_fr": "Slaves (stock prénoms polonais / russe / serbe…)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8595130",
+    "source_org": "INSEE",
+    "notes": "Confiance: low · Grounding: https://hal.science/hal-04625724"
+  },
+  {
+    "year": 2000,
+    "series_id": "onom_cat_slaves",
+    "value": 0.37,
+    "unit": "percent",
+    "label_fr": "Slaves (stock prénoms polonais / russe / serbe…)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8595130",
+    "source_org": "INSEE",
+    "notes": "Confiance: low · Grounding: https://hal.science/hal-04625724"
+  },
+  {
+    "year": 2010,
+    "series_id": "onom_cat_slaves",
+    "value": 0.248,
+    "unit": "percent",
+    "label_fr": "Slaves (stock prénoms polonais / russe / serbe…)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8595130",
+    "source_org": "INSEE",
+    "notes": "Confiance: low · Grounding: https://hal.science/hal-04625724"
+  },
+  {
+    "year": 2020,
+    "series_id": "onom_cat_slaves",
+    "value": 0.308,
+    "unit": "percent",
+    "label_fr": "Slaves (stock prénoms polonais / russe / serbe…)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8595130",
+    "source_org": "INSEE",
+    "notes": "Confiance: low · Grounding: https://hal.science/hal-04625724"
+  },
+  {
+    "year": 2025,
+    "series_id": "onom_cat_slaves",
+    "value": 0.293,
+    "unit": "percent",
+    "label_fr": "Slaves (stock prénoms polonais / russe / serbe…)",
+    "source_url": "https://www.insee.fr/fr/statistiques/8595130",
+    "source_org": "INSEE",
+    "notes": "Confiance: low · Grounding: https://hal.science/hal-04625724"
+  }
+]
