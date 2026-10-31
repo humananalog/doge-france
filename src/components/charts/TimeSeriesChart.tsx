@@ -13,6 +13,7 @@ import {
   type LineSeriesConfig,
   type MissingDataRange,
 } from "./time-series-math";
+import { PresidentialEraBands } from "./PresidentialEraBands";
 
 const VIEW_W = 720;
 const VIEW_H = 280;
@@ -98,6 +99,12 @@ export function TimeSeriesChart({
           aria-label={title}
         >
           <g transform={`translate(${CHART_MARGIN.left}, ${CHART_MARGIN.top})`}>
+            <PresidentialEraBands
+              minYear={minYear}
+              maxYear={maxYear}
+              innerWidth={innerW}
+              innerHeight={innerH}
+            />
             {missingRanges.map((range) => {
               const x0 = xScale(range.from, minYear, maxYear, innerW);
               const x1 = xScale(range.to, minYear, maxYear, innerW);

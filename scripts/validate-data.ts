@@ -10,6 +10,7 @@ import { statsFileSchema } from "../schemas/stat.schema";
 import { casesFileSchema } from "../schemas/case.schema";
 import { leadFileSchema } from "../schemas/lead.schema";
 import { immigrationSeriesFileSchema } from "../schemas/immigration-series.schema";
+import { presidentialErasFileSchema } from "../schemas/presidential-eras.schema";
 
 const root = join(import.meta.dirname, "..");
 let errors = 0;
@@ -123,8 +124,19 @@ function validateImmigrationSeries() {
   );
 }
 
+function validatePresidentialEras() {
+  const path = join(root, "data/stats/presidential-eras.json");
+  const parsed = presidentialErasFileSchema.safeParse(readJson(path));
+  if (!parsed.success) {
+    fail(`data/stats/presidential-eras.json — ${parsed.error.message}`);
+    return;
+  }
+  console.log(`OK presidential eras: ${parsed.data.eras.length} mandates`);
+}
+
 console.log("Validating DOGE France data/ …");
 validateStats();
+validatePresidentialEras();
 validateImmigrationSeries();
 validateCases();
 validateLeads();
